@@ -2536,6 +2536,248 @@ problemy:
             - niewiadomą pytania
             - założenie pytania
         1. co to jest?
+            - "to" odsyła do jakiegoś przedmiotu indywidualnego, który jest 
+            jednocześnie niewiadomą pytania -- nie wiemy, co to jest
+            - niewiadomą pytania nie jest nazwa przedmiotu, ani rodzaj, do 
+            którego należy przedmiot, lecz sam ten przedmiot indywidualny ujęty 
+            poprzez konstytuującą go naturę indywidualną
+            - wiadomą pytania jest jest przedmiot indywidualny ujęty przez 
+            dostępny schemat pojęciowy i/lub wskazanie, bez wyłuszczania jego 
+            indywidualnej natury
+            - zagadnieniem pytania jest identyczność między wiadomą a szukaną 
+            wartością niewiadomej
+            - założeniem pytania jest to, że każdy przedmiot indywidualny 
+            ukonstytuowany jest przez indywidualną naturę
+        2. czym jest x?
+            - wiadomą pytania jest przedmiot indywidualny ujęty przez 
+            konstytuującą go naturę indywidualną
+            - niewiadomą pytania jest sposób podpadania pod ogólność
+            - zagadnieniem jest typ ogólności, pod który podpada przedimot
+            - założeniami pytania są
+                - przedmiot zagadnienia podpada pod pewien gatunek
+                - wiadoma zagadnienia determinuje układ gatunków i rodzajów
+                - istnieje gatunek, pod który podpada dany przedmiot w sposób 
+                ścisły i stosunek ten wyznacznony jest przez naturę indywidualną
+                - istnieje korelacja między naturą indywidualną a gatunkami 
+                i rodzajami
+        3. co to jest x?
+            - wiadomą pytania stanowi zawartość pewnej idei ogólnej, ujętej 
+            przez jej bezpośrednią morfe
+            - niewiadomą pytania jest zespół stałych zawartości idei konieczny 
+            i wystarczający do zachodzenia identyczności tego, co przez ten 
+            zespół jest ujęte, z wiadomą zagadnienia
+            - zagadnieniem pytania jest zachodzenie wspomnianej w poprzednim 
+            punkcie identyczności pomiędzy wiadomą a niewiadomą
+            - założeniami pytania są:
+                - istnienie stosunków takich, jak w pytaniu "czym jest x?"
+                - istnienie pojęć i idei
+                - istnienie stosunków między przedmiotami indywidualnymi 
+                a ideami
+- problematyka idei- problematyka idei
+    - idea to coś identycznego, czego ewentyalnie wiele egzemplifikacji może 
+    istnieć realiter; idea nie jest niczym realnym i nie bierze udziału w życiu 
+    przedmitou
+    - każda idea jest ideą czegoś -- posiada swój przedmiot odniesienia
+    - idea ma swoją budowę formalną oraz zawartość (dwustronność budowy)
+    - istnieją idee:
+        - szczegółowe
+        - idee ogólne
+    - idee posiadadają zmienne, podczas gdy przedmioty indywidualne nie
+    - idee szczegółowe wyczerpują jakościowe wyposażenie danego przedmiotu 
+    indywidualnego
+        - stałe: odpowiedniki wszystkich aktualnych własności i zdolności; 
+        odpowiedniki idealne formalno-analitycznej budowy przedmiotu w ogóle
+        - zmienne: odpowiedniki momentów lokalizacji czaso-przestrzennej; 
+        momentów wyznaczających sposoby istnienia oraz moment decydujący 
+        o indywiduacji przedmiotu
+    - idee ogólne nie wyczerpują jakościowego wyposażenia danego przedmiotu 
+    indywidualnego
+    - idea nie jest pojęciem; pojęcie jest nieoznaczonym domniemaniem -- 
+    intencją lub zespołem domniemań; nie zawiera w sobie konkretyzacji idealnych 
+    jakości, które są skonkretyzowane w przedmiocie pojęcia
+    - idea nie jest ani przedmiotem indywidualnym, ani czystą jakością idealną, 
+    zawiera bowiem zmienne
+    - idea nie jest domniemaniem, nie zachodzi tu stosunek intencjonalny, nie 
+    istnieją idee przedmiotów sprzecznych
+- problem natury konstytutywnej:
+    - natura konstytutywna to jakość lub zespół jakości, które bezpośrednio 
+    kwalifikują podmiot cech jakiegoś bytu
+        - moment konstytutywny przedmiotu indywidualnego
+        - natura konstytutywna daje się "wypatrzeć" w elementach strukturalnych 
+        danego przedmiotu indywidualnego
+        - nie chodzi jednak o to, co jest rodzajowo-gatunkowe w tym przedmiocie, 
+        lecz to, co jest najbardziej indywidualne
+        - natura konstytutywna pozwala nazwać przedmiot imieniem własnym
+        - natura konstytutywna to mniej więcej to samo, co essentia (ti einai/ti 
+        esti) w tradycyjnej metafizyce
+        - nazywanie przedmiotu wiąże się z użyciem słowa "jest" w jego 
+        identyfikacyjnej funkcji, a to możliwe jest, gdy wydobędziemy 
+        w doświadczeniu przedmiotu to, co go stanowi
+        - natura konstytutywna przeciwstawia się zarówno poszczególnym 
+        własnościom przedmiotu, jak i ogółowi tych własności
+    - czym jest zatem natura konstytutywna?
+        - tym, co określa podmiot własności w przedmiocie w sposób zupełny
+        - stanowiący ją moment jakościowy musi być samodzielny -- nie może się 
+        dalej różnicować
+        - tym, co w przedmiocie jedyne i tylko dla tego przedmiotu właściwe
+- o istocie raz jeszcze
+    - nie jest to pełnia bytu czy jakościowego uposażenia, lecz dobór momentów, 
+    które odgrywają w przedmiocie szczególnie doniosłą rolę
+    - coś indywidualnego
+    - to, co w strukturze przedmiotu wykrywane jest jako podstawowy moment 
+    treściowy (w terminach Ingardena -- materialny)
+    - istota każdego przedmiotu jest równie indywidualna, co dany przedmiot -- 
+    nie może być wspólna wielu przedmiotom
+    - istota nie jest tożsama z pełnią uposażenia jakościowego -- stanowi ich 
+    wybór (jakości wyróżnionych)
+    - o pojęciu istoty można mówić tylko tam, gdzie przyjmuje się strukturę 
+    podmiot własności -- własności
+    - definicja = konieczny i niezmienny inwariant, który zakreśla granice 
+    możliwości procesu uzmiennienia
+    - w ten sposób istota gwarantuje tożsamość przedmiotu, bez niej nie można 
+    przedmiotu pomyśleć
+    - pojęcie istoty bliższe jest quidditas i jest ono szersze od pojęcia natury 
+    konstytutywnej
+    - do istoty przedmiotu przynależą zarówno treści składające się na naturę 
+    konstytutywną, momenty formy tego przedmiotu, jak i sposób jego istnienia
+- rodzaje istot
+    - istota radykalna
+        - natura przedmiotu jest monadyczna
+        - natura przedmiotu jest jakością postaciową
+        - a to pociąga za sobą ścisłą odpowiedniość i przyjęcie istnienia tylko 
+        tych cech, które są bezwzględnie własne
+        - istnieje jednorazowy układ momentów formalnych nadbudowany nad formą 
+        przedmiotu
+        - jednorazowy sposób istnienia przedmiotu
+        - nie dopuszcza żadnych własności, prócz cech względnych (relacyjnych) 
+        (Bóg)
+    - istota ścisła
+        - natura jest indywidyalna, ale nie monadyczna -- dopuszcza wiele 
+        konkretyzacji
+        - natura przedmiotu jest jakością postaciową
+        - relatywna odpowiedniość własności między naturą a istotą
+        - zespół momentów formalnych
+        - pewien sposób istnienia
+        - zespół cech nie wyczerpuje własności bezwzględnie własnych przedmiotu
+        - nie dopuszcza własności nabytych i zewnętrznie uwarunkowanych, ale 
+        dopuszcza cechy względne (przedmioty geometryczne)
+    - istota umiarkowanie ścisła
+        - dopuszcza istnienie w przedmiocie własności nabytych i zewnętrznie 
+        uwarunkowanych
+    - istota czysto materialna
+        - nie należy do niej żadna specjalna forma nadbudowująca się nad ogólną 
+        podstawową formą przedmiotu, ani też sposób istnienia
+        - istotę przedmiotu stanowi natura przedmiotu wraz z równoważącym ją 
+        zespołem własności
+    - istota prosta
+        - natura przedmiotu nie jest monadyczna i nie jest jakością postaciową
+        - natura wyznacza własności bezwzględnie własne i do niej przynależne, 
+        ale jej nie równoważące
+        - istnieją własności bezwzględnie własne w umiarkowanym znaczeniu
+        - dopuszczone jest istnienie własności nabytych i zewnętrznie 
+        uwarunkowanych oraz relacyjnych
+        - forma i sposób istnienia nie należą do istoty
+- istota przedmiotów pozbawionych zasady konstytucyjnej:
+    - naturę stanowi konglomerat (mieszanina) własności, pozbawionych 
+    wewnętrznej jednolitości i zasady konstytucyjnej
+
+#### Esencjalizm w filozofii analitycznej
+
+- definicja esencjalizmu: pogląd głoszący, iż w rzeczy istnieją własności mające 
+różny status; niektóre z nich decydują o naturze przedmiotu (własności 
+esencjalne), inne nie -- własności akcydentane
+- co to są własności esencjalne?
+    - intuicyjnie własności esencjalne: te i tylko te własności, których 
+    przedmiot potrzebuje, by być tym przedmiotem, którym jest
+- własności esencjalne:
+    - def. 1.: F jest własnością istotną dla x wtedy i tylko wtedy, gdy bycie 
+    F jest częścią "tego, czym jest x" i co jest wyłuszczone w definicji x-a
+    - def. 2.: F jest własnością istotną dla x wtedy i tylko wtedy, gdy 
+    czymkolwiek jest x koniecznie posiada własność F (x musi być F, by w ogóle 
+    istnieć)
+    - def. 3.: F jest własnością istotną dla x wtedy i tylko wtedy, gdy 
+    F stanowi podstawę dla innych własności
+- założenia esencjalizmu:
+    - rozróżnienie na własności esencjalne i własności akcydentalne
+    - istnienie własności obu typów
+- to natomiast pociąga za sobą dwa typy argumentacji antyesencjalistycznej:
+    - sceptyczną -- odrzucenie rozróżnienia na własności istotne i akcydentalne
+        - argument: to, czy x jest istotnie F zależne jest od tego, czy 
+        konieczne jest, że x ma F, a to prowadzi do sprzeczności
+        - przykład: czy 10 jest istotnie większe od 5? tak, gdyż 10 to 5+5 
+        i konieczne jest, że 5+5 zawsze przekracza 5; ale też nie! niech 10 
+        będzie liczbą osób zebranych na wiecu, nie oznacza to bynajmniej, że 
+        liczba osób na tym wiecu esencjalnie przekracza liczbę 5; konkluzja: nic 
+        nie jest istotnie F jako takie, ale jako opisywane w pewien sposób; 
+        słowem: własności istotne pociągane są przez pewien sposób opisu
+        - argument przekanuje zatem, że wypowiedzi esencjalisty są de re, a to 
+        oznacza, że trudno określić podstawę ich rozróżnienia
+    - trywializująca -- oba rodzaje własności mają ten sam status
+        - teza: wszystkie własności są akcydentalne lub esencjalne
+        - drugi wariant można znaleźć przede wszystkim u Leibniza; wówczas mamy 
+        do czynienia z superesencjalizmem
+- esencjalizm Putnama:
+    - identyczność w ścisłym sensie i identyczność w sensie temporalnym:
+        - X i Y są identyczne w ścisłym sensie wtw gdy każda własność X-a jest 
+        też własnością Y-1
+        - przedmioty posiadają tzw. własności wewnętrzne, czyli istotę
+        - jakkolwiek istnieje możliwy świat W, w którym istnieje substancja 
+        smakująca i wyglądająca jak H2O, lecz nie oznacza to jeszcze, że jest to 
+        woda
+        - teza Putnama: nie ma takiego możliwego świata, w którym woda nie jest 
+        H2O
+- esencjalizm znaczeniowo-referencyjny:
+    - używamy słowa "woda" na oznaczenie takiej i tylko takiej substancji, która 
+    ma skład chemiczny H2O
+    - istota wody jest jednak wytworem naszego sposobu posługiwania się tym 
+    słowem, naszych intencji, co do jego odniesienia przedmiotowego; tego 
+    rodzaju istota nie jest wpisana w świat tak, jak esencjalistyczna teoria 
+    odniesienia przedmiotowego wymaga
+- Putnam a Kripke
+    - Putnam przyjmuje własności wewnętrzne, ale ich ustalenie odbywa się 
+    z poziomu semantycznego
+    - Kripke przyjmuje własności esencjalne niezależne od umysłu
+    - obie są powiązane z teorią odniesienia przedmiotowego
+- esencjalizm Kripke:
+    - oddzielenie analityczności, aprioryczności i konieczności
+    - każdy przedmiot posiada nietrywialne własności istotne
+    - rozważmy ten stół S zrobiony z drewna; zdaniem Kripkego jakkolwiek 
+    istnieje możliwość, iż S byłby metalowy, niemniej nic takiego nie ma miejsca 
+    w przypadku S, S jest drewniane
+    - trzeba rozróżnić empiryczny fakt przysługiwania tego rodzaju własności 
+    S od przygodności; przysługiwanie własności bycia drewnianym S jest 
+    aposteriori, ale nie jest przygodne
+    - nasze myślenie o przygodności bycia drewnianym przez S bierze się stąd, że 
+    wyobrażamy sobie świat, w którym S jest np. metalowe, ale nie oznacza to, że 
+    S jest metalowe
+    - trzeba oddzielić własności istotne od własności ważnych; te drugie mogą 
+    być istotne, lecz nie muszą
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Seba -- esencjalizm -- 15/50
 
