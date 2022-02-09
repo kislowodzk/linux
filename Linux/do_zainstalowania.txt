@@ -1,0 +1,51 @@
+Nazwa ikon: Nordzy-dark
+https://github.com/alvatip/Nordzy-icon
+
+komendy:
+git clone https://github.com/alvatip/Nordzy-icon
+cd Nordzy-icon/
+./install.sh
+
+Programy:
+- elementary tweaks
+- htop
+- cmatrix
+- tmux
+- tree
+- ncspot
+- cool retro term
+- libre office
+- caprine (messenger)
+- gimp
+- qutebrowser
+- firefox
+- kdenlive
+- mixer
+- obs
+- ordne
+- kolourpaint
+- simplenote
+- skype
+- teams for linux
+- spotify
+- discord
+- stacer
+- vlc
+- alacritty
+- compton   // dla awesome wm - odpowiada za przezroczystosc terminala
+- gnome-screenshot   // dla awesome wm
+- nautilus   // -||-
+
+enable/disable firewall
+sudo ufw enable
+sudo ufw disable
+
+do wszystkiego powinno być dobre gnome-control-center
+na przykład
+gnome-control-center bluetooth
+
+Inne:
+nmtui - wifi
+
+Pokazywanie działających w tle programów
+https://www.reallinuxuser.com/how-to-show-app-indicators-on-the-system-tray-in-elementary-os/
