@@ -414,185 +414,180 @@ indywiduum)
 
 ### Tezy sofistyczne:
 
-    1. Teza pierwsza (prawdziwie destrukcyjna dla metafizyki):
-        - nic nie istnieje
-        - nawet gdyby istniało, to i tak nie dałoby się poznać
-            - konsekwencją nonkognitywizm -- nie da się nic poznać
-        - nawet gdyby dało się poznać, nic nie moglibyśmy powiedzieć
-            - konsekwencją nondeskryptywizm -- nie da się nic wyrazić
-        - Zarzuty Arystotelesa:
-            - żeby wypowiedzieć, że nic nie istneje, trzeba uznać zasadę 
-            niesprzeczności, uznajemy więc, że coś istnieje
-            - wypowiadając zdanie zaprzeczasz, że nie da się wypowiedzieć
-            - odpowiedź sofistów: te zdania są wypowiadane z poziomy metajęzyka, 
-            zasada niesprzeczności języka pierwszego nie obowiązuje w językach 
-            wyższego rodzaju
-            - [Arystoteles jednak twierdzi, że nie da się poznać substancji 
-            pierwszej, koresponduje to w jakiś sposób z tezami sofistów]
-    2. Teza druga -- metron:
-        - człowiek miarą rzeczy istniejących, że istnieją; nieistniejących, że 
-        nie istnieją
-            - mamy dwa składniki
-            - jakiś tym relacji między tym, co istnieje, a człowiekiem -- ta 
-            teza wyraża w jaki sposób ta relacja jest kształtowana (jeśli 
-            odniesiemy to do tezy pierwszej, to mamy paradoks, bo właśnie 
-            założyliśmy, że coś istnieje). Jaka to jest relacja?
-                - epistemiczna -- problem z nonkognitywizmem
-                - semantyczna -- problem z nondeskryptywizmem
-                - etyczna, zamodelowana w odniesieniu do działania
-            - jeden z członów relacji jest ważniejszy od drugiego -- ta różnica 
-            ma charakter metafizyczny
-                - metafora odległości -- mamy metafizyczne "centrum", człowiek 
-                określa odległość od tego centrum; model koncentryczny; żródło 
-                metafizyczne bije w tym, który ustala status ontologiczny
-                - tak, jak u Arystotelesa wyróżnionym bytem ousia, tak tu 
-                wyróżnionym bytem jest człowiek
-            - ta teza stawia szereg problemów, jednak nie ma dewastującego 
-            skutku dla metafizyki
-            - inna interpretacja: atak na pluralizm metafizyczny, który zakłada, 
-            że istnieją obiekty, które nie są poznawalne:
-                - atak na Platona
-                - niekiedy mówi się o relatywizmie -- każdy byt może istnieć, 
-                ale tutaj jest to raczej twarda teza metafizyczna
-    - Cały ruch sofistyczny jest w zasadzie ruchem empirycystycznym. Teza "nic 
-    nie istnieje" mówi (dwie interpretacje):
-        - że nie istnieje nic poza naturą (idee)
-        - że nie istnieją wszystkie abstrakcyjne byty, które mają charakter 
-        bytów myślnych
+1. Teza pierwsza (prawdziwie destrukcyjna dla metafizyki):
+    - nic nie istnieje
+    - nawet gdyby istniało, to i tak nie dałoby się poznać
+        - konsekwencją nonkognitywizm -- nie da się nic poznać
+    - nawet gdyby dało się poznać, nic nie moglibyśmy powiedzieć
+        - konsekwencją nondeskryptywizm -- nie da się nic wyrazić
+    - Zarzuty Arystotelesa:
+        - żeby wypowiedzieć, że nic nie istneje, trzeba uznać zasadę 
+        niesprzeczności, uznajemy więc, że coś istnieje
+        - wypowiadając zdanie zaprzeczasz, że nie da się wypowiedzieć
+        - odpowiedź sofistów: te zdania są wypowiadane z poziomy metajęzyka, 
+        zasada niesprzeczności języka pierwszego nie obowiązuje w językach 
+        wyższego rodzaju
+        - [Arystoteles jednak twierdzi, że nie da się poznać substancji 
+        pierwszej, koresponduje to w jakiś sposób z tezami sofistów]
+2. Teza druga -- metron:
+    - człowiek miarą rzeczy istniejących, że istnieją; nieistniejących, że nie 
+    istnieją
+        - mamy dwa składniki
+        - jakiś tym relacji między tym, co istnieje, a człowiekiem -- ta teza 
+        wyraża w jaki sposób ta relacja jest kształtowana (jeśli odniesiemy to 
+        do tezy pierwszej, to mamy paradoks, bo właśnie założyliśmy, że coś 
+        istnieje). Jaka to jest relacja?
+            - epistemiczna -- problem z nonkognitywizmem
+            - semantyczna -- problem z nondeskryptywizmem
+            - etyczna, zamodelowana w odniesieniu do działania
+        - jeden z członów relacji jest ważniejszy od drugiego -- ta różnica ma 
+        charakter metafizyczny
+            - metafora odległości -- mamy metafizyczne "centrum", człowiek 
+            określa odległość od tego centrum; model koncentryczny; żródło 
+            metafizyczne bije w tym, który ustala status ontologiczny
+            - tak, jak u Arystotelesa wyróżnionym bytem ousia, tak tu 
+            wyróżnionym bytem jest człowiek
+        - ta teza stawia szereg problemów, jednak nie ma dewastującego skutku 
+        dla metafizyki
+        - inna interpretacja: atak na pluralizm metafizyczny, który zakłada, że 
+        istnieją obiekty, które nie są poznawalne:
+            - atak na Platona
+            - niekiedy mówi się o relatywizmie -- każdy byt może istnieć, ale 
+            tutaj jest to raczej twarda teza metafizyczna
+- Cały ruch sofistyczny jest w zasadzie ruchem empirycystycznym. Teza "nic nie 
+istnieje" mówi (dwie interpretacje):
+    - że nie istnieje nic poza naturą (idee)
+    - że nie istnieją wszystkie abstrakcyjne byty, które mają charakter bytów 
+    myślnych
 
 ### Krytyka nowożytna
 
 Napięcie między ruchem racjonalistycznym i empirycystycznym:
 
-    - na gruncie źródeł poznania:
-        - racjonalizm -- poznanie niezależne od zmysłów
-        - empiryzm -- poznanie zależne od zmysłów
-    - na gruncie uzasadnienia:
-        - racjonalizm -- dowolne zdanie musi być uzasadnione internalistycznie
-        - empiryzm -- z grubsza uzasadnieni eksternalistyczne, ale empiryzm 
-        stara się zachować stany wewnętrzne, więc uzasadnienie zarówno 
-        eksternalistyczne, jak i internalistyczne
+- na gruncie źródeł poznania:
+    - racjonalizm -- poznanie niezależne od zmysłów
+    - empiryzm -- poznanie zależne od zmysłów
+- na gruncie uzasadnienia:
+    - racjonalizm -- dowolne zdanie musi być uzasadnione internalistycznie
+    - empiryzm -- z grubsza uzasadnieni eksternalistyczne, ale empiryzm stara 
+    się zachować stany wewnętrzne, więc uzasadnienie zarówno eksternalistyczne, 
+    jak i internalistyczne
 
 Na czym polega poznanie metafizyczne (w kategoriach epistemicznych):
 
-    - odpowiedz pozytywna -- jest to operowanie w pewnej domenie internalnej, 
-    wewnętrznej. jak tę domenę zamodelować?
-        - dane mentalne związane z jakimś podmiotem
-        - dane semantyczne, które są dostępne w większym układzie zależności
-        - zbiór specyficznych danych mentalnych
-    - odpowiedź negatywna (nihilistyczna) -- nie ma żadnej domeny, żadnego 
-    poznania metafizycznego
-        - Hume -- wszystkie traktaty metafizyczne należy wyrzucić do kosza, 
-        ponieważ traktują o przedmiotach (Bóg, nieśmiertelna dusza), które są 
-        poza tymi trzema domenami; nie da się ich uzasadnić ani eksternalnie, 
-        ani internalnie
+- odpowiedz pozytywna -- jest to operowanie w pewnej domenie internalnej, 
+wewnętrznej. jak tę domenę zamodelować?
+    - dane mentalne związane z jakimś podmiotem
+    - dane semantyczne, które są dostępne w większym układzie zależności
+    - zbiór specyficznych danych mentalnych
+- odpowiedź negatywna (nihilistyczna) -- nie ma żadnej domeny, żadnego poznania 
+metafizycznego
+    - Hume -- wszystkie traktaty metafizyczne należy wyrzucić do kosza, ponieważ 
+    traktują o przedmiotach (Bóg, nieśmiertelna dusza), które są poza tymi 
+    trzema domenami; nie da się ich uzasadnić ani eksternalnie, ani internalnie
 
 Co możemy zrobić?
 
-    - jeśli zmienimy domenę jak u Kartezjusza (jedyne, z czym mamy do czynienia, 
-    to domena podmiotu, cogito), to metafizyka zostaje, zawężamy jedynie 
-    dyskurs, wszystko zależy, jak zamodelujemy cogito.
-    - przesłanka, że jeśli nie ma możliwości sensownego mówienia o Bogu 
-    i nieśmiertelnej duszy, to cała metafizyka jest do wyrzucenia 
+- jeśli zmienimy domenę jak u Kartezjusza (jedyne, z czym mamy do czynienia, to 
+domena podmiotu, cogito), to metafizyka zostaje, zawężamy jedynie dyskurs, 
+wszystko zależy, jak zamodelujemy cogito.
+- przesłanka, że jeśli nie ma możliwości sensownego mówienia o Bogu 
+i nieśmiertelnej duszy, to cała metafizyka jest do wyrzucenia 
 
 Kant -- rozróżnienie podejść do metafizyki:
 
-    - metafizyka naturalna
-        - przekonania metafizyczne -- ludzie mają je z natury; źródła refleksji 
-        empiryczne: widzimy, że ludzie mają refleksje. Jakie są to przekonania:
-            - na temat bytu potężniejszego metafizycznie (Bóg)
-            - na temat przetrwania śmierci (nieśmiertelna dusza)
-            - na temat genezy wszechświata
-            - udzielając odpowiedzi na pytania o ich istnienie popadamy 
-            w dialektykę (dwie odpowiedzi równie prawdopodobne) i paralogizmy 
-            (odpowiedzi wzajemnie się wykluczają)
-        - mamy dwie tezy:
-            - powszechność przekonania
-            - konkretne podmioty mają te przekonania
-        - na poziomie naturalnym nie jest to nauka: jest nieuporząkowana, jest 
-        światopoglądem
-    - metafizyka transcendentna
-        - reprezentuje postawę badawczą względem trzech przekonań metafizyki 
-        naturalnej
-        - bada metafizyczne możliwości poznania podmiotu w stosunku do poznania 
-        metafizycznego
-        - uporządkowany namysł, wygłaszanie sądów
-        - jednak pytanie -- jak ustalać, czy sądy są prawdziwe, czy dałszywe?
-        - cztery rodzaje sądów:
-            - syntetyczne a priori
-            - syntetyczne a posteriori
-            - analityczne a priori
-            - analityczne a posteriori (odrzucone przez Kanta)
-        - pytanie -- jakimi rodzajami sądów operujecie?
-            - analitycznymi a priori?
-                - w takim razie nie wnoszą nowej wiedzy na temat przedmiotu, nie 
-                są rozszerzające epistemicznie
-            - syntetyczne a posteriori?
-                - relacje semantyczne są nieinkluzywne (jeśli mamy zdanie "kot 
-                jest czerwony", to w znaczeniu słowa "kot" nie zawiera się 
-                znaczenie słowa "czerwony"
-                - zasadza się na znalezieniu obiektu, który realizyje relacje, 
-                należy zidentyfikować własności, które są o nim orzekane; jednak 
-                gdzie je identyfikować? w domenie empirycznej, więc metafizyka 
-                nie posługuje się tymi sądami
-            - syntetyczne a priori?
-                - znowu nieinkluzywne
-                - znowu pytanie gdzie identyfikujemy? przy tych sądach w domenie 
-                apriorycznej; jaki może być dostęp do tej domeny? jakie warunki 
-                epistemiczne muszą być spełnione, żebyśmy mieli dostęp do 
-                domeny?
-                    - poprzez zmysły zewnętrzne
-                        - to są syntetyczne a posteriori
-                    - poprzez zmysły wewnętrzne
-                        - jakiego rodzaju przedmioty pojawiają się w zmyśle 
-                        wewnętrznym?
-                            - stosunki przestrzenne
-                            - stosunki czasowe
-                        - żaden z tych elementów nie daje dostępu do podmiotu 
-                        wysłowionego w tezie "Bóg jest wszechmocny"
-        - wniosek -- metafizyka transcendentna wypowiada się o przedmiotach 
-        znajdujących się poza sferą możliwego doświadczenia, nie jest więc 
-        w stanie argumentować sądów; powinniśmy przenieść się na poziom 
-        metafizyki transcendentalnej
-    - metafizyka transcendentalna
-        - jest to jedyna możliwa postać metafizyki
-        - trzy ruchy przesunięcia się na poziom metafizyki transcendentalnej:
-            - pytanie jakie warunki muszą być spełnione, żeby można było sądzić?  
-            w pierwszym ruchu identyfikuje się warunki możliwości sądzenia -- są 
-            one metafizyczne, ponieważ nie można ich uchylić, są niezbywalne, 
-            żaden podmiot nie jest w stanie z nich zrezygnować
-            - pytanie jak się da pomyśleć naturę, rozumianą jako jakiś typ 
-            możliwego doświadczenia (nie jako jego przedmiot)? za pomocą 
-            określonego zbioru mechanizmów metafizycznych, na przykład 
-            przyczynowość jest takim mechanizmem -- to ratuje część 
-            metafizycznych pojęć
-            - krytyka praktycznego rozumu:
-                - czysty rozum teoretyczny nastawiony jest na prawdziwość, sąd
-                - czysty praktyczny rozum jest nastawiony na dobro, działanie
-                - wychodzimy od tego, że pewna klasa zjawisk (na przykład 
-                "sprawiedliwość", "niesprawiedliwość") potrzebuje założeń 
-                metafizycznych. cierpienia nie ma w para-przyczynowych 
-                relacjach, które widzi natura, żeby to ująć musimy zmienić 
-                perspektywę metafizyczną
-                - przykład Hioba -- jeśliby Boga nie było, to działania Hioba 
-                nie miałyby senso. praktyczny rozum wprowadza uzasadnienie: nie 
-                wiemy, czy Bóg istnieje, wiemy tylko, że jeśli założymy, że 
-                istnieje, to mamy uzasadnienie dla działania Hioba. pewne 
-                działania mają sens tylko, jeśli zapostulujemy rozwiązanie 
-                metafizyczne
-                - podobnie z nieśmiertelną duszą, jeśli przyjmiemy, że rewersem 
-                cierpienia jest jego zniedsienie, które nie istnieje 
-                w empirycznej strukturze bytu, to wprowadzamy strukturę 
-                nieempiryczną. sens śmierci, jako wydarzenia osobowego, istnieje 
-                tylko wtedy, kiedy śmierć jest czymś przezwyciężona (pamięcią, 
-                przekazaniem genów, życiem w raju). są to pewne warunki 
-                uruchamiające proces umożliwiający proces przezwyciężenia 
-                niekorzystnych warunków
-        - bada warunki możliwości doświadczenia oraz prawomocność stosowania 
-        czystych pojęć intelektu (kategorii)
-        - dwa typy możliwej metafizyki:
-            - metafizyka przyrody
-            - metafizyka moralności
+- metafizyka naturalna
+    - przekonania metafizyczne -- ludzie mają je z natury; źródła refleksji 
+    empiryczne: widzimy, że ludzie mają refleksje. Jakie są to przekonania:
+        - na temat bytu potężniejszego metafizycznie (Bóg)
+        - na temat przetrwania śmierci (nieśmiertelna dusza)
+        - na temat genezy wszechświata
+        - udzielając odpowiedzi na pytania o ich istnienie popadamy w dialektykę 
+        (dwie odpowiedzi równie prawdopodobne) i paralogizmy (odpowiedzi 
+        wzajemnie się wykluczają)
+    - mamy dwie tezy:
+        - powszechność przekonania
+        - konkretne podmioty mają te przekonania
+    - na poziomie naturalnym nie jest to nauka: jest nieuporząkowana, jest 
+    światopoglądem
+- metafizyka transcendentna
+    - reprezentuje postawę badawczą względem trzech przekonań metafizyki 
+    naturalnej
+    - bada metafizyczne możliwości poznania podmiotu w stosunku do poznania 
+    metafizycznego
+    - uporządkowany namysł, wygłaszanie sądów
+    - jednak pytanie -- jak ustalać, czy sądy są prawdziwe, czy dałszywe?
+    - cztery rodzaje sądów:
+        - syntetyczne a priori
+        - syntetyczne a posteriori
+        - analityczne a priori
+        - analityczne a posteriori (odrzucone przez Kanta)
+    - pytanie -- jakimi rodzajami sądów operujecie?
+        - analitycznymi a priori?
+            - w takim razie nie wnoszą nowej wiedzy na temat przedmiotu, nie są 
+            rozszerzające epistemicznie
+        - syntetyczne a posteriori?
+            - relacje semantyczne są nieinkluzywne (jeśli mamy zdanie "kot jest 
+            czerwony", to w znaczeniu słowa "kot" nie zawiera się znaczenie 
+            słowa "czerwony"
+            - zasadza się na znalezieniu obiektu, który realizyje relacje, 
+            należy zidentyfikować własności, które są o nim orzekane; jednak 
+            gdzie je identyfikować? w domenie empirycznej, więc metafizyka nie 
+            posługuje się tymi sądami
+        - syntetyczne a priori?
+            - znowu nieinkluzywne
+            - znowu pytanie gdzie identyfikujemy? przy tych sądach w domenie 
+            apriorycznej; jaki może być dostęp do tej domeny? jakie warunki 
+            epistemiczne muszą być spełnione, żebyśmy mieli dostęp do domeny?
+                - poprzez zmysły zewnętrzne
+                    - to są syntetyczne a posteriori
+                - poprzez zmysły wewnętrzne
+                    - jakiego rodzaju przedmioty pojawiają się w zmyśle 
+                    wewnętrznym?
+                        - stosunki przestrzenne
+                        - stosunki czasowe
+                    - żaden z tych elementów nie daje dostępu do podmiotu 
+                    wysłowionego w tezie "Bóg jest wszechmocny"
+    - wniosek -- metafizyka transcendentna wypowiada się o przedmiotach 
+    znajdujących się poza sferą możliwego doświadczenia, nie jest więc w stanie 
+    argumentować sądów; powinniśmy przenieść się na poziom metafizyki 
+    transcendentalnej
+- metafizyka transcendentalna
+    - jest to jedyna możliwa postać metafizyki
+    - trzy ruchy przesunięcia się na poziom metafizyki transcendentalnej:
+        - pytanie jakie warunki muszą być spełnione, żeby można było sądzić: 
+        w pierwszym ruchu identyfikuje się warunki możliwości sądzenia -- są one 
+        metafizyczne, ponieważ nie można ich uchylić, są niezbywalne, żaden 
+        podmiot nie jest w stanie z nich zrezygnować
+        - pytanie jak się da pomyśleć naturę, rozumianą jako jakiś typ możliwego 
+        doświadczenia (nie jako jego przedmiot)? za pomocą określonego zbioru 
+        mechanizmów metafizycznych, na przykład przyczynowość jest takim 
+        mechanizmem -- to ratuje część metafizycznych pojęć
+        - krytyka praktycznego rozumu:
+            - czysty rozum teoretyczny nastawiony jest na prawdziwość, sąd
+            - czysty praktyczny rozum jest nastawiony na dobro, działanie
+            - wychodzimy od tego, że pewna klasa zjawisk (na przykład 
+            "sprawiedliwość", "niesprawiedliwość") potrzebuje założeń 
+            metafizycznych. cierpienia nie ma w para-przyczynowych relacjach, 
+            które widzi natura, żeby to ująć musimy zmienić perspektywę 
+            metafizyczną
+            - przykład Hioba -- jeśliby Boga nie było, to działania Hioba nie 
+            miałyby senso. praktyczny rozum wprowadza uzasadnienie: nie wiemy, 
+            czy Bóg istnieje, wiemy tylko, że jeśli założymy, że istnieje, to 
+            mamy uzasadnienie dla działania Hioba. pewne działania mają sens 
+            tylko, jeśli zapostulujemy rozwiązanie metafizyczne
+            - podobnie z nieśmiertelną duszą, jeśli przyjmiemy, że rewersem 
+            cierpienia jest jego zniedsienie, które nie istnieje w empirycznej 
+            strukturze bytu, to wprowadzamy strukturę nieempiryczną. sens 
+            śmierci, jako wydarzenia osobowego, istnieje tylko wtedy, kiedy 
+            śmierć jest czymś przezwyciężona (pamięcią, przekazaniem genów, 
+            życiem w raju). są to pewne warunki uruchamiające proces 
+            umożliwiający proces przezwyciężenia niekorzystnych warunków
+    - bada warunki możliwości doświadczenia oraz prawomocność stosowania 
+    czystych pojęć intelektu (kategorii)
+    - dwa typy możliwej metafizyki:
+        - metafizyka przyrody
+        - metafizyka moralności
 
 ### Źródła krytyki metafizyki
 
