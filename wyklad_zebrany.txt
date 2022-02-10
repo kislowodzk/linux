@@ -2313,7 +2313,7 @@ niepożądanych zjawisk logiczno-semantycznych:
 
 ## Wykład 7. Esencjalizm klasyczny
 
-## Wykład 8 Esencjalizm współczesny
+## Wykład 8. Esencjalizm współczesny
 
 ### Esencjalność
 
@@ -2753,8 +2753,366 @@ esencjalne), inne nie -- własności akcydentane
     - trzeba oddzielić własności istotne od własności ważnych; te drugie mogą 
     być istotne, lecz nie muszą
 
+## Wykład 9. Problem istnienia Boga
 
+- w odniesieniu do tego szczeólnego rodzaju bytu można powiedzieć, że istnienie 
+jest istotą, jest orzekane w predykacji pierwszorzędowej; w przypadku tego 
+obiektu wydaje się niemożliwością powiedzieć, że nieistnieje on
+- ten konstrukt, że istnieje byt, którego istotą jest istnienie, został po raz 
+pierwszy wyrażony przez Tomasza z Akwiny; my spojrzymy na to z perspektywy 
+współczesnej:
+    - przez własności
+        - predykaty wszechwiedzący, wszechdobry, wszechmiłosierny, ...
+        - to nie jest wielka klasa predykatów
+        - jeśli X jest wszechwiedzące, to X istnieje
+    - jeśli istnieje obiekt, który nie tylko istnieje w każdym możliwym świecie 
+    (bo wg. Kripkego jeśli mamy sensowną nazwę "Sokrates", to w każdym możliwym 
+    świecie istnieje taki obiekt), konieczność, to znaczy, że nie jesteśmy 
+    w stnie odmówić mu żadnej własności, każda własność jest własnością 
+    konieczną
 
+### Na czym polega problem istnienia Boga?
+
+- teologiczny a filozoficzny problem istnienia Boga:
+    - objawienie i świadectwo (teologia)
+    - doświadczenie i argumentacja (filozofia)
+- z perspektywy filozoficznej możemy oddzielić dwa poziomy:
+    - nie można trywializować objawienia i świadectwa, to są pewne fakty 
+    empiryczne, mają one pewne konsekwencje
+    - doświadczenie religijne to coś, co jest faktem, przekonania religijne są 
+    czymś, co stabilizuje życie człowieka, a z drugiej strony czymś, co jest 
+    negatywnym punktem odniesienia -- robimy coś wbrew temu, co jest w przekazie 
+    religijnym, robimy to w pełni świadomie (może dlatego przekonania są 
+    istotne, bo stanowią limitacje metafizyczne oddziałujące na nasze życie)
+- teologia naturalna: dociekania nad obecnością śladów Boga w świecie (naturze) 
+bez odwoływania się do świadectw (pism objawionych); ludzie naturalnie myślą, że 
+istnieje coś potężniejszego, co steruje losami świata
+- teologia filozoficzna: zastosowanie metod i rozstrzygnięć filozoficznych do 
+problemów z zakresu teologii (objawienia i świadectw); struktury myślenia 
+podlegają refleksji filozoficznej, są tam tezy, które nie są tezami ściśle 
+teologicznymi
+- filozofia religii: dociekania filozoficzne nad wartością, uzasadnieniem 
+i spójnością przekonań religijnych; teorie, które dotyczą tego w jaki sposób 
+przekonania religii się kształtują, czy bazują na jakichś bardziej 
+fundamentalnych przekonaniach
+- metafizyka: ? -- rozważamy pewne modele, jesteśmy w stanie zamodelować pewne 
+typy obiektów, które będą miały pewne potężne właściwości
+- wymiar teologiczny problemu istnienia Boga:
+    - skąd problem istnienia Boga?
+    - czy zdanie "Bóg istnieje" jest prawdziwe?
+    - w jaki sposób dowieść, że zdanie "Bóg istnieje" jest prawdziwe?
+    - czy argumenty na rzecz prawdziwości zdania "Bóg istnieje" są wystarczające 
+    do uznania, że zdanie to jest prawdziwe?
+    - czy pewne typy argumentów są bardziej przekonujące, niż inne?
+    - jak rozstrzygnięcie co do prawdziwości zdania "Bóg istnieje" wpływa na 
+    rozstrzygnięcia innych problemów (teoretycznych)?
+    - poznawcze uwarunkowania problemu istnienia Boga
+- teraz rozważamy na poziomie teoretycznym (bo można to jeszcze rozważać na 
+poziomie pragmatycznym)
+    - Kant -- nie ma możliwości percepcji, nie ma więc możliwości wyróżnienia 
+    warunków prawdziwości
+    - możemy też powiedzieć, że to zdanie nie ma wartości logicznej
+    - Kant -- możemy powiedzieć, że zasadne jest twierdzenie, że Bóg istnieje; 
+    nie ma możliwości zidentyfikowania bezpośrednich warunków prawdziwości, ale 
+    pośrednich już tak; być może należy przyjąć, że są dobre racje, aby uznać, 
+    że to zdanie jest prawdziwe, ale nie są to racje, które wprost nam to mówią
+    - czy nie jest tak, że kiedy uznamy zdanie "Bóg istnieje", to będzie to 
+    najpotężniejszy eksplanator, który może być zastosowany wszędzie?
+    - inne rozumienie -- są pewne obszary, gdzie to działa, na przykład 
+    moralność, etyka
+    - poznawcze korelaty -- nie są one warunkami prawdziwości zdań; ro, że 
+    rozpoznamy strukturę neuronalną odpowiedzialną za to, że postrzegamy Boga 
+    jako ojca, to nie znaczy, że Bóg jest ojcem
+- wymiar praktyczny (pragmatyczny) problemu istnienia Boga:
+    - czy problem istnienia Boga ma charakter prywatny czy powszechny?
+    - czy od rozstrzygnięcia problemu istnienia Boga zależy ludzkie życie?
+    - w odniesieniu do czego i w jakim zakresie ludzkie życie zależy od 
+    rozstrzygnięcie problemu istnienia Boga?
+    - czy istnienie władzy poznawczo/wolicjonalnej (duszy) zależy od tego, że 
+    Bóg istnieje?
+    - jak powiązać fakt istnienia Boga z faktem, iż natura (przyroda) podlega 
+    prawom (o charakterze bezwzględnym)?
+    - (ten wymiar interesuje nas mniej)
+
+### Typy postaw względem problemu istnienia Boga
+
+- teizm: stanowisko (teoretyczne?), w ramach którego uznaje się prawdziwość 
+zdania "Bóg istnieje"
+- ateizm: stanowisko (teoretyczne?), w ramach którego neguje się prawdziwość 
+zdania "Bóg istnieje"
+- agnostycyzm: stanowisko (teoretyczno-pragmatyczne), w ramach którego zawiesza 
+się sąd na temat prawdziwości zdania "Bóg istnieje"
+- fideizm: postawa (praktyczno-teoretyczna) zaświadczająca o tym, że uznaje się 
+prawdziwość zdania "Bóg istnieje", choć kwestionuje się wartość argumentów 
+teoretycznych na jej rzecz
+- problematyczność fideizmu:
+    - trudności z uznaniem, że X, który zajmuje jakąś postawę religijną, posiada 
+    jednocześnie przekonania religijne we właściwym sensie słowa "przekonanie"
+    - trudności z komunikowaniem treści doświadczeń i przekonań religijnych
+    - trudności z uznaniem racjonalności doświadczeń, przekonań i postaw 
+    relligijnych
+- problematyczność agnostycyzmu:
+    - postawa o charakterze metateoretycznym i metapragmatycznym -- uznaje się, 
+    że zdanie "Bóg istnieje" nie ma rozstrzygnięcia co do jego wartości 
+    logicznej
+    - trudności z określeniem kierunku działania (o ile jego podstawą jest 
+    uznanie prawdziwości/fałszywości zdania "Bóg istnieje"
+    - trudności z wiarygodną interpretacją doświadczeń, przekonań i postaw 
+    religijnych
+- problematyczność ateizmu:
+    - brak rozstrzygających argumentów na rzecz odrzucenia prawdziwości zdania 
+    "Bóg istnieje"
+    - trudności z powszechnością zjawiska wiary
+    - trudności z interpretacją doświadczeń, przekonań i postaw religijnych jako 
+    zorientowanych na prawdziwość
+- problematyczność teizmu:
+    - niekonkluzywność/wadliwość (logiczna) argumentów na rzecz prawdziwości 
+    zdania "Bóg istnieje"
+    - niewspółmierność założeń fundujących prawdziwość zdania "Bóg istnieje" 
+    i tych, które gwarantują prawdziwość zdań o świecie
+    - niekoherencja pewnej klasy zdań o zjawiskach występujących w świecie ze 
+    zdaniami uznawanymi za prawdziwe przez teizm (na temat natury Boga)
+    - niekompatybilność wyjaśnień i teorii (teologicznych i naukowych)
+
+### Główne typy argumentacji na rzecz istnienia Boga
+
+- pierwsze próby argumentowania na rzecz istnienia bóstwa:
+    - Platon (Prawa)
+    - Arystoteles (Fizyka, Metafizyka)
+    - miały charakter naturalistyczny (dotyczyły spraw związanych ze sposobem 
+    rozumienia zjawisk w świecie -- natury) oraz przyczynowy (ugruntowane były 
+    w pewnym typie relacji przyczynowej)
+    - najsilniejsze perswazyjnie argumenty (logicznie najsłabsze) są 
+    naturalistyczne
+- jaki jest cel argumentów na rzecz istnienia bóstwa (w pierwszych próbach?)
+    - wyciągnięcie konsekwencji z przesłanek dotyczących przyczynowej struktury 
+    świata
+    - uzasadnienie powiązań między elementami struktury świata
+    - uzasadnienie racjonalności przekonań na temat natury świata
+    - nadanie pewnego sensu, porządku temu, co się w świecie dzieje
+- średniowieczne i nowożytne formy argumentowania na rzecz istnienia Boga:
+    - argumentacja ontologiczna
+    - argumentacja fizyko-teleologiczna
+    - argumentacja antropologiczna
+    - argumentacja pragmetyczna (w szerokim sensie)
+- typologia argumentów na rzecz istnienia Boga:
+    - ontologiczne, kosmologiczne i teleologiczne
+    - aprioryczne i aposterioryczne
+    - dedukcyjne i indukcyjne
+- typologia argumentów na rzecz istnienia Boga:
+    - ontologiczne, kosmologiczne i teleologiczne
+    - aprioryczne i aposterioryczne
+    - dedukcyjne i indukcyjne
+- charakterystyka logiczna, epistemologiczna i ontologiczna argumentów na rzecz 
+istnienia Boga:
+    - argumenty aprioryczne:
+        - prawdziwość przesłanek ugruntowana jest w relacjach logicznych 
+        i semantycznych
+        - nie odwołują się do jakiegokolwiek doświadczenia (przede wszystkim 
+        w sensie empirycznym)
+        - mają charakter apodyktyczny (przyjmują, że zdanie "Bóg istnieje" jest 
+        co do wartości logicznej pewne)
+    - argumenty aposterioryczne:
+        - prawdziwość przesłanek ugruntowana jest w relacjach logicznych 
+        i przyczynowych
+        - odwołują się do faktów i ich doświadczenia jako przesłanek 
+        rozumowania/argumentacji (przede wszystkim w sensie empirycznym)
+        - mają charakter problematyczny, nie zaś apodyktyczny (przyjmują, że 
+        zdanie "Bóg istnieje" jest w wysokim stopniu prawdopodobne, ale 
+        niekoniecznie pewne)
+- kamienie milowe argumentacji na rzecz istnienia Boga:
+    - Anzelm z Cantenbury
+        - dowód aprioryczny w wersji ontologicznej (Monoslogion, Proslogion)
+    - Tomasz z Akwinu
+        - dowód aprioryczny (O bycie i istocie)
+        - dowody aposterioryczne (Suma teologii)
+    - Descartes
+        - dowody aprioryczne (Medytacje o filozofii pierwszej)
+    - Pascal (Rozmyślania)
+    - Kant
+        - główny krytyk argumentacji na rzecz istnienia Boga
+        - pomysłodawca argumentu z moralności
+    - Paley
+        - argumentacja aposterioryczna
+    - Swinburne
+        - argumentacja aposterioryczna
+    - Plantinga
+        - argumentacja aprioryczna
+
+### Struktura argumentacji na rzecz istnienia Boga
+
+- argumentacja ontologiczna:
+    - schemat ogólny: jeśli przyjąć pewną definicję Boga i przyjąć, że na 
+    podstawie tej definicji byt ten posiada pewną własność, np istnienie realne, 
+    to konsekwencją tej definicji jest uznanie, że zdanie "Bóg istnieje" jest 
+    prawdziwe
+    - warianty argumentacji ontologicznej:
+        1. Anzelm -- definicja Boga jako istoty, ponad którą nic większego nie 
+        może być pomyślane
+        2. Anzelm -- definicja Boga jako najdoskonalszego z możliwych
+        3. Bonawentura -- definicja analityczna
+        4. Kartezjusz -- definicja Boga jako podmiotu wszystkich doskonałości, 
+        w tym także istnienia rozumianego jako doskonałość
+        5. Goedel -- definicja Boga jako z istoty swojej (natury) posiadającego 
+        własności pozytywne oraz konieczności egzemplifikacji własności 
+        istotnych
+        6. Plantinga -- definicja Boga jako maksymalnej doskonałości 
+        i maksymalnej wielkości
+- argumentacja aposterioryczna:
+    - schemat ogólny:
+        - w świecie zachodzi pewien fenomen F, do wyjaśnienia którego niezbędne 
+        jest rozważenie relacji przyczynowej lub relacji podobnej do 
+        przyczynowej
+        - relacja tego rodzaju odwołuje się do innego rodzaju bytu, niż te, 
+        które należą do natury (przyrody)
+        - najlepszym wyjaśnieniem jest byt nazywany Bogiem
+    - warianty argumentacji aposteriorycznej
+        1. Tomasz -- zjawiskami obserwowanymi są ruch, przyczynowość sprawcza, 
+        przygodność, stopnie doskonałości, organizacja teleologiczna
+        2. Jan Duns Szkot -- zjawiskiem obserwowalnym jest przyczynowość 
+        sprawcza
+        3. Descartes -- zjawiskami obserwowanymi są przygodność i niedoskonałość 
+        człowieka, występowanie w umyśle człowieka idei bytu najdoskonalszego
+        4. Clarke -- zjawiskiem obserwowalnym jest przygodność
+        5. Newton -- zjawiskiem obserwowalnym jest strukturalny porządek 
+        wszechświata (mechanicyzm), który nie może być dziełem przypadku i rąk 
+        ludzkich
+        6. Paley -- zjawiskami obserwowalnymi są racjonalne struktury 
+        i organizacje anatomiczne, które prezentują się jako we właściwy sposób 
+        zaprojektowane
+        7. Swinburne -- zjawiskami obserwowalnymi są istnienie świata, jego 
+        racjonalność, obowiązywanie praw przyrody, etc., wskazujące na to, że 
+        świat nie może być dziełem przypadku i jego wyjaśnienie teistyczne jest 
+        znacznie bardziej efektywne, niż wyjaśnienia alternatywne
+- tak zwany zakład Pascala
+- dowód z moralności Kanta
+
+### Trudności teoretyczne i pragmatyczne z argumentacją na rzecz istnienia Boga
+
+- trudności teoretyczne:
+    - wnioskowanie oparte jest na definicji (zależnościach pojęciowych)
+    - adekwatność definicji
+    - brak związku referencjalnego (odniesieniowego) między nazwą "Bóg" a tym, 
+    do kogo ta nazwa się odnosi
+    - analityczność argumentacji
+- trudności pragmatyczne:
+    - istnienie zła
+    - moralność i zmienność Boga
+    - problem kompatybilizmu: wolność -- determinizm
+    - ranga wyjaśnień naturalistycznych
+
+## Wykład 10. Teoria przedmiotu oraz pojęcia: indywidualność a jednostkowość
+
+### Wprowadzenie: czym jest przedmiot
+
+- teoria przedmiotu -- przedmiot nie potrzebuje nośnika do swojego istnienia, 
+w kontrze do własności
+1. Znaczenie terminu "przedmiot"
+    - sens potoczny: przedmiot materialny
+    - sens szeroki: przedmiot = byt = jednostka
+        - wszystko, co istnieje, jest przedmiotem
+    - sens wąski, ścisły: przedmiot = jedna z wielu kategorii ontologicznych 
+    o określonych cechach
+        - przedmiot wymieniany obok własności, faktów, zdarzeń, tropów, klas, 
+        uniwersaliów, relacji, ...
+2. Cechy przedmiotów:
+    - charakterystyka negatywna: czym przedmiot nie jest?
+        - nie jest podmiotem (w sensie posiadania świadomości i odbierania 
+        doświadczenia, wtedy przeciwieństwem jest przedmiot w sensie szerokim -- 
+        tą opozycją przedmiot/podmiot nie zajmujemy się na tym wykładzie)
+        - nie jest rodzajem naturalnym/gatunkiem/klasą
+        - nie jest własnością (ani ogólną ani jednostkową) -- będziemy zajmować 
+        się przedmiotem określając jego cechy w przeciwieństwie do własności
+    - kwadrat ontologiczny, podział bytów na:
+        - ogólne substancjalne -- rodzaj/gatunek naturalny
+        - ogólne akcydentalne -- uniwersalia
+        - jednostkowe substancjalne -- PRZEDMIOT
+        - jednostkowe akcydentalne -- tropy
+    - na tym wykładzie interesują nas byty jednostkowe substancjalne; będziemy 
+    je odnosić do własności ogólnych i jednostkowych, ze względu na nie będziemy 
+    charakteryzować przedmioty
+    - charakterystyka pozytywna: czym jest przedmiot w porównaniu do własności?
+        1. płaszczyzna semantyczna
+            - przedmiot jest podmiotem własności
+            - własności są predykatami w zdaniu podmiotowo-orzecznikowym
+        2. przedmiot jest tylko w jednym miejscu, własność ogólna może być 
+        w wielu miejscach
+        3. przedmiot nie jest egzemplifikowany/instancjowany, własność jest (i 
+        zarazem instancjuje)
+            - instancjowany -- dookreślony jako przedmiot
+            - każdy byt ma już wszystko określone, mam różowe włosy, nie włosu 
+            koloru X -- domkniętość wszystkich wartości
+            - nie ma innych dookreśleń niż on sam, żaden byt nie jest 
+            dookreślony tak samo jak ja
+            - ja nie jestem egzemplifikacją
+        4. zasada identyczności nieodróżnialnych nie zachodzi w przypadku 
+        przedmiotów, natomiast zachodzi w przypadku własności (przy założeniu 
+        realizmu)
+            - Black podważył zasadę identyczności nieodróżnialnych w przypadku 
+            przedmiotów
+        5. (w większości przypadków) byt złożony = posiadający składniki
+3. Problemy przedmiotów:
+    1. zasada identyczności nieodróżnialnych (ale to tak naprawdę problem 
+    wiązkowej teorii przedmiotu)
+    2. problem jedności (the unity problem)
+        - tzw. regres Bradleya
+        - składniki łączone przez relacje, jednak co łączy tę relację ze 
+        składnikami? jeśli jakaś inna relacja, to co ją łączy... i tak dalej
+        - co łączy relację z przedmiotami, każda relacja łącząca relację ze 
+        składnikami to kolejna relacja i robi się regres
+    3. trwanie w czasie
+    4. transświatowa identyczność
+    5. problem konstytucji (materialnej) przedmiotu
+        - dla różnych przedmiotów różne komponenty materialne są mniej albo 
+        bardziej istotne
+        - np. wymiana komórek człowieka nie sprawia, że jest się innym 
+        człowiekiem
+    6. problem indywiduacji: co czyni indywiduum tym właśnie indywiduum?
+
+### Model przedmiotu jako substancji (Arystoteles)
+
+1. Ousia, substantia
+2. "Kategorie" -- rozdział 2, 5
+    - rozdział 2: S ani nie znajdują się w hypokeimenon (podmiot, substrat), ani 
+    nie zostają orzekane o hypokeimenon, na przykład poszczególny człowiek
+    - jest podmiotem wszystkich orzeczeń (=podmiotem własności)
+    - jest warunkiem istnienia innych rzeczy
+    - oznacza pewne to (tode ti): niepodzielność i numeryczna pojedynczość
+    - nie posiada przeciwieństwa
+    - tylko ona jest zdolna do przyjmowania przeciwnych jakości, dzięki temu 
+    podlega zmianie
+3. "Metafizyka", księgz Z (VII)
+    - istota (to ti estin), która oznacza substancję jest pierwszym znaczeniem 
+    bytu (to on)
+    - zastanawia się, czy substancja jest tylko materią, tylko formą (morfe), 
+    czy ich złożeniem
+    - nie może być materią, ponieważ jest odrębna (niezależna w istnieniu) 
+    i oznacza pewne to (dodeterminowana, kompletna charakterystyka jakościowa)
+    - zastanawia się, czy jest istotą; jest istotą w pierwotnym sensie jako 
+    forma orzekana o materii, z której jest złożona
+    - substancją rzeczy jest jej forma
+    - substancja różni się od własności ogólnych
+    - substancja jest zasadą i przyczyną bytu = wyjaśnia, dlaczego jedne rzeczy 
+    należą do (są orzekane o) innych rzeczach
+
+### Pozostałe dwa konkurencyjne modele przedmiotu
+
+1. Model substratu
+    1. cechy modelu:
+        - składniki przedmiotu:
+            - substrat (również [bare, thin] particular, individual)
+                - jest to pewnego rodzaju "rdzeń" przedmiotu, tym, czego nie 
+                można się pozbyć, niezbywalny
+                - podmiot własności i podstawa tożsamości numerycznej
+                - to, co sprawia, że ten przedmiot jest tym przedmiotem
+                - nie mają żadnych własności
+                - narzędzie do wyjaśnienia co to znaczy, że przedmiot jest tym 
+                przedmiotem
+            - własności ogólne
+        - model wykorzystuje heterogeniczną (łączącą byty różnych kategorii) 
+        relację egzemplifikacji (instancjacji)
+
+### Dwa pojęcia: indywidualność a jednostkowość
 
 
 
