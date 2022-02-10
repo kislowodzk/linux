@@ -3111,48 +3111,264 @@ w kontrze do własności
             - własności ogólne
         - model wykorzystuje heterogeniczną (łączącą byty różnych kategorii) 
         relację egzemplifikacji (instancjacji)
+    2. problemy modelu:
+        - substraty są nieempiryczne
+        - teoria substratu jest sprzeczna
+            - substraty jednocześnie posiadają i nie posiadają własności
+            - "bycie substratem", "nieposiadanie własności", "bycie numerycznie 
+            różnym od liczby 7" są własnościami substratu
+            - od strony logicznej substratowi nie powinniśmy być w stanie 
+            przypisać żadnej treśli
+            - możemy odpowiedzieć analogicznie do paradoksu kłamcy -- być może 
+            nia można tego pojęcia traktować jako pierwszorzędowego, natomiast 
+            być może z charakterysyki negatywnej da się zrobić charakterystykę 
+            pozytywną na poziomie drugorzędowej, nie byłaby to charakterystyka 
+            substratu, tylko charakterystyka pojęcia
+        - żadne własności nie są istotne (przedmioty wymieniające się swoimi 
+        własnościami
+    3. zwolennicy modelu substratu: Locke, wczesny Russell, Kant, Wittgenstein, 
+    Bergmann, Ingarden, Sider, Armstrong
+        - przykład -- model przedmioty jako stanu rzeczy D.M. Armstronga:
+        - przedmioty to stany rzeczy, czyli aktualne fakty, z których składa się 
+        świat
+        - stany rzeczy to instancjowane przez substraty uniwersalia
+        - uniwersalia są własnościami albo relacjami; są typami stanów rzeczy; 
+        nie istnieją nieinstancjowane uniwersalia
+        - stany rzeczy są atomowe (pierwszorzędowe) albo molekularne; 
+        molekularne stany rzeczy to koniunkcje atomowych stanów rzeczy bez 
+        jakiegokolwiek dodatku bytowego
+        - substraty nie istnieją w oderwaniu od własności, tzw. thin particular 
+        to substrat rozpatrywany bez własności, ale tyko jako wynik abstrakcji 
+        a nie istniejący jako taki w świecie
+        - thin particulars są nieodróżnialne, ale numerycznie różne
+        - thic particulars to substraty rozpatrywane wraz z własnościami 
+        nierelacyjnymi, czyli ich naturą (są już stanami rzeczy)
+2. Model wiązki własności
+    1. cechy i problemy modelu
+        - cechy:
+            - wszystkie składniki przedmiotu należą do jednej kategorii 
+            (własności)
+            - składniki łączy relacja wyższego rzędu -- współobecność 
+            (compresence), która również jest własnością
+        - problemy modelu:
+            - zobowiązuje do zasady identyczności nieodróżnialnych, która 
+            zdaniem Blacka jest fałszywa
+            - wszystkie własności są istotne
+                - problem esencjalny: skoro tak, to zmiana jednej własności 
+                sprawia, że to jest inny przedmiot, a intuicyjnie tak nie 
+                powinno być
+            - trudności w wyrażeniu struktury podmiotowo-orzecznikowej (S jest 
+            P)
+                - nie mamy narzędzia przyjmowania atrybutów; nie można znać 
+                wiązki bez znania jej atrybutu, musimy wiedzieć, że stół jest 
+                biały, żeby powiedzieć, że jest biały
+    2. model wiązki własności jako wiązki własności ogólnych (uniwersaliów)
+        - jednostkowość jest pochodną właściwością świata, ponieważ na 
+        fundamentalnym poziomie są tylko uniwersalia
+        - zasadniczo przyjmuje przedmiot jako uniwersalia ulokowane 
+        czasoprzestrzennie w jednym miejscu (łączy je prymitywna notacja 
+        koinstancjowania)
+        - Berkeley (umysły -- teoria substratu; obiekty fizyczne -- teoria 
+        wiążki); późny Russell; Ayer; Castaneda; Hochberg
+    3. model wiązki własności jako wiązki własności jednostkowych (tropów)
+        - raczej tu mówi się o współobecności, niż koinstancjacji
+        - wprowadza pierwotną jednostkowość
+        - problem: w pewnych przypadkach (masa, rozmiar) trudno rozpatrywać 
+        własności jako indywidualne, np. trudno pomyśleć rozmiar tylko jako 
+        jeden z elementów przedmiotu
+        - Hume, Williams, Campbell, Maurin
+        - przykład: model przedmiotu jako wiązki tropów: Maurin
+            - świat składa się wyłącznie z tropów, przedmioty są wiązkami 
+            współobecnych tropów
+            - relacja współobecności również jest tropem
+            - jest tropem relacyjnym (=nie monadycznym)
+            - tropy monadyczne są przechodnie; tropy relacyjne są nieprzechodnie
+            - gdyby wszystkie tropy były nieprzechodnie, wtedy wszystkie 
+            własności obiektów byłyby dla nich konieczne
+            - istnienie relacji (relacyjnego tropu) zależy od istnienia członów 
+            tej relacji; istnienie członów tej relacji nie zależy od istnienia 
+            relacji
 
 ### Dwa pojęcia: indywidualność a jednostkowość
 
+- jednostkowość = przeliczalność przedmiotów, pojedynczość każdego przedmiotu
+- indywidualność = identyfikowalność i rozpoznawalność przedmiotu jako ten 
+właśnie przedmiot
+- Lowe: policzalność (jednostkowość) to nie to samo, co kryteria identyczności 
+(indywidualność)
+- podobnie Castaneda: individuation is not non-identity (diversity)
+
+## Wykład 11. Umysł a identyczność
+
+### Tożsamość
+
+- charakterystyki mentalistyczne -- podstawy propozycjonalne
+    - na przykład: ja myślę o czymś, marzę
+    - relacja między treścią a czymś
+    - warunki prawdziwości
+    - treść rozumiana na 2 sposoby: fenomenalny i semantyczny (niewspółmierne 
+    pod względem bogactwa)
+        - treść rozumiana semantycznie -- semantic mental content
+            - uboga treść o charakterze semantycznym
+            - może być rozumiana jako
+                - zbiory sensów (po Fregańsku)
+                - zbiory przedmiotów i konfiguracji przedmiotów (po 
+                Russellowsku), choć tu ktoś mógłby powiedzieć, że nie jest to 
+                koncepcja semantyczna, bo mamy przedmiotową treść
+            - treść jest po prostu treścią sądu, czyli treścią sądu "myślę 
+            o złotej górze" są złote góry
+            - warunki prawdziwości: jakie są warunki sądu np. o złotej górze?
+        - treść rozumiana fenomenalnie
+            - nieskończona ilość "mental qualities"; oprócz semantyki mamy 
+            jakościową treść (w... menta content QMC) -- jakościowe wartości
+            - są to jakieś subiektywne treści
+            - ktoś może mówić, że widzi złotą górę i w tym sensie może to być 
+            jakościowa treść, bo może to sobie wyobrażać i w ten sposób to 
+            widzieć
+    - w jakim zakresie możliwa jest redukcja względem własności fenomenalnych 
+    i semantycznych
+        - treść mentalna może być zamodelowana:
+            - na wzór percepcji (strumień wrażeń, który konstytuuje treść)
+            - jako sąd jednostkowy, który coś mówi o danym przedmiocie; treść 
+            fenomenalna zbiorem sądów jednostkowych -- jeśli tak, to być może 
+            udałoby się przeprowadzić translację z treści fenomenalnej do 
+            semantycznej
+- spór o naturę umysłu będzie dotyczyć tego w jaki sposób rozumieć pewne 
+zjawiska mentalne, które sugerowałyby, że myślimy nie tylko w kategoriach 
+naturalistycznych/fizykalistycznych -- mamy dwie opcje:
+    - stanowisko dualistyczne:
+        - dualizm substancji: przedmiot rozciągły i przedmiot intelektualny (po 
+        kartezjańsku)
+        - dualizm atrybutu: jeden podmiot, natomiast dwa atrybuty (po 
+        Spinozjańsku jakby) -- atrybuty związane z myśleniem i podstawą 
+        materialną
+    - stanowisko monistyczne:
+        - spirytualistyczny (Leibniziański jakby) -- nie interpretujemy 
+        w kategoriach przestrzennych, raczej aprzestrzennych i aczasowych
+        - materialistyczny -- wszystkie dualizmy i amaterializmy to tylko bajki; 
+        w zasadzie jest to przejściowy naturalizm, który zakłada, że teraz nie 
+        jesteśmy w stanie opisać wszystkiego bez zjawisk mentalnych, ale może 
+        kiedyś będziemy w stanie
+            - eliminacjonizm
+                -wykazuje się, że nie istnieje żaden alternatywny metafizycznie 
+                zbiów wartości (wtedy na przykład nie ma semantic content)
+            - redukcjonizm
+                - musimy dokonać redukcji (neuronauka i kognitywistyka do tego 
+                dąży)
+                - musimy znaleźć powiązania, najczęściej szukamy ich na poziomie 
+                zjawisk biologicznych -- na przykład wyobrażenie sobie jest 
+                działaniem pewnego ośrodku w mózgu; wysoka cane za takie 
+                podejście; działanie mózgu byłoby nie mechanizmem osobniczym, 
+                dałoby się je wyrazić za pomocą ogólnych praw, treści percepcji 
+                raczej traktujemy nie jako generyczną, tylko indywidualną; to 
+                podejście wyjaśnia marzenia, wyobrażenia gatunkowe, ale nie 
+                indywidualne
+                - wykazanie, że QMC mamy z perspektywy piperwszoosobowej, AMC 
+                jest redukowalny do zjawisk biologicznych, które go wytwarzają
+                - model korelacyjny wyjaśnia jak to się dzieje, że ludzie mają 
+                marzenia, ale nie wyjaśnia skąd i jak biorą się konkretne 
+                marzenia, np. moje; niewspółmierność logiki typów i tokenów 
+                (token to byt indywidualny; typ to jako taki)
+                - podejście seperweniencyjne:
+                    - schodzimy w dół z AMC do bazy biologicznej
+                    - nie da się usunąć QMC, bo to, co się dzieje na poziomie 
+                    zjawisk biologicznych to zjawiska typowe, są to typy
+                    - wszystkie zjawiska są tpowe
+                    - jak to rozwiązać? mamy jeden typ, ale wiele tokenów
+                    - różne tokeny superweniują na tym samym typie
+                    - u każdego z nas wrażenie zmysłowe jest inne przez tokeny
+                    - inne podejście -- różne typy, ale mamy do czynienia 
+                    z jednym tokenem; kontent pojawiający się przy czytaniu 
+                    brajlem jest ten sam, co przy zwykłym czytaniu, jeden zmysł 
+                    może w pewnym sensie "zastąpić" drugi
+                - podejście emergentystyczne
+                    - kierunek z góry w dół, czyli z bazy biologiczno-fizycznej 
+                    do QMC
+                    - w ramach organizmu, na poziomie biologicznym zachodzi 
+                    mnóstwo skomplikowanych działań, z tego wyłoni się zjawisko 
+                    mentalne
+                    - nie możemy o nim mówić jako o biologicznym/fizycznym, ono 
+                    zmieniło skomplikowanie
+                    - występuje przesilenie ze względu na przesilenie systemu 
+                    i wtedy skumulowana wcześniej treść pozwala przejść do 
+                    kolejnego poziomu
+                    - przeskok do nowej jakościowo płaszczyzny
+                - jeśli chodzi o redukcję, to mamy problem z wolicjonalnością, 
+                intencją, jakościami mentalnymi
+- problem tożsamości
+    - jeśli nie ma ona mieć charakteru deflacyjnego, to będzie nam chodziło 
+    o trwanie przedmiotu istniejącego w czasie:
+        - endurantyzm
+            - przedmiot w całości trwa i zachowuje własności oraz tożsamość
+            - jak wyjaśnić zmianę przedmiotów?
+            - przedmiot trójwymiarowy
+        - perdurantyzm
+            - są pewne części przedmiotu (części czasowe), które podlegają 
+            zmianie, one się utrzymują, są podstawą tożsamości
+            - przedmiot czterowymiarowy
+    - dwa typy własności:
+        - esencjalne
+        - akcydentalne -- są podstawą rozróżnienia rzeczy i podstawą zmiany
+        - można uznać, że cechy esencjalne trwają a akcydentalne się zmieniają, 
+        ale kryterium identyczności jest rozmyte
+        - jeśli uznamy to za generyczne kryterium, to wciąż nie wyjaśnia 
+        indywidualnych zjawisk mentalnych, bo dotyka to jedynie tego, co 
+        generyczne
+        - płaszczyzna gatunkowa (tożsamość generyczna)
+        - płaszczyzna indywidualna
+        - jeśli mamy przedmioty określone przez esencję indywidualną, to musi 
+        tam być coś, co wykracza poza esencję generyczną; jednak jeśli włączy 
+        się za dużo własności akcydentalnych, to też niedobrze, bo nie możemy 
+        rozeznać które własności są które; będzie rozmycie między esencjalnymi 
+        a akcydentalnymi własnościami, będą opalizować na siebie nawzajem
+        - problemy -- czy na przykład choroba psychiczna jest taką zmianą 
+        własności, która zmienia tożsamość indywidualną? można powiedzieć, że 
+        w momencie, gdy ta choroba staje się własnością esencjalną, to zmienia 
+        tożsamość indywidualną; ale można też powiedzieć, że to jest tylko 
+        własność akcydentalna i nie zmienia tożsamości
+    - przed Hume'm:
+        - teorie substancji, w których własności się realizują jako przedmiot 
+        indywidualny
+        - tak długo, jak jest ten stan istnienia, tak długo własności będą 
+        funkcjonować
+    - Hume:
+        - tożsamość numeryczna całkowicie odrzucona
+        - nie da się podać kryterium, przy pomocy którego można powiedzieć, że 
+        a jest a
+        - nic nie możemy powiedzieć o przedmiotach, mamy dostęp do wrażeń 
+        i pewnych idei, które istnieją w umyśle
+        - da się powiedzieć tylko tyle, że albo mamy własności materialne, albo 
+        relacje między stanami psychicznymi, które decydują, że to my
+    - dwa kryteria w debacie nad tożsamością człowieka:
+        - biologiczne (fizyczne)
+            - pomiędzy czasem t1 a t15 występuje przynajmniej jedna niezbywalna 
+            część, która powoduje, że mamy do czynienia z jednym przedmiotem
+            - jednak mamy wymianę komórek, w końcu zostaniemy z samym DNA, a ten 
+            materiał może się różnie realizować
+            - nawet jeśli, to nie gwarantuje ona jeszcze odpowiedzialności 
+            etycznej, moralnej, ...
+            - nawet jeśli fizyczność jest ta sama, to niekoniecznie QMC 
+            pozostaje ten sam
+        - psychologiczne (psychiczne)
+            - możemy wymienić parametry, które mogą odgrywać rolę subkryteriów 
+            ciągłości
+            - możemy odwołać się do świadomości; możemy odwołać się do jaźni 
+            (ośrodka, który odpowiada za sprawstwo i świadomość); możemy odwołać 
+            się do cech charakteru; możemy się odwołać do pamięci
+            - pamięć -- jest zawodna, co do natury ontologicznej jest 
+            schemantyczna, nie pamiętamy szczegółów, można ją przypisać wielu 
+            podmiotom
+            - ośrodek sprawstwa -- jednak czy jest on indywidualny? a może tylko 
+            z naszej perspektywy?
+            - świadomość -- nie jest do końca jasne, czy da się to 
+            zuniwersalizować, jest to perspektywa pierwszoosobowa, to nasza 
+            tożsamość z sobą, jest dostępna tylko i wyłącznie nam
 
 
 
+20.12. 22/22 Danuta 55/57 ja
+Seba: umysł i identyczność
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Seba -- esencjalizm -- 15/50
-
-
-
-
-
-20.12. 13/22 Danuta 28/57 ja | problem istnienia Boga
-Seba: esencjalizm
-
-
-
-
-13.12. -- esencjalność
-20.12. -- problem istnienia Boga
-03.01. -- teoria przedmiotu
-17.01. -- tożsamość
 24.01. -- spór o realizm
 
 
