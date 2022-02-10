@@ -3359,10 +3359,124 @@ naturalistycznych/fizykalistycznych -- mamy dwie opcje:
             zuniwersalizować, jest to perspektywa pierwszoosobowa, to nasza 
             tożsamość z sobą, jest dostępna tylko i wyłącznie nam
 
+### Seba o umyśle i identyczności
+
+#### Umysł jako problem filozoficzny
+
+- Trzy podstawowe aspekty stosowania kategorii mentalnych:
+    1. Opis i nazwanie zjawisk sui generis (pewnego rodzaju), do których nie 
+    jesteśmy w stanie wprost zastosować kategorii fizykalistycznych
+    2. Wyjaśnienie zachowań i fenomenów, z którymi mamy do czynienia na codzień
+    3. Ujęcie zachowań i fenomenów mentalnych jako podlegających normatywności
+- Cztery kategorie problemów:
+    1. Ontologiczny: czy istnieje i jaką ma naturę?
+    2. Epistemologiczny: jak go poznajemy?
+    3. Semantyczny: czy język, który używa terminów mentalnych, coś stwierdza, 
+    mówi o czymś, do czegoś się odnosi?
+    4. Pragmatyczno-funkcjonalny: do czego służy?
+- Skąd wiemy, że umysł istnieje?
+    - wiedza potoczna (folk psychology)
+        - dostarcza informacji na temat:
+            - przeżyć, zachowań i postaw innych podmiotów (ludzi i zwierząt, np 
+            Dżok z radości szczegał już od mojego wejścia do domu)
+            - efektywności hipotez mentalistycznych (np Julia zapragnęła kupiś 
+            nowe buty, dlatego pracuje po godzinach)
+            - trafności posługiwania się kategoriami mentalnymi (np Julia jest 
+            szczęśliwa z powodu nabycia nowych butów, a Magda jej zazdrości)
+    - refleksja pierwszoosobowa i analiza zachowań językowych i postaw 
+    propozycjonalnych oraz zjawisk fenomenalnych
+        - wyniki refleksji filozoficznej nad umysłem:
+            - egzystencjalna: niezbywalność hipotezy o istnieniu struktury 
+            gwarantującej trwanie osób w formie niefizycznej
+            - esencjalna: niezbywalność hipotezy o elemencie nadającym określony 
+            charakter ciałom (determinującym do gatunku człowiek)
+            - funkcjonalna: niezbywalność hipotezy o istnieniu elementu 
+            gwarantującego pewną klasę funkcjonalności (logicznych)
+            - aksjologiczna: niezbywalność hipotezy o elemencie określającym 
+            aksjologiczne zobowiązania osób (podmiotów)
+    - badania naukowe
+        - czego dowiadujemy się od nauki na temat umysłu?
+            - istnieje biologiczna (fizyczna) podstawa funkcji mentalnych
+            - zjawiska mentalne mogą być interpretowane w kategoriach 
+            przyczynowych
+            - zjawiska mentalne mogą być ujmowane w ramach praw przyrody
+
+#### Umysł jako problem naukowy
+
+- Podstawowe pytania:
+    - Jaki model umysłu jest eksplanacyjnie najbardziej przekonujący?
+    - Jakie struktury biologiczne odpowiadają za zjawiska i czynności mentalne?
+    - Czy istnieją prawa opisujące zjawiska mentalne?
+    - Czy życie mentalne ma charakter deterministyczny czy indeterministyczny?
+- Modele umysłu:
+    - Ze względu na charakter przetwarzania informacji:
+        - komputacyjny
+        - koneksjonistyczny
+    - Ze względu na zakres przetwarzania informacji:
+        - zunifikowany (unified)
+        - modularny (modular)
+    - umysł jako maszyna obliczeniowa (tzw. metafora komputerowa) -- 
+    architektura
+    - umysł jako maszyna wykonująca zadania (działania) -- funkcjonalności
+- Pytanie zasadnicze: które regiony centralnego układu mentalnego odpowiadają za 
+funkcje mentalne?
+    - Przykładowe funkcje mentalne:
+        1. percepcja
+        2. pamięć
+        3. podejmowanie decyzji
+        4. rozumowanie i wnioskowanie
+        5. emocje
+        6. poczucie tożsamości
+        7. myślenie abstrakcyjne
+        8. zachowania językowe, etc
+    - Dwa zasadnicze podejście:
+        1. strukturalno-organizacujne
+            - istnieją wyspecjalizowane obszary mózgu, które odpowiadają za 
+            odpowiednie funkcje mentalne; rolą nauk kognitywnych jest 
+            lokalizacha tychże obszarów i ich opis
+        2. organizacyjno-funkcjonalne
+            - funkcje mentalne są realizowane przez zorganizowane w odpowiedni 
+            sposób struktury biologiczne; rolą nauk kognitywnych jest 
+            zidentyfikowanie, które struktury biologiczne biorą udział w danych 
+            funkcjach mentalnych
+    - Podglądamy funkcje mentalne realizowane przez mózg:
+        1. uszkodzenia, degeneracje i patologie centralnego układu nerwowego 
+        (ludzi i zwierząt)
+        2. badania neuropsychologiczne oraz etiologii chorób psychicznych
+        3. elektryczna stymulacja mózgu
+        4. obserwacje aktywności elektrycznej mózgu, np. EEG
+        5. PET (tomografia komputerowa)
+        6. MRi (rezonans magnetyczny)
+        7. NIRS
+    - Podstawowe założenia metodologiczne:
+        1. funkcje mentalne są współzależne względem zjawisk biologicznych 
+        w obrębie centralnego układu nerwowego
+        2. mechanizmy biologiczne determinują (przyczynowo określają) funkcje 
+        mentalne
+        3. organizacha biologiczna warunkuje możliwość występowania funkcji 
+        mentalnych
+
+#### Teorie umysłu
+
+- Dwa zasadnicze podejścia do umysłu:
+    - dualistyczne
+    - monistyczne
+
+
+
+
+#### Świadomość
+#### Identyczność
+
+
+
+Seba: umysł i identyczność 27/61
+
+
+
 
 
 20.12. 22/22 Danuta 55/57 ja 24.01. -- spór o realizm
-Seba: umysł i identyczność
 
 24.01. -- spór o realizm
 
