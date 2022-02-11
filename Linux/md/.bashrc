@@ -107,6 +107,7 @@ alias fresh='sudo apt update; sudo apt upgrade; sudo apt autoremove'
 alias bl=blueman-manager
 alias wi=nmtui
 alias mi=alsamixer
+alias br='xrandr --output LVDS-1-1 --brightness'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
