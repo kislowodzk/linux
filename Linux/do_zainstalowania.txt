@@ -32,6 +32,7 @@ Programy:
 - stacer
 - vlc
 - alacritty
+- alp    // bateria dla elementary
 - compton   // dla awesome wm - odpowiada za przezroczystosc terminala
 - gnome-screenshot   // dla awesome wm
 - nautilus   // -||-
