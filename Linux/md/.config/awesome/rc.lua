@@ -343,6 +343,14 @@ globalkeys = gears.table.join(
         end,
         {description = "go back", group = "client"}),
 
+
+
+
+    awful.key({ modkey, "Mod1"    }, "Right",     function () awful.tag.incmwfact( 0.01)    end),
+    awful.key({ modkey, "Mod1"    }, "Left",     function () awful.tag.incmwfact(-0.01)    end),
+    awful.key({ modkey, "Mod1"    }, "Down",     function () awful.client.incwfact( 0.01)    end),
+    awful.key({ modkey, "Mod1"    }, "Up",     function () awful.client.incwfact(-0.01)    end),
+
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),
@@ -672,4 +680,5 @@ beautiful.gap_single_client = true
 
 
 
+os.execute("xset r rate 350 43")
 
