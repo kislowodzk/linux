@@ -3541,18 +3541,75 @@ funkcje mentalne?
 
 #### Świadomość
 
+- Świadomość należy do centralnych własności mentalnych, którą skłonni jesteśmy 
+przypisywać ludziom i, z pewnymi zastrzeżeniami, innym istotom żywym
+- Podstawowa charakterystyka świadomości:
+    - zdolność do izolowania, identyfikowania i monitorowania cech bodźców 
+    i obiektór w środowisku
+    - zdolność do identyfikowania i monitorowania stanów innych podmiotów 
+    (agentów)
+    - zdolność do identyfikowania i monitorowania własnych stanów 
+    (samoświadomość)
+    - świadomość i samoświadomość są rozpatrywane prawie wyłącznie z perspektywy 
+    pierwszoosobowej (czyli dotyczą treści doznań)
+- Świadomość powiązana jest bezpośrednio z:
+    - intencjonalnością
+    - samokontrolą i samoregulacją
+    - podejmowaniem decyzji
+- Miękki problem świadomości (soft problem of consciousness):
+    - w jaki sposób w fizycznym świecie może pojawić się coś takiego, jak 
+    świadomość?
+- Twardy problem świadomości (hard problem of consciousness)
+    - jaka jest istota świadomości?
+
+#### Problem tożsamości (osobowej)
+
+- Problem identyczności: doświadczenie i język
+    - Statek Tezeusza: czy obiekt, któremu wymienimy wszystkie elementy 
+    w czasie, gdy trwa, jest tym samym obiektem?
+    - Tożsamość osoby:
+        1. czy osoba, której przeszczepilibyśmy mózg, jest tą samą osobą, którą 
+        była przed przeszczepem?
+        2. czy osoba, która powstałaby w momencie fuzji dwóch różnych osób, to 
+        ta sama osoba, którą była przed fuzją?
+    - Identyczność w języku naturalnym (JN):
+        - twarda identyczność w JN: ta (ten, to) sama (sam, samo); taki sam; 
+        identyczny; tożsamy; taki, jak; etc
+        - miękka identyczność w JN: wykapany; nieodróżnialny; kopia; 
+        wypisz-wymaluj; skóra zdjęta z; etc
+    - Semantyka i logika identyczności:
+        1. zdania identycznościowe
+            - "Wenus to Wenus"
+            - "Wenus to Gwiazda Poranna"
+            - "Gwiazda Powanna to Wenus i Gwiazda Wieczorna to Wenus"
+        2. Logiczna forma zdań identycznościowych
+            - "x = x"
+            - "x = y"
+            - "y = x ^ z = x"
+- Rodzaje identyczności
+    - Natura identyczności a kryteria identyczności:
+        - Natura
+            - charakterystyka pojęcia/stanu rzeczy
+        - Kryterium:
+            - narzędzie, dzięki któremu stwierdza się, czy dany obiekt x jest 
+            identyczny z sobą samym lub/i danym obiektem y
+            - pozwala odróżnić przedmioty danego rodzaju od wszystkich innych 
+            przedmiotów
+            - pozwala wykazać, kiedy mamy do czynienia z jednym przedmiotem 
+            danego rodzaju
+            - nie podaje warunków identyczności dla x i y jako takich, ale dla 
+            x i y będących F
 
 
 
 
+- Identyczność a problemy metafizyki człowieka
+- Kryteria somatyczne identyczności osobowej
+- Kryteria psychologiczne identyczności osobowej
 
 
 
-#### Identyczność
-
-
-
-Seba: umysł i identyczność 36/61
+Seba: umysł i identyczność 44/61
 
 
 
