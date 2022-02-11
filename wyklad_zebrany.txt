@@ -3460,17 +3460,99 @@ funkcje mentalne?
 
 - Dwa zasadnicze podejścia do umysłu:
     - dualistyczne
-    - monistyczne
-
-
-
+        - substancji -- istnieją dwie odrębne co do natury rodzaje obiektów: 
+        ciało i umysł (dusza)
+            - dualizm substancji (Descartes, współcześnie Swinburne)
+            - ciało i umysł należą do dwóch różnych, wzajemnie do siebie 
+            nieredukowalnych kategorii ontologicznych (typów przedmiotów)
+            - podstawowa charakterystyka: ciała zajmują miejsce w przestrzeni 
+            (są czasoprzestrzenne); podczas gdy umysły są nieprzestrzenne 
+            i nietemporalne
+            - podstawowy problem: w jaki sposób oba typy obiektów oddziałują na 
+            siebie?
+        - atrybutów -- istnieje jeden rodzaj obiektu, lecz posiada dwa 
+        nieredukowalne do siebie rodzaje atrybutów
+            - dualizm atrybutywistyczny (Strawson)
+            - osoby są indywiduami identyfikowanymi jako ciała posiadające dwa 
+            typy własności (atrybutów): fizyczne i mentalne (psychiczne, 
+            duchowe, etc.)
+            - podstawowa charakterystyka: atrybuty wyrażane są (określane są) za 
+            pomocą nieredukowalnych do siebie predykatów (orzeczników)
+            - podstawowy problem: jaki typ oddziaływania można przypisać 
+            atrybutom mentalnym?
+        - funkcjonalny -- istnieje jeden rodzaj obiektu, lecz realizuje co 
+        najmniej dwie odmienne od siebie funkcje
+            - dualizm funkcjonalny (Atrystoteles, Putnam)
+            - istnieje jeden typ obiektów, który spełnia nieredukowalne do 
+            siebie funkcje, wśród których są funkcje mentalne
+            - podstawowa charakterystyka: ciała mają charakter fizyczny (i są 
+            opisywane w kategoriach ontologicznych przedmiotów/obiektów), 
+            natomiast funkcje są opisywane w kategoriach zadań, celów 
+            i rezultatów
+            - podstawowa trudność: jaka organizacja odpowiada za spełnianie 
+            funkcji mentalnych?
+            - uwaga: funkcjonalizm może być zarówno wersją stanowiska 
+            dualistycznego, jak i monistycznego
+    - monistyczne -- monizm:
+        - materialistyczny (fizykalistyczny) -- osoby (ludzie) to istoty 
+        wyłącznie fizyczne/biologiczne [osoby są obiektami wyłącznie 
+        o charakterystyce fizykalnej (biologicznej)]
+            - założenia
+                - istnieje jeden typ obiektów
+                - istnieje jeden typ charakterystyki dla obiektów danego rodzaju
+                - inne typy charakterystyk są albo redukowalne (redukcjonizm), 
+                albo eliminowane (eliminacjonizm)
+        - spirytualistyczny -- osoby (ludzie) to istoty wyłącznie niefizyczne 
+        (duchowe)
+        - neutralny -- osoby (ludzie) nie są ani ciałami 
+        fizycznymi/biologicznymi, ani istotami niefizycznymi
+        - odmiany monizmu:
+            - fizykalizm:
+                - identyczność typów lub egzemplarzy
+                - J.J. Smart, J. Kim
+                - bardzo popularne podejście
+                - zjawiska i stany mentalne są identyczne ze zjawiskami 
+                i stanami centralnego układu nerwowego
+                - J. Kim sugeruje, że zjawiska i stany mentalne superweniują 
+                (nadbudowują się) na stanach biologicznych (fizycznych)
+            - monizm anomalny
+                - D. Davidson
+                - zjawiska i stany mentalne są identyczne ze zjawiskami 
+                i stanami fizycznymi (dla każdej wypowiedzi w języku mentalnym 
+                da się sformułować stosowną wypowiedź w języku fizykalnym)
+                - w ogróżnieniu od fizykalizmu: zjawiskami mentalnymi nie rządzą 
+                żadne prawa (dlatego anomalny)
+            - emergentyzm
+                - R. Sperry
+                - zjawiska i stany mentalne nie redukują się do zjawisk i stanów 
+                fizycznych, ale są wynikiem większej złożoności organizacyjnej 
+                i funkcjonalnej centralnego układu nerwowego (w ten sposób 
+                wyłania się świadomość, wolna wola, intencjonalność, etc.)
+            - behawioryzm
+                - G. Ryle
+                - język mentalny jest skrótowym, pragmatycznie efektywnym 
+                skrótem dla zachowań i skłonności do zachowań w określony sposób 
+                w reakcji na dane bodźce występujące w środowisku
+            - funkcjonalizm
+                - H. Putnam
+                - zjawiska i stany mentalne pełnią jedynie określone funkcje 
+                w systemie poznawczym
+                - w metaforze komputerowej są jak software do hardware'u
 
 #### Świadomość
+
+
+
+
+
+
+
+
 #### Identyczność
 
 
 
-Seba: umysł i identyczność 27/61
+Seba: umysł i identyczność 36/61
 
 
 
