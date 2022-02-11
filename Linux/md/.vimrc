@@ -26,7 +26,7 @@ nnoremap <C-h> h
 nnoremap <C-l> l
 set display+=lastline
 set backspace=indent,eol,start
-set scrolloff=5
+set scrolloff=10
 " Uwaga, jeśli linia będzie się kończyła białym znakiem takim jak spacja, to
 " mogą być problemy z automatycznym łączeniem linii
 set fo+=t
