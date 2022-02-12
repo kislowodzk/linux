@@ -4,14 +4,14 @@
 
 ### Tematy wykładów
 
-1. Czym jest metafizyka? ------------------------------------------------------
-2. Krytyka metafizyki: od sądów syntetycznych a priori do deflacjonizmu -------
+1. Czym jest metafizyka?
+2. Krytyka metafizyki: od sądów syntetycznych a priori do deflacjonizmu
 3. Metody metafizyki tradycyjnej i współczesnej
 4. Byt. Podejście historyczno-analityczne
 5. Istnieć. Od Kanta do aktualnych dyskusji
 6. Teorie przedmiotu
-7. Spór o uniwersalia ---------------------------------------------------------
-8. Spór o uniwersalia c.d. ----------------------------------------------------
+7. Spór o uniwersalia
+8. Spór o uniwersalia c.d.
 9. Esencjalizm klasyczny
 10. Esencjalizm współczesny
 11. Umysł a identyczność
@@ -41,7 +41,7 @@ nie epistemologii, ponieważ żeby rozważać nieznajomość świata musimy
 presuponować, że istnieje świat.
 
 Wobec problemów egzystencjalnych nie przechodzimy obojętnie. Filozofowie 
-podchodzą do niego konceptualnie, chcą dokonać maksymalnego rozróżnienia pojęć.  
+podchodzą do niego konceptualnie, chcą dokonać maksymalnego rozróżnienia pojęć. 
 Problem ten będzie zdepersonalizowany. Nie doszukujemy się jego doniosłości 
 w indywidualnym odbiorze, ale w zjawisku powszechnym.
 
@@ -145,7 +145,7 @@ Czym się zajmuje:
 ### Arystotelesowska koncepcja filozofii pierwszej
 
 Przedmiotem jest [byt jako byt]. Pierwsze "byt" jako konkret, drugie jako 
-abstrakcja. W tekście podstawienia: "byt jako substancja", "byt jako prawda".  
+abstrakcja. W tekście podstawienia: "byt jako substancja", "byt jako prawda". 
 Celem analiza, która miała w znaczeniu terminu odnoszącego się do przedmiotu, 
 uchwycić istotną charakterystykę.
 
@@ -215,7 +215,7 @@ determinuje sposób myślenia o świecie
 
 ### Mefizyka a ontologia
 
-Współczesne rozróżnienie między metafizyką a ontologią obecne jest m. in.  
+Współczesne rozróżnienie między metafizyką a ontologią obecne jest m. in. 
 u Jacquette'a. Ontologia zajmuje się analizą logiczną struktur pojęciowych, 
 podczas gdy metafizyka jest formą aplikacji tych pojęć. Jest wiele ontologii, 
 ale właściwie jedna metafizyka.
@@ -286,7 +286,7 @@ Metateoria metafizyki?
 - pierwsza zasada -- podstawowa reguła, która stoi u podstaw czegoś
 - wyrażenie fundamentalnej sytuacji ontologicznej, która steruje całym dyskursem 
 metafizycznym
-- korzysta z wielu metod, na pierwszy plan wybijają się metody właściwe dla tzw.  
+- korzysta z wielu metod, na pierwszy plan wybijają się metody właściwe dla tzw. 
 metafizyki opisowej:
     - opis działania
     - analiza aparatu pojęciowego
@@ -302,7 +302,7 @@ prowadzi do drugiego. Podaje je Arystoteles. Wyróżnione:
 - relacje:
     - relacje wewnętrzne: obiekt -- własności [to jest (tak mi się wydaje) 
     struktura przedmiotu; pytanie, czy struktura jest stabilna, czy dynamicznie 
-    się zmienia jak gdyby była płynna, czy może jest to istotowo tym samym?  
+    się zmienia jak gdyby była płynna, czy może jest to istotowo tym samym? 
     Problem identyczności, trwania w czasie, uniwersaliów, indywiduów, praw, 
     które miałyby określać jak rzeczy mają się zachowywać]
     - relacje zewnętrzne: obiekt -- obiekt
@@ -626,8 +626,8 @@ Pierwszy i drugi Wittgenstein
 - twierdzenia meatfizyczne ma cechować zarówno konieczność jak i ważność 
 przedmiotowa
 - w Traktacie... wiedza konieczna zostaje sprowadzona do zbioru nic nie 
-mówiących o świecie tautologii (w sensie logicznym); w Dociekaniach...  
-podobnie, choć tutaj jest przedstawiona jako reguła gramatyki
+mówiących o świecie tautologii (w sensie logicznym); w Dociekaniach... podobnie, 
+choć tutaj jest przedstawiona jako reguła gramatyki
 - dwa rozróżnienia Wittgensteina:
     - to, co można powiedzieć vs to, co można pokazać (Traktat)
     - dociekania nad faktami vs dociekania pojęciowe (Dociekania)
@@ -823,7 +823,7 @@ w wielu w całości, będące składnikami rzeczy
     transcendentne, czy immanentne)
     - dodatkowe pytanie, które można zadać: czy uniwersalia mogą istnieć bez 
     swoich egzemplifikacji?
-    - skoro mamy 3 podstawowe pytania (czy są idealne? transcendentne?  
+    - skoro mamy 3 podstawowe pytania (czy są idealne? transcendentne? 
     niezależne?) to możemy sprawdzić możliwe odpowiedzi:
         - 3 x tak -- Platon, Russell
         - 3 x nie -- Armstrong
@@ -957,7 +957,7 @@ Problem jednostkowienia
         - 1.1 co sprawia, że indywiduum jest indywiduum (indywidualność)
         - 1.2 co sprawia, że dane indywiduum jest tym konkretnym indywiduum 
         (identyczność)
-        - 1.3 co sprawia, że indywiduum jest tą konkretną jednostką (jednym)?  
+        - 1.3 co sprawia, że indywiduum jest tą konkretną jednostką (jednym)? 
         (jedność)
 - w tradycyjnej metafizyce tym, co jednostkuje jest najczęściej coś, co ma 
 charakter absolutny (nierelacyjny -- należący do wewnętrznego uposażenia 
@@ -974,7 +974,7 @@ przedmiotu)
         - istnienie (Awicenna, Tomasz)
         - różnica indywidualna (Duns Szkot)
     4. Fundamentalna indywidualność (Abelard, Ockham, Buridan)
-- na problemy z jednostkowieniem za pomocą AKCYDENSÓW zwrócił uwagę m.in.  
+- na problemy z jednostkowieniem za pomocą AKCYDENSÓW zwrócił uwagę m.in. 
 Abelard; argumentuje on, że:
     - aby spełniać funkcję jednostkowienia akcydensy musiałyby poprzedzać cechy 
     esencjalne i konkret
@@ -2315,7 +2315,7 @@ niepożądanych zjawisk logiczno-semantycznych:
 - Pytanie: co w bycie sprawia, że dany przedmiot istnieje?
     1. Istnieje Kołodziejczyk -- to znaczy, że istnieje takie x, o którym 
     mówimy, że jest Kołodziejczykiem; nie jest to atrakcyjne podejście
-    2. Jeśli x realizuje określoną strukturę, to X istnieje; jaka to struktura?  
+    2. Jeśli x realizuje określoną strukturę, to X istnieje; jaka to struktura? 
     (nie interesują nas struktury fizyczne, biologiczne, ...)
         1. relacje między elementami -- coś zachodzi w strukturze przedmiotu, co 
         sprawia, że przedmiot istnieje
