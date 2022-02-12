@@ -41,4 +41,5 @@ nnoremap <f6> :set list<enter>
 nnoremap <f5> :set nolist<enter>
 " Żeby nie dodawał podwójnej spacji po kropce na końcu zdania
 set nojoinspaces
+set clipboard^=unnamed,unnamedplus
 

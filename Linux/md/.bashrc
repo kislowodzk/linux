@@ -108,6 +108,7 @@ alias bl=blueman-manager
 alias wi=nmtui
 alias mi=alsamixer
 alias br='xrandr --output LVDS-1-1 --brightness'
+alias open=xdg-open
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
