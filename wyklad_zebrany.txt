@@ -3727,12 +3727,169 @@ przypisywać ludziom i, z pewnymi zastrzeżeniami, innym istotom żywym
 
 ## Wykład 12. Spór o realizm
 
--- to dokończę i KONIEC
-
-20.12. 22/23 Danuta 55/57 ja
-24.01. -- spór o realizm
-
-
-
-
+- Michael Dummett: 2 tezy podstawowe dla istnienia realizmu:
+    1. Świat istnieje niezależnie
+    2. Prawda wyrażana w sądzie jest zależna od czegoś, co jest od tego sądu 
+    niezależne. Prawdziwość uzyskujemy nie dzięki czemuś, co jest wewnątrz 
+    sądów, tylko przez pewne fakty od sądów niezależne
+    - Spór o realizm jest tak naprawdę sporem o istnienie. Od kontekstu 
+    egzystencjalnego będzie zależało to, jak poprowadzimy argumentację
+    - Drugi aspekt: Jaka jest relacja między umysłem a światem? Spór jest 
+    w pewnym sensie sporem o moc epistemiczną podmiotu, nie ma tu ucieczki od 
+    aspektów epistemicznych
+        - to nie znaczy, że epistemologia wyprzedza ontologię
+    - Trzeci aspekt: semantyczny, który może być rozkładany na czynniki 
+    pierwsze. Dowolny sąd, który jest prawdziwy, potrzebuje czegoś 
+    niepropozycjonalnego, żeby być prawdziwym; muszą być określone obiekty, 
+    z którymi mamy do czynienia
+- Historycznie:
+    - Spór o uniwersalia jednym z aspektów tego sporu. Mamy rodzaj zależności 
+    metafizycznej, która lepiej wyjaśnia zależności. W sporze o uniwersalia 
+    w skrajnym realizmie mamy uniwersalia jako podstawę dla bytów jednostkowych
+    - Najbardziej skrajna forma idealizmu -- istnieje byt, który dokonuje 
+    wytworzenia całego innego bytu. W teizmie mamy konstrukcję idealistyczną. 
+    Świat jest zależny od bytu, który posiada zdolność ubezwłasnowolnienia 
+    metafizycznego całego innego bytu. Nie jesteśmy w stanie uniknąć tezy 
+    idealistycznej. Jeśli wszystko jest zależne od Boga, to nie może być tak, że 
+    istnieje taka sama relacja między umysłem a tymi bytami. Z perspektywy 
+    człowieka jesteśmy realistami, z perspektywy Boga musimy przyjąć założenie 
+    o idealizmie (zależności świata od niego). To odciąża nas od tezy 
+    idealistycznej -- Bóg za wszystko odpowiada
+    - Zaczęto sobie uświadamiać, że między strukturą konceptualną, w której 
+    funkcjonujemy, a światem, jest pewna relacja, w której nie jestem w stanie 
+    pokazać, że wszystkie pojęcia mają żródło w rzeczach. Mamy pojęcia 
+    wysokopoziomowe (na przykład prawo), ale również pojęcie przyczynowości (co 
+    pokazuje Hume) jest kłopotliwe, jeśli chodzi o zakorzenienie 
+    w rzeczywistości
+    - Teoria Kanta:
+        - pierwsze fundamentalne podejście metafizyczne i epistemologiczne
+        - rzeczy są dla nas zrelatywizowane do naszego aparatu poznawczego
+        - "rzeczy same w sobie", esencjalnie niezależne: być może takie są, ale 
+        nie jesteśmy w stanie nic takiego powiedzieć
+        - jedno z rozumowań, które ma niezwykle silną moc w heurystykach -- 
+        rozumowanie redukcyjne. Wprowadzamy utarte związki przyczynowe. Możemy 
+        pokazać, że wprowadzane są pewne skróty: jest skutek, więc musi być 
+        jakaś przyczyna. Musi być coś, co jest u podstawy fenomenów, rzeczy same 
+        w sobie byłyby gwarantem tych fenomenów
+        - nie jesteśmy w stanie fenomenów rozczytać, nie mamy wiążącej 
+        charakterystyki, którą możemy wprowadzić
+        - co do tezy ontologicznej -- mamy determinatory, które wytwarzają 
+        struktury, za pomocą których fenomeny są porządkowane -- kategorie jako 
+        mechanizmy porządkowania
+        - to, w jaki sposób otrzymujemy treści, jest zależne od aparatu 
+        poznawczego
+        - czy stanowisko Kanta jest idealizmem transcendentalnym (to 
+        oddzielałoby nas od świata rozumianego jako baza), czy realizmem 
+        transcendentmym (który jest kosztowny)?
+    - Hegel
+        - Fenomenologia ducha:
+            - Podstawowa teza: zjawiska percepcyjne (a wcześniej sensoryczne), 
+            nie mogą być zjawiskami niezależnymi od bardziej zaawansowanych 
+            struktur, od innych aparatów podmiotu
+            - nie ma możliwości zaprezentowania bytu inaczej, niż przez 
+            powiązanie percepcji z elementami o charakterze konceptualnym
+            - właściwie wszystkie elementy struktury epistemicznej są 
+            strukturalnie zależne od pojęć
+            - umysł/świaomość uzewnętrzniający
+            - rozwój świadomości od świadomości percepcyjnej po absolutną
+            - niczego innego poza samą świadomością nie jesteśmy w stanie 
+            wykryć, jeśli mówimy o prawdziwości, to sąd jest zależny od siebie 
+            samego, bo podmiot nie wykrywa świata zewnętrznego
+            - nie da się inaczej modelować podmiotu niż przez powiązanie 
+            epistemicznych treści z konceptualnymi
+            - idealizm
+            - fenomenologia ducha, bo możemy prześledzić jak on się reprezentuje
+        - Nauka logiki:
+            - traktat metafizyczny, chcemy dowiedzieć się które to są pojęcia 
+            fundamentalne, jakie źródło mają i jak ostatecznie następuje ich
+            ufundowanie
+            - Podstawowa teza: podstawowe jest napięcie dialektyczne, które 
+            można rozciągnąć na dowolne pojęcia
+            - Druga teza: w jakim obszarze relacja dialektyczna operuje 
+            fundamentalnie? Między pojęciami, które stanowią prymarne pole 
+            metafizyczne: byt i nicość (nie niebyt rozumiany jako zaprzeczenie 
+            bytu) -- to tam mamy do czynienia z fundamentalną relacją
+            - z relacji dialektycznej między bytem a nicością wyłaniają się 
+            kolejne pojęcia metafizyczne, które zaczynamy rozumieć dopiero 
+            w kontekście relacji dialektycznej
+            - na pewno można skonfrontować to z innymi podejściami
+            - pojęcia, które się wyłaniają, między innymi pojęcia: istoty, które 
+            to pojęcie jest skutkiem tego, że jak sprzężymy ze sobą byt 
+            i nicość, to musimy sobie odpowiedzieć na pytanie, czy ta dialektyka 
+            daje nam jakąś informację o bycie
+            - Hegel mówi, że tak, daje: pojęcie istoty jest wynikiem napierania 
+            niebytu na byt
+            - do pojęcia istoty dialektycznie będzie sprzężona pojęcie tego, co 
+            nie jest istotą -- wszystkich własności przypadkowych
+            - kolejne pojęcie: dasein -- nicość napiera na pojęcie bytu, więc 
+            musi się wytworzyć jakaś określoność by nie doszło do anihilacji 
+            bytu i tym jest dasein; dotyczy tego oto poszczególnego przedmiotu 
+            -- zawsze gdy myślimy o bycie, myślimy o bycie określonym
+            - mamy też dialektyczne pojęcie bytu ogólnego
+            - wytworzenie pojęć fundamentalnych odbywa się na poziomie pojęć, 
+            nie na poziomie relacji ze światem
+            - nauka logiki pokazuje nam, że struktury logiczne są strukturami 
+            prymarnymi
+            - idealizm obiektywny jest dość skomplikowaną teorią, w ostatecznym 
+            rachunku dochodzimy do tego, że obie tezy istnienia realizmu są 
+            zaprzeczone
+- Współczesny format:
+    - Michael Dummett (lata 70-te):
+        - prezentuje on spór realizm/antyrealizm
+        - antyrealizm pokazuje jako klasę poglądów odnoszącą się do różnych 
+        aspektów
+        - pokazuje, że dyskusja realizm/antyrealizm wyznacza całkowicie schemat 
+        myślenia o różnych obszarach
+    - Ingarden -- Spór o istnienie świata
+        - idealizm jest stanowiskiem nie do obrony
+        - wychodzi od tezy: na wejściu zawsze mamy do czynienia z wieloma 
+        sposobami istnienia. Musimy pokazać pod jakim względem metafizycznie 
+        niezależne są one, nie mogą się pokrywać
+        - inaczej określa spór, niż Dummett, u Anglika mamy małe obszary, 
+        u Ingardena wielkie rzeczy metafizyczne, które najpierw trzeba 
+        rozstrzygnąć, jeśli tu uzyskamy odpowiedzi, to cała reszta się wyjaśni. 
+        Propozycje pod pewnym względem rozbieżne, jednak w obu na koniec trzeba 
+        odpowiedzieć na pytanie co sprawia, że sądy są prawdziwe oraz co 
+        sprawia, że możemy powiedzieć, że otrzymaliśmy dobrą odpowiedź. To 
+        antyrealizm jest podejściem, które musi walczyć, realizm jest 
+        zdroworozsądkowy
+- Argumenty ze współczesnej filozofii, które pokazują jak antyrealizm może być 
+pojęty:
+    - Argument z manifestacji:
+        - jeśli mamy do czynienia z podmiotem, to podmiot nie funkcjonuje 
+        w sytuacji wytwarzania czegokolwiek; mamy do czynienia z pewnego rodzaju 
+        manifestacją, stoimy wobec świata, świat nam się ujawnia
+            - konsekwencja realistyczna: więc musi coś być
+            - konsekwencja antyrealistyczna: ta konsekwencja jawi się jako 
+            przedstawienie czegoś realistycznego, ale nie możemy o tym niczego 
+            powiedzieć; argument z uczenia się języka: język nie jest wtłoczony 
+            w nasz system poznawczy, języka uczymy się poprzez relacje z innymi 
+            użytkownikami, ucząc się języka dochodzimy do pewnego optimum 
+            pojmowania świata
+    - Argumenty Putnama:
+        - jeśli mamy do czynienia ze strukturami pojęciowymi 
+        i propozycjonalnymi, to ze strony aktywności propozycjonalnej zawsze 
+        mamy jakąś perspektywę, jakąś współzależność. Zatem trudno jest 
+        powiedzieć jak niezależnie istniejący obiekt miałby uzyskać obiektywną 
+        charakterystykę. Nie możemy z boskiego umysłu zaczerpnąć opisu świata, 
+        nie możemy przeprowadzić rozumowania, które prowadziłoby do pełnego 
+        realizmu
+        - z mózgów w naczyniach: znaczenie ma charakter eksternalistyczny a nie 
+        internalistyczny. Nie jesteśmy w stanie dokonywać penetracji treści 
+        mentalnej innych podmiotów, samo przeniknięcie tej treści jest mało 
+        możliwe. Wydaje się, że powinniśmy przyjąć teorię eksternalistyczną. 
+        Jeśli przyjmiemy model eksternalistyczny, to musimy się zgodnić, że my 
+        jako podmioty nie określamy relacji między nami a przedmiotami. Ten 
+        argument może być realistyczny, może też być antyrealistyczny: w sumie 
+        nie wiemy jak jest. Eksternalizm ścieżką do sceptycyzmu, pytanie, czy 
+        znamy warunku. Stanowisko antyrealistyczne bardzo mocno tu pobrzmiewa -- 
+        nie istnieje żadna relacja między pojęciami a przedmiotami, w której to 
+        relacji te pojęcia są całkowicie dodeterminowane, ten element będzie 
+        przychodził z innych struktur. Więc antyrealizm (choć z drugiej strony 
+        częściowe dodeterminowanie przez przedmioty)
+    - Na koniec jedno z fundamentalnych rozwiązań antyrealistycznych: nie możemy 
+    się przyzwyczajać, że prawda jest zaczerpnięta z gruntu metafizycznego. 
+    W sumie wszystkie stanowiska antyrealistyczne będą stanowiskami antyrealizmu 
+    semantycznego -- prawdziwość nie będzie przeprowadzoona przez fakty, tylko 
+    jakoś inaczej
 
