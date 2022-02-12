@@ -3599,25 +3599,139 @@ przypisywać ludziom i, z pewnymi zastrzeżeniami, innym istotom żywym
             danego rodzaju
             - nie podaje warunków identyczności dla x i y jako takich, ale dla 
             x i y będących F
-
-
-
-
+    - Dwa podstawowe rodzaje identyczności:
+        - Numeryczna (def) = relacja równoważności, która zachodzi tylko między 
+        przedmiotem a nim samym
+        - Jakościowa (def) = relacja równoważności, która zachodzi między 
+        przedmiotami posiadającymi wszystkie cechy wspólne
+    - Rodzaje identyczności:
+        1. Identyczność rodzajowa (P. Geach)
+            - "x jest tym samym F, co y"
+        2. Identyczność względna
+            - "x = y i y = x, ale też x = z i y ≠ z"
+        3. Prawie identyczność (D. Lewis)
+            - "x jest prawie y" (identyczność absolutna = x jest całkowicie y)
+        4. Nieostra identyczność (G. Evans)
+            - "x jest w sposób nieostry identyczne z y"
+        5. Identyczność czasowa
+            - "x jest identyczne z y w czasie t1"
+        6. Identyczność w poprzek możliwych światów
+            - "x jest identyczne z y w każdym możliwym świecie"
 - Identyczność a problemy metafizyki człowieka
-- Kryteria somatyczne identyczności osobowej
+    - Cztery zasadnicze problemy (metafizyczne), które angażyją zagadnienie 
+    identyczności (tożsamości osobowej):
+        - śmierć (przetrwanie)
+            - jeśli istnieje możliwość przetrwania śmierci, wówczas pojawia się 
+            pytanie o to, co grwarantuje tożsamość mimo śmierci (ciała)
+        - odpowiedzialność (za swoje czyny)
+            - jeśli system etyczny i prawny ma mieć sens, musi zakładać jakieś 
+            rozumienie tożsamości osobowej (bycia tą samą osobą w czasie t1 
+            i t2)
+        - status umysłu
+            - jeśli umysł redukuje się do centralnego układu nerwowego, powstaje 
+            pytanie o to, jakie warunki muszą być spełnione, by mówić 
+            o tożsamości osoby
+        - jedność świadomości
+            - jeśli mamy zachować jedność doświadczenia wewnętrznego, pojawia 
+            się pytanie o gwarancję tejże jedności
+    - Dwa kryteria:
+        - Konstytutywne (def) = warunek(ki) konieczne i wystarczające, które 
+        muszą spełnić dwie osoby, by uznać je za tę samą
+        - Ewidencyjne (def) = świadectwa, za pomocą których stwierdzamy 
+        tożsamość osób
+    - Zasady rządzące identycznością:
+        1. relacja zwrotna: x=x; y=y
+        2. relacja symetryczna: x=y -> y=x
+        3. relacha przechodnia: x=y ^ y=z -> x=z
+        4. zasada ekskluzji: x=y -> ∃!x ∃!y (x=y)
+        5. zasada ścisłej determinacji: (x=y) v ~(x=y)
+    - Dwa zasadnicze typy kryteriów identyczności osobowej:
+        1. somatyczne
+            - założenia:
+                - ontologiczne:
+                    - człowiek/osoba jest cielesny
+                    - ciało jest wyłącznym/głównym nośnikiem identyczności
+                - metodologiczne:
+                    - wyjaśnienia somatyczne są ostatecznymi i najlepszymi 
+                    wyjaśnieniami problemu tożsamości
+                    - wszystkie inne wyjaśnienia są redukowalne do wyjaśnień 
+                    somatycznych
+                - epistemologiczne:
+                    - poznanie ciała dostarcza wiedzy koniecznej i/lub 
+                    wystarczającej na temat tożsamości osoby
+                    - wiedza o ciele pozwala wyodrębnić kryteria tożsamości 
+                    osobowej
+        2. psychologiczne
+            - założenia:
+                - ontologiczne:
+                    - człowiek/osoba ma (także) życie psychiczne
+                    - zjawiska psychiczne są ważnym elementem struktury 
+                    ontologicznej człowieka
+                    - zjawiska psychiczne mogą być nośnikiem tożsamości osobowej
+                - metodologiczne:
+                    - wyjaśnienia somatyczne nie są ostatecznymi i najlepszymi 
+                    wyjaśnieniami problemu tożsamości, należy uwzględniać 
+                    wyjaśnienia psychologiczne
+                    - wszystkie wyjaśnienia są redukowalne albo do wyjaśnień 
+                    somatycznych, albo psychologicznych
+                - epistemologiczne:
+                    - poznanie zjawisk psychicznych dostarcza wiedzy koniecznej 
+                    i/lub wystarczającej na temat tożsamości osoby
+                    - wiedza o zjawiskach psychicznych pozwala wyodrębnić 
+                    kryteria tożsamości osobowej
+- Kryteria somatyczne identyczności osobowej:
+    - Podział kryteriów somatycznych:
+        - cielesne
+            - B. Williams, J.J. Thomson:
+            - konieczne, że O1 w t1 jest identyczna z O2 w t2 wtw C(O1) = C(O2)
+            - rozumienia identyczności:
+                1. identyczność części
+                2. ciągłość czasoprzestrzenna
+                3. ciągłość czasoprzestrzenna i funkcjonalna
+        - mózgowe
+            - D. Wiggins, J. Mackie, T. Nagel:
+            - konieczne, że O1 w t1 jest identyczna z O2 w t2 wtw M(O1) ≈ M(O2)
+            - rozumienia identyczności:
+                1. identyczność strukturalna całości mózgu
+                2. identyczność funkcjonalna mózgu
+                3. identyczność skutków funkcjonowania mózgu
+        - biologiczne
+            - M. Ayers, P. Snowdon, P. van Inwagen:
+            - konieczne, że O1 w t1 jest identyczna z x w t2 wtw między O1 
+            a x istnieje ciągłość życia biologicznego
+            - rozumienia identyczności:
+                1. identyczność dwóch odrębnych rodzajów przedmiotu
+                2. identyczność ciał
+                3. identyczność funkcjonowania
 - Kryteria psychologiczne identyczności osobowej
+    - Dwie wersje kryterium psychologicznego:
+        - Prosta:
+            - J. Locke, S. Shoemaker, P. Unger
+            - dla O1 i O2 kryterium jest proste wtw zachodzi ciągłość psychiczna 
+            między O1 i O2
+            - proste kryterium psychologiczne ze względu na:
+                1. rodzaj stanów psychicznych istotnych dla zachowania ciągłości 
+                psychicznej
+                2. natury relacji między stanami psychicznymi
+                3. przyczynowej podstawy zjawisk psychicznych
+        - Zmodyfikowana:
+            - D. Parfit, M. Johnston, H.M. Cartwright, R. Nozick
+            - dla O1 i O2 kryterium jest zmodyfikowane wtw zachodzi ciągłość 
+            psychiczna między O1 i O2, i nie istnieje żadna inna osoba O3, która 
+            jest psychicznie ciągła z O1
+            - zmodyfikowane kryterium (kilka strategii):
+                1. tożsamość nie jest istotna dla przetrwania (D. Parfit)
+                2. wyłączenie możliwych kontynuacji przez inne osoby (warunek 
+                braku rozgałęzienia)
+                3. warunek najlepszego kandydata (R. Nozick)
 
+## Wykład 12. Spór o realizm
 
+-- to dokończę i KONIEC
 
-Seba: umysł i identyczność 44/61
-
-
-
-
-
-20.12. 22/22 Danuta 55/57 ja 24.01. -- spór o realizm
-
+20.12. 22/23 Danuta 55/57 ja
 24.01. -- spór o realizm
+
 
 
 
