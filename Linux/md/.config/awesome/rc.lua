@@ -285,10 +285,10 @@ globalkeys = gears.table.join(
     awful.key({ }, "XF86AudioStop", function () awful.util.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop", false) end),
         -- Brightness
 
-    awful.key({ }, "XF86MonBrightnessDown", function ()
-        awful.util.spawn("xbacklight -dec 15") end),
-    awful.key({ }, "XF86MonBrightnessUp", function ()
-        awful.util.spawn("xbacklight -inc 15") end),
+--    awful.key({ }, "XF86MonBrightnessDown", function ()
+--        awful.util.spawn("xbacklight -dec 15") end),
+--    awful.key({ }, "XF86MonBrightnessUp", function ()
+--        awful.util.spawn("xbacklight -inc 15") end),
 
 
 
@@ -640,7 +640,7 @@ end)
 --     c:emit_signal("request::activate", "mouse_enter", {raise = false})
 -- end)
 
-client.connect_signal("focus", function(c) c.border_color = '#777777' end) -- beautiful.border_focus end)
+client.connect_signal("focus", function(c) c.border_color = '#888888' end) -- beautiful.border_focus end)
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
