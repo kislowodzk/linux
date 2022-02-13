@@ -534,8 +534,8 @@ awful.rules.rules = {
                      placement = awful.placement.no_overlap+awful.placement.no_offscreen
      }
 	},
--- 	{ rule = { class = "alacritty" },
--- 		properties = { opacity = 0.9 } },
+ 	{ rule = { class = "alacritty" },
+ 		properties = { opacity = 0.9 } },
 
     -- Floating clients.
     { rule_any = {
@@ -681,4 +681,13 @@ beautiful.gap_single_client = true
 
 
 os.execute("xset r rate 350 43")
+
+
+
+
+client.connect_signal("manage", function (c)
+    c.shape = function(cr,w,h)
+        gears.shape.rounded_rect(cr,w,h,5)
+    end
+end)
 
