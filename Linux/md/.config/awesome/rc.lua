@@ -674,6 +674,9 @@ awful.spawn("compton")
 --problem jest taki, ze wtedy z Pantheonem niestety sa problemy, wiec wylaczam
 
 awful.spawn.with_shell("setxkbmap -option caps:swapescape")
+awful.spawn.with_shell("set s off")
+awful.spawn.with_shell("xset -dpms")
+awful.spawn.with_shell("xset s noblank")
 beautiful.useless_gap = 4
 beautiful.gap_single_client = true
 -- awful.spawn("start-pulseaudio-x11")
