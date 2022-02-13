@@ -92,6 +92,10 @@ systemctl enable tlp.service
 
 sudo apt install neofetch
 
+// dopisanie na końcu tego pliku sprawia, że tab w terminalu uzupełnia bez
+// zwracania uwagi na wielkość znaków
+echo 'set completion-ignore-case On' >> /etc/inputrc
+
 // trzy poniższe instalują pandoca, czcionki i latexa
 sudo apt install pandoc
 
@@ -100,7 +104,7 @@ sudo apt install texlive-latex-base
 
 // Ciemny motyw do pop os
 sudo apt-get install lxappearance
-lxappearance                                           
+lxappearance
 
 
 ### Startup applications -> disable firmware update check
