@@ -71,6 +71,7 @@ sudo apt install vim-gtk3
 gvim
 sudo apt install alacritty
 sudo apt-get install awesome
+sudo apt install compton
 sudo apt-get install fonts-powerline     // żeby powerline dobrze działał
 
 // sprawdzić, czy w .bashrc jest $HOSTNAME taki, jaki powinien być
