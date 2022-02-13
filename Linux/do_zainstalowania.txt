@@ -73,6 +73,23 @@ sudo apt-get install awesome
 sudo apt-get install fonts-powerline     // żeby powerline dobrze działał
 // sprawdzić, czy w .bashrc jest $HOSTNAME taki, jaki powinien być
 sudo apt install blueman
+sudo apt-get install ubuntu-restricted-extras
+sudo systemctl enable fstrim.timer
+sudo add-apt-repository ppa:linrunner/tlp
+sudo apt-get update
+sudo apt-get install tlp tlp-rdw
+sudo tlp start
+systemctl enable tlp.service
+
+
+
+
+
+
+
+
+
+
 
 pop-shop:
 simplenote
