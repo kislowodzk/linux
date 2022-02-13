@@ -70,7 +70,6 @@ sudo apt install vim
 sudo apt install vim-gtk3
 gvim
 sudo apt install alacritty
-sudo apt install compton
 sudo apt-get install awesome
 sudo apt-get install fonts-powerline     // żeby powerline dobrze działał
 
@@ -109,5 +108,33 @@ lxappearance
 
 simplenote
 github desktop
+vlc
+obs studio
+spotify
+FMIT
+kolourpaint
+teams
+caprine
+skype
+discord
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
