@@ -59,6 +59,7 @@ https://www.reallinuxuser.com/how-to-show-app-indicators-on-the-system-tray-in-e
 
 
 ====================
+Terminal:
 sudo apt install gnome-tweaks
 sudo apt install htop
 sudo apt install cmatrix
@@ -71,6 +72,7 @@ sudo apt install compton
 sudo apt-get install awesome
 sudo apt-get install fonts-powerline     // żeby powerline dobrze działał
 // sprawdzić, czy w .bashrc jest $HOSTNAME taki, jaki powinien być
+sudo apt install blueman
 
 pop-shop:
 simplenote
