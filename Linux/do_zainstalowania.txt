@@ -59,7 +59,9 @@ https://www.reallinuxuser.com/how-to-show-app-indicators-on-the-system-tray-in-e
 
 
 ====================
-Terminal:
+
+### Terminal:
+
 sudo apt install gnome-tweaks
 sudo apt install htop
 sudo apt install cmatrix
@@ -71,9 +73,16 @@ sudo apt install alacritty
 sudo apt install compton
 sudo apt-get install awesome
 sudo apt-get install fonts-powerline     // żeby powerline dobrze działał
+
 // sprawdzić, czy w .bashrc jest $HOSTNAME taki, jaki powinien być
+
 sudo apt install blueman
+
+// poniższe 2 odpowiadają za kodeki
 sudo apt-get install ubuntu-restricted-extras
+sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pkg
+
+// bateria
 sudo systemctl enable fstrim.timer
 sudo add-apt-repository ppa:linrunner/tlp
 sudo apt-get update
@@ -81,17 +90,23 @@ sudo apt-get install tlp tlp-rdw
 sudo tlp start
 systemctl enable tlp.service
 
+sudo apt install neofetch
+
+// trzy poniższe instalują pandoca, czcionki i latexa
+sudo apt install pandoc
+
+sudo apt install -y texlive texlive-font-utils texlive-pstricks-doc texlive-base texlive-formats-extra texlive-lang-german texlive-metapost texlive-publishers texlive-bibtex-extra texlive-latex-base texlive-metapost-doc texlive-publishers-doc texlive-binaries texlive-latex-base-doc texlive-science texlive-extra-utils texlive-latex-extra texlive-science-doc texlive-fonts-extra texlive-latex-extra-doc texlive-pictures texlive-xetex texlive-fonts-extra-doc texlive-latex-recommended texlive-pictures-doc texlive-fonts-recommended texlive-humanities texlive-lang-english texlive-latex-recommended-doc texlive-fonts-recommended-doc texlive-humanities-doc texlive-luatex texlive-pstricks perl-tk
+sudo apt install texlive-latex-base
+
+// Ciemny motyw do pop os
+sudo apt-get install lxappearance
+lxappearance                                           
 
 
+### Startup applications -> disable firmware update check
 
+### Pop-shop:
 
-
-
-
-
-
-
-pop-shop:
 simplenote
 github desktop
 
