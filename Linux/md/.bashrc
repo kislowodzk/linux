@@ -110,8 +110,8 @@ alias fresh='sudo apt update; sudo apt upgrade; sudo apt autoremove'
 # alias br='xrandr --output LVDS-1-1 --brightness'
 alias bl='gnome-control-center bluetooth'
 alias wi='gnome-control-center wifi'
-alias mi='gmone-control-center sound'
-alias br='gmone-control-center power'
+alias mi='gnone-control-center sound'
+alias br='gnone-control-center power'
 alias open=xdg-open
 
 # Add an "alert" alias for long running commands.  Use like so:
