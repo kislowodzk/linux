@@ -51,3 +51,29 @@ nmtui - wifi
 
 Pokazywanie działających w tle programów
 https://www.reallinuxuser.com/how-to-show-app-indicators-on-the-system-tray-in-elementary-os/
+
+
+
+
+
+
+
+====================
+sudo apt install gnome-tweaks
+sudo apt install htop
+sudo apt install cmatrix
+sudo apt install tree
+sudo apt install vim
+sudo apt install vim-gtk3
+gvim
+sudo apt install alacritty
+sudo apt install compton
+sudo apt-get install awesome
+sudo apt-get install fonts-powerline     // żeby powerline dobrze działał
+// sprawdzić, czy w .bashrc jest $HOSTNAME taki, jaki powinien być
+
+pop-shop:
+simplenote
+github desktop
+
+

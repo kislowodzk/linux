@@ -104,14 +104,10 @@ alias t=tmux
 alias spot=ncspot
 alias caps='setxkbmap -option caps:swapescape'
 alias fresh='sudo apt update; sudo apt upgrade; sudo apt autoremove'
-# alias bl=blueman-manager
-# alias wi=nmtui
-# alias mi=alsamixer
-# alias br='xrandr --output LVDS-1-1 --brightness'
-alias bl='gnome-control-center bluetooth'
-alias wi='gnome-control-center wifi'
-alias mi='gmone-control-center sound'
-alias br='gmone-control-center power'
+alias bl=blueman-manager
+alias wi=nmtui
+alias mi=alsamixer
+alias br='xrandr --output LVDS-1-1 --brightness'
 alias open=xdg-open
 
 # Add an "alert" alias for long running commands.  Use like so:
@@ -339,7 +335,7 @@ bash_prompt() {
 	#PROMT_FORMAT=$RED_BOLD
 
 	## CONFIGURATION: CYAN-BLUE
-    if [ "$HOSTNAME" = pop-os ]; then
+    if [ "$HOSTNAME" = kislowodzk ]; then
         FONT_COLOR_1=$WHITE; BACKGROUND_1=$L_YELLOW; TEXTEFFECT_1=$BOLD
         FONT_COLOR_2=$BLACK; BACKGROUND_2=$BLUE; TEXTEFFECT_2=$BOLD
         FONT_COLOR_3=$WHITE; BACKGROUND_3=$BLUE; TEXTEFFECT_3=$BOLD
