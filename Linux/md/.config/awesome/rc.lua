@@ -211,7 +211,7 @@ awful.screen.connect_for_each_screen(function(s)
 
 	-- Each screen has its own tag table. 
 	-- ZMIANA na koncu 2 odpowiada za automatyczny tile
-    awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[2])
+    awful.tag({ "~1~", "~2~", "~3~", "~4~", "~5~", "~6~", "~7~", "~8~", "~9~" }, s, awful.layout.layouts[2])
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
