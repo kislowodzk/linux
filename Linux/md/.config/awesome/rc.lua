@@ -1,6 +1,7 @@
 -- If LuaRocks is installed, make sure that packages installed through it are
 -- found (e.g. lgi). If LuaRocks is not installed, do nothing.
 pcall(require, "luarocks.loader")
+
 -- ZMIANA
 local xrandr = require("xrandr")
 local volume_control = require("volume-control")
@@ -677,13 +678,23 @@ awful.spawn.with_shell("setxkbmap -option caps:swapescape")
 awful.spawn.with_shell("set s off")
 awful.spawn.with_shell("xset -dpms")
 awful.spawn.with_shell("xset s noblank")
+awful.spawn.with_shell("xset r rate 350 43")
+-- os.execute("~/.confing/awesome/touchpad_tap.sh")
+
+
+
+
+
+
+
+
 beautiful.useless_gap = 4
 beautiful.gap_single_client = true
 -- awful.spawn("start-pulseaudio-x11")
 
 
 
-os.execute("xset r rate 350 43")
+-- os.execute("xset r rate 350 43")
 
 
 

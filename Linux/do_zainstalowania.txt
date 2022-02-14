@@ -101,7 +101,7 @@ sudo apt install pandoc
 
 // Myszka
 sudo apt install piper
-piper // kolorek #E89000
+piper // kolorek #FF9000
 
 sudo apt install -y texlive texlive-font-utils texlive-pstricks-doc texlive-base texlive-formats-extra texlive-lang-german texlive-metapost texlive-publishers texlive-bibtex-extra texlive-latex-base texlive-metapost-doc texlive-publishers-doc texlive-binaries texlive-latex-base-doc texlive-science texlive-extra-utils texlive-latex-extra texlive-science-doc texlive-fonts-extra texlive-latex-extra-doc texlive-pictures texlive-xetex texlive-fonts-extra-doc texlive-latex-recommended texlive-pictures-doc texlive-fonts-recommended texlive-humanities texlive-lang-english texlive-latex-recommended-doc texlive-fonts-recommended-doc texlive-humanities-doc texlive-luatex texlive-pstricks perl-tk
 sudo apt install texlive-latex-base
@@ -110,6 +110,16 @@ sudo apt install texlive-latex-base
 sudo apt-get install lxappearance
 lxappearance
 
+// coby przy nvidii ekran się nie ciął przy odtwarzaniu wideo
+sudo touch /etc/modprobe.d/nvidia-nomodset.conf
+// do tego pliku wpisać to
+options nvidia-drm modset=1
+// potem uruchomić to
+sudo update-initramfs -u
+
+// tego już nie robiłem, ale można sprawdzić
+cat /proc/sys/vm/swappiness
+// i obniżyć do czegoś między 5 a 15 (im mniej, tym lepiej
 
 ### Startup applications -> disable firmware update check
 

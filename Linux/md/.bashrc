@@ -139,6 +139,11 @@ if ! shopt -oq posix; then
 fi
 
 
+# autostart
+xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
+setxkbmap -option caps:swapescape
+
+
 # echo "
 # █░█░█ █ ▀█▀ ▄▀█ ░░█   █░█░█   █▄▀ █ █▀ █░░ █▀█ █░█░█ █▀█ █▀▄ ▀█ █▄▀ █░█
 # ▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
