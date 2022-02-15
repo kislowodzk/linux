@@ -739,6 +739,7 @@ awful.spawn("compton")
 -- on odpowiada za przezroczystosc terminali i generalnie dobry wyglad, 
 --problem jest taki, ze wtedy z Pantheonem niestety sa problemy, wiec wylaczam
 
+awful.spawn.with_shell("xscreensaver")
 awful.spawn.with_shell("setxkbmap -option caps:swapescape")
 awful.spawn.with_shell("set s off")
 awful.spawn.with_shell("xset -dpms")
