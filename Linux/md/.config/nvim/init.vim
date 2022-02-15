@@ -3,10 +3,6 @@
 " Potem w pliku :PlugInstall
 
 
-
-
-
-
 set nocompatible            " disable compatibility to old-time vi
 set showmatch               " show matching 
 set ignorecase              " case insensitive 
@@ -24,7 +20,6 @@ set wildmode=longest,list   " get bash-like tab completions
 filetype plugin indent on   "allow auto-indenting depending on file type
 syntax on                   " syntax highlighting
 "set mouse=a                 " enable mouse click
-set clipboard=unnamedplus   " using system clipboard
 filetype plugin on
 "set cursorline              " highlight current cursorline
 set ttyfast                 " Speed up scrolling in Vim
@@ -32,7 +27,6 @@ set ttyfast                 " Speed up scrolling in Vim
 " set noswapfile            " disable creating swap file
 " set backupdir=~/.cache/vim " Directory to store backup files.
 set background=dark
-set clipboard=unnamedplus
 set completeopt=noinsert,menuone,noselect
 set hidden
 set inccommand=split
@@ -131,6 +125,9 @@ call plug#begin()
     Plug 'preservim/nerdcommenter'
     Plug 'mhinz/vim-startify'
     Plug 'nvim-lua/completion-nvim'
+    " Dokladne instrukcje jak zainstalowac pluginy na gorze pliku
+    " :PlugInstall
+    " :PlugClean
 call plug#end()
 
 colorscheme dracula
@@ -159,3 +156,17 @@ set completeopt=menuone,noinsert,noselect
 set shortmess+=c
 
 set wrap linebreak nolist
+
+
+set tw=80
+map <C-f> ggvG$
+set nojoinspaces
+set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
+nnoremap <f6> :set list<enter>
+nnoremap <f5> :set nolist<enter>
+
+autocmd BufRead,BufNewFile   *.txt setlocal fo+=taw
+autocmd BufRead,BufNewFile   *.md setlocal fo+=taw
+
+
+

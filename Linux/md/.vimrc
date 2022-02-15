@@ -27,11 +27,7 @@ nnoremap <C-l> l
 set display+=lastline
 set backspace=indent,eol,start
 set scrolloff=8
-" Uwaga, jeśli linia będzie się kończyła białym znakiem takim jak spacja, to
-" mogą być problemy z automatycznym łączeniem linii
-set fo+=t
-set fo+=a
-set fo+=w
+" Uwaga, jeśli linia będzie się kończyła białym znakiem takim jak spacja, to mogą być problemy z automatycznym łączeniem linii 
 "set fo=aw2tq
 nnoremap <space> :w<cr>
 " Pozazuj białe znaki
@@ -44,3 +40,8 @@ set nojoinspaces
 set clipboard^=unnamed,unnamedplus
 set showmatch
 set hlsearch
+
+
+autocmd BufRead,BufNewFile   *.txt set fo+=taw
+autocmd BufRead,BufNewFile   *.md set fo+=taw
+
