@@ -26,7 +26,7 @@ nnoremap <C-h> h
 nnoremap <C-l> l
 set display+=lastline
 set backspace=indent,eol,start
-set scrolloff=10
+set scrolloff=8
 " Uwaga, jeśli linia będzie się kończyła białym znakiem takim jak spacja, to
 " mogą być problemy z automatycznym łączeniem linii
 set fo+=t
@@ -42,4 +42,5 @@ nnoremap <f5> :set nolist<enter>
 " Żeby nie dodawał podwójnej spacji po kropce na końcu zdania
 set nojoinspaces
 set clipboard^=unnamed,unnamedplus
-
+set showmatch
+set hlsearch

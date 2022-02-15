@@ -77,6 +77,7 @@ sudo apt-get install fonts-powerline     // żeby powerline dobrze działał
 // sprawdzić, czy w .bashrc jest $HOSTNAME taki, jaki powinien być
 
 sudo apt install blueman
+sudo apt install volumeicon-alsa // ikonka dźwięku
 
 // poniższe 2 odpowiadają za kodeki
 sudo apt-get install ubuntu-restricted-extras
@@ -91,6 +92,7 @@ sudo tlp start
 systemctl enable tlp.service
 
 sudo apt install neofetch
+sudo apt install neovim
 
 // dopisanie na końcu tego pliku sprawia, że tab w terminalu uzupełnia bez
 // zwracania uwagi na wielkość znaków

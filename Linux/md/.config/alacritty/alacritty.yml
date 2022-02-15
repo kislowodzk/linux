@@ -100,8 +100,35 @@ scrolling:
 # change the `it` value in terminfo when altering this setting.
 #tabspaces: 8
 
+
 # Font configuration
+
+
 font:
+  size: 9.0
+  normal:
+    family: monospace
+    style: Regular
+  bold:
+    family: monospace
+  italic:
+    family: monospace
+
+
+
+
+
+# font:
+#   size: 9.0
+#   normal:
+#     family: JetBrains Mono
+#     style: Regular
+#   bold:
+#     family: JetBrains Mono
+#   italic:
+#     family: JetBrains Mono
+
+
 #   # Normal (roman) font face
 #   normal:
 #     # Font family
@@ -181,7 +208,6 @@ font:
 #     style: Bold Italic
 # 
   # Point size
-  size: 9.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.

@@ -97,6 +97,7 @@ alias l='ls -CF'
 alias wq=exit
 alias cls=clear
 alias v=vim
+alias nv=nvim
 alias cdn='cd ~/Notatki'
 alias vtd='vim ~/Notatki/ToDo.md'
 alias rt='gio trash'
@@ -142,12 +143,15 @@ fi
 # autostart
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
 setxkbmap -option caps:swapescape
+set s off
+xset -dpms
+xset s noblank
+xset r rate 350 43
 
-
-# echo "
-# █░█░█ █ ▀█▀ ▄▀█ ░░█   █░█░█   █▄▀ █ █▀ █░░ █▀█ █░█░█ █▀█ █▀▄ ▀█ █▄▀ █░█
-# ▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
-# "
+echo "
+█░█░█ █ ▀█▀ ▄▀█ ░░█   █░█░█   █▄▀ █ █▀ █░░ █▀█ █░█░█ █▀█ █▀▄ ▀█ █▄▀ █░█
+▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
+"
 
 cat ~/.kot
 
