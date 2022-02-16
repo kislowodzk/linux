@@ -41,7 +41,6 @@ set clipboard^=unnamed,unnamedplus
 set showmatch
 set hlsearch
 
-
 autocmd BufRead,BufNewFile   *.txt set fo+=tawr
 autocmd BufRead,BufNewFile   *.md set fo+=tawr
 
