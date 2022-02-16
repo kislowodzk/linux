@@ -93,7 +93,8 @@ alias lla='ls -alF'
 alias ll='ls -lF'
 alias la='ls -A'
 alias l='ls -CF'
-# my aliases
+
+# moje aliasy
 alias wq=exit
 alias cls=clear
 alias v=vim
@@ -108,12 +109,38 @@ alias fresh='sudo apt update; sudo apt upgrade; sudo apt autoremove'
 alias bl=blueman-manager
 alias wi=nmtui
 alias mi=alsamixer
+
 alias br='xrandr --output LVDS-1 --brightness'
+
+alias br1='xrandr --output LVDS-1 --brightness 0.1'
+alias br2='xrandr --output LVDS-1 --brightness 0.2'
+alias br3='xrandr --output LVDS-1 --brightness 0.3'
+alias br4='xrandr --output LVDS-1 --brightness 0.4'
+alias br5='xrandr --output LVDS-1 --brightness 0.5'
+alias br6='xrandr --output LVDS-1 --brightness 0.6'
+alias br7='xrandr --output LVDS-1 --brightness 0.7'
+alias br8='xrandr --output LVDS-1 --brightness 0.8'
+alias br9='xrandr --output LVDS-1 --brightness 0.9'
+alias br0='xrandr --output LVDS-1 --brightness 1.0'
+
+alias b1='xrandr --output LVDS-1 --brightness 0.1'
+alias b2='xrandr --output LVDS-1 --brightness 0.2'
+alias b3='xrandr --output LVDS-1 --brightness 0.3'
+alias b4='xrandr --output LVDS-1 --brightness 0.4'
+alias b5='xrandr --output LVDS-1 --brightness 0.5'
+alias b6='xrandr --output LVDS-1 --brightness 0.6'
+alias b7='xrandr --output LVDS-1 --brightness 0.7'
+alias b8='xrandr --output LVDS-1 --brightness 0.8'
+alias b9='xrandr --output LVDS-1 --brightness 0.9'
+alias b0='xrandr --output LVDS-1 --brightness 1.0'
+alias bb='xrandr --output LVDS-1 --brightness 1.0'
+
+alias open=xdg-open
+
 # alias bl='gnome-control-center bluetooth'
 # alias wi='gnome-control-center wifi'
 # alias mi='gnome-control-center sound'
 # alias br='gnome-control-center power'
-alias open=xdg-open
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
