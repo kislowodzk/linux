@@ -32,7 +32,7 @@ nnoremap <f6> :set list<enter>
 
 " Nie pokazuj białych znaków
 nnoremap <f5> :set nolist<enter>
-k
+
 " Żeby nie dodawał podwójnej spacji po kropce na końcu zdania
 set nojoinspaces
 set clipboard^=unnamed,unnamedplus
