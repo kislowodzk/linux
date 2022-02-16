@@ -2,7 +2,7 @@
 "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 " Potem w pliku :PlugInstall
 
-setlocal formatoptions=1    " nie wiem czemu, ale przez to nie dzieli linii w plikach .sh
+setlocal formatoptions=1ro
 
 set nocompatible            " disable compatibility to old-time vi
 set showmatch               " show matching 
@@ -17,8 +17,6 @@ set shiftwidth=4            " width for autoindents
 set autoindent              " indent a new line the same amount as the line just typed
 set number                  " add line numbers
 set wildmode=longest,list   " get bash-like tab completions
-"set cc=80                  " set an 80 column border for good coding style
-filetype plugin indent on   "allow auto-indenting depending on file type
 syntax on                   " syntax highlighting
 "set mouse=a                 " enable mouse click
 filetype plugin on
@@ -31,8 +29,6 @@ set background=dark
 set completeopt=noinsert,menuone,noselect
 set hidden
 set inccommand=split
-"set mouse=a
-set number
 set relativenumber
 set splitbelow splitright
 set title
@@ -40,9 +36,6 @@ set ttimeoutlen=0
 set wildmenu
 
 " Tabs size
-set expandtab
-set shiftwidth=4
-set tabstop=4
 filetype plugin indent on
 syntax on
 set t_Co=256
@@ -58,9 +51,11 @@ else
         set termguicolors
     endif
 endif
+
 " Italics
 let &t_ZH="\e[3m"
 let &t_ZR="\e[23m"
+
 " File browser
 let g:netrw_banner=0
 let g:netrw_liststyle=0
@@ -69,6 +64,7 @@ let g:netrw_altv=1
 let g:netrw_winsize=25
 let g:netrw_keepdir=0
 let g:netrw_localcopydircmd='cp -r'
+
 " Create file without opening buffer
 function! CreateInPreview()
   let l:filename = input('please enter filename: ')
@@ -84,14 +80,6 @@ endfunction
 augroup auto_commands
     autocmd filetype netrw call Netrw_mappings()
 augroup END
-
-nnoremap <C-k> gk
-nnoremap <C-j> gj
-nnoremap <C-h> h
-nnoremap <C-l> l
-set scrolloff=8
-nnoremap <space> :w<cr>
-set clipboard^=unnamed,unnamedplus
 
 call plug#begin()
     " Appearance
@@ -125,6 +113,7 @@ call plug#begin()
     " Dokladne instrukcje jak zainstalowac pluginy na gorze pliku
     " :PlugInstall
     " :PlugClean
+
 call plug#end()
 
 colorscheme dracula
@@ -154,6 +143,15 @@ set shortmess+=c
 
 set wrap linebreak nolist
 
+" z .vimrc
+
+nnoremap <C-k> gk
+nnoremap <C-j> gj
+nnoremap <C-h> h
+nnoremap <C-l> l
+set scrolloff=8
+nnoremap <space> :w<cr>
+set clipboard^=unnamed,unnamedplus
 
 set tw=80
 map <C-f> ggvG$
@@ -162,6 +160,8 @@ set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
 nnoremap <f6> :set list<enter>
 nnoremap <f5> :set nolist<enter>
 
-autocmd BufRead,BufNewFile   *.txt setlocal fo+=taw
-autocmd BufRead,BufNewFile   *.md setlocal fo+=taw
+autocmd BufRead,BufNewFile   *.txt setlocal fo+=tawc
+autocmd BufRead,BufNewFile   *.md setlocal fo+=tawc
+
+" znaczenia wszystkich znakow przy fo w .vimrc
 
