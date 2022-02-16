@@ -753,17 +753,11 @@ awful.spawn.with_shell("nm-applet")
 
 -- os.execute("~/.confing/awesome/touchpad_tap.sh")
 
-
 beautiful.useless_gap = 4
 beautiful.gap_single_client = true
+
 -- awful.spawn("start-pulseaudio-x11")
-
-
-
 -- os.execute("xset r rate 350 43")
-
-
-
 
 client.connect_signal("manage", function (c)
     c.shape = function(cr,w,h)
