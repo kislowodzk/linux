@@ -1,4 +1,4 @@
-setlocal formatoptions=1ro
+setlocal formatoptions=1
 setlocal noexpandtab
 set ignorecase
 set incsearch

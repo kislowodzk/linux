@@ -2,7 +2,9 @@
 "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 " Potem w pliku :PlugInstall
 
-setlocal formatoptions=1ro
+" znaczenia wszystkich znakow przy fo w .vimrc
+"
+setlocal formatoptions=1
 
 set nocompatible            " disable compatibility to old-time vi
 set showmatch               " show matching 
@@ -94,7 +96,7 @@ call plug#begin()
 
     " Completion / linters / formatters
     Plug 'plasticboy/vim-markdown'
-
+    
     "Plug 'neoclide/coc.nvim'
     " Git
     Plug 'airblade/vim-gitgutter'
@@ -128,6 +130,7 @@ let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_frontmatter = 1
 let g:vim_markdown_conceal = 0
 let g:vim_markdown_fenced_languages = ['tsx=typescriptreact']
+
 " Language server stuff
 "command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 
@@ -159,9 +162,4 @@ set nojoinspaces
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
 nnoremap <f6> :set list<enter>
 nnoremap <f5> :set nolist<enter>
-
-autocmd BufRead,BufNewFile   *.txt setlocal fo+=tawc
-autocmd BufRead,BufNewFile   *.md setlocal fo+=tawc
-
-" znaczenia wszystkich znakow przy fo w .vimrc
 
