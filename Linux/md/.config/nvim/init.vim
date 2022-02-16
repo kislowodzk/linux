@@ -1,7 +1,8 @@
 " sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
 "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 " Potem w pliku :PlugInstall
-setlocal formatoptions=1
+
+setlocal formatoptions=1    " nie wiem czemu, ale przez to nie dzieli linii w plikach .sh
 
 set nocompatible            " disable compatibility to old-time vi
 set showmatch               " show matching 
@@ -92,11 +93,6 @@ set scrolloff=8
 nnoremap <space> :w<cr>
 set clipboard^=unnamed,unnamedplus
 
-
-
-
-
-
 call plug#begin()
     " Appearance
     Plug 'vim-airline/vim-airline'
@@ -125,6 +121,7 @@ call plug#begin()
     Plug 'preservim/nerdcommenter'
     Plug 'mhinz/vim-startify'
     Plug 'nvim-lua/completion-nvim'
+
     " Dokladne instrukcje jak zainstalowac pluginy na gorze pliku
     " :PlugInstall
     " :PlugClean
@@ -167,6 +164,4 @@ nnoremap <f5> :set nolist<enter>
 
 autocmd BufRead,BufNewFile   *.txt setlocal fo+=taw
 autocmd BufRead,BufNewFile   *.md setlocal fo+=taw
-
-
 
