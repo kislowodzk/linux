@@ -42,6 +42,6 @@ set showmatch
 set hlsearch
 
 
-autocmd BufRead,BufNewFile   *.txt set fo+=taw
-autocmd BufRead,BufNewFile   *.md set fo+=taw
+autocmd BufRead,BufNewFile   *.txt set fo+=tawr
+autocmd BufRead,BufNewFile   *.md set fo+=tawr
 

@@ -1,7 +1,7 @@
 " sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
 "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 " Potem w pliku :PlugInstall
-
+setlocal formatoptions=1
 
 set nocompatible            " disable compatibility to old-time vi
 set showmatch               " show matching 
