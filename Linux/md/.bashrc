@@ -171,6 +171,7 @@ fi
 # autostart
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
 setxkbmap -option caps:swapescape
+# jeśli w odpalę 'setxkbmap -option', to wróci do normy
 set s off
 xset -dpms
 xset s noblank
