@@ -108,13 +108,12 @@ scrolling:
 font:
   size: 9.0
   normal:
-    family: monospace
+    family: DejaVu Sans Mono Nerd Font
     style: Regular
   bold:
-    family: monospace
+    family: DejaVu Sans Mono Nerd Font
   italic:
-    family: monospace
-
+    family: DejaVu Sans Mono Nerd Font
 
 
 
@@ -122,12 +121,14 @@ font:
 # font:
 #   size: 9.0
 #   normal:
-#     family: JetBrains Mono
+#     family: monospace
 #     style: Regular
 #   bold:
-#     family: JetBrains Mono
+#     family: monospace
 #   italic:
-#     family: JetBrains Mono
+#     family: monospace
+
+
 
 
 #   # Normal (roman) font face

@@ -94,6 +94,14 @@ systemctl enable tlp.service
 sudo apt install neofetch
 sudo apt install neovim
 
+// czcionka, której używam
+z tej strony: https://www.nerdfonts.com/font-downloads
+pobieramy DejaVu Sans Mono Nerd Font
+rozpakowujemy i zawartość folderu przenosimy do naszego folderu ~/.fonts/
+to manually rebuild the font cache
+fc-cache -fv
+i tyle, powinno działać, na wszelki wrzucam czcionkę na gita
+
 // dopisanie na końcu tego pliku sprawia, że tab w terminalu uzupełnia bez
 // zwracania uwagi na wielkość znaków
 echo 'set completion-ignore-case On' >> /etc/inputrc
