@@ -106,7 +106,7 @@ scrolling:
 
 
 font:
-  size: 9.0
+  size: 10.0 # na zewnętrznym monitorze wystarczy raczej 9
   normal:
     family: DejaVu Sans Mono Nerd Font
     style: Regular
@@ -114,7 +114,6 @@ font:
     family: DejaVu Sans Mono Nerd Font
   italic:
     family: DejaVu Sans Mono Nerd Font
-
 
 
 
@@ -638,7 +637,7 @@ colors: *TomorrowNight
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
 # background_opacity: 0.95
-background_opacity: 0.85 # to działa w pop-os
+background_opacity: 0.88 # to działa w pop-os
 
 selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
