@@ -106,6 +106,7 @@ alias rt='gio trash'
 alias t=tmux
 alias spot=ncspot
 alias caps='setxkbmap -option caps:swapescape'
+alias nocaps='setxkbmap -option'
 alias fresh='sudo apt update; sudo apt upgrade; sudo apt autoremove'
 alias bl=blueman-manager
 alias wi=nmtui
