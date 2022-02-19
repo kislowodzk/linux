@@ -111,7 +111,7 @@ call plug#begin()
     Plug 'preservim/nerdcommenter'
     Plug 'mhinz/vim-startify'
     Plug 'nvim-lua/completion-nvim'
-
+    "Plug 'hrsh7th/nvim-compe'
     " Dokladne instrukcje jak zainstalowac pluginy na gorze pliku
     " :PlugInstall
     " :PlugClean
@@ -163,3 +163,4 @@ set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
 nnoremap <f6> :set list<enter>
 nnoremap <f5> :set nolist<enter>
 
+nnoremap <cr> :noh<CR><CR>:<backspace>
