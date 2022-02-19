@@ -160,6 +160,8 @@ set nojoinspaces
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
 nnoremap <f6> :set list<enter>
 nnoremap <f5> :set nolist<enter>
+" słownik
+set spellcapcheck=
 nnoremap <f8> :set spell spelllang=<enter>
 nnoremap <f9> :set spell spelllang=pl_pl,en_us<enter>
 
