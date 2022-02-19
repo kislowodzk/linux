@@ -15,7 +15,6 @@ setlocal wrap
 setlocal linebreak
 set number relativenumber
 set tw=80
-map <f4> :e /home/kislowodzk/Notatki/ToDo.md<enter>
 map <C-f> ggvG$
 nnoremap <C-k> gk
 nnoremap <C-j> gj
@@ -32,6 +31,10 @@ nnoremap <f6> :set list<enter>
 
 " Nie pokazuj białych znaków
 nnoremap <f5> :set nolist<enter>
+
+"Słownik
+nnoremap <f8> :set spell spelllang=<enter>
+nnoremap <f9> :set spell spelllang=pl_pl,en_us<enter>
 
 " Żeby nie dodawał podwójnej spacji po kropce na końcu zdania
 set nojoinspaces
