@@ -154,7 +154,7 @@ set scrolloff=8
 nnoremap <space> :w<cr>
 set clipboard^=unnamed,unnamedplus
 
-set tw=80
+set tw=70
 map <C-f> ggvG$
 set nojoinspaces
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
