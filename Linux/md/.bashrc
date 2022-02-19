@@ -189,38 +189,10 @@ echo "
 cat ~/.kot
 
 
-#                       _
-#                       \`*-.
-#                        )  _`-.
-#                       .  : `. .
-#                       : _   '  \
-#                       ; *` _.   `*-._
-#                       `-.-'          `-.
-#                         ;       `       `.
-#                         :.       .        \
-#                         . \  .   :   .-'   .
-#                         '  `+.;  ;  '      :
-#                         :  '  |    ;       ;-.
-#                         ; '   : :`-:     _.`* ;
-#                      .*' /  .*' ; .*`- +'  `*'
-#                      `*-*   `*-*  `*-*'
-# # . "$HOME/.cargo/env"
 
-#    #    #    ################################################################################
-##  FUNCTIONS                                                                 ##
-################################################################################
 
-##
-##	ARRANGE $PWD AND STORE IT IN $NEW_PWD
-##	* The home directory (HOME) is replaced with a ~
-##	* The last pwdmaxlen characters of the PWD are displayed
-##	* Leading partial directory names are striped off
-##		/home/me/stuff -> ~/stuff (if USER=me)
-##		/usr/share/big_dir_name -> ../share/big_dir_name (if pwdmaxlen=20)
-##
-##	Original source: WOLFMAN'S color bash promt
-##	https://wiki.chakralinux.org/index.php?title=Color_Bash_Prompt#Wolfman.27s
-##
+# =====================================================================
+
 bash_prompt_command() {
 	# How many characters of the $PWD should be kept
 	local pwdmaxlen=25
@@ -245,8 +217,6 @@ bash_prompt_command() {
 		NEW_PWD=${trunc_symbol}/${NEW_PWD#*/}
 	fi
 }
-
-
 
 
 ##
@@ -357,9 +327,22 @@ bash_prompt() {
 	## EXAMPLE CONFIGURATIONS                                                 ##
 	## I use them for different hosts. Test them out ;)                       ##
 	############################################################################
+
+
+
+    ## TO MOJE
+	## CONFIGURATION: CYAN-BLUE
+    if [ "$HOSTNAME" = pop-os ]; then
+        FONT_COLOR_1=$WHITE; BACKGROUND_1=$L_YELLOW; TEXTEFFECT_1=$BOLD
+        FONT_COLOR_2=$BLACK; BACKGROUND_2=$BLUE; TEXTEFFECT_2=$BOLD
+        FONT_COLOR_3=$WHITE; BACKGROUND_3=$BLUE; TEXTEFFECT_3=$BOLD
+        PROMT_FORMAT=$NO_FORMAT
+	fi
+
+
 	
 	## CONFIGURATION: BLUE-WHITE
-	if [ "$HOSTNAME" = dell ]; then
+	if [ "$HOSTNAME" = nazwa_hosta ]; then
 		FONT_COLOR_1=$WHITE; BACKGROUND_1=$BLUE; TEXTEFFECT_1=$BOLD
 		FONT_COLOR_2=$WHITE; BACKGROUND_2=$L_BLUE; TEXTEFFECT_2=$BOLD	
 		FONT_COLOR_3=$D_GRAY; BACKGROUND_3=$WHITE; TEXTEFFECT_3=$BOLD	
@@ -367,30 +350,16 @@ bash_prompt() {
 	fi
 	
 	## CONFIGURATION: BLACK-RED
-	if [ "$HOSTNAME" = giraff6 ]; then
+	if [ "$HOSTNAME" = nazwa_hosta ]; then
 		FONT_COLOR_1=$WHITE; BACKGROUND_1=$BLACK; TEXTEFFECT_1=$BOLD
 		FONT_COLOR_2=$WHITE; BACKGROUND_2=$D_GRAY; TEXTEFFECT_2=$BOLD
 		FONT_COLOR_3=$WHITE; BACKGROUND_3=$RED; TEXTEFFECT_3=$BOLD
 		PROMT_FORMAT=$RED_BOLD
 	fi
 	
-	## CONFIGURATION: RED-BLACK
-	#FONT_COLOR_1=$WHITE; BACKGROUND_1=$RED; TEXTEFFECT_1=$BOLD
-	#FONT_COLOR_2=$WHITE; BACKGROUND_2=$D_GRAY; TEXTEFFECT_2=$BOLD
-	#FONT_COLOR_3=$WHITE; BACKGROUND_3=$BLACK; TEXTEFFECT_3=$BOLD
-	#PROMT_FORMAT=$RED_BOLD
-
-	## CONFIGURATION: CYAN-BLUE
-    if [ "$HOSTNAME" = pop-os ]; then
-        FONT_COLOR_1=$WHITE; BACKGROUND_1=$L_YELLOW; TEXTEFFECT_1=$BOLD
-        FONT_COLOR_2=$BLACK; BACKGROUND_2=$BLUE; TEXTEFFECT_2=$BOLD
-        FONT_COLOR_3=$WHITE; BACKGROUND_3=$BLUE; TEXTEFFECT_3=$BOLD
-        PROMT_FORMAT=$NO_FORMAT
-
-	fi
 	
 	## CONFIGURATION: GRAY-SCALE
-	if [ "$HOSTNAME" = giraff ]; then
+	if [ "$HOSTNAME" = nazwa_hosta ]; then
 		FONT_COLOR_1=$WHITE; BACKGROUND_1=$BLACK; TEXTEFFECT_1=$BOLD
 		FONT_COLOR_2=$WHITE; BACKGROUND_2=$D_GRAY; TEXTEFFECT_2=$BOLD
 		FONT_COLOR_3=$WHITE; BACKGROUND_3=$L_GRAY; TEXTEFFECT_3=$BOLD
@@ -398,7 +367,7 @@ bash_prompt() {
 	fi
 	
 	## CONFIGURATION: GRAY-CYAN
-	if [ "$HOSTNAME" = light ]; then
+	if [ "$HOSTNAME" = nazwa_hosta ]; then
 		FONT_COLOR_1=$WHITE; BACKGROUND_1=$BLACK; TEXTEFFECT_1=$BOLD
 		FONT_COLOR_2=$WHITE; BACKGROUND_2=$D_GRAY; TEXTEFFECT_2=$BOLD
 		FONT_COLOR_3=$BLACK; BACKGROUND_3=$L_CYAN; TEXTEFFECT_3=$BOLD
@@ -534,7 +503,6 @@ PROMPT_COMMAND=bash_prompt_command
 ##	which gets updated by $PROMT_COMMAND on behalf of the terminal
 bash_prompt
 unset bash_prompt
-
 
 
 ### EOF ###
