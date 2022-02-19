@@ -44,7 +44,6 @@ autocmd BufRead,BufNewFile   *.txt set fo+=tawc
 autocmd BufRead,BufNewFile   *.md set fo+=tawc
 
 
-
 " ============================================================================
 " 
 " letter	 meaning when present in 'formatoptions'
