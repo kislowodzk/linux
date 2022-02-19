@@ -95,56 +95,6 @@ alias ll='ls -lF'
 alias la='ls -A'
 alias l='ls -CF'
 
-# moje aliasy
-alias wq=exit
-alias cls=clear
-alias v=vim
-alias nv=nvim
-alias cdn='cd ~/Notatki'
-alias vtd='vim ~/Notatki/ToDo.md'
-alias rt='gio trash'
-alias t=tmux
-alias spot=ncspot
-alias caps='setxkbmap -option caps:swapescape'
-alias nocaps='setxkbmap -option'
-alias fresh='sudo apt update; sudo apt upgrade; sudo apt autoremove'
-alias bl=blueman-manager
-alias wi=nmtui
-alias mi=alsamixer
-
-alias br='xrandr --output LVDS-1 --brightness'
-
-alias br1='xrandr --output LVDS-1 --brightness 0.1'
-alias br2='xrandr --output LVDS-1 --brightness 0.2'
-alias br3='xrandr --output LVDS-1 --brightness 0.3'
-alias br4='xrandr --output LVDS-1 --brightness 0.4'
-alias br5='xrandr --output LVDS-1 --brightness 0.5'
-alias br6='xrandr --output LVDS-1 --brightness 0.6'
-alias br7='xrandr --output LVDS-1 --brightness 0.7'
-alias br8='xrandr --output LVDS-1 --brightness 0.8'
-alias br9='xrandr --output LVDS-1 --brightness 0.9'
-alias br0='xrandr --output LVDS-1 --brightness 1.0'
-
-alias b1='xrandr --output LVDS-1 --brightness 0.1'
-alias b2='xrandr --output LVDS-1 --brightness 0.2'
-alias b3='xrandr --output LVDS-1 --brightness 0.3'
-alias b4='xrandr --output LVDS-1 --brightness 0.4'
-alias b5='xrandr --output LVDS-1 --brightness 0.5'
-alias b6='xrandr --output LVDS-1 --brightness 0.6'
-alias b7='xrandr --output LVDS-1 --brightness 0.7'
-alias b8='xrandr --output LVDS-1 --brightness 0.8'
-alias b9='xrandr --output LVDS-1 --brightness 0.9'
-alias b0='xrandr --output LVDS-1 --brightness 1.0'
-alias bb='xrandr --output LVDS-1 --brightness 1.0'
-
-alias open=xdg-open
-
-# export PATH="$HOME/.emacs.d/bin:$PATH" # To tylko, jeśli zostawię emacsa
-
-# alias bl='gnome-control-center bluetooth'
-# alias wi='gnome-control-center wifi'
-# alias mi='gnome-control-center sound'
-# alias br='gnome-control-center power'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -171,26 +121,10 @@ if ! shopt -oq posix; then
 fi
 
 
-# autostart
-xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
-setxkbmap -option caps:swapescape
-# jeśli w odpalę 'setxkbmap -option', to wróci do normy
-set s off
-xset -dpms
-xset s noblank
-xset r rate 350 43
-
-
-echo "
-█░█░█ █ ▀█▀ ▄▀█ ░░█   █░█░█   █▄▀ █ █▀ █░░ █▀█ █░█░█ █▀█ █▀▄ ▀█ █▄▀ █░█
-▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
-"
-
-cat ~/.kot
 
 
 
-
+# KOLORKI PRZY ADRESIE
 # =====================================================================
 
 bash_prompt_command() {
@@ -505,5 +439,76 @@ bash_prompt
 unset bash_prompt
 
 
-### EOF ###
+# ==================================================================
+
+
+
+# MOJE ZMIANY
+
+echo "
+█░█░█ █ ▀█▀ ▄▀█ ░░█   █░█░█   █▄▀ █ █▀ █░░ █▀█ █░█░█ █▀█ █▀▄ ▀█ █▄▀ █░█
+▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
+"
+
+cat ~/.kot
+
+# autostart
+xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
+setxkbmap -option caps:swapescape
+# jeśli w odpalę 'setxkbmap -option', to wróci do normy
+set s off
+xset -dpms
+xset s noblank
+xset r rate 350 43
+
+# moje aliasy
+alias wq=exit
+alias cls=clear
+alias v=vim
+alias nv=nvim
+alias cdn='cd ~/Notatki'
+alias vtd='vim ~/Notatki/ToDo.md'
+alias rt='gio trash'
+alias t=tmux
+alias spot=ncspot
+alias caps='setxkbmap -option caps:swapescape'
+alias nocaps='setxkbmap -option'
+alias fresh='sudo apt update; sudo apt upgrade; sudo apt autoremove'
+alias bl=blueman-manager
+alias wi=nmtui
+alias mi=alsamixer
+
+alias br='xrandr --output LVDS-1 --brightness'
+
+alias br1='xrandr --output LVDS-1 --brightness 0.1'
+alias br2='xrandr --output LVDS-1 --brightness 0.2'
+alias br3='xrandr --output LVDS-1 --brightness 0.3'
+alias br4='xrandr --output LVDS-1 --brightness 0.4'
+alias br5='xrandr --output LVDS-1 --brightness 0.5'
+alias br6='xrandr --output LVDS-1 --brightness 0.6'
+alias br7='xrandr --output LVDS-1 --brightness 0.7'
+alias br8='xrandr --output LVDS-1 --brightness 0.8'
+alias br9='xrandr --output LVDS-1 --brightness 0.9'
+alias br0='xrandr --output LVDS-1 --brightness 1.0'
+
+alias b1='xrandr --output LVDS-1 --brightness 0.1'
+alias b2='xrandr --output LVDS-1 --brightness 0.2'
+alias b3='xrandr --output LVDS-1 --brightness 0.3'
+alias b4='xrandr --output LVDS-1 --brightness 0.4'
+alias b5='xrandr --output LVDS-1 --brightness 0.5'
+alias b6='xrandr --output LVDS-1 --brightness 0.6'
+alias b7='xrandr --output LVDS-1 --brightness 0.7'
+alias b8='xrandr --output LVDS-1 --brightness 0.8'
+alias b9='xrandr --output LVDS-1 --brightness 0.9'
+alias b0='xrandr --output LVDS-1 --brightness 1.0'
+alias bb='xrandr --output LVDS-1 --brightness 1.0'
+
+alias open=xdg-open
+
+# export PATH="$HOME/.emacs.d/bin:$PATH" # To tylko, jeśli zostawię emacsa
+
+# alias bl='gnome-control-center bluetooth'
+# alias wi='gnome-control-center wifi'
+# alias mi='gnome-control-center sound'
+# alias br='gnome-control-center power'
 
