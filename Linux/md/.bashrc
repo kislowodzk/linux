@@ -138,7 +138,7 @@ alias bb='xrandr --output LVDS-1 --brightness 1.0'
 
 alias open=xdg-open
 
-export PATH="$HOME/.emacs.d/bin:$PATH" # To tylko, jeśli zostawię emacsa
+# export PATH="$HOME/.emacs.d/bin:$PATH" # To tylko, jeśli zostawię emacsa
 
 # alias bl='gnome-control-center bluetooth'
 # alias wi='gnome-control-center wifi'

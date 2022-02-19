@@ -106,7 +106,7 @@ scrolling:
 
 
 font:
-  size: 10.0 # na zewnętrznym monitorze wystarczy raczej 9
+  size: 9.5 # na zewnętrznym monitorze wystarczy raczej 9
   normal:
     family: DejaVu Sans Mono Nerd Font
     style: Regular
