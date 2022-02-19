@@ -101,17 +101,15 @@ call plug#begin()
     " Git
     Plug 'airblade/vim-gitgutter'
 
-    Plug 'morhetz/gruvbox'
-
     " Plugin Section
     Plug 'dracula/vim'
     Plug 'ryanoasis/vim-devicons'
     Plug 'SirVer/ultisnips'
     Plug 'honza/vim-snippets'
     Plug 'preservim/nerdcommenter'
-    Plug 'mhinz/vim-startify'
-    Plug 'nvim-lua/completion-nvim'
-    "Plug 'hrsh7th/nvim-compe'
+    Plug 'mhinz/vim-startify' " śmieszny ekran powitania
+    " Plug 'nvim-lua/completion-nvim'
+    " Plug 'hrsh7th/nvim-compe'
     " Dokladne instrukcje jak zainstalowac pluginy na gorze pliku
     " :PlugInstall
     " :PlugClean
