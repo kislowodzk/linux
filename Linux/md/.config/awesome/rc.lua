@@ -295,8 +295,10 @@ globalkeys = gears.table.join(
 
 
    awful.key({ modkey }, "p", function() xrandr.xrandr() end),
-   awful.key({ modkey, "Shift"  }, "s", function() awful.util.spawn("gnome-screenshot -i") end,
-        {description = "Gnome screenshot", group = "screenshots"}),
+   -- awful.key({ modkey, "Shift"  }, "s", function() awful.util.spawn("gnome-screenshot -i") end,
+   --      {description = "Gnome screenshot", group = "screenshots"}),
+   awful.key({ modkey, "Shift"  }, "s", function() awful.util.spawn("flameshot gui") end,
+        {description = "flameshot screenshot", group = "screenshots"}),
 
 
    -- ZMIANA KONIEC

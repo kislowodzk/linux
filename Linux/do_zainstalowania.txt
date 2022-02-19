@@ -102,6 +102,11 @@ to manually rebuild the font cache
 fc-cache -fv
 i tyle, powinno działać, na wszelki wrzucam czcionkę na gita
 
+// screenshot
+sudo apt install flameshot
+// w opcjach odznaczyć pokaż ikonę w trayu, pokaż powiadomienia
+// ekranowe
+
 // dopisanie na końcu tego pliku sprawia, że tab w terminalu uzupełnia bez
 // zwracania uwagi na wielkość znaków
 echo 'set completion-ignore-case On' >> /etc/inputrc
@@ -146,24 +151,4 @@ teams
 caprine
 skype
 discord
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
