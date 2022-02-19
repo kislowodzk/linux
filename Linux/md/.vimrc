@@ -43,7 +43,6 @@ nnoremap <CR> :noh<CR><CR>:<backspace>
 autocmd BufRead,BufNewFile   *.txt set fo+=tawc
 autocmd BufRead,BufNewFile   *.md set fo+=tawc
 
-
 " ============================================================================
 " 
 " letter	 meaning when present in 'formatoptions'
