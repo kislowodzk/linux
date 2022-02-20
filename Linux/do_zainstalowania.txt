@@ -143,6 +143,8 @@ cat /proc/sys/vm/swappiness
 sudo apt install zsh
 sudo apt install zsh-syntax-highlighting
 chsh -s /bin/zsh
+// z obecnym configiem w folderze .cache muszę stworzyć folder zsh na plik // 
+history
 
 
 
