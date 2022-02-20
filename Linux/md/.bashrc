@@ -17,8 +17,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=10000
+HISTFILESIZE=10000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -474,6 +474,7 @@ alias spot=ncspot
 alias caps='setxkbmap -option caps:swapescape'
 alias nocaps='setxkbmap -option'
 alias fresh='sudo apt update; sudo apt upgrade; sudo apt autoremove'
+alias pop_fresh='sudo flatpak update; sudo apt dist-upgrade'
 alias bl=blueman-manager
 alias wi=nmtui
 alias mi=alsamixer
