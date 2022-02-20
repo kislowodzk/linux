@@ -14,7 +14,7 @@ set shiftwidth=4
 setlocal wrap
 setlocal linebreak
 set number relativenumber
-set tw=70
+set tw=80
 map <C-f> ggvG$
 nnoremap <C-k> gk
 nnoremap <C-j> gj
