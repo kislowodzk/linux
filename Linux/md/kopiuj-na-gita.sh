@@ -7,5 +7,5 @@ cp ~/.config/nvim/init.vim ~/Dokumenty/GitHub/linux/Linux/md/.config/nvim/
 cp ~/.kot ~/Dokumenty/GitHub/linux/Linux/md/
 cp ~/kopiuj-na-gita.sh ~/Dokumenty/GitHub/linux/Linux/md/
 cp ~/.config/ranger/rc.conf ~/Dokumenty/GitHub/linux/Linux/md/.config/ranger
-cp ~/.zshrc Dokumenty/GitHub/linux/Linux/md/
-cp ~/.fonts/* Dokumenty/GitHub/linux/Linux/md/.fonts
+cp ~/.zshrc ~/Dokumenty/GitHub/linux/Linux/md/
+cp ~/.fonts/* ~/Dokumenty/GitHub/linux/Linux/md/.fonts
