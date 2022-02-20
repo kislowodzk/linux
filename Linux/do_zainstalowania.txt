@@ -139,6 +139,16 @@ sudo update-initramfs -u
 cat /proc/sys/vm/swappiness
 // i obniżyć do czegoś między 5 a 15 (im mniej, tym lepiej
 
+// zsh zamiast basha
+sudo add-apt-repository universe
+sudo apt update
+sudo apt install zsh
+sudo apt install zsh-syntax-highlighting
+
+
+
+
+
 ### Startup applications -> disable firmware update check
 
 ### Pop-shop:

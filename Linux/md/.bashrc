@@ -90,8 +90,6 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias lla='ls -alF'
-alias ll='ls -lF'
 alias la='ls -A'
 alias l='ls -CF'
 
@@ -462,6 +460,8 @@ xset s noblank
 xset r rate 350 43
 
 # moje aliasy
+alias lla='ls -alF'
+alias ll='ls -lF'
 alias wq=exit
 alias cls=clear
 alias v=vim
