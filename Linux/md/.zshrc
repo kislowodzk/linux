@@ -318,3 +318,6 @@ alias bb='xrandr --output LVDS-1 --brightness 1.0'
 
 alias open=xdg-open
 
+# to enable wildcard expansion
+set -o GLOB_SUBST
+
