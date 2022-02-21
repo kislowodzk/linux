@@ -47,3 +47,4 @@ nnoremap <CR> :noh<CR><CR>:<backspace>
 autocmd BufRead,BufNewFile   *.txt set fo+=tawc
 autocmd BufRead,BufNewFile   *.md set fo+=tawc
 
+set omnifunc=syntaxcomplete#Complete

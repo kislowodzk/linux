@@ -112,7 +112,6 @@ call plug#begin()
     " Dokladne instrukcje jak zainstalowac pluginy na gorze pliku
     " :PlugInstall
     " :PlugClean
-
 call plug#end()
 
 colorscheme dracula
