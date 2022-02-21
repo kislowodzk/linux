@@ -109,7 +109,6 @@ call plug#begin()
     Plug 'preservim/nerdcommenter'
     Plug 'mhinz/vim-startify' " śmieszny ekran powitania
     " Plug 'nvim-lua/completion-nvim'
-    " Plug 'hrsh7th/nvim-compe'
     " Dokladne instrukcje jak zainstalowac pluginy na gorze pliku
     " :PlugInstall
     " :PlugClean
@@ -168,3 +167,5 @@ nnoremap <f9> :set spell spelllang=pl_pl,en_us<enter>
 nnoremap <cr> :noh<CR><CR>:<backspace>
 
  
+set omnifunc=syntaxcomplete#Complete
+
