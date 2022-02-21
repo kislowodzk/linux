@@ -167,3 +167,4 @@ nnoremap <f9> :set spell spelllang=pl_pl,en_us<enter>
 
 nnoremap <cr> :noh<CR><CR>:<backspace>
 
+ 

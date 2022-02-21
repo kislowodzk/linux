@@ -736,8 +736,8 @@ table.insert(naughty.dbus.config.mapping, {{appname = "Spotify"},
 naughty.config.presets.spotify}) 
 
 gears.wallpaper.set("#808080")
-gears.wallpaper.maximized("/home/md/.tapeta/tapeta7.jpg", 2)
-gears.wallpaper.maximized("/home/md/.tapeta/tapeta7.jpg", 1)
+gears.wallpaper.maximized("/home/md/.tapeta/tapeta2.jpg", 2)
+gears.wallpaper.maximized("/home/md/.tapeta/tapeta2.jpg", 1)
 
 awful.spawn("compton")
 -- on odpowiada za przezroczystosc terminali i generalnie dobry wyglad, 
