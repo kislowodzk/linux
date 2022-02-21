@@ -68,6 +68,7 @@ sudo apt-get install lxappearance
 lxappearance
 
 sudo apt install ranger
+sudo apt install vifm
 
 
 // coby przy nvidii ekran się nie ciął przy odtwarzaniu wideo
