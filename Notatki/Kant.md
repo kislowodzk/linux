@@ -410,7 +410,8 @@ mówi właśnie o tym rozumie):
     - aprioryczne formy zmysłowości
         - czas
         - przestrzeń
-    - to nie jest to samo, co zmysły (die Sinne)
+    - to nie jest to samo, co zmysły (die Sinne); Kant nie zajmuje się zmysłami 
+    (co czasami mu się zarzuca)
     - Kant uważa, że jedyną dostępną człowiekowi naocznością jest naoczność 
     empiryczna, czyli ta, która odwołuje się do zmysłów. te wrażenia dostają się 
     w pewien sposób przez zmysły
@@ -451,6 +452,11 @@ mówi właśnie o tym rozumie):
     chroni przed myśleniem, że z punktu widzenia danej dziedziny jesteśmy 
     w stanie wszystko wyjaśnić.
     - dialektyka transcendentalna
+
+Stąd próba pokazania roszczeń metafizycznych, które biorą się z dążenia wtórnej 
+jedności. Najpierw mamy pojęcia empiryczne, jakieś prawa, z nich próbujemy 
+wywnioskować połączenie z wyższą zasadą, które to połączenie nie jest 
+uprawnione.
 
 Przyjęło się, że mówimy o trzech władzach poznawcze, jednak sama *Krytyka...* 
 dzieli się na dwie części:
@@ -509,9 +515,6 @@ wystraszył. U Kanta dwa pnie poznania: naoczność i pojęcia, Heidegger powie,
 ich wspólnych korzeniem jest wyobraźnia. To są jednak te fragmenty *Krytyki...*, 
 które są niejednoznaczne, różne w zależności od wydania.
 
-452 -- w tej linijce ostatni wątek z filmu
-
-1:15:30
 
 
 
