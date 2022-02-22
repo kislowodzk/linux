@@ -423,6 +423,8 @@ mówi właśnie o tym rozumie):
             - antycypacje spostrzeżenia
             - analogie doświadczenia
             - postulaty empirycznego myślenia w ogóle
+    - pojęcia intelektu (jako że można znaleźć odpowiadającą im naoczność), mogą 
+    być wykorzystywane konstytutywnie
     - analityka transcendentalna
 - Rozum (w węższym rozumieniu) (die Vernunft)
     - wyższa władza rozumowa
@@ -431,13 +433,36 @@ mówi właśnie o tym rozumie):
         - świat jako całość
         - Bóg
         - (wraz z wypływającymi z nich dialektycznymi wnioskami)
+    - te idee/pojęcia nie mogą być stosowane konstytutywnie; na podstawie tego, 
+    że je mamy, nie możemy twierdzić, że coś im przedmiotowo odpowiada; są to 
+    pojęcia najbardziej ogólne
+    - to nie jest tak, że Kant uważa te idee za niepotrzebne i konieczne do 
+    odrzucenia; odmawia im użytku konstytutywnego, ale przyznaje im *użytek 
+    regulatywny*, tzn. uważa, że trzeba ich używać, ale w sposób regulatywny. 
+    One tworzą *horyzont* całego naszego doświadczenia, dlatego że ujmują one 
+    całość jakiejś rzeczywistości, nigdy nie mamy więc pojęcia naoczności, które 
+    odpowiadałyby tym pojęciom. Nie może nam być dany wszechświat jako całość, 
+    Bóg, dusza. Niemniej te pojęcia są potrzebne, dlatego, że dzięki nim wiemy, 
+    że coś jeszcze jest poza tym, co poznaliśmy, czego doświadczyliśmy. 
+    Przyjmujemy ideę, że istnieje gdzieś jakaś całość, że gdzieś coś się łączy, 
+    dzięki temu poznając pamiętam, że jest to częścią większej całości. Dzięki 
+    uświadomieiu sobie, że nigdy ta całość nie będzie nam dana, uświadamiamy 
+    sobie, że nigdy nauka się nie skończy, nie dowiemy się wszystkiego. To 
+    chroni przed myśleniem, że z punktu widzenia danej dziedziny jesteśmy 
+    w stanie wszystko wyjaśnić.
     - dialektyka transcendentalna
 
 Przyjęło się, że mówimy o trzech władzach poznawcze, jednak sama *Krytyka...* 
 dzieli się na dwie części:
 
-- estetykę transcendentalną
-- logikę transcendentalną
+- estetykę transcendentalną -- zajmuje się zmysłowością
+- logikę transcendentalną -- rozpada się na dwie części:
+    - analityka -- zajmuje się intelektem
+        - analityka pojęć
+        - analityka zasad -- tu pojawiają się zasady czystego intelektu, które 
+        są zastosowaniem pojęć do naoczności, tu pojawiają się zasady, czyli 
+        sądy syntetyczne apriori
+    - dialektyka -- zajmuje się rozumem
 
 pierwotne jest więc rozróżnienie na dwie władze umysłu:
 
@@ -447,6 +472,9 @@ pierwotne jest więc rozróżnienie na dwie władze umysłu:
     - władza myślenia, która potrafi naoczność uchwytywać za pomocą sądów 
     i pojęć, to dopiero jest tak naprawdę poznanie
     - one rozbijają się na intelekt i rozum
+
+te władze umysłu dzielą naukę na estetykę transcendentalną i logikę 
+transcendeną.
 
 (Pewne kontrowersje co do tłumaczenia -- czy przypadkiem Vernunft nie powinno 
 się tłumaczyć jako intelekt; ponoć Ingarden to sugerował, ale wtedy wiązałoby 
@@ -468,7 +496,41 @@ pojęciami bez odniesienia do rzeczywistości jest tylko myśleniem, nie poznani
 Coś musi być dane naocznie, co odpowiada temu pojęciu. Wtedy dopiero możemy 
 powiedzieć, że poznajemy rzeczywistość.
 
-1:02:10
+Zdolność rozpoznawania -- podporządkowuje się pewne dane empiryczne pod te 
+pojęcia, które zostały wcześniej wytworzone przez intelekt. Zdolność 
+rozpoznawania rozpoznaje co da się lepiej podporządkować, Kant mówi, że jest to 
+*moment sprytu*. To zostanie nazwane władzą sądzenia.
+
+Pojęcie wyobraźni -- rola wyobraźni dużo bardziej podkreślona w pierwszym 
+wydaniu, ale w drugim podkreślenie roli intelektu (być może po to, aby uniknąć 
+zarzutów idealizmu). U Heideggera najważniejszą władzą wyobraźnia, Heidegger 
+uważa, że Kantowi wyszło, że najważniejsza jest wyobraźnia, ale Kant się tego 
+wystraszył. U Kanta dwa pnie poznania: naoczność i pojęcia, Heidegger powie, że 
+ich wspólnych korzeniem jest wyobraźnia. To są jednak te fragmenty *Krytyki...*, 
+które są niejednoznaczne, różne w zależności od wydania.
+
+452 -- w tej linijce ostatni wątek z filmu
+
+1:15:30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
