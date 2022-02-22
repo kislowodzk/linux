@@ -23,7 +23,6 @@ nnoremap <C-l> l
 set display+=lastline
 set backspace=indent,eol,start
 set scrolloff=8
-nnoremap <space> :w<cr>
 
 " Pozazuj białe znaki
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
