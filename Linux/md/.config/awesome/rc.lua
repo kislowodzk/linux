@@ -745,13 +745,20 @@ gears.wallpaper.set("#808080")
 gears.wallpaper.maximized("/home/md/.tapeta/tapeta2.jpg", 2)
 gears.wallpaper.maximized("/home/md/.tapeta/tapeta2.jpg", 1)
 
+-- AUTOSTART
+
 awful.spawn("compton")
 -- on odpowiada za przezroczystosc terminali i generalnie dobry wyglad, 
 --problem jest taki, ze wtedy z Pantheonem niestety sa problemy, wiec wylaczam
 
 awful.spawn.with_shell("xscreensaver")
+-- jeśli powyższego nie chcę, to xscreensaver-command -deactivate
+
 awful.spawn.with_shell("setxkbmap -option caps:swapescape")
 -- jeśli w odpalę 'setxkbmap -option', to wróci do normy
+
+-- poniższe ma niby zapobiegać wygaszaniu ekranu, ale chyba xscreensaver
+-- załatwia to wystarczająco dobrze; niemniej niech zostanie
 awful.spawn.with_shell("set s off")
 awful.spawn.with_shell("xset -dpms")
 awful.spawn.with_shell("xset s noblank")
@@ -762,13 +769,8 @@ awful.spawn.with_shell("volumeicon")
 awful.spawn.with_shell("blueman-applet")
 awful.spawn.with_shell("nm-applet")
 
--- os.execute("~/.confing/awesome/touchpad_tap.sh")
-
 beautiful.useless_gap = 4
 beautiful.gap_single_client = true
-
--- awful.spawn("start-pulseaudio-x11")
--- os.execute("xset r rate 350 43")
 
 client.connect_signal("manage", function (c)
     c.shape = function(cr,w,h)

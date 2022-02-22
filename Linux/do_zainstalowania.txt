@@ -18,6 +18,8 @@ sudo apt-get install fonts-powerline     // żeby powerline dobrze działał
 
 sudo apt install blueman
 sudo apt install volumeicon-alsa // ikonka dźwięku
+sudo apt install xscreensaver -- zapobiega wyłączeniu ekranu, więcej 
+w autostarcie awesomewm
 
 // poniższe 2 odpowiadają za kodeki
 sudo apt-get install ubuntu-restricted-extras
