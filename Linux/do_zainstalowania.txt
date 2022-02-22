@@ -35,10 +35,6 @@ systemctl enable tlp.service
 
 sudo apt install neofetch
 sudo apt install neovim
-// jeśli chcę najnowszą wersję, to lepiej przez snap
-// sudo snap install nvim --classic
-// no i do tego używam spacevima
-// https://spacevim.org/quick-start-guide/ curl -sLf https://spacevim.org/install.sh | bash
 
 // czcionka, której używam
 z tej strony: https://www.nerdfonts.com/font-downloads
