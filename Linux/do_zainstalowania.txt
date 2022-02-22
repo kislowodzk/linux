@@ -97,8 +97,8 @@ history
 
 ### Pop-shop:
 
-simplenote
-github desktop
+simplenote // setting->display->line length->full
+github desktop // żeby zmienić na ciemny motyw file->options->appearance->dark
 vlc
 obs studio
 spotify
