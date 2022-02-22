@@ -748,7 +748,6 @@ gears.wallpaper.maximized("/home/md/.tapeta/tapeta2.jpg", 2)
 gears.wallpaper.maximized("/home/md/.tapeta/tapeta2.jpg", 1)
 
 -- AUTOSTART
-
 awful.spawn("compton")
 -- on odpowiada za przezroczystosc terminali i generalnie dobry wyglad, 
 --problem jest taki, ze wtedy z Pantheonem niestety sa problemy, wiec wylaczam
