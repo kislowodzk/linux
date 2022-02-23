@@ -9,7 +9,11 @@ sudo apt install tree
 sudo apt install vim
 sudo apt install vim-gtk3
 gvim
+
+sudo add-apt-repository ppa:mmstick76/alacritty
+sudo apt update
 sudo apt install alacritty
+
 sudo apt-get install awesome
 sudo apt install compton
 sudo apt-get install fonts-powerline     // żeby powerline dobrze działał
