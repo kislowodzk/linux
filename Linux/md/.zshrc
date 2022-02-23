@@ -263,9 +263,9 @@ fi
 echo "
 █░█░█ █ ▀█▀ ▄▀█ ░░█   █░█░█   █▄▀ █ █▀ █░░ █▀█ █░█░█ █▀█ █▀▄ ▀█ █▄▀ █░█
 ▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
-" | lolcat -p 1 -t -S 1
+" | lolcat -p 1 -t
 
-cat ~/.kot | lolcat -p 1 -t -S 1
+cat ~/.kot | lolcat -p 1 -t
 
 # autostart
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
