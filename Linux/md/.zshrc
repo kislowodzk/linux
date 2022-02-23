@@ -267,6 +267,8 @@ echo "
 
 cat ~/.kot | lolcat -p 1 -t
 
+# fortune | cowsay -f $(ls /usr/share/cowsay/cows/|shuf -n 1) # | lolcat -p 1 -t
+
 # autostart
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
 setxkbmap -option caps:swapescape
