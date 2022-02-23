@@ -4,10 +4,10 @@ cp ~/.bashrc ~/Dokumenty/GitHub/linux/Linux/md/
 cp ~/.config/awesome/rc.lua ~/Dokumenty/GitHub/linux/Linux/md/.config/awesome/
 cp ~/.config/alacritty/alacritty.yml ~/Dokumenty/GitHub/linux/Linux/md/.config/alacritty/
 cp ~/.config/nvim/init.vim ~/Dokumenty/GitHub/linux/Linux/md/.config/nvim/
-cp ~/.kot ~/Dokumenty/GitHub/linux/Linux/md/
 cp ~/kopiuj-na-gita.sh ~/Dokumenty/GitHub/linux/Linux/md/
 cp ~/.config/ranger/rc.conf ~/Dokumenty/GitHub/linux/Linux/md/.config/ranger
 cp ~/.zshrc ~/Dokumenty/GitHub/linux/Linux/md/
 cp ~/.fonts/* ~/Dokumenty/GitHub/linux/Linux/md/.fonts
 cp ~/.tapeta/* ~/Dokumenty/GitHub/linux/Linux/md/.tapeta
+cp ~/ascii/* ~/Dokumenty/GitHub/linux/Linux/md/ascii
 

@@ -265,7 +265,10 @@ echo "
 ▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
 " | lolcat -p 1 -t
 
-cat ~/.kot | lolcat -p 1 -t
+cat "/home/md/ascii/$(ls ~/ascii/|shuf -n 1)" | lolcat -p 1 -t 
+
+
+# cat ~/.kot | lolcat -p 1 -t
 
 # fortune | cowsay -f $(ls /usr/share/cowsay/cows/|shuf -n 1) # | lolcat -p 1 -t
 
