@@ -263,9 +263,9 @@ fi
 echo "
 █░█░█ █ ▀█▀ ▄▀█ ░░█   █░█░█   █▄▀ █ █▀ █░░ █▀█ █░█░█ █▀█ █▀▄ ▀█ █▄▀ █░█
 ▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
-"
+" | lolcat -p 1 -t
 
-cat ~/.kot
+cat ~/.kot | lolcat -p 1 -t
 
 # autostart
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
@@ -277,8 +277,8 @@ xset s noblank
 xset r rate 350 43
 
 # moje aliasy
-alias lla='ls -alF'
-alias ll='ls -lF'
+alias lla='ls -alFh'
+alias ll='ls -lFh'
 alias wq=exit
 alias cls=clear
 alias v=vim
@@ -286,8 +286,6 @@ alias nv=nvim
 alias cdn='cd ~/Notatki'
 alias vtd='vim ~/Notatki/ToDo.md'
 alias rt='gio trash'
-alias t=tmux
-alias spot=ncspot
 alias caps='setxkbmap -option caps:swapescape'
 alias nocaps='setxkbmap -option'
 alias fresh='sudo apt update; sudo apt upgrade; sudo apt autoremove'
@@ -295,6 +293,7 @@ alias pop_fresh='flatpak update; sudo apt dist-upgrade'
 alias bl=blueman-manager
 alias wi=nmtui
 alias mi=alsamixer
+alias open=xdg-open
 
 alias br='xrandr --output LVDS-1 --brightness'
 
@@ -321,8 +320,7 @@ alias b9='xrandr --output LVDS-1 --brightness 0.9'
 alias b0='xrandr --output LVDS-1 --brightness 1.0'
 alias bb='xrandr --output LVDS-1 --brightness 1.0'
 
-alias open=xdg-open
 
-# to enable wildcard expansion
+# to enable wildcard expansion, coś, co jest potrzebne w zsh
 set -o GLOB_SUBST
 

@@ -48,3 +48,7 @@ autocmd BufRead,BufNewFile   *.txt set fo+=tawc
 autocmd BufRead,BufNewFile   *.md set fo+=tawc
 
 set omnifunc=syntaxcomplete#Complete
+
+" Zmiana kursora w zależności od trybu
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
