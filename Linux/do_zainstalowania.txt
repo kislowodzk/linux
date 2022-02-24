@@ -86,6 +86,8 @@ options nvidia-drm modset=1
 // potem uruchomić to
 sudo update-initramfs -u
 
+sudo apt install git
+
 // tego już nie robiłem, ale można sprawdzić
 cat /proc/sys/vm/swappiness
 // i obniżyć do czegoś między 5 a 15 (im mniej, tym lepiej
