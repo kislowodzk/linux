@@ -22,7 +22,7 @@ sudo apt-get install fonts-powerline     // żeby powerline dobrze działał
 
 sudo apt install blueman
 sudo apt install volumeicon-alsa // ikonka dźwięku
-sudo apt install xscreensaver -- zapobiega wyłączeniu ekranu, więcej 
+sudo apt install xscreensaver // zapobiega wyłączeniu ekranu, więcej 
 w autostarcie awesomewm
 
 // poniższe 2 odpowiadają za kodeki
@@ -67,6 +67,7 @@ sudo apt install piper
 piper // kolorek #FF9000
 
 sudo apt install -y texlive texlive-font-utils texlive-pstricks-doc texlive-base texlive-formats-extra texlive-lang-german texlive-metapost texlive-publishers texlive-bibtex-extra texlive-latex-base texlive-metapost-doc texlive-publishers-doc texlive-binaries texlive-latex-base-doc texlive-science texlive-extra-utils texlive-latex-extra texlive-science-doc texlive-fonts-extra texlive-latex-extra-doc texlive-pictures texlive-xetex texlive-fonts-extra-doc texlive-latex-recommended texlive-pictures-doc texlive-fonts-recommended texlive-humanities texlive-lang-english texlive-latex-recommended-doc texlive-fonts-recommended-doc texlive-humanities-doc texlive-luatex texlive-pstricks perl-tk
+
 sudo apt install texlive-latex-base
 
 // Ciemny motyw do pop os
@@ -76,6 +77,7 @@ lxappearance
 sudo apt install ranger
 sudo apt install vifm
 
+sudo apt install lolcat
 
 // coby przy nvidii ekran się nie ciął przy odtwarzaniu wideo
 sudo touch /etc/modprobe.d/nvidia-nomodset.conf
@@ -108,7 +110,7 @@ github desktop // żeby zmienić na ciemny motyw file->options->appearance->dark
 vlc
 obs studio
 spotify
-FMIT
+FMIT // stroik
 kolourpaint
 teams
 caprine
