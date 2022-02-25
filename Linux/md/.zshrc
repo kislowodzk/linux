@@ -294,6 +294,7 @@ alias caps='setxkbmap -option caps:swapescape'
 alias nocaps='setxkbmap -option'
 alias fresh='sudo apt update; sudo apt upgrade; sudo apt autoremove'
 alias pop_fresh='flatpak update; sudo apt dist-upgrade'
+alias bed='shutdown now'
 alias bl=blueman-manager
 alias wi=nmtui
 alias mi=alsamixer
