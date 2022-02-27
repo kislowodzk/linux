@@ -99,7 +99,7 @@ chsh -s /bin/zsh
 // z obecnym configiem w folderze .cache muszę stworzyć folder zsh na plik // 
 history
 
-
+sudo apt install ncal // kalendarz do terminala, polecenie `cal`
 
 
 
@@ -119,3 +119,6 @@ caprine
 skype
 discord
 
+### Inne
+
+Zainstalować times new roman i georgię

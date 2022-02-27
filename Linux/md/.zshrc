@@ -299,6 +299,7 @@ alias bl=blueman-manager
 alias wi=nmtui
 alias mi=alsamixer
 alias open=xdg-open
+alias kal='ncal -A1 -B1'
 
 alias br='xrandr --output LVDS-1 --brightness'
 
