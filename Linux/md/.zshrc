@@ -283,13 +283,13 @@ xset r rate 350 43
 # moje aliasy
 alias lla='ls -alFh'
 alias ll='ls -lFh'
-alias wq=exit
+alias :wq=exit
 alias ZZ=exit
 alias cls=clear
 alias v=vim
 alias nv=nvim
-alias cdn='cd ~/Notatki'
 alias vtd='vim ~/Notatki/ToDo.md'
+alias cds='cd ~/1-STUDIA/2._Drugi_rok/Semestr_4/'
 alias rt='gio trash'
 alias caps='setxkbmap -option caps:swapescape'
 alias nocaps='setxkbmap -option'
