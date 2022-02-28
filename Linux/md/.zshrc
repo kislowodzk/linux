@@ -292,6 +292,7 @@ alias nv=nvim
 alias vtd='vim ~/Notatki/ToDo.md'
 alias cds='cd ~/1-STUDIA/2._Drugi_rok/Semestr_4/'
 alias vs='vim ~/1-STUDIA/2._Drugi_rok/Semestr_4/'
+alias s='ranger ~/1-STUDIA/2._Drugi_rok/Semestr_4/'
 alias rt='gio trash'
 alias caps='setxkbmap -option caps:swapescape'
 alias nocaps='setxkbmap -option'
