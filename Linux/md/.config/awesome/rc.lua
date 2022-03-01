@@ -71,7 +71,7 @@ beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 
 
 -- This is used later as the default terminal and editor to run.
-terminal = "x-terminal-emulator"
+terminal = "alacritty"
 editor = os.getenv("EDITOR") or "editor"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -212,7 +212,7 @@ awful.screen.connect_for_each_screen(function(s)
 
 	-- Each screen has its own tag table. 
 	-- ZMIANA na koncu 2 odpowiada za automatyczny tile
-    awful.tag({ "~1~", "~2~", "~3~", "~4~", "~5~", "~6~", "~7~", "~8~", "~9~" }, s, awful.layout.layouts[1])
+    awful.tag({ "  ~1~  ", "  ~2~  ", "  ~3~  ", "  ~4~  ", "  ~5~  ", "  ~6~  ", "  ~7~  ", "  ~8~  ", "  ~9~  " }, s, awful.layout.layouts[1])
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
@@ -744,8 +744,11 @@ table.insert(naughty.dbus.config.mapping, {{appname = "Spotify"},
 naughty.config.presets.spotify}) 
 
 gears.wallpaper.set("#808080")
+gears.wallpaper.maximized("/home/md/tmp/wallpaper.jpg", 2)
+gears.wallpaper.maximized("/home/md/tmp/wallpaper.jpg", 1)
 gears.wallpaper.maximized("/home/md/.tapeta/tapeta2.jpg", 2)
 gears.wallpaper.maximized("/home/md/.tapeta/tapeta2.jpg", 1)
+
 
 -- AUTOSTART
 awful.spawn("compton")
@@ -764,6 +767,7 @@ awful.spawn.with_shell("set s off")
 awful.spawn.with_shell("xset -dpms")
 awful.spawn.with_shell("xset s noblank")
 awful.spawn.with_shell("xset r rate 350 43")
+
 awful.spawn.with_shell("volumeicon")
 awful.spawn.with_shell("killall volumeicon")
 awful.spawn.with_shell("volumeicon")
