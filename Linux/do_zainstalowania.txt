@@ -105,6 +105,8 @@ sudo apt instal tty-clock // zegar w konsoli
 sudo add-apt-repository ppa:ytvwld/asciiquarium
 sudo apt install asciiquarium
 
+sudo apt install stacer
+
 ### Startup applications -> disable firmware update check
 
 ### Pop-shop:
