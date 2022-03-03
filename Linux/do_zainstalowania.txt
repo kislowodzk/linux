@@ -76,6 +76,7 @@ lxappearance
 
 sudo apt install ranger
 sudo apt install vifm
+sudo apt install pavucontrol    // zarządzanie dźwiękiem, nie tylko wyjście i nagrywanie, ale też indywidualnie dźwięk dla każdej aplikacji
 
 sudo apt install lolcat // tęczowe napisy
 
