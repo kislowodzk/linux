@@ -305,6 +305,8 @@ alias mi=alsamixer
 alias open=xdg-open
 alias kal='ncal -A1 -B1'
 alias clock='tty-clock -s -c'
+alias ra=ranger                                                             # ranger
+alias pa='pandoc -V geometry:margin=1in'                                    # pandoc z dobrymi marginesami, po tym powinienem podać plik wejścia -o i plik wyjścia
 
 alias br='xrandr --output LVDS-1 --brightness'
 
