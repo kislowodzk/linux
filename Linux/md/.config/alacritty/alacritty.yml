@@ -587,7 +587,7 @@ schemes:
       blue:    '#81a2be'
       magenta: '#b294bb'
       cyan:    '#70c0ba'
-      white:   '#373b41'
+      white:   '#c5c8c6'
 
     # Bright colors
     bright:
@@ -598,7 +598,7 @@ schemes:
       blue:    '#81a2be'
       magenta: '#b77ee0'
       cyan:    '#54ced6'
-      white:   '#282a2e'
+      white:   '#c5c8c6'
 
 ######################################################################
 ## SET THEME: Choose ONE color scheme from those in the above list. ##
