@@ -24,6 +24,7 @@ set display+=lastline
 set backspace=indent,eol,start
 set scrolloff=8
 nnoremap <space> :w<cr>
+nnoremap Q gq
 
 " Pokazuj białe znaki
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
