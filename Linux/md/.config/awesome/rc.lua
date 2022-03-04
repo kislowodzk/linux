@@ -54,21 +54,12 @@ end
 -- Themes define colours, icons, font and wallpapers.
 -- ZMIANA
 
-
-
-
 volumecfg = volume_control {device="pulse"}
-
-
-
-
-
 
 beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 -- beautiful.init(gears.filesystem.get_configuration_dir() .. "mytheme.lua")
 -- powyższe, jeśli chcę zmienić theme na swoje, które jest w tym pliku. Przy -- 
 -- takiej konfiguracji jak teraz ten plik jest niepotrzebny
-
 
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty"
@@ -201,11 +192,6 @@ end
 -- Re-set wallpaper when a screen's geometry changes (e.g. different resolution)
 screen.connect_signal("property::geometry", set_wallpaper)
 
-
-
-
-
-
 awful.screen.connect_for_each_screen(function(s)
     -- Wallpaper
     set_wallpaper(s)
@@ -273,7 +259,6 @@ root.buttons(gears.table.join(
 ))
 -- }}}
 
-
 -- {{{ Key bindings
 globalkeys = gears.table.join(
 	-- ZMIANA START
@@ -292,14 +277,11 @@ globalkeys = gears.table.join(
 --    awful.key({ }, "XF86MonBrightnessUp", function ()
 --        awful.util.spawn("xbacklight -inc 15") end),
 
-
-
    awful.key({ modkey }, "p", function() xrandr.xrandr() end),
    -- awful.key({ modkey, "Shift"  }, "s", function() awful.util.spawn("gnome-screenshot -i") end,
    --      {description = "Gnome screenshot", group = "screenshots"}),
    awful.key({ modkey, "Shift"  }, "s", function() awful.util.spawn("flameshot gui") end,
         {description = "flameshot screenshot", group = "screenshots"}),
-
 
    -- ZMIANA KONIEC
 
@@ -311,8 +293,6 @@ globalkeys = gears.table.join(
               {description = "view next", group = "tag"}),
     awful.key({ modkey,           }, "Escape", awful.tag.history.restore,
               {description = "go back", group = "tag"}),
-
-
 
     -- zeby zmieniac tagi tez inaczej
     awful.key({ modkey,           }, "h",   awful.tag.viewprev,
@@ -377,16 +357,6 @@ globalkeys = gears.table.join(
     --     end,
     --     {description = "focus right", group = "client"}),
 
-
-
-
-
-
-
-
-
-
-
     awful.key({ modkey,           }, "w", function () mymainmenu:show() end,
               {description = "show main menu", group = "awesome"}),
 
@@ -414,14 +384,12 @@ globalkeys = gears.table.join(
         end,
         {description = "go back", group = "client"}),
 
-
     -- zmiana rozmiaru okna za pomocą mod, alt i strzałek/hjkl
     
     awful.key({ modkey, "Mod1"    }, "Right",     function () awful.tag.incmwfact( 0.01)    end),
     awful.key({ modkey, "Mod1"    }, "Left",     function () awful.tag.incmwfact(-0.01)    end),
     awful.key({ modkey, "Mod1"    }, "Down",     function () awful.client.incwfact( 0.01)    end),
     awful.key({ modkey, "Mod1"    }, "Up",     function () awful.client.incwfact(-0.01)    end),
-
 
     awful.key({ modkey, "Mod1"    }, "l",     function () awful.tag.incmwfact( 0.01)    end),
     awful.key({ modkey, "Mod1"    }, "h",     function () awful.tag.incmwfact(-0.01)    end),
@@ -726,10 +694,7 @@ client.connect_signal("focus", function(c) c.border_color = '#999999' end) -- be
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
-
-
 -- moj config
-
 
 -- Changing spotify notifications.
 naughty.config.presets.spotify = { 
@@ -754,8 +719,7 @@ gears.wallpaper.maximized("/home/md/.tapeta/tapeta2.jpg", 1)
 
 -- AUTOSTART
 awful.spawn("compton")
--- on odpowiada za przezroczystosc terminali i generalnie dobry wyglad, 
---problem jest taki, ze wtedy z Pantheonem niestety sa problemy, wiec wylaczam
+-- on odpowiada za przezroczystosc terminali i generalnie dobry wyglad
 
 awful.spawn.with_shell("xscreensaver")
 -- jeśli powyższego nie chcę, to xscreensaver-command -deactivate
