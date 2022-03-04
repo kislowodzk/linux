@@ -290,9 +290,7 @@ alias cls=clear
 alias v=vim
 alias nv=nvim
 alias vtd='vim ~/Notatki/ToDo.md'
-alias cds='cd ~/1-STUDIA/2._Drugi_rok/Semestr_4/'
-alias vs='vim ~/1-STUDIA/2._Drugi_rok/Semestr_4/'
-alias s='ranger ~/1-STUDIA/2._Drugi_rok/Semestr_4/'
+alias s='ranger ~/1-STUDIA/2_Rok/Semestr_4/'
 alias rt='gio trash'
 alias caps='setxkbmap -option caps:swapescape'
 alias nocaps='setxkbmap -option'
@@ -306,8 +304,8 @@ alias mi_term=alsamixer
 alias open=xdg-open
 alias kal='ncal -A1 -B1'
 alias clock='tty-clock -s -c'
-alias ra=ranger                                                             # ranger
-alias pa='pandoc -V geometry:margin=1in'                                    # pandoc z dobrymi marginesami, po tym powinienem podać plik wejścia -o i plik wyjścia
+alias ra=ranger
+alias pa='pandoc -V geometry:margin=1in'    # pandoc z dobrymi marginesami, po tym powinienem podać plik wejścia -o i plik wyjścia
 
 alias br='xrandr --output LVDS-1 --brightness'
 
@@ -335,6 +333,6 @@ alias b0='xrandr --output LVDS-1 --brightness 1.0'
 alias bb='xrandr --output LVDS-1 --brightness 1.0'
 
 
-# to enable wildcard expansion, coś, co jest potrzebne w zsh
+# enable wildcard expansion, coś, co jest potrzebne w zsh
 set -o GLOB_SUBST
 
