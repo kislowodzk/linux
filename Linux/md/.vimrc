@@ -3,7 +3,7 @@ setlocal noexpandtab
 set ignorecase
 set incsearch
 set complete+=s
-set formatprg=par
+" set formatprg=par
 set autoindent
 set tabstop=4
 
@@ -25,7 +25,7 @@ set backspace=indent,eol,start
 set scrolloff=8
 nnoremap <space> :w<cr>
 
-" Pozazuj białe znaki
+" Pokazuj białe znaki
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
 nnoremap <f6> :set list<enter>
 
