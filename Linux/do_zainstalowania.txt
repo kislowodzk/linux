@@ -97,8 +97,7 @@ cat /proc/sys/vm/swappiness
 sudo apt install zsh
 sudo apt install zsh-syntax-highlighting
 chsh -s /bin/zsh
-// z obecnym configiem w folderze .cache muszę stworzyć folder zsh na plik // 
-history
+// z obecnym configiem w folderze .cache muszę stworzyć folder zsh na plik history
 
 sudo apt install ncal // kalendarz do terminala, polecenie `cal`
 sudo apt instal tty-clock // zegar w konsoli
@@ -107,6 +106,19 @@ sudo add-apt-repository ppa:ytvwld/asciiquarium
 sudo apt install asciiquarium
 
 sudo apt install stacer
+
+//Nie wiem, czy chcę, ale jak chcę, to instalacja brave'a
+sudo apt install apt-transport-https curl //choć tego chyba nie trzeba, bo curla już mam na 90%
+
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+
+sudo apt update
+
+sudo apt install brave-browser
+
+----------------------------
 
 ### Startup applications -> disable firmware update check
 
