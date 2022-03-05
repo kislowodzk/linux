@@ -54,7 +54,31 @@ end
 -- Themes define colours, icons, font and wallpapers.
 -- ZMIANA
 
-volumecfg = volume_control {device="pulse"}
+-- volumecfg = volume_control {device="pulse"} -- domyślne
+-- Jeśli coś nie będzie działać z emotkami, to można cały poniższy fragment (22
+-- linijki) wywalić i odkomentować to, co jest wyżej (domyśle ustawienia)
+volumecfg = volume_control({
+  device  = nil,            -- e.g.: "default", "pulse"
+  cardid  = nil,            -- e.g.: 0, 1, ...
+  channel = "Master",
+  step    = '5%',           -- step size for up/down
+  lclick  = "toggle",       -- mouse actions described below
+  mclick  = "pavucontrol",
+  rclick  = "pavucontrol",
+  listen  = false,          -- enable/disable listening for audio status changes
+  widget  = nil,            -- use this instead of creating a awful.widget.textbox
+  font    = nil,            -- font used for the widget's text
+  callback = nil,           -- called to update the widget: `callback(self, state)`
+  widget_text = {
+    on  = '% 3d%% 🔊',        -- three digits, fill with leading spaces
+    off = '% 3d%% 🔇',
+  },
+  tooltip_text = [[
+Volume: ${volume}% ${state}
+Channel: ${channel}
+Device: ${device}
+Card: ${card}]],
+})
 
 beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 -- beautiful.init(gears.filesystem.get_configuration_dir() .. "mytheme.lua")
@@ -734,9 +758,9 @@ awful.spawn.with_shell("xset -dpms")
 awful.spawn.with_shell("xset s noblank")
 awful.spawn.with_shell("xset r rate 350 43")
 
-awful.spawn.with_shell("volumeicon")
-awful.spawn.with_shell("killall volumeicon")
-awful.spawn.with_shell("volumeicon")
+-- awful.spawn.with_shell("volumeicon")
+-- awful.spawn.with_shell("killall volumeicon")
+-- awful.spawn.with_shell("volumeicon")
 awful.spawn.with_shell("blueman-applet")
 awful.spawn.with_shell("nm-applet")
 
