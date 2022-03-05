@@ -9,5 +9,5 @@ cp ~/.config/ranger/rc.conf ~/Dokumenty/GitHub/linux/Linux/md/.config/ranger
 cp ~/.zshrc ~/Dokumenty/GitHub/linux/Linux/md/
 cp ~/.fonts/* ~/Dokumenty/GitHub/linux/Linux/md/.fonts
 cp ~/.tapeta/* ~/Dokumenty/GitHub/linux/Linux/md/.tapeta
-cp ~/startup_zsh/* ~/Dokumenty/GitHub/linux/Linux/md/startup_zsh
+cp ~/.startup_zsh/* ~/Dokumenty/GitHub/linux/Linux/md/.startup_zsh
 

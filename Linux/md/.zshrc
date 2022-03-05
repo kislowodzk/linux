@@ -265,7 +265,7 @@ echo "
 ▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
 " | lolcat -p 1 -t
 
-cat "/home/md/startup_zsh/$(ls ~/startup_zsh/|shuf -n 1)" | lolcat -p 1 -t 
+cat "/home/md/.startup_zsh/$(ls ~/.startup_zsh/|shuf -n 1)" | lolcat -p 1 -t 
 
 # cat ~/.kot | lolcat -p 1 -t
 
