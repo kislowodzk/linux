@@ -273,6 +273,7 @@ cat "/home/md/.startup_zsh/$(ls ~/.startup_zsh/|shuf -n 1)" | lolcat -p 1 -t
 
 # autostart
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
+# dzięki temu touchpad działa tak, jak tego oczekuję
 setxkbmap -option caps:swapescape
 # jeśli odpalę 'setxkbmap -option', to wróci do normy
 set s off
