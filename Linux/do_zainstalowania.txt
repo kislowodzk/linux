@@ -107,6 +107,20 @@ sudo apt install asciiquarium
 
 sudo apt install stacer
 
+instalacja brave'a // rozszerzenie AutoScroll
+
+sudo apt-get install okular // do obsługi pdf-ów, ustawiam sobie dodatkowo 
+skróty klawiszowe:
+    alt q -- linia odręczna
+    alt a -- podświetlenie tekstu
+    alt x -- karteczka
+
+sudo apt install mate-control-center // dzięki temu mogę ustalić domyślne 
+programy otwierające dane typy plików
+// mate-default-applications-properties -- za pomocą tego polecenia odpalam 
+programik
+
+
 ----------------------------
 
 ### Startup applications -> disable firmware update check
