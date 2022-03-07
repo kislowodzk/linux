@@ -25,6 +25,7 @@ nnoremap <C-j> gj
 nnoremap <C-h> h
 nnoremap <C-l> l
 " nnoremap <space> :w<cr> " wyłączam, żeby wyrobić pamięć mięśniową
+" nie, żebym tego używał, bardziej chodzi po prostu o to, żeby nie włączać dziwnego trybu
 nnoremap Q gq
 
 " Pokazuj białe znaki
@@ -38,6 +39,9 @@ nnoremap <f5> :set nolist<enter>
 set spellcapcheck=
 nnoremap <f8> :set spell spelllang=<enter>
 nnoremap <f9> :set spell spelllang=pl_pl,en_us<enter>
+
+" Żeby split automatycznie otwierał się po prawej/na dole
+set splitbelow splitright
 
 " Żeby nie dodawał podwójnej spacji po kropce na końcu zdania
 set nojoinspaces
