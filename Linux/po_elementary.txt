@@ -51,3 +51,12 @@ nmtui - wifi
 
 Pokazywanie działających w tle programów
 https://www.reallinuxuser.com/how-to-show-app-indicators-on-the-system-tray-in-elementary-os/
+
+Elementary linki:
+    - https://www.youtube.com/watch?v=OKgroHq1bac
+	- https://www.youtube.com/watch?v=4rwbHooSuKo
+	- https://www.youtube.com/watch?v=wq8gNYFpX8M
+	- https://www.youtube.com/watch?v=Yf5GFYBCg5s
+	- https://www.youtube.com/watch?v=3JRaQ-MxwV8
+	- https://www.youtube.com/watch?v=a5cvg9XKEL8
+
