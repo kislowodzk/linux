@@ -21,7 +21,7 @@ sudo apt-get install fonts-powerline     // żeby powerline dobrze działał
 // sprawdzić, czy w .bashrc jest $HOSTNAME taki, jaki powinien być
 
 sudo apt install blueman
-sudo apt install volumeicon-alsa // ikonka dźwięku
+sudo apt install volumeicon-alsa // ikonka dźwięku -- teraz już tego nie potrzebuję
 sudo apt install xscreensaver // zapobiega wyłączeniu ekranu, więcej 
 w autostarcie awesomewm
 
@@ -40,10 +40,8 @@ systemctl enable tlp.service
 sudo apt install neofetch
 sudo apt install neovim
 
-// czcionka, której używam
-z tej strony: https://www.nerdfonts.com/font-downloads
-pobieramy DejaVu Sans Mono Nerd Font
-no i chyba Ubuntu Mono Nerd Font, skoro się rozmyśliłem
+// czcionka, której używam z tej strony:
+https://www.nerdfonts.com/font-downloads pobieramy Ubuntu Mono Nerd Font
 rozpakowujemy i zawartość folderu przenosimy do naszego folderu ~/.fonts/
 to manually rebuild the font cache
 (nie jestem pewien, czy to trzeba robić):
@@ -66,7 +64,7 @@ sudo apt install pandoc
 sudo apt install piper
 piper // kolorek #FF9000
 
-sudo apt install -y texlive texlive-font-utils texlive-pstricks-doc texlive-base texlive-formats-extra texlive-lang-german texlive-metapost texlive-publishers texlive-bibtex-extra texlive-latex-base texlive-metapost-doc texlive-publishers-doc texlive-binaries texlive-latex-base-doc texlive-science texlive-extra-utils texlive-latex-extra texlive-science-doc texlive-fonts-extra texlive-latex-extra-doc texlive-pictures texlive-xetex texlive-fonts-extra-doc texlive-latex-recommended texlive-pictures-doc texlive-fonts-recommended texlive-humanities texlive-lang-english texlive-latex-recommended-doc texlive-fonts-recommended-doc texlive-humanities-doc texlive-luatex texlive-pstricks perl-tk
+sudo apt install -y texlive texlive-font-utils texlive-pstricks-doc texlive-base texlive-formats-extra texlive-lang-german texlive-metapost texlive-publishers texlive-bibtex-extra texlive-latex-base texlive-metapost-doc texlive-publishers-doc texlive-binaries texlive-latex-base-doc texlive-science texlive-extra-utils texlive-latex-extra texlive-science-doc texlive-fonts-extra texlive-latex-extra-doc texlive-pictures texlive-xetex texlive-fonts-extra-doc texlive-latex-recommended texlive-pictures-doc texlive-fonts-recommended texlive-humanities texlive-lang-polish texlive-lang-english texlive-latex-recommended-doc texlive-fonts-recommended-doc texlive-humanities-doc texlive-luatex texlive-pstricks perl-tk
 
 sudo apt install texlive-latex-base
 
