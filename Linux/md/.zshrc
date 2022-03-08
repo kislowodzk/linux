@@ -307,6 +307,8 @@ alias kal='ncal -A1 -B1'
 alias clock='tty-clock -s -c'
 alias ra=ranger
 alias pa='pandoc -V geometry:margin=1in'    # pandoc z dobrymi marginesami, po tym powinienem podać plik wejścia -o i plik wyjścia
+alias kompresja='echo gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -sOutputFile=output.pdf input.pdf'
+
 
 alias br='xrandr --output LVDS-1 --brightness'
 
