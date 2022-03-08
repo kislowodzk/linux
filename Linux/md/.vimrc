@@ -63,4 +63,3 @@ let &t_EI = "\e[2 q"
 " Żeby zmiana kursora następowała natychmiast (żeby nie czekał na następny znak)
 set timeoutlen=1000
 set ttimeoutlen=1
-
