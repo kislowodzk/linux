@@ -107,22 +107,9 @@ sudo apt install stacer
 
 instalacja brave'a
 // rozszerzenie AutoScroll
-// rozszerzenie chromium wheel smooth scroller
-/*  Ustawienia tego rozszerzenia:
- *      mouse wheel
- *          step size 200
- *          smoothness(forepart) 17
- *          smoothness 44
- *          acceleration sensitivity 240
- *          acceleration by travel distance 1
- *      keyboard
- *          step size 200
- *          smoothness(forepart) 17
- *          smoothness 44
- *          acceleration scale 0.23
- *      misc
- *          bouncy edge 20
- */         device recognition yes
+
+sudo apt install imwheel (prędkość scrollowania, do tego skrypcik .mysz.sh 
+w folderze domowym
 
 sudo apt-get install okular // do obsługi pdf-ów, ustawiam sobie dodatkowo 
 skróty klawiszowe:
