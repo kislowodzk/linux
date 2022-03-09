@@ -122,6 +122,12 @@ programy otwierające dane typy plików
 // mate-default-applications-properties -- za pomocą tego polecenia odpalam 
 programik
 
+// żeby colorscheme vima działał
+mkdir -p ~/.vim/pack/themes/start
+cd ~/.vim/pack/themes/start
+git clone https://github.com/dracula/vim.git dracula
+
+
 
 ----------------------------
 

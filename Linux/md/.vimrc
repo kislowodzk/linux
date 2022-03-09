@@ -67,3 +67,12 @@ let &t_EI = "\e[2 q"
 " Żeby zmiana kursora następowała natychmiast (żeby nie czekał na następny znak)
 set timeoutlen=1000
 set ttimeoutlen=1
+
+
+" mkdir -p ~/.vim/pack/themes/start
+" cd ~/.vim/pack/themes/start
+" git clone https://github.com/dracula/vim.git dracula
+packadd! dracula
+syntax enable
+colorscheme dracula
+highlight Normal guibg=none
