@@ -87,6 +87,8 @@ inoremap ; ;<c-g>u
 inoremap # #<c-g>u
 
 " Przesuwanie linii
+vnoremap K :m '<-2<CR>gv=gv
+vnoremap J :m '>+1<CR>gv=gv
 
 
 
@@ -99,21 +101,7 @@ inoremap # #<c-g>u
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-" ===================================================================
+" ===============================================
 
 
 " Zaczyna się colorscheme Dracula
@@ -165,9 +153,6 @@ let g:dracula#palette.color_15 = '#FFFFFF'
 
 
 " vim: fdm=marker ts=2 sts=2 sw=2 fdl=0:
-
-
-
 
 
 " Dracula Theme: {{{
@@ -511,7 +496,7 @@ hi! link helpBacktick Special
 " vim: fdm=marker ts=2 sts=2 sw=2 fdl=0 et:
 
 
-
+" ===============================================
 
 
 
@@ -521,5 +506,5 @@ hi! link helpBacktick Special
 
 
 " żeby terminal był przezroczysty
-
 hi Normal guibg=NONE ctermbg=NONE
+
