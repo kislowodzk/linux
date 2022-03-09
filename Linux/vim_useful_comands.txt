@@ -69,3 +69,32 @@ Słownik
     z= -- zastąp słowo innym ze słownika
     zg -- dodaj słowo pod kursorem do prywatnego słownika
 
+Polecenia shella
+    :!{pwd} -- bez nawiasów ofc -- uruchamia polecenie w terminalu (aliasy nie 
+    działają)
+    :read !{date} -- wstawia output konsoli linię po kursorze
+    :12read !{date} -- wstawia output po linii 12
+
+Zastępowanie
+    :s/old/new/g -- na tej linii, gdzie jestem (g od tego, żeby wszystkie 
+    wystąpienia w linii były uwzględnione)
+    :%s/old/new/g -- we wszystkich liniach w pliku
+    :11,15s/old/new/g -- na przedziale od 11 do 15 (włącznie)
+
+Przedziały
+    :21command -- command na linii 21
+    :21,40command -- command na liniach od 21 do 40 (włącznie)
+    :%command -- command na wszystkich liniach w pliku
+    :.command -- command na obecnej linii
+    przykład:
+        :90,95norm Ihello world -- do trybu normal, potem I no i wpisujemy
+
+Komenda 'g'
+    :g/pattern/command -- ogólny wzór, działa dla każdej linii w pliku
+    przykład:
+        :g/set/d -- usuwa każdą linię, w której jest słowo set
+    :g!/pattern/command -- każda linia, w której nie występuje pattern
+    :v/pattern/command -- każda linia, w której nie występuje pattern (to samo, 
+    co g!)
+    :100,103g/pattern/command -- tylko na liniach od 100 do 103 (włącznie)
+
