@@ -92,9 +92,10 @@ set ttimeoutlen=1
 
 
 
+" ===================================================================
 
 
-" zaczyna się colorscheme
+" Zaczyna się colorscheme Dracula
 
 " Palette: {{{
 
