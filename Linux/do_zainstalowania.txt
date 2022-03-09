@@ -139,10 +139,10 @@ simplenote // setting->display->line length->full
 github desktop // żeby zmienić na ciemny motyw file->options->appearance->dark
 vlc
 obs studio
-spotify
+spotify -- to da się zainstalować z terminala
 FMIT // stroik
 kolourpaint
-teams
+teams -- też da się zainstaliwać z terminala
 caprine
 skype
 discord

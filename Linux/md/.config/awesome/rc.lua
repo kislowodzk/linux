@@ -399,6 +399,8 @@ globalkeys = gears.table.join(
     -- Standard program
     awful.key({ modkey,           }, "b", function () awful.spawn("brave-browser") end,
               {description = "open a brave", group = "launcher"}), -- oczywiście jeśli chcę firefoxa, to firefox
+    awful.key({ modkey,  "Shift"  }, "Return", function () awful.spawn("dmenu_run") end,
+              {description = "open a brave", group = "launcher"}), -- oczywiście jeśli chcę firefoxa, to firefox
     awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),
     awful.key({ modkey, "Control" }, "r", awesome.restart,
