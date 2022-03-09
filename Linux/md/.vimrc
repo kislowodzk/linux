@@ -1,19 +1,25 @@
+" Żeby nie zostawiać na końcu linii jednoliterowych słów
 setlocal formatoptions=1
+
+" Numery
+set number relativenumber
+
 setlocal noexpandtab
+
+" Ustawienia wyszukiwania
 set ignorecase
 set incsearch
 set complete+=s
-set autoindent
-set tabstop=4
 
 " Poniższe linijki, jeśli chcę, żeby tabulację zastępowały znaki spacji
 set expandtab
 set softtabstop=4
 set shiftwidth=4
+set autoindent
+set tabstop=4
 
 setlocal wrap
 setlocal linebreak
-set number relativenumber
 set tw=80
 set display+=lastline
 set backspace=indent,eol,start
@@ -30,10 +36,8 @@ nnoremap Q gq
 
 " Pokazuj białe znaki
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
-nnoremap <f6> :set list<enter>
-
-" Nie pokazuj białych znaków
 nnoremap <f5> :set nolist<enter>
+nnoremap <f6> :set list<enter>
 
 "Słownik
 set spellcapcheck=

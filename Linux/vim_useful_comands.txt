@@ -1,41 +1,41 @@
-Operacje na liniach widzianych:
+Operacje na liniach widzianych
     gj
     gk
     g0
     g$
 
-Formatowanie tekstu:
+Formatowanie tekstu
     gq -- auto formatowanie
     c-t -- tab w prawo w trybie wprowadzania
     c-d -- tab w lewo w trybie wprowadzania
-    > -- tab w prawo w trybie normalnym
-    < -- tab w lewo w trybie normalnym
+    > -- tab w prawo w trybie normalnym/wizualnym
+    < -- tab w lewo w trybie normalnym/wizualnym
 
-Zmiana wielkości znaków:
+Zmiana wielkości znaków
     gu
     gU
     g~
     ~
 
 Przeskoczenie do edycji pliku, którego nazwa lub ścieżka dostępu pojawia się 
-w pliku, jak się na tę nazwę najedzie kursorem:
+w pliku, jak się na tę nazwę najedzie kursorem
     gf
     c-6 -- powrót do poprzedniego pliku
 
-Zaznaczenie ostatnio zaznaczonego tekstu:
+Zaznaczenie ostatnio zaznaczonego tekstu
     gv
 
-Łączenie linii z kolejną:
+Łączenie linii z kolejną
     J -- z zachowaniem spacji między liniami
     gJ -- bez spacji między liniami
 
-Zastosowanie ostatniego zastąpienia (na przykład :s/oe/œ/g) do całego dokumentu:
+Zastosowanie ostatniego zastąpienia (na przykład :s/oe/œ/g) do całego dokumentu
     g&
 
-Wszystko, co związane z g:
+Wszystko, co związane z g
     :help g
 
-Uzupełnianie (wszystko w trybie wprowadzania):
+Uzupełnianie (wszystko w trybie wprowadzania)
     c-p -- po niedawnych wystąpieniach
     c-n -- po pierwszych wystąpieniach
     c-x i następnie:
@@ -44,7 +44,7 @@ Uzupełnianie (wszystko w trybie wprowadzania):
         c-p -- po ostatnim wystąpieniu, ale potem mogę też wstawić to, co 
         występowało ostatnio po tym słowie
 
-Dzielenie ekranu:
+Dzielenie ekranu
     :split :sp {c-w s} -- podział horyzontalny
     :vsplit :vs {c-w v} -- podział wertykalny
     c-w hjkl -- zmiana okna w danym kierunku
@@ -62,4 +62,10 @@ Wklejanie zawartości schowka w trybie insert
     gJ -- łączy linie, ale nie dodaje spacji, jeśli jej nie było
     :j -- to samo, co J, ale działa w visual mode nawet jeśli mam włączone 
     automatyczne formatowanie
+
+Słownik
+    ]s -- skocz do następnego błędu
+    [s -- skocz do poprzedniego błędu
+    z= -- zastąp słowo innym ze słownika
+    zg -- dodaj słowo pod kursorem do prywatnego słownika
 
