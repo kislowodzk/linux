@@ -98,3 +98,7 @@ Komenda 'g'
     co g!)
     :100,103g/pattern/command -- tylko na liniach od 100 do 103 (włącznie)
 
+Przeskakiwanie w kolejności wcześniejszego przeskakiwania
+    c-o -- przeskoczenie w tył w historii skakań kursorem
+    c-i -- przeskoczenie w przód w historii skakań kursorem
+

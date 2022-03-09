@@ -68,6 +68,27 @@ let &t_EI = "\e[2 q"
 set timeoutlen=1000
 set ttimeoutlen=1
 
+" Rady ThePrimeagen'a
+
+" Y kopiuje (jak można by się spodziewać) do końca linii
+nnoremap Y y$
+
+" Szukana linia będzie na środku
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
+" Break pointy do undo
+inoremap , ,<c-g>u
+inoremap . .<c-g>u
+inoremap ! !<c-g>u
+inoremap ? ?<c-g>u
+inoremap - -<c-g>u
+inoremap ; ;<c-g>u
+inoremap # #<c-g>u
+
+" Przesuwanie linii
+
+
 
 
 
