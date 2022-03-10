@@ -90,9 +90,8 @@ inoremap # #<c-g>u
 vnoremap K :m '<-2<CR>gv=gv
 vnoremap J :m '>+1<CR>gv=gv
 
-
-
-
+" Podświetlenie obecnej linii
+set cursorline
 
 
 
@@ -505,6 +504,9 @@ hi! link helpBacktick Special
 
 
 
-" żeby terminal był przezroczysty
+" Żeby terminal był przezroczysty
 hi Normal guibg=NONE ctermbg=NONE
+
+" Żeby linia była zaznaczona bez koloru
+hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
 
