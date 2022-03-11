@@ -285,6 +285,7 @@ xset r rate 350 43
 alias lla='ls -alFh'
 alias ll='ls -lFh'
 alias :wq=exit
+alias :q=exit
 alias wq=exit
 alias ZZ=exit
 alias ZQ=exit

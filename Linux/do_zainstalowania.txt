@@ -106,7 +106,9 @@ sudo apt install asciiquarium
 sudo apt install stacer
 
 instalacja brave'a
-// rozszerzenie AutoScroll
+
+sudo apt install qutebrowser
+
 
 sudo apt install imwheel (prędkość scrollowania, do tego skrypcik .mysz.sh 
 w folderze domowym
