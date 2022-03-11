@@ -15,8 +15,12 @@ set complete+=s
 set expandtab
 set softtabstop=4
 set shiftwidth=4
-set autoindent
 set tabstop=4
+
+" Nie tylko do nowej linii stosuje indent linii poprzedniej (to funkcja
+" autoindent), ale także na podstawie składni stosuje odpowiednią indentację linii
+" następnej
+set smartindent
 
 setlocal wrap
 setlocal linebreak
@@ -96,10 +100,20 @@ set cursorline
 " Brak początkowej wiadomości przy uruchamianiu
 set shortmess+=I
 
+syntax on
 
+" Leader i kilka okien
+let mapleader = " "
 
-
-
+nnoremap <leader>h :wincmd h<CR>
+nnoremap <leader>j :wincmd j<CR>
+nnoremap <leader>k :wincmd k<CR>
+nnoremap <leader>l :wincmd l<CR>
+nnoremap <leader>q :wincmd v<bar> :wincmd h<bar> :Ex <bar> :vertical resize 30<CR>
+nnoremap <leader>s :wincmd s<CR>
+nnoremap <leader>v :wincmd v<CR>
+nnoremap <silent> <leader>= :vertical resize +5<CR>
+nnoremap <silent> <leader>- :vertical resize -5<CR>
 
 
 
