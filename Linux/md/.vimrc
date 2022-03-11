@@ -93,6 +93,9 @@ vnoremap J :m '>+1<CR>gv=gv
 " Podświetlenie obecnej linii
 set cursorline
 
+" Brak początkowej wiadomości przy uruchamianiu
+set shortmess+=I
+
 
 
 
