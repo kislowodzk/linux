@@ -129,6 +129,8 @@ mkdir -p ~/.vim/pack/themes/start
 cd ~/.vim/pack/themes/start
 git clone https://github.com/dracula/vim.git dracula
 
+// tłumacz w terminalu -- polecenie trans
+https://github.com/soimort/translate-shell
 
 
 ----------------------------
