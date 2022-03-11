@@ -287,6 +287,7 @@ alias ll='ls -lFh'
 alias :wq=exit
 alias wq=exit
 alias ZZ=exit
+alias ZQ=exit
 alias cls=clear
 alias v=vim
 alias nv=nvim
