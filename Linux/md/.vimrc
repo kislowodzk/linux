@@ -17,10 +17,6 @@ set softtabstop=4
 set shiftwidth=4
 set tabstop=4
 
-" Nie tylko do nowej linii stosuje indent linii poprzedniej (to funkcja
-" autoindent), ale także na podstawie składni stosuje odpowiednią indentację linii
-" następnej
-set smartindent
 
 setlocal wrap
 setlocal linebreak
@@ -59,8 +55,14 @@ set showmatch
 set hlsearch
 nnoremap <CR> :noh<CR><CR>:<backspace>
 
-autocmd BufRead,BufNewFile   *.txt set fo+=tawc
-autocmd BufRead,BufNewFile   *.md set fo+=tawc
+" smartindent nie tylko do nowej linii stosuje indent linii poprzedniej (to funkcja
+" autoindent), ale także na podstawie składni stosuje odpowiednią indentację linii
+" następnej
+set smartindent
+
+" dla txt i md wyłączam smartindent, bo powodował problemy
+autocmd BufRead,BufNewFile   *.txt set fo+=tawc nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.md set fo+=tawc nosmartindent autoindent 
 
 set omnifunc=syntaxcomplete#Complete
 
