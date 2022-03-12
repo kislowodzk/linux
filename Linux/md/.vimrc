@@ -105,17 +105,14 @@ syntax on
 " Leader i kilka okien
 let mapleader = " "
 
-nnoremap <leader>h :wincmd h<CR>
-nnoremap <leader>j :wincmd j<CR>
-nnoremap <leader>k :wincmd k<CR>
-nnoremap <leader>l :wincmd l<CR>
 nnoremap <leader>q :wincmd v<bar> :wincmd h<bar> :Ex <bar> :vertical resize 30<CR>
 nnoremap <leader>s :wincmd s<CR>
 nnoremap <leader>v :wincmd v<CR>
-nnoremap <silent> <leader>= :vertical resize +5<CR>
-nnoremap <silent> <leader>- :vertical resize -5<CR>
 
-
+noremap <silent> <C-S-h> :vertical resize +5<CR>
+noremap <silent> <C-S-l> :vertical resize -5<CR>
+noremap <silent> <C-S-k> :resize +1<CR>
+noremap <silent> <C-S-j> :resize -1<CR>
 
 " ===============================================
 
