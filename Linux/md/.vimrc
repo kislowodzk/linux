@@ -56,7 +56,7 @@ set hlsearch
 nnoremap <CR> :noh<CR><CR>:<backspace>
 
 " smartindent nie tylko do nowej linii stosuje indent linii poprzedniej (to funkcja
-" autoindent), ale także na podstawie składni stosuje odpowiednią indentację linii
+" autoindent), ale także na podstawie składni stosuje odpowiednią indentację linii 
 " następnej
 set smartindent
 
