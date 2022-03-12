@@ -281,6 +281,8 @@ xset -dpms
 xset s noblank
 xset r rate 350 43
 
+# tu powinna być komenda dla fzf, ale jest niżej
+
 # moje aliasy
 alias lla='ls -alFh'
 alias ll='ls -lFh'
@@ -311,7 +313,14 @@ alias clock_s='tty-clock -s -c'
 alias ra=ranger
 alias pa='pandoc -V geometry:margin=1in'    # pandoc z dobrymi marginesami, po tym powinienem podać plik wejścia -o i plik wyjścia
 alias kompresja='echo gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -sOutputFile=output.pdf input.pdf'
-alias fv='vim `fzf --exact`'
+
+# FZF
+alias vimf='vim $(fzf --exact --layout=reverse --height 40%)'
+alias fzf='fzf --exact --layout=reverse --height 40%'
+# wypisuje ścieżkę do folderu poprzedzającego znaleziony plik
+alias cdf='cd $(fzf --exact --layout=reverse --height 40% | awk "BEGIN{FS=OFS=\"/\"}{\$NF=\"\"; NF--; print}")'
+# żeby działał dla ukrytych plików
+# export FZF_DEFAULT_COMMAND='find . -path './.git' -prune -o -print'
 
 # skrypty
 alias kopia='~/.kopiuj-na-gita.sh'

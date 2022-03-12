@@ -111,10 +111,10 @@ nnoremap <leader>q :wincmd v<bar> :wincmd h<bar> :Ex <bar> :vertical resize 30<C
 nnoremap <leader>s :wincmd s<CR>
 nnoremap <leader>v :wincmd v<CR>
 
-noremap <silent> <C-S-h> :vertical resize +5<CR>
-noremap <silent> <C-S-l> :vertical resize -5<CR>
-noremap <silent> <C-S-k> :resize +1<CR>
-noremap <silent> <C-S-j> :resize -1<CR>
+noremap <silent> <leader>h :vertical resize +5<CR>
+noremap <silent> <leader>l :vertical resize -5<CR>
+noremap <silent> <leader>k :resize +1<CR>
+noremap <silent> <leader>j :resize -1<CR>
 
 " ===============================================
 
