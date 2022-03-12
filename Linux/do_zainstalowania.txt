@@ -135,6 +135,8 @@ https://github.com/soimort/translate-shell
 // przy kilku monitorach jest to niezbędne
 sudo apt-get install arandr
 
+sudo apt install fzf
+
 ----------------------------
 
 ### Startup applications -> disable firmware update check
