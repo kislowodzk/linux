@@ -736,6 +736,7 @@ awful.spawn.with_shell("setxkbmap -option caps:swapescape")
 awful.spawn.with_shell("set s off")
 awful.spawn.with_shell("xset -dpms")
 awful.spawn.with_shell("xset s noblank")
+
 awful.spawn.with_shell("xset r rate 350 43")
 
 -- awful.spawn.with_shell("volumeicon")
