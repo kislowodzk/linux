@@ -53,3 +53,4 @@ sudo apt install stacer
 sudo apt-get install arandr
 
 sudo apt install fzf
+
