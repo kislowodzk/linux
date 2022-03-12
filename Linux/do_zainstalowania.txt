@@ -132,6 +132,8 @@ git clone https://github.com/dracula/vim.git dracula
 // tłumacz w terminalu -- polecenie trans
 https://github.com/soimort/translate-shell
 
+// przy kilku monitorach jest to niezbędne
+sudo apt-get install arandr
 
 ----------------------------
 
