@@ -313,7 +313,10 @@ alias kompresja='echo gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTING
 # skrypty
 alias kopia='~/.kopiuj-na-gita.sh'
 alias scroll='~/.mysz.sh'
-alias monitory='~/.arandr.sh'               # to muszę wygenerować za pomocą arandr
+alias monitory='~/.arandr.sh'               # to muszę wygenerować za pomocą arandr, do tego skryptu w kolejnej linii warto
+                                            # dopisać:
+                                            # echo 'awesome.restart()' | awesome-client
+                                            # żeby od razu zrestartował awesome
 
 alias br='xrandr --output LVDS-1 --brightness'
 
