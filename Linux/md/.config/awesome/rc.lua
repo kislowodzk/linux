@@ -266,10 +266,30 @@ globalkeys = gears.table.join(
     awful.key({}, "XF86AudioLowerVolume", function () volumecfg:down() end),
     awful.key({}, "XF86AudioMute", function () volumecfg:toggle() end),
 	
+
+
     awful.key({ }, "XF86AudioPlay", function () awful.util.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause", false) end),
     awful.key({ }, "XF86AudioNext", function () awful.util.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next", false) end),
     awful.key({ }, "XF86AudioPrev", function () awful.util.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous", false) end),
     awful.key({ }, "XF86AudioStop", function () awful.util.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop", false) end),
+
+
+
+    awful.key({ modkey, "Shift" }, "=", function () volumecfg:up() end,
+        {description = "volume up", group = "sound"}),
+    awful.key({ modkey, "Shift" }, "0", function () volumecfg:down() end,
+        {description = "volume down", group = "sound"}),
+    awful.key({ modkey, "Shift" }, "-", function () volumecfg:toggle() end,
+        {description = "mute", group = "sound"}),
+
+
+    awful.key({ modkey, "Shift" }, "[", function () awful.util.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause", false) end,
+        {description = "play/pause", group = "sound"}),
+    awful.key({ modkey, "Shift" }, "]", function () awful.util.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next", false) end,
+        {description = "next", group = "sound"}),
+    awful.key({ modkey, "Shift" }, "p", function () awful.util.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous", false) end,
+        {description = "previous", group = "sound"}),
+
         -- Brightness
 
 --    awful.key({ }, "XF86MonBrightnessDown", function ()
