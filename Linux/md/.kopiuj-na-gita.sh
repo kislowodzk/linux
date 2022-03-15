@@ -12,4 +12,4 @@ cp ~/.fonts/* ~/Dokumenty/GitHub/linux/Linux/md/.fonts
 cp ~/.tapeta/* ~/Dokumenty/GitHub/linux/Linux/md/.tapeta
 cp ~/.startup_zsh/* ~/Dokumenty/GitHub/linux/Linux/md/.startup_zsh
 cp ~/Notatki/Informatyka/vim_useful_comands.txt ~/Dokumenty/GitHub/linux/Linux/vim_useful_comands.txt
-
+cp ~/Pobrane/xmouseless/xmouseless/config.h ~/Dokumenty/GitHub/linux/Linux/md/

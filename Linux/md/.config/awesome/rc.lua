@@ -296,6 +296,8 @@ globalkeys = gears.table.join(
 --        awful.util.spawn("xbacklight -dec 15") end),
 --    awful.key({ }, "XF86MonBrightnessUp", function ()
 --        awful.util.spawn("xbacklight -inc 15") end),
+    awful.key({ modkey, }, "g", function () awful.util.spawn("xmouseless") end,
+        {description = "mouseless", group = "mouseless"}),
 
    awful.key({ modkey }, "p", function() xrandr.xrandr() end),
    -- awful.key({ modkey, "Shift"  }, "s", function() awful.util.spawn("gnome-screenshot -i") end,

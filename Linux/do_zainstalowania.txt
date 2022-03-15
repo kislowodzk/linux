@@ -137,6 +137,9 @@ sudo apt-get install arandr
 
 sudo apt install fzf
 
+https://github.com/jbensmann/xmouseless
+mouseless
+
 ----------------------------
 
 ### Startup applications -> disable firmware update check
