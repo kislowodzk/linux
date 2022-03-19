@@ -1,5 +1,5 @@
 " Żeby nie zostawiać na końcu linii jednoliterowych słów
-setlocal formatoptions=1
+setlocal formatoptions+=1
 
 " Numery
 set number relativenumber
@@ -61,8 +61,8 @@ nnoremap <CR> :noh<CR><CR>:<backspace>
 set smartindent
 
 " dla txt i md wyłączam smartindent, bo powodował problemy
-autocmd BufRead,BufNewFile   *.txt set fo+=tawc nosmartindent autoindent
-autocmd BufRead,BufNewFile   *.md set fo+=tawc nosmartindent autoindent 
+autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent 
 
 set omnifunc=syntaxcomplete#Complete
 
