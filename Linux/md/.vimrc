@@ -17,7 +17,6 @@ set softtabstop=4
 set shiftwidth=4
 set tabstop=4
 
-
 setlocal wrap
 setlocal linebreak
 set tw=80
