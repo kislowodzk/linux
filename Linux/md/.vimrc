@@ -8,6 +8,7 @@ setlocal noexpandtab
 
 " Ustawienia wyszukiwania
 set ignorecase
+set smartcase
 set incsearch
 set complete+=s
 
