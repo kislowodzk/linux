@@ -231,10 +231,7 @@ bindsym $mod+Ctrl+o exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.
 bindsym $mod+Ctrl+p exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
 bindsym $mod+Ctrl+i exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
 
-bindsym $mod+Shift+g exec --no-startup-id "flatpak run io.github.shiftey.Desktop"
-
-
-
-
+# Uruchamianie programów flatpaka
+bindsym $mod+Shift+f exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
 
 
