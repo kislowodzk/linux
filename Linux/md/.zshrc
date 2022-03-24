@@ -331,6 +331,7 @@ alias monitory_awesome='~/.arandr.sh'       # to muszę wygenerować za pomocą 
                                             # żeby od razu zrestartował awesome
 
 alias monitory_i3='~/.arandr_i3.sh'
+alias drugimonitor_i3='~/.drugi_monitor_i3.sh'
 
 alias br='xrandr --output LVDS-1 --brightness'
 

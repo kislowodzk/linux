@@ -18,3 +18,4 @@ cp ~/.config/i3/volume_up.sh ~/Dokumenty/GitHub/linux/Linux/md/.config/i3/
 cp ~/.config/i3status/config ~/Dokumenty/GitHub/linux/Linux/md/.config/i3status/
 cp ~/.arandr.sh ~/Dokumenty/GitHub/linux/Linux/md/
 cp ~/.arandr_i3.sh ~/Dokumenty/GitHub/linux/Linux/md/
+cp ~/.drugi_monitor_i3.sh ~/Dokumenty/GitHub/linux/Linux/md/
