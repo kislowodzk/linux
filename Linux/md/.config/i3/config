@@ -47,7 +47,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+z kill
 
 # start dmenu (a program launcher)
-bindsym $mod+q exec --no-startup-id dmenu_run
+# bindsym $mod+q exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -88,8 +88,8 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+# bindsym $mod+s layout stacking
+# bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -234,4 +234,7 @@ bindsym $mod+Ctrl+i exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.
 # Uruchamianie programów flatpaka
 bindsym $mod+Shift+f exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
 
+
+bindsym $mod+w exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
+bindsym $mod+q exec --no-startup-id dmenu_run
 
