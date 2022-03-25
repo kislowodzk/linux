@@ -250,3 +250,8 @@ bindsym $mod+x exec --no-startup-id nautilus
 bindsym $mod+d exec alacritty -e vifm
 bindsym $mod+s exec alacritty -e vim
 
+# start main stack
+bindsym $mod+a   layout splitv;\
+                       move left;\
+                       split v
+
