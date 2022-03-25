@@ -99,7 +99,7 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+# bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -200,6 +200,11 @@ bindsym $mod+Ctrl+Left workspace prev
 bindsym $mod+Ctrl+l workspace next
 bindsym $mod+Ctrl+h workspace prev
 
+bindsym $mod+Mod1+Right workspace next
+bindsym $mod+Mod1+Left workspace prev
+bindsym $mod+Mod1+l workspace next
+bindsym $mod+Mod1+h workspace prev
+
 # Set inner/outer gaps
 gaps inner 10
 gaps outer -4
@@ -238,4 +243,6 @@ bindsym $mod+Shift+f exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2
 bindsym $mod+w exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
 bindsym $mod+q exec --no-startup-id dmenu_run
 bindsym $mod+x exec --no-startup-id nautilus
+bindsym $mod+s exec alacritty -e vifm
+bindsym $mod+d exec alacritty -e vim
 
