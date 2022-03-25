@@ -103,6 +103,7 @@ call plug#begin()
 
     " Plugin Section
     Plug 'dracula/vim'
+    Plug 'morhetz/gruvbox'
     Plug 'ryanoasis/vim-devicons'
     Plug 'SirVer/ultisnips'
     Plug 'honza/vim-snippets'
@@ -168,4 +169,8 @@ nnoremap <cr> :noh<CR><CR>:<backspace>
  
 
 set omnifunc=syntaxcomplete#Complete
+
+
+" Żeby terminal był przezroczysty
+hi Normal guibg=NONE ctermbg=NONE
 
