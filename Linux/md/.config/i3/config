@@ -237,4 +237,5 @@ bindsym $mod+Shift+f exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2
 
 bindsym $mod+w exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
 bindsym $mod+q exec --no-startup-id dmenu_run
+bindsym $mod+x exec --no-startup-id nautilus
 
