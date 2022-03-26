@@ -325,7 +325,7 @@ alias cdf='cd $(fzf --exact --layout=reverse --height 40% | awk "BEGIN{FS=OFS=\"
 # skrypty
 alias kopia='~/.kopiuj-na-gita.sh'
 alias scroll='~/.mysz.sh'
-alias monitory_awesome='~/.arandr.sh'       # to muszę wygenerować za pomocą arandr, do tego skryptu w kolejnej linii warto
+# alias monitory_awesome='~/.arandr.sh'       # to muszę wygenerować za pomocą arandr, do tego skryptu w kolejnej linii warto
                                             # dopisać:
                                             # echo 'awesome.restart()' | awesome-client
                                             # żeby od razu zrestartował awesome
