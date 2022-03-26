@@ -100,17 +100,24 @@ set shortmess+=I
 
 syntax on
 
-" Leader i kilka okien
+" Leader
 let mapleader = " "
 
+" Kilka okien
 nnoremap <leader>q :wincmd v<bar> :wincmd h<bar> :Ex <bar> :vertical resize 30<CR>
 nnoremap <leader>s :wincmd s<CR>
 nnoremap <leader>v :wincmd v<CR>
 
-noremap <silent> <leader>h :vertical resize +5<CR>
-noremap <silent> <leader>l :vertical resize -5<CR>
-noremap <silent> <leader>k :resize +1<CR>
-noremap <silent> <leader>j :resize -1<CR>
+nnoremap <silent> <leader>h :vertical resize +5<CR>
+nnoremap <silent> <leader>l :vertical resize -5<CR>
+nnoremap <silent> <leader>k :resize +1<CR>
+nnoremap <silent> <leader>j :resize -1<CR>
+
+" Zakładki
+nnoremap <silent> <leader>t :tabnew<CR>
+nnoremap <silent> <leader>n :tabnext<CR>
+nnoremap <silent> <leader>p :tabprevious<CR>
+nnoremap <silent> <leader>w :tabclose<CR>
 
 " ===============================================
 
