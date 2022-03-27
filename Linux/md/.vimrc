@@ -23,7 +23,7 @@ setlocal linebreak
 set tw=80
 set display+=lastline
 set backspace=indent,eol,start
-set scrolloff=8
+set scrolloff=10
 
 map <C-f> ggvG$
 nnoremap <C-k> gk
@@ -95,6 +95,11 @@ inoremap # #<c-g>u
 " Podświetlenie obecnej linii
 set cursorline
 
+" Nazwa pliku na dole
+set laststatus=2
+set statusline=
+set statusline=%f\ %M\ %=\ %y\ %{&fileencoding?&fileencoding:&encoding}\ \[%{&fileformat}\]\ %l/%L:\ %v
+
 " Brak początkowej wiadomości przy uruchamianiu
 set shortmess+=I
 
@@ -105,8 +110,8 @@ let mapleader = " "
 
 " Kilka okien
 nnoremap <leader>q :wincmd v<bar> :wincmd h<bar> :Ex <bar> :vertical resize 30<CR>
-nnoremap <leader>s :wincmd s<CR>
-nnoremap <leader>v :wincmd v<CR>
+nnoremap <leader>v :wincmd s<CR>
+nnoremap <leader>s :wincmd v<CR>
 
 nnoremap <silent> <leader>h :vertical resize +5<CR>
 nnoremap <silent> <leader>l :vertical resize -5<CR>
