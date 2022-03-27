@@ -60,10 +60,6 @@ nnoremap <silent> <CR> :noh<CR><CR>:<backspace>
 " następnej
 set smartindent
 
-" dla txt i md wyłączam smartindent, bo powodował problemy
-autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
-autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent 
-
 set omnifunc=syntaxcomplete#Complete
 
 " Zmiana kursora w zależności od trybu
@@ -134,6 +130,10 @@ call plug#begin()
 call plug#end()
 
 colorscheme dracula
+
+" dla txt i md wyłączam smartindent, bo powodował problemy
+autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent 
 
 " Żeby terminal był przezroczysty
 hi Normal guibg=NONE ctermbg=NONE
