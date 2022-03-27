@@ -174,9 +174,7 @@ let g:dracula#palette.color_15 = '#FFFFFF'
 
 " }}}
 
-
 " vim: fdm=marker ts=2 sts=2 sw=2 fdl=0:
-
 
 " Dracula Theme: {{{
 "
@@ -517,7 +515,6 @@ hi! link helpBacktick Special
 "}}}
 
 " vim: fdm=marker ts=2 sts=2 sw=2 fdl=0 et:
-
 
 " ===============================================
 
