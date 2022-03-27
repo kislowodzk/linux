@@ -255,3 +255,10 @@ bindsym $mod+a   layout splitv;\
                        move left;\
                        split v
 
+# przenoszenie workspace'ów między monitorami
+bindsym $mod+n move workspace to output left
+bindsym $mod+m move workspace to output right
+
+
+
+
