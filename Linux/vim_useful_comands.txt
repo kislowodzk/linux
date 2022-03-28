@@ -105,5 +105,5 @@ Przeskakiwanie
     przy wyszukiwaniu przez f/F (analogicznie t/T -- znak przed)
         ; -- do następnego wystąpienia
         , -- do poprzedniego wystąpienia
-    % -- do odpowiadającego
+    % -- do odpowiadającego nawiasu
 
