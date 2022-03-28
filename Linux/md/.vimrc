@@ -4,8 +4,6 @@ setlocal formatoptions+=1
 " Numery
 set number relativenumber
 
-setlocal noexpandtab
-
 " Ustawienia wyszukiwania
 set ignorecase
 set smartcase
@@ -25,13 +23,13 @@ set display+=lastline
 set backspace=indent,eol,start
 set scrolloff=10
 
-map <C-f> ggvG$
+nnoremap <C-f> ggvG$
 nnoremap <C-k> gk
 nnoremap <C-j> gj
 nnoremap <C-h> h
 nnoremap <C-l> l
-" nnoremap <space> :w<cr> " wyłączam, żeby wyrobić pamięć mięśniową
-" nie, żebym tego używał, bardziej chodzi po prostu o to, żeby nie włączać dziwnego trybu
+
+" Nie, żebym tego używał, bardziej chodzi po prostu o to, żeby nie włączać dziwnego trybu
 nnoremap Q gq
 
 " Pokazuj białe znaki
@@ -64,6 +62,7 @@ set smartindent
 autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent 
 
+" Omnifunc uzupełnianie przez ctrl-x w trybie wprowadzania
 set omnifunc=syntaxcomplete#Complete
 
 " Zmiana kursora w zależności od trybu
