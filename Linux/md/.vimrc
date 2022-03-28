@@ -108,7 +108,6 @@ syntax on
 let mapleader = " "
 
 " Kilka okien
-nnoremap <leader>q :wincmd v<bar> :wincmd h<bar> :Ex <bar> :vertical resize 30<CR>
 nnoremap <leader>v :wincmd s<CR>
 nnoremap <leader>s :wincmd v<CR>
 
