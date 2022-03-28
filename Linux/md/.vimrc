@@ -98,7 +98,7 @@ set cursorline
 " Nazwa pliku na dole
 set laststatus=2
 set statusline=
-set statusline=%f\ %M\ %=\ %y\ %{&fileencoding?&fileencoding:&encoding}\ \[%{&fileformat}\]\ %l/%L:\ %v
+set statusline=%t\ %M\ %=\ %y\ %{&fileencoding?&fileencoding:&encoding}\ \[%{&fileformat}\]\ %l/%L:\ %v
 
 " Brak początkowej wiadomości przy uruchamianiu
 set shortmess+=I
