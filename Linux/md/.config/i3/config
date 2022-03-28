@@ -260,5 +260,5 @@ bindsym $mod+n move workspace to output left
 bindsym $mod+m move workspace to output right
 
 
-
+focus_follows_mouse no
 
