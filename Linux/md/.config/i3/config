@@ -223,9 +223,9 @@ bindsym $mod+Shift+s exec "flameshot gui"
 bindsym $mod+Shift+Return exec --no-startup-id dmenu_run
 
 # Pulse Audio controls
-bindsym $mod+Shift+p exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
-bindsym $mod+Shift+i exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
-bindsym $mod+Shift+o exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+bindsym $mod+bracketright exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
+bindsym $mod+p exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
+bindsym $mod+bracketleft exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 
 # bindsym $mod+Shift+p exec "$HOME/.config/i3/volume_up.sh"
 # bindsym $mod+Shift+i exec "pactl set-sink-volume 0 -5%"
@@ -236,9 +236,9 @@ bindsym $mod+Shift+o exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ tog
 # bindsym $mod+Shift+o exec "pactl set-sink-mute 0 toggle"
 
 # Spotify next/prev
-bindsym $mod+Ctrl+o exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
-bindsym $mod+Ctrl+p exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
-bindsym $mod+Ctrl+i exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
+bindsym $mod+Shift+bracketleft exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
+bindsym $mod+Shift+bracketright exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+bindsym $mod+Shift+p exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
 
 # Uruchamianie programów flatpaka
 bindsym $mod+Ctrl+Return exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
