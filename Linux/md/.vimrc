@@ -51,7 +51,7 @@ set nojoinspaces
 set clipboard^=unnamed,unnamedplus
 set showmatch
 set hlsearch
-nnoremap <silent> <CR> :noh<CR><CR>:<backspace>
+nnoremap <silent> <CR> :noh<CR>
 
 " smartindent nie tylko do nowej linii stosuje indent linii poprzedniej (to funkcja
 " autoindent), ale także na podstawie składni stosuje odpowiednią indentację linii 
