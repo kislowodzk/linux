@@ -58,10 +58,6 @@ nnoremap <silent> <CR> :noh<CR>
 " następnej
 set smartindent
 
-" dla txt i md wyłączam smartindent, bo powodował problemy
-autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
-autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent 
-
 " Omnifunc uzupełnianie przez ctrl-x w trybie wprowadzania
 set omnifunc=syntaxcomplete#Complete
 
@@ -122,6 +118,8 @@ nnoremap <silent> <leader>n :tabnext<CR>
 nnoremap <silent> <leader>p :tabprevious<CR>
 nnoremap <silent> <leader>w :tabclose<CR>
 
+" NerdTree
+nnoremap <silent> <leader>q :NERDTree<CR>
 
 call plug#begin()
     Plug 'preservim/nerdtree'
@@ -135,6 +133,9 @@ call plug#end()
 
 colorscheme dracula
 
+" dla txt i md wyłączam smartindent, bo powodował problemy
+autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent 
 
 " Żeby terminal był przezroczysty
 hi Normal guibg=NONE ctermbg=NONE
