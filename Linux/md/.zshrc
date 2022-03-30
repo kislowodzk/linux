@@ -316,6 +316,8 @@ alias kompresja='echo gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTING
 
 # FZF
 alias vimf='vim $(fzf --exact --layout=reverse --height 40%)'
+alias nvimf='nvim $(fzf --exact --layout=reverse --height 40%)'
+alias nvf='nvim $(fzf --exact --layout=reverse --height 40%)'
 alias fzf='fzf --exact --layout=reverse --height 40%'
 # wypisuje ścieżkę do folderu poprzedzającego znaleziony plik
 alias cdf='cd $(fzf --exact --layout=reverse --height 40% | awk "BEGIN{FS=OFS=\"/\"}{\$NF=\"\"; NF--; print}")'
