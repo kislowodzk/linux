@@ -4,8 +4,6 @@ setlocal formatoptions+=1
 " Numery
 set number relativenumber
 
-setlocal noexpandtab
-
 " Ustawienia wyszukiwania
 set ignorecase
 set smartcase
@@ -23,15 +21,15 @@ setlocal linebreak
 set tw=80
 set display+=lastline
 set backspace=indent,eol,start
-set scrolloff=8
+set scrolloff=10
 
-map <C-f> ggvG$
+nnoremap <C-f> ggvG$
 nnoremap <C-k> gk
 nnoremap <C-j> gj
 nnoremap <C-h> h
 nnoremap <C-l> l
-" nnoremap <space> :w<cr> " wyłączam, żeby wyrobić pamięć mięśniową
-" nie, żebym tego używał, bardziej chodzi po prostu o to, żeby nie włączać dziwnego trybu
+
+" Nie, żebym tego używał, bardziej chodzi po prostu o to, żeby nie włączać dziwnego trybu
 nnoremap Q gq
 
 " Pokazuj białe znaki
@@ -53,13 +51,18 @@ set nojoinspaces
 set clipboard^=unnamed,unnamedplus
 set showmatch
 set hlsearch
-nnoremap <silent> <CR> :noh<CR><CR>:<backspace>
+nnoremap <silent> <CR> :noh<CR>
 
 " smartindent nie tylko do nowej linii stosuje indent linii poprzedniej (to funkcja
 " autoindent), ale także na podstawie składni stosuje odpowiednią indentację linii 
 " następnej
 set smartindent
 
+" dla txt i md wyłączam smartindent, bo powodował problemy
+autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent 
+
+" Omnifunc uzupełnianie przez ctrl-x w trybie wprowadzania
 set omnifunc=syntaxcomplete#Complete
 
 " Zmiana kursora w zależności od trybu
@@ -91,6 +94,11 @@ inoremap # #<c-g>u
 " Podświetlenie obecnej linii
 set cursorline
 
+" Nazwa pliku na dole
+set laststatus=2
+set statusline=
+set statusline=%t\ %M\ %=\ %y\ %{&fileencoding?&fileencoding:&encoding}\ \[%{&fileformat}\]\ %l/%L:\ %v
+
 " Brak początkowej wiadomości przy uruchamianiu
 set shortmess+=I
 
@@ -100,9 +108,8 @@ syntax on
 let mapleader = " "
 
 " Kilka okien
-nnoremap <leader>q :wincmd v<bar> :wincmd h<bar> :Ex <bar> :vertical resize 30<CR>
-nnoremap <leader>s :wincmd s<CR>
-nnoremap <leader>v :wincmd v<CR>
+nnoremap <leader>v :wincmd s<CR>
+nnoremap <leader>s :wincmd v<CR>
 
 nnoremap <silent> <leader>h :vertical resize +5<CR>
 nnoremap <silent> <leader>l :vertical resize -5<CR>
@@ -115,12 +122,9 @@ nnoremap <silent> <leader>n :tabnext<CR>
 nnoremap <silent> <leader>p :tabprevious<CR>
 nnoremap <silent> <leader>w :tabclose<CR>
 
+
 call plug#begin()
-    Plug 'vim-airline/vim-airline'
-    Plug 'ryanoasis/vim-devicons'
-
     Plug 'preservim/nerdtree'
-
     Plug 'dracula/vim'
     " sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
     "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
@@ -131,14 +135,10 @@ call plug#end()
 
 colorscheme dracula
 
-" dla txt i md wyłączam smartindent, bo powodował problemy
-autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
-autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent 
 
 " Żeby terminal był przezroczysty
 hi Normal guibg=NONE ctermbg=NONE
 
 " Żeby linia była zaznaczona bez koloru
 hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
-
 
