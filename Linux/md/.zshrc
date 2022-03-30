@@ -295,6 +295,7 @@ alias cls=clear
 alias v=vim
 alias nv=nvim
 alias vtd='vim ~/Notatki/ToDo.md'
+alias nvtd='nvim ~/Notatki/ToDo.md'
 alias s='ranger ~/1-STUDIA/2_Rok/Semestr_4/'
 alias rt='gio trash'
 alias caps='setxkbmap -option caps:swapescape'
