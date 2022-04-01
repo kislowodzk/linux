@@ -124,6 +124,7 @@ nnoremap <silent> <leader>q :NERDTree<CR>
 call plug#begin()
     Plug 'preservim/nerdtree'
     Plug 'dracula/vim'
+    Plug 'morhetz/gruvbox'
     " sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
     "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
     " Potem w pliku
@@ -131,7 +132,7 @@ call plug#begin()
     " :PlugClean
 call plug#end()
 
-colorscheme dracula
+colorscheme gruvbox
 
 " dla txt i md wyłączam smartindent, bo powodował problemy
 autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent

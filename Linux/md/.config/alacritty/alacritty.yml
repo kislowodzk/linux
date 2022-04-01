@@ -615,7 +615,7 @@ schemes:
 # *SolarizedDark
 # *TomorrowNight
 
-colors: *TomorrowNight
+colors: *GruvboxDark
 
 #######################################
 ##       END OF COLOR SCHEMES        ##
