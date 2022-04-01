@@ -226,6 +226,7 @@ bindsym $mod+Shift+Return exec --no-startup-id dmenu_run
 bindsym $mod+bracketright exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
 bindsym $mod+p exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
 bindsym $mod+bracketleft exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+bindsym $mod+Ctrl+bracketleft exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ 100% && $refresh_i3status
 
 # bindsym $mod+Shift+p exec "$HOME/.config/i3/volume_up.sh"
 # bindsym $mod+Shift+i exec "pactl set-sink-volume 0 -5%"
@@ -243,7 +244,6 @@ bindsym $mod+Shift+p exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2
 # Uruchamianie programów flatpaka
 bindsym $mod+Ctrl+Return exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
 
-
 bindsym $mod+w exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
 bindsym $mod+q exec --no-startup-id dmenu_run
 bindsym $mod+x exec --no-startup-id nautilus
@@ -259,10 +259,8 @@ bindsym $mod+a   layout splitv;\
 bindsym $mod+n move workspace to output left
 bindsym $mod+m move workspace to output right
 
-
 focus_follows_mouse no
 
 bindsym $mod+o exec --no-startup-id "~/.arandr_i3.sh"
 bindsym $mod+i exec --no-startup-id "~/.drugi_monitor_i3.sh"
-
 
