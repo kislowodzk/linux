@@ -106,4 +106,6 @@ Przeskakiwanie
         ; -- do następnego wystąpienia
         , -- do poprzedniego wystąpienia
     % -- do odpowiadającego nawiasu
+    * -- do następnego słowa, na którym mam kursor
+    # -- do poprzedniego słowa, na którym mam kursor
 
