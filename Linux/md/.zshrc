@@ -285,6 +285,8 @@ set s off
 xset -dpms
 xset s noblank
 xset r rate 350 43
+export VISUAL=vim
+export EDITOR=vim
 
 # tu powinna być komenda dla fzf, ale jest niżej
 
