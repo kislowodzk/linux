@@ -264,8 +264,8 @@ bash_prompt() {
 
     ## TO MOJE
 	## CONFIGURATION: CYAN-BLUE
-    if [ "$HOSTNAME" = pop-os ]; then
-        FONT_COLOR_1=$WHITE; BACKGROUND_1=$L_YELLOW; TEXTEFFECT_1=$BOLD
+    if [ "$HOSTNAME" = kislowodzk ]; then
+        FONT_COLOR_1=$WHITE; BACKGROUND_1=$GREEN; TEXTEFFECT_1=$BOLD
         FONT_COLOR_2=$BLACK; BACKGROUND_2=$BLUE; TEXTEFFECT_2=$BOLD
         FONT_COLOR_3=$WHITE; BACKGROUND_3=$BLUE; TEXTEFFECT_3=$BOLD
         PROMT_FORMAT=$NO_FORMAT
@@ -382,7 +382,7 @@ bash_prompt() {
 	
 
 	# GENERATE SEPARATORS WITH FANCY TRIANGLE
-	local TRIANGLE=$'\uE0B0'	
+	local TRIANGLE=$'\uE0B0'
 	local SEPARATOR_1=$SEPARATOR_FORMAT_1$TRIANGLE
 	local SEPARATOR_2=$SEPARATOR_FORMAT_2$TRIANGLE
 	local SEPARATOR_3=$SEPARATOR_FORMAT_3$TRIANGLE
@@ -440,44 +440,91 @@ unset bash_prompt
 # ==================================================================
 
 
+# ====================================================================
 
-# MOJE ZMIANY
-
+tput setaf 2
 echo "
 █░█░█ █ ▀█▀ ▄▀█ ░░█   █░█░█   █▄▀ █ █▀ █░░ █▀█ █░█░█ █▀█ █▀▄ ▀█ █▄▀ █░█
 ▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
 "
+#| lolcat -p 1 -t
 
-cat ~/.kot
+tput setaf 4
+cat "/home/md/.startup_zsh/$(ls ~/.startup_zsh/|shuf -n 1)"
+#| lolcat -p 1 -t 
+
+tput sgr0
+
+# cat ~/.kot | lolcat -p 1 -t
+
+# fortune | cowsay -f $(ls /usr/share/cowsay/cows/|shuf -n 1) # | lolcat -p 1 -t
 
 # autostart
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
+# dzięki temu touchpad działa tak, jak tego oczekuję
 setxkbmap -option caps:swapescape
-# jeśli w odpalę 'setxkbmap -option', to wróci do normy
+# jeśli odpalę 'setxkbmap -option', to wróci do normy
 set s off
 xset -dpms
 xset s noblank
 xset r rate 350 43
+export VISUAL=vim
+export EDITOR=vim
+
+# tu powinna być komenda dla fzf, ale jest niżej
 
 # moje aliasy
-alias lla='ls -alF'
-alias ll='ls -lF'
+alias lla='ls -alFh'
+alias ll='ls -lFh'
+alias :wq=exit
+alias :q=exit
 alias wq=exit
+alias ZZ=exit
+alias ZQ=exit
 alias cls=clear
 alias v=vim
 alias nv=nvim
-alias cdn='cd ~/Notatki'
 alias vtd='vim ~/Notatki/ToDo.md'
+alias nvtd='nvim ~/Notatki/ToDo.md'
+alias s='ranger ~/1-STUDIA/2_Rok/Semestr_4/'
 alias rt='gio trash'
-alias t=tmux
-alias spot=ncspot
 alias caps='setxkbmap -option caps:swapescape'
 alias nocaps='setxkbmap -option'
 alias fresh='sudo apt update; sudo apt upgrade; sudo apt autoremove'
 alias pop_fresh='flatpak update; sudo apt dist-upgrade'
+alias bed='shutdown now'
 alias bl=blueman-manager
 alias wi=nmtui
-alias mi=alsamixer
+alias mi=pavucontrol
+alias mi_term=alsamixer
+alias open=xdg-open
+alias kal='ncal -A1 -B1'
+alias clock='tty-clock -c'
+alias clock_s='tty-clock -s -c'
+alias ra=ranger
+alias pa='pandoc -V geometry:margin=1in'    # pandoc z dobrymi marginesami, po tym powinienem podać plik wejścia -o i plik wyjścia
+alias kompresja='echo gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -sOutputFile=output.pdf input.pdf'
+
+# FZF
+alias vimf='vim $(fzf --exact --layout=reverse --height 40%)'
+alias nvimf='nvim $(fzf --exact --layout=reverse --height 40%)'
+alias nvf='nvim $(fzf --exact --layout=reverse --height 40%)'
+alias fzf='fzf --exact --layout=reverse --height 40%'
+# wypisuje ścieżkę do folderu poprzedzającego znaleziony plik
+alias cdf='cd $(fzf --exact --layout=reverse --height 40% | awk "BEGIN{FS=OFS=\"/\"}{\$NF=\"\"; NF--; print}")'
+# żeby działał dla ukrytych plików
+# export FZF_DEFAULT_COMMAND='find . -path './.git' -prune -o -print'
+
+# skrypty
+alias kopia='~/.kopiuj-na-gita.sh'
+alias scroll='~/.mysz.sh'
+# alias monitory_awesome='~/.arandr.sh'       # to muszę wygenerować za pomocą arandr, do tego skryptu w kolejnej linii warto
+                                            # dopisać:
+                                            # echo 'awesome.restart()' | awesome-client
+                                            # żeby od razu zrestartował awesome
+
+alias monitory_i3='~/.arandr_i3.sh'
+alias drugimonitor_i3='~/.drugi_monitor_i3.sh'
 
 alias br='xrandr --output LVDS-1 --brightness'
 
@@ -504,12 +551,4 @@ alias b9='xrandr --output LVDS-1 --brightness 0.9'
 alias b0='xrandr --output LVDS-1 --brightness 1.0'
 alias bb='xrandr --output LVDS-1 --brightness 1.0'
 
-alias open=xdg-open
-
-# export PATH="$HOME/.emacs.d/bin:$PATH" # To tylko, jeśli zostawię emacsa
-
-# alias bl='gnome-control-center bluetooth'
-# alias wi='gnome-control-center wifi'
-# alias mi='gnome-control-center sound'
-# alias br='gnome-control-center power'
 
