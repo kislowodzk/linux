@@ -122,19 +122,23 @@ nnoremap <silent> <leader>w :tabclose<CR>
 nnoremap <silent> <leader>q :NERDTree<CR>
 
 call plug#begin()
+    " Muszę mieć zainstalowanego nvmia, gita, curla
+    " Instalacja vmipluga:
+    "       https://github.com/junegunn/vim-plug
+    " Potem:
+    " sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+    "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+    " Potem w pliku:
+    " :PlugInstall
+    " :PlugClean
     Plug 'preservim/nerdtree'
     Plug 'dracula/vim'
     Plug 'morhetz/gruvbox'
-    " sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-    "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-    " Potem w pliku
-    " :PlugInstall
-    " :PlugClean
 call plug#end()
 
 colorscheme gruvbox
 
-" dla txt i md wyłączam smartindent, bo powodował problemy
+" Dla txt i md wyłączam smartindent, bo powodował problemy
 autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent 
 
