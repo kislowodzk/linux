@@ -268,7 +268,7 @@ echo "
 "
 #| lolcat -p 1 -t
 
-tput setaf 7
+tput setaf 4
 cat "/home/md/.startup_zsh/$(ls ~/.startup_zsh/|shuf -n 1)"
 #| lolcat -p 1 -t 
 
