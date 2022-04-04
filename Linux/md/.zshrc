@@ -91,18 +91,20 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+# Tutaj zmiana koloru z zielonego na żółty, jeśli chcę to odkręcić, to trzeba by
+# zmienić poniższą funkcję
 configure_prompt() {
     prompt_symbol=㉿
     # Skull emoji for root terminal
     #[ "$EUID" -eq 0 ] && prompt_symbol=💀
     case "$PROMPT_ALTERNATIVE" in
         twoline)
-            PROMPT=$'%F{%(#.blue.green)}┌──${debian_chroot:+($debian_chroot)─}${VIRTUAL_ENV:+($(basename $VIRTUAL_ENV))─}(%B%F{%(#.red.blue)}%n'$prompt_symbol$'%m%b%F{%(#.blue.green)})-[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{%(#.blue.green)}]\n└─%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
+            PROMPT=$'%F{%(#.blue.yellow)}┌──${debian_chroot:+($debian_chroot)─}${VIRTUAL_ENV:+($(basename $VIRTUAL_ENV))─}(%B%F{%(#.red.blue)}%n'$prompt_symbol$'%m%b%F{%(#.blue.yellow)})-[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{%(#.blue.yellow)}]\n└─%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
             # Right-side prompt with exit codes and background processes
             #RPROMPT=$'%(?.. %? %F{red}%B⨯%b%F{reset})%(1j. %j %F{yellow}%B⚙%b%F{reset}.)'
             ;;
         oneline)
-            PROMPT=$'${debian_chroot:+($debian_chroot)}${VIRTUAL_ENV:+($(basename $VIRTUAL_ENV))}%B%F{%(#.red.blue)}%n@%m%b%F{reset}:%B%F{%(#.blue.green)}%~%b%F{reset}%(#.#.$) '
+            PROMPT=$'${debian_chroot:+($debian_chroot)}${VIRTUAL_ENV:+($(basename $VIRTUAL_ENV))}%B%F{%(#.red.blue)}%n@%m%b%F{reset}:%B%F{%(#.blue.yellow)}%~%b%F{reset}%(#.#.$) '
             RPROMPT=
             ;;
         backtrack)
@@ -259,14 +261,14 @@ fi
 
 # ====================================================================
 
-tput setaf 2
+tput setaf 3
 echo "
 █░█░█ █ ▀█▀ ▄▀█ ░░█   █░█░█   █▄▀ █ █▀ █░░ █▀█ █░█░█ █▀█ █▀▄ ▀█ █▄▀ █░█
 ▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
 "
 #| lolcat -p 1 -t
 
-tput setaf 4
+tput setaf 7
 cat "/home/md/.startup_zsh/$(ls ~/.startup_zsh/|shuf -n 1)"
 #| lolcat -p 1 -t 
 
