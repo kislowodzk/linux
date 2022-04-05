@@ -14,7 +14,6 @@ cp ~/.startup_zsh/* ~/Dokumenty/GitHub/linux/Linux/md/.startup_zsh
 cp ~/Notatki/Informatyka/vim_useful_comands.txt ~/Dokumenty/GitHub/linux/Linux/vim_useful_comands.txt
 cp ~/Pobrane/xmouseless/xmouseless/config.h ~/Dokumenty/GitHub/linux/Linux/md/
 cp ~/.config/i3/config ~/Dokumenty/GitHub/linux/Linux/md/.config/i3/
-cp ~/.config/i3/volume_up.sh ~/Dokumenty/GitHub/linux/Linux/md/.config/i3/
 cp ~/.config/i3status/config ~/Dokumenty/GitHub/linux/Linux/md/.config/i3status/
 cp ~/.arandr.sh ~/Dokumenty/GitHub/linux/Linux/md/
 cp ~/.arandr_i3.sh ~/Dokumenty/GitHub/linux/Linux/md/
