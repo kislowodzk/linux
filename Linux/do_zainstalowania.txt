@@ -150,6 +150,9 @@ sudo apt install fzf
 https://github.com/jbensmann/xmouseless
 mouseless
 
+
+i3 gaps
+
 ----------------------------
 
 ### Startup applications -> disable firmware update check

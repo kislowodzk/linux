@@ -184,6 +184,17 @@ bar {
 }
 
 
+# class                 border  backgr. text    indicator child_border
+client.focused          #83a598 #83a598 #ebdbb2 #83a598   #83a598
+client.focused_inactive #857d6e #857d6e #282828 #857d6e   #857d6e
+client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
+client.background       #ffffff
+
+
+
 # żeby nie pokazywał tytułów
 for_window [class="^.*"] border pixel 2
 
@@ -228,14 +239,6 @@ bindsym $mod+p exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && 
 bindsym $mod+bracketleft exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym $mod+Ctrl+bracketleft exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ 100% && $refresh_i3status
 
-# bindsym $mod+Shift+p exec "$HOME/.config/i3/volume_up.sh"
-# bindsym $mod+Shift+i exec "pactl set-sink-volume 0 -5%"
-# bindsym $mod+Shift+o exec "pactl set-sink-mute 0 toggle"
-
-# bindsym $mod+Shift+p exec "pactl set-sink-volume 0 +5%"
-# bindsym $mod+Shift+i exec "pactl set-sink-volume 0 -5%"
-# bindsym $mod+Shift+o exec "pactl set-sink-mute 0 toggle"
-
 # Spotify next/prev
 bindsym $mod+Shift+bracketleft exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
 bindsym $mod+Shift+bracketright exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
@@ -263,4 +266,7 @@ focus_follows_mouse no
 
 bindsym $mod+o exec --no-startup-id "~/.arandr_i3.sh"
 bindsym $mod+i exec --no-startup-id "~/.drugi_monitor_i3.sh"
+
+
+
 
