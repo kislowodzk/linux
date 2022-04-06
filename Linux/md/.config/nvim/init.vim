@@ -121,6 +121,9 @@ nnoremap <silent> <leader>w :tabclose<CR>
 " NerdTree
 nnoremap <silent> <leader>q :NERDTree<CR>
 
+" Tagbar
+nnoremap <silent> <leader>b :Tagbar<CR>
+
 call plug#begin()
     " Muszę mieć zainstalowanego nvmia, gita, curla
     " Instalacja vmipluga:
@@ -131,9 +134,19 @@ call plug#begin()
     " Potem w pliku:
     " :PlugInstall
     " :PlugClean
-    Plug 'preservim/nerdtree'
-    Plug 'dracula/vim'
-    Plug 'morhetz/gruvbox'
+    Plug 'preservim/nerdtree'       " nerdtree, leader + q
+    Plug 'dracula/vim'              " colorscheme dracula
+    Plug 'morhetz/gruvbox'          " colorscheme gruvbox
+    Plug 'preservim/tagbar'         " tagbar z boku, leader + b
+    Plug 'tpope/vim-commentary'     " gcc albo gc w visual komentuje linię
+    Plug 'tpope/vim-surround'       " surround -- to jest skomplikowane dość
+                                    " generalnie:
+                                        " ys iw (
+                                        " ds iw (
+                                        " cs iw ([
+                                        " yss(
+                                        " ( ze spacją pomiędzy
+                                        " ) bez spacji pomiędzy
 call plug#end()
 
 colorscheme gruvbox
