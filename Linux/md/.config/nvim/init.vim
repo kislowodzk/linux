@@ -134,12 +134,12 @@ call plug#begin()
     " Potem w pliku:
     " :PlugInstall
     " :PlugClean
-    Plug 'preservim/nerdtree'       " nerdtree, leader + q
     Plug 'dracula/vim'              " colorscheme dracula
     Plug 'morhetz/gruvbox'          " colorscheme gruvbox
+    Plug 'preservim/nerdtree'       " nerdtree, leader + q
     Plug 'preservim/tagbar'         " tagbar z boku, leader + b
     Plug 'tpope/vim-commentary'     " gcc albo gc w visual komentuje linię
-    Plug 'tpope/vim-surround'       " surround -- to jest skomplikowane dość
+    Plug 'tpope/vim-surround'       " surround
                                     " generalnie:
                                         " ys iw (
                                         " ds iw (
