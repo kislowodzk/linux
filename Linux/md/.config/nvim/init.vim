@@ -147,6 +147,11 @@ call plug#begin()
                                         " yss(
                                         " ( ze spacją pomiędzy
                                         " ) bez spacji pomiędzy
+                                    " W trybie visual:
+                                        " S)
+                                    " W trybie visual line
+                                        " S), ale wstawia znaki w liniach przed
+                                        " i po
 call plug#end()
 
 colorscheme gruvbox
