@@ -326,6 +326,7 @@ alias kompresja='echo gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTING
 
 # FZF
 alias vimf='vim $(fzf --exact --layout=reverse --height 40%)'
+alias vf='vim $(fzf --exact --layout=reverse --height 40%)'
 alias nvimf='nvim $(fzf --exact --layout=reverse --height 40%)'
 alias nvf='nvim $(fzf --exact --layout=reverse --height 40%)'
 alias fzf='fzf --exact --layout=reverse --height 40%'

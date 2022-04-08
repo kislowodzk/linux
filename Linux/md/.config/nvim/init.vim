@@ -137,21 +137,27 @@ call plug#begin()
     Plug 'dracula/vim'              " colorscheme dracula
     Plug 'morhetz/gruvbox'          " colorscheme gruvbox
     Plug 'preservim/nerdtree'       " nerdtree, leader + q
+                                        " t -- open in new tab
+                                        " T -- open in new tab silently
+                                        " i -- open split down
+                                        " s -- open split right
+                                        " I -- hidden files on/off
+                                        " u -- up a dir
     Plug 'preservim/tagbar'         " tagbar z boku, leader + b
     Plug 'tpope/vim-commentary'     " gcc albo gc w visual komentuje linię
     Plug 'tpope/vim-surround'       " surround
-                                    " generalnie:
-                                        " ys iw (
-                                        " ds iw (
-                                        " cs iw ([
-                                        " yss(
-                                        " ( ze spacją pomiędzy
-                                        " ) bez spacji pomiędzy
-                                    " W trybie visual:
-                                        " S)
-                                    " W trybie visual line
-                                        " S), ale wstawia znaki w liniach przed
-                                        " i po
+                                        " W trybie normal:
+                                            " ys iw (
+                                            " ds iw (
+                                            " cs iw ([
+                                            " yss(
+                                            " ( ze spacją pomiędzy
+                                            " ) bez spacji pomiędzy
+                                        " W trybie visual:
+                                            " S)
+                                        " W trybie visual line
+                                            " S), ale wstawia znaki w liniach przed
+                                            " i po
 call plug#end()
 
 colorscheme gruvbox
