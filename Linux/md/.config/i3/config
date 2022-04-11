@@ -183,7 +183,6 @@ bar {
         separator_symbol " | "
 }
 
-
 # class                 border  backgr. text    indicator child_border
 client.focused          #83a598 #83a598 #ebdbb2 #83a598   #83a598
 client.focused_inactive #857d6e #857d6e #282828 #857d6e   #857d6e
@@ -270,3 +269,4 @@ bindsym $mod+i exec --no-startup-id "~/.drugi_monitor_i3.sh"
 
 
 
+# exec_always /home/md/.config/polybar/launch.sh &
