@@ -23,6 +23,21 @@ set display+=lastline
 set backspace=indent,eol,start
 set scrolloff=10
 
+" Żeby nie dodawał podwójnej spacji po kropce na końcu zdania
+set nojoinspaces
+
+" Żeby split automatycznie otwierał się po prawej/na dole
+set splitbelow splitright
+
+set clipboard^=unnamed,unnamedplus
+set showmatch
+set hlsearch
+
+" smartindent nie tylko do nowej linii stosuje indent linii poprzedniej (to funkcja
+" autoindent), ale także na podstawie składni stosuje odpowiednią indentację linii 
+" następnej
+set smartindent
+
 nnoremap <C-f> ggvG$
 nnoremap <C-k> gk
 nnoremap <C-j> gj
@@ -41,22 +56,7 @@ nnoremap <f6> :set list<enter>
 set spellcapcheck=
 nnoremap <f8> :set spell spelllang=<enter>
 nnoremap <f9> :set spell spelllang=pl_pl,en_us<enter>
-
-" Żeby split automatycznie otwierał się po prawej/na dole
-set splitbelow splitright
-
-" Żeby nie dodawał podwójnej spacji po kropce na końcu zdania
-set nojoinspaces
-
-set clipboard^=unnamed,unnamedplus
-set showmatch
-set hlsearch
 nnoremap <silent> <CR> :noh<CR>
-
-" smartindent nie tylko do nowej linii stosuje indent linii poprzedniej (to funkcja
-" autoindent), ale także na podstawie składni stosuje odpowiednią indentację linii 
-" następnej
-set smartindent
 
 " Omnifunc uzupełnianie przez ctrl-x w trybie wprowadzania
 set omnifunc=syntaxcomplete#Complete
