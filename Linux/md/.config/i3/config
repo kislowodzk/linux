@@ -203,13 +203,15 @@ exec_always compton
 exec_always "setxkbmap -option caps:swapescape"
 exec_always "xset r rate 350 43"
 exec_always "blueman-applet"
+# nie trzeba tego poniżej, bo automatycznie to będzie działać
+# exec_always "~/.imwheelrc"
 
-#navigate workspaces next / previous
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
 bindsym $mod+Ctrl+l workspace next
 bindsym $mod+Ctrl+h workspace prev
 
+#navigate workspaces next / previous
 bindsym $mod+Mod1+Right workspace next
 bindsym $mod+Mod1+Left workspace prev
 bindsym $mod+Mod1+l workspace next
@@ -266,7 +268,5 @@ focus_follows_mouse no
 bindsym $mod+o exec --no-startup-id "~/.arandr_i3.sh"
 bindsym $mod+i exec --no-startup-id "~/.drugi_monitor_i3.sh"
 
-
-
-
 # exec_always /home/md/.config/polybar/launch.sh &
+
