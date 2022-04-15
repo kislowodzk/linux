@@ -258,6 +258,20 @@ fi
 if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
+# ====================================================================
+# SEKCJA JĘZYKÓW
+#
+#
+#
+export GOPATH=/home/md/.golib
+export PATH=$PATH:$GOPATH/bin
+
+
+
+
+
+
+
 
 
 # ====================================================================
@@ -377,4 +391,5 @@ alias bb='xrandr --output LVDS-1 --brightness 1.0'
 
 # enable wildcard expansion, coś, co jest potrzebne w zsh
 set -o GLOB_SUBST
+
 

@@ -150,7 +150,7 @@ call plug#begin()
     Plug 'tpope/vim-surround'       " surround
                                         " W trybie normal:
                                             " ys iw (
-                                            " ds iw (
+                                            " ds (
                                             " cs iw ([
                                             " yss(
                                             " ( ze spacją pomiędzy
