@@ -314,7 +314,9 @@ alias lla='ls -alFh'
 alias ll='ls -lFh'
 alias :wq=exit
 alias :q=exit
-alias wq=exit
+alias :Q=exit
+# chcę wyrobić pamięć mięśniową :q
+# alias wq=exit
 alias ZZ=exit
 alias ZQ=exit
 alias cls=clear

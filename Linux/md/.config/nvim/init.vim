@@ -88,6 +88,7 @@ inoremap : :<c-g>u
 inoremap # #<c-g>u
 
 cnoremap W w
+cnoremap Q q
 
 " Podświetlenie obecnej linii
 set cursorline
