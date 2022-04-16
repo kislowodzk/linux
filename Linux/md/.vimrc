@@ -107,8 +107,13 @@ set shortmess+=I
 
 syntax on
 
+" Sprawdzaj też w podfolderach
+set path+=**
+
 " Leader
 let mapleader = " "
+
+nnoremap <leader>f :find 
 
 " Kilka okien
 nnoremap <leader>v :wincmd s<CR>
