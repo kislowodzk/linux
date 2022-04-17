@@ -21,20 +21,20 @@ call plug#begin()
     " In the init.vim
     " :PlugInstall
     " :PlugClean
-    Plug 'dracula/vim'              " colorscheme dracula
-    Plug 'morhetz/gruvbox'          " colorscheme gruvbox
-    Plug 'preservim/nerdtree'       " nerdtree, leader + q
+    Plug 'dracula/vim'              " Colorscheme dracula
+    Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
+    Plug 'preservim/nerdtree'       " Nerdtree, leader + q
                                         " t -- open in new tab
                                         " T -- open in new tab silently
                                         " i -- open split down
                                         " s -- open split right
                                         " I -- hidden files on/off
                                         " u -- up a dir
-    Plug 'preservim/tagbar'         " tagbar, leader + b
+    Plug 'preservim/tagbar'         " Tagbar, leader + b
                                     " I need to have ctag installed, eg.:
                                         " sudo apt install universal-ctags
     Plug 'tpope/vim-commentary'     " gcc or gc
-    Plug 'tpope/vim-surround'       " surround
+    Plug 'tpope/vim-surround'       " Surround
                                         " Normal mode:
                                             " ys iw (
                                             " ds (
