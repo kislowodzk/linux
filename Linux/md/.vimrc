@@ -110,19 +110,30 @@ syntax on
 " Sprawdzaj też w podfolderach
 set path+=**
 
+" " To poniżej działa automatycznie w nvimie
+" " Display all matchung files when we tab complete
+" set wildmenu
+
 " Leader
 let mapleader = " "
 
+" Make adjusing split sizes a bit more friendly
+noremap <silent> <C-Left> :vertical resize +3<CR>
+noremap <silent> <C-Right> :vertical resize -3<CR>
+noremap <silent> <C-Up> :resize +1<CR>
+noremap <silent> <C-Down> :resize -1<CR>
+
+" Wyszukiwanie pliku
 nnoremap <leader>f :find 
 
 " Kilka okien
 nnoremap <leader>v :wincmd s<CR>
 nnoremap <leader>s :wincmd v<CR>
 
-nnoremap <silent> <leader>h :vertical resize +5<CR>
-nnoremap <silent> <leader>l :vertical resize -5<CR>
-nnoremap <silent> <leader>k :resize +1<CR>
-nnoremap <silent> <leader>j :resize -1<CR>
+nnoremap <silent> <leader>h <C-w>h
+nnoremap <silent> <leader>l <C-w>l
+nnoremap <silent> <leader>k <C-w>k
+nnoremap <silent> <leader>j <C-w>j
 
 " Zakładki
 nnoremap <silent> <leader>t :tabnew<CR>
