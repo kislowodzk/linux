@@ -153,6 +153,8 @@ call plug#begin()
                                         " I -- hidden files on/off
                                         " u -- up a dir
     Plug 'preservim/tagbar'         " tagbar z boku, leader + b
+                                    " wymaga zainstalowania ctags, na przykład:
+                                        " sudo apt install universal-ctags
     Plug 'tpope/vim-commentary'     " gcc albo gc w visual komentuje linię
     Plug 'tpope/vim-surround'       " surround
                                         " W trybie normal:
