@@ -34,12 +34,12 @@ cpu_usage {
 }
 
 wireless _first_ {
-        format_up = "W (%quality at %essid, %bitrate) %ip"
+        format_up = "W (%quality at %essid, %bitrate)"
         format_down = ""
 }
 
 ethernet _first_ {
-        format_up = "E %ip (%speed)"
+        format_up = "E (%speed)"
         format_down = ""
 }
 
