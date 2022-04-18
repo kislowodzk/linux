@@ -246,7 +246,8 @@ bindsym $mod+Shift+p exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2
 
 # Uruchamianie programów (teraz rofi, ale zakomentowane dmenu
 # bindsym $mod+Shift+Return exec --no-startup-id dmenu_run
-bindsym $mod+Shift+Return exec --no-startup-id "rofi -show run"
+# rofi-theme-selector, żeby ustawić wygląd
+bindsym $mod+Shift+Return exec --no-startup-id "rofi -show drun"
 # bindsym $mod+Ctrl+Return exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
 bindsym $mod+Ctrl+Return exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | rofi -show -dmenu | xargs flatpak run"
 
