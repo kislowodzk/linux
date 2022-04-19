@@ -541,4 +541,3 @@ hi Normal guibg=NONE ctermbg=NONE
 
 " Żeby linia była zaznaczona bez koloru
 hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
-

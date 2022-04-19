@@ -1,20 +1,14 @@
 #!/bin/bash
-cp ~/.vimrc ~/Dokumenty/GitHub/linux/Linux/md/
-cp ~/.bashrc ~/Dokumenty/GitHub/linux/Linux/md/
-cp ~/.config/awesome/rc.lua ~/Dokumenty/GitHub/linux/Linux/md/.config/awesome/
-cp ~/.config/alacritty/alacritty.yml ~/Dokumenty/GitHub/linux/Linux/md/.config/alacritty/
-cp ~/.config/nvim/init.vim ~/Dokumenty/GitHub/linux/Linux/md/.config/nvim/
-cp ~/.kopiuj-na-gita.sh ~/Dokumenty/GitHub/linux/Linux/md/
-cp ~/.mysz.sh ~/Dokumenty/GitHub/linux/Linux/md/
-cp ~/.config/ranger/rc.conf ~/Dokumenty/GitHub/linux/Linux/md/.config/ranger
-cp ~/.zshrc ~/Dokumenty/GitHub/linux/Linux/md/
-cp ~/.fonts/* ~/Dokumenty/GitHub/linux/Linux/md/.fonts
-cp ~/.tapeta/* ~/Dokumenty/GitHub/linux/Linux/md/.tapeta
-cp ~/.startup_zsh/* ~/Dokumenty/GitHub/linux/Linux/md/.startup_zsh
-cp ~/Notatki/Informatyka/vim_useful_comands.txt ~/Dokumenty/GitHub/linux/Linux/vim_useful_comands.txt
-cp ~/Pobrane/xmouseless/xmouseless/config.h ~/Dokumenty/GitHub/linux/Linux/md/
-cp ~/.config/i3/config ~/Dokumenty/GitHub/linux/Linux/md/.config/i3/
-cp ~/.config/i3status/config ~/Dokumenty/GitHub/linux/Linux/md/.config/i3status/
-cp ~/.arandr.sh ~/Dokumenty/GitHub/linux/Linux/md/
-cp ~/.arandr_i3.sh ~/Dokumenty/GitHub/linux/Linux/md/
-cp ~/.drugi_monitor_i3.sh ~/Dokumenty/GitHub/linux/Linux/md/
+cp ~/.vimrc ~/Dokumenty/linux/Linux/md/
+cp ~/.bashrc ~/Dokumenty/linux/Linux/md/
+cp ~/.config/awesome/rc.lua ~/Dokumenty/linux/Linux/md/.config/awesome/
+cp ~/.config/alacritty/alacritty.yml ~/Dokumenty/linux/Linux/md/.config/alacritty/
+cp ~/.config/nvim/init.vim ~/Dokumenty/linux/Linux/md/.config/nvim/
+cp ~/.kopiuj-na-gita.sh ~/Dokumenty/linux/Linux/md/
+cp ~/.config/ranger/rc.conf ~/Dokumenty/linux/Linux/md/.config/ranger
+cp ~/.zshrc ~/Dokumenty/linux/Linux/md/
+cp ~/.fonts/* ~/Dokumenty/linux/Linux/md/.fonts
+cp ~/.tapeta/* ~/Dokumenty/linux/Linux/md/.tapeta
+cp ~/.startup_zsh/* ~/Dokumenty/linux/Linux/md/.startup_zsh
+cp ~/Notatki/Informatyka/vim_useful_comands.txt ~/Dokumenty/linux/Linux/vim_useful_comands.txt
+
