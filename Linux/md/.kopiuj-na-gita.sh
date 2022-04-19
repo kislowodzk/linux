@@ -1,7 +1,7 @@
 #!/bin/bash
 cp ~/.vimrc ~/Dokumenty/linux/Linux/md/
 cp ~/.bashrc ~/Dokumenty/linux/Linux/md/
-cp ~/.config/awesome/rc.lua ~/Dokumenty/linux/Linux/md/.config/awesome/
+# cp ~/.config/awesome/rc.lua ~/Dokumenty/linux/Linux/md/.config/awesome/
 cp ~/.config/alacritty/alacritty.yml ~/Dokumenty/linux/Linux/md/.config/alacritty/
 cp ~/.config/nvim/init.vim ~/Dokumenty/linux/Linux/md/.config/nvim/
 cp ~/.kopiuj-na-gita.sh ~/Dokumenty/linux/Linux/md/
