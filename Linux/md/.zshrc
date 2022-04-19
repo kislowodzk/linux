@@ -282,14 +282,14 @@ echo "
 ▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
 "
 tput sgr0
-starfetch
+#starfetch
 ##| lolcat -p 1 -t
 
-#tput setaf 4
-#cat "/home/md/.startup_zsh/$(ls ~/.startup_zsh/|shuf -n 1)"
+tput setaf 4
+cat "/home/md/.startup_zsh/$(ls ~/.startup_zsh/|shuf -n 1)"
 ##| lolcat -p 1 -t 
 
-#tput sgr0
+tput sgr0
 
 # cat ~/.kot | lolcat -p 1 -t
 
