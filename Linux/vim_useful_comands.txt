@@ -109,3 +109,10 @@ Przeskakiwanie
     * -- do następnego słowa, na którym mam kursor
     # -- do poprzedniego słowa, na którym mam kursor
 
+Folding
+    zf -- fold
+    zo -- open folded
+    zc -- close opened fold
+    albo w trybie visual
+    albo w trybie normal z podaniem zakresu po (na przykład zfiw, zfa})
+

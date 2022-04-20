@@ -10,5 +10,6 @@ cp ~/.zshrc ~/Dokumenty/linux/Linux/md/
 cp ~/.fonts/* ~/Dokumenty/linux/Linux/md/.fonts
 cp ~/.tapeta/* ~/Dokumenty/linux/Linux/md/.tapeta
 cp ~/.startup_zsh/* ~/Dokumenty/linux/Linux/md/.startup_zsh
-cp ~/Notatki/Informatyka/vim_useful_comands.txt ~/Dokumenty/linux/Linux/vim_useful_comands.txt
+cp ~/.config/i3/config ~/Dokumenty/linux/Linux/md/.config/i3/
+cp ~/.config/i3status/config ~/Dokumenty/linux/Linux/md/.config/i3status/
 
