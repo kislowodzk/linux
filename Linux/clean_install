@@ -32,7 +32,7 @@ sudo apt install tree
 sudo apt install blueman
 sudo apt install neofetch
 sudo apt install flameshot
-sudo apt install piper
+sudo apt install piper                                  # kolorek #FF9000
 sudo apt-get install lxappearance
 sudo apt install vifm
 sudo apt install ranger
@@ -53,12 +53,13 @@ cd
 cd .cache
 mkdir zsh
 echo 'set completion-ignore-case On' >> /etc/inputrc
-rofi-theme-selector                                     // gruvbox-dark-soft
+rofi-theme-selector                                     # gruvbox-dark-soft
 nitrogen
 lxappearance
 
-## To jeszcze mam do zrobienia
-piper                                                   // kolorek #FF9000
+sudo vim /etc/hostname                                  # delete old name and setup new
+sudo vim /etc/hosts                                     # zastąpić każde wystąpienie
+sudo reboot
 
 # POP_SHOP
 Simplenote
