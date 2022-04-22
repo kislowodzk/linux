@@ -258,7 +258,7 @@ bindsym $mod+w exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | 
 bindsym $mod+q exec --no-startup-id dmenu_run
 bindsym $mod+x exec --no-startup-id nautilus
 bindsym $mod+d exec alacritty -e vifm
-bindsym $mod+s exec alacritty -e vim
+bindsym $mod+s exec alacritty -e nvim
 
 # start main stack
 bindsym $mod+a   layout splitv;\
