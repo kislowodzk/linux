@@ -171,7 +171,7 @@ noremap <silent> <C-Up> :resize +1<CR>
 noremap <silent> <C-Down> :resize -1<CR>
 
 " File search
-nnoremap <leader>f :find 
+nnoremap <leader>f :find **
 
 " Splits
 nnoremap <leader>v :wincmd s<CR>
