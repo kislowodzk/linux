@@ -68,6 +68,7 @@ Słownik
     [s -- skocz do poprzedniego błędu
     z= -- zastąp słowo innym ze słownika
     zg -- dodaj słowo pod kursorem do prywatnego słownika
+    zw -- usuń słowo pod kursorem z prywatnego słownika
 
 Polecenia shella
     :!{pwd} -- bez nawiasów ofc -- uruchamia polecenie w terminalu (aliasy nie 
