@@ -47,6 +47,8 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt update
 sudo apt install brave-browser
 
+sudo apt install python3-pip
+pip3 install i3ipc
 
 # TERMINAL, ALE INACZEJ
 cd

@@ -9,6 +9,7 @@ cp ~/.config/nvim/gruvbox.vim ~/Dokumenty/linux/Linux/md/.config/nvim/
 cp ~/.kopiuj-na-gita.sh ~/Dokumenty/linux/Linux/md/
 cp ~/.config/ranger/rc.conf ~/Dokumenty/linux/Linux/md/.config/ranger
 cp ~/.zshrc ~/Dokumenty/linux/Linux/md/
+cp ~/.autotile.py ~/Dokumenty/linux/Linux/md/
 cp ~/.fonts/* ~/Dokumenty/linux/Linux/md/.fonts
 cp ~/.tapeta/* ~/Dokumenty/linux/Linux/md/.tapeta
 cp ~/.startup_zsh/* ~/Dokumenty/linux/Linux/md/.startup_zsh
