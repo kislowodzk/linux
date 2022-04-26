@@ -127,8 +127,8 @@ noremap <silent> <C-Down> :resize -1<CR>
 nnoremap <leader>f :find 
 
 " Kilka okien
-nnoremap <leader>v :wincmd s<CR>
-nnoremap <leader>s :wincmd v<CR>
+nnoremap <leader>v :wincmd v<CR>
+nnoremap <leader>s :wincmd s<CR>
 
 nnoremap <silent> <leader>h <C-w>h
 nnoremap <silent> <leader>l <C-w>l
