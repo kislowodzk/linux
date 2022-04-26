@@ -264,9 +264,12 @@ bindsym $mod+d exec alacritty -e vifm
 bindsym $mod+s exec alacritty -e nvim
 
 # start main stack
-bindsym $mod+a   layout splitv;\
-                       move left;\
-                       split v
+# bindsym $mod+a   layout splitv;\
+#                        move left;\
+#                        split v
+#
+
+bindsym $mod+a exec --no-startup-id "~/.autotile.py"
 
 # przenoszenie workspace'ów między monitorami
 bindsym $mod+n move workspace to output left
