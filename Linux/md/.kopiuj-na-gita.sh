@@ -3,6 +3,7 @@ cp ~/.vimrc ~/Dokumenty/linux/Linux/md/
 cp ~/.bashrc ~/Dokumenty/linux/Linux/md/
 # cp ~/.config/awesome/rc.lua ~/Dokumenty/linux/Linux/md/.config/awesome/
 cp ~/.config/alacritty/alacritty.yml ~/Dokumenty/linux/Linux/md/.config/alacritty/
+cp ~/.config/kitty/kitty.conf ~/Dokumenty/linux/Linux/md/.config/kitty/
 cp ~/.config/nvim/init.vim ~/Dokumenty/linux/Linux/md/.config/nvim/
 cp ~/.config/nvim/without_gruvbox_plugin_init.vim ~/Dokumenty/linux/Linux/md/.config/nvim/
 cp ~/.config/nvim/gruvbox.vim ~/Dokumenty/linux/Linux/md/.config/nvim/
