@@ -63,6 +63,12 @@ sudo vim /etc/hostname                                  # delete old name and se
 sudo vim /etc/hosts                                     # zastąpić każde wystąpienie
 sudo reboot
 
+cd
+cd .icons
+git clone https://github.com/alvatip/Nordzy-icon
+cd Nordzy-icon/
+./install.sh
+
 # POP_SHOP
 Simplenote
 Github Desktop
