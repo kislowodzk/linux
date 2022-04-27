@@ -47,7 +47,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt update
 sudo apt install brave-browser
 
-sudo apt install python3-pip
+sudo apt install python3-pip                            # to potrzebne, żeby działał skryppt autotile
 pip3 install i3ipc
 
 # TERMINAL, ALE INACZEJ
@@ -63,12 +63,6 @@ sudo vim /etc/hostname                                  # delete old name and se
 sudo vim /etc/hosts                                     # zastąpić każde wystąpienie
 sudo reboot
 
-cd
-cd .icons
-git clone https://github.com/alvatip/Nordzy-icon
-cd Nordzy-icon/
-./install.sh
-
 # POP_SHOP
 Simplenote
 Github Desktop
@@ -79,7 +73,26 @@ VLC
 KolourPaint
 Audacity
 
+# Gnome desktop -- pop os
 
+cd
+cd .icons
+git clone https://github.com/alvatip/Nordzy-icon
+cd Nordzy-icon/
+./install.sh
+
+sudo apt install gnome-tweaks
+
+# zmiana grafiki na nvidię
+# skróty klawiszowe -- ustawienia
+    # move, resize and swap windows
+        # adjustment mode -- Shift+Super+Return
+    # uruchamianie
+        # launch terminal -- Super+Return
+# tweaks
+    # keyboard & mouse
+        # additional layout options
+            # caps lock behavior -- swap esc and caps lock
 
 
 
