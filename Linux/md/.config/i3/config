@@ -16,7 +16,7 @@ set $mod Mod4
 font pango:monospace 8
 
 # exec --no-startup-id ~/.autotile.py
-exec --no-startup-id imwheel
+# exec --no-startup-id imwheel
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -209,6 +209,7 @@ exec_always "xset r rate 350 43"
 exec_always "blueman-applet"
 # nie trzeba tego poniżej, bo automatycznie to będzie działać
 # exec_always "~/.imwheelrc"
+exec_always imwheel
 
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
