@@ -44,10 +44,11 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+# bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # kill focused window
-bindsym $mod+z kill
+bindsym $mod+q kill
 
 # start dmenu (a program launcher)
 # bindsym $mod+q exec --no-startup-id dmenu_run
@@ -220,16 +221,17 @@ bindsym $mod+Mod1+Left workspace prev
 bindsym $mod+Mod1+l workspace next
 bindsym $mod+Mod1+h workspace prev
 
-# Set inner/outer gaps
-gaps inner 10
-gaps outer -4
+# Poniższe tylko dla i3-gaps
+# # Set inner/outer gaps
+# gaps inner 10
+# gaps outer -4
 
-# Smart gaps (gaps used if only more than one container on the workspace)
-smart_gaps on
+# # Smart gaps (gaps used if only more than one container on the workspace)
+# smart_gaps on
 
-# Smart borders (draw borders around container only if it is not the only container on this workspace) 
-# on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-smart_borders on
+# # Smart borders (draw borders around container only if it is not the only container on this workspace) 
+# # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
+# smart_borders on
 
 
 # Bindy
@@ -257,8 +259,8 @@ bindsym $mod+Ctrl+Return exec --no-startup-id "rofi -show run"
 bindsym $mod+Tab exec --no-startup-id "rofi -show window"
 bindsym Mod1+Tab exec --no-startup-id "rofi -show window"
 
-bindsym $mod+w exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
-bindsym $mod+q exec --no-startup-id dmenu_run
+# bindsym $mod+w exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
+# bindsym $mod+q exec --no-startup-id dmenu_run
 bindsym $mod+x exec --no-startup-id nautilus
 bindsym $mod+d exec alacritty -e vifm
 bindsym $mod+s exec alacritty -e nvim

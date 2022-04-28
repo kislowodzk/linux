@@ -94,7 +94,8 @@ fi
 # Tutaj zmiana koloru z zielonego na żółty, jeśli chcę to odkręcić, to trzeba by
 # zmienić poniższą funkcję
 configure_prompt() {
-    prompt_symbol="☭ "
+    # prompt_symbol="☭ " # Dla alacritty
+    prompt_symbol=" ☭ " # Dla kitty
     # ㉿
     # Skull emoji for root terminal
     #[ "$EUID" -eq 0 ] && prompt_symbol=💀
