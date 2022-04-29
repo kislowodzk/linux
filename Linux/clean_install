@@ -5,12 +5,14 @@ git clone https://github.com/kislowodzk/linux.git
 sudo apt install neovim
 
 # sudo add-apt-repository -y ppa:regolith-linux/stable
-sudo add-apt-repository ppa:mmstick76/alacritty
-sudo apt update
+# sudo apt update
 # sudo apt install i3-gaps
 sudo apt install i3 
-sudo apt install alacritty
-sudo apt upgrade
+# sudo add-apt-repository ppa:mmstick76/alacritty
+# sudo apt update
+# sudo apt install alacritty
+# Chyba jednak przerzucam się zupełnie na kitty
+sudo apt install kitty
 sudo apt install rofi
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
@@ -73,6 +75,7 @@ Teams
 VLC
 KolourPaint
 Audacity
+Skype
 
 # Gnome desktop -- pop os
 
