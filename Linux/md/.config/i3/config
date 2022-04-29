@@ -44,8 +44,8 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
-# bindsym $mod+Return exec kitty
+# bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+q kill
@@ -266,8 +266,10 @@ bindsym Mod1+Tab exec --no-startup-id "rofi -show window"
 # bindsym $mod+w exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
 # bindsym $mod+q exec --no-startup-id dmenu_run
 bindsym $mod+x exec --no-startup-id nautilus
-bindsym $mod+d exec alacritty -e vifm
-bindsym $mod+s exec alacritty -e nvim
+# bindsym $mod+d exec alacritty -e vifm
+# bindsym $mod+s exec alacritty -e nvim
+bindsym $mod+d exec kitty -e vifm
+bindsym $mod+s exec kitty -e nvim
 
 # start main stack
 # bindsym $mod+a   layout splitv;\
