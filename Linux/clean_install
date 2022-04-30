@@ -87,8 +87,9 @@ cd Nordzy-icon/
 
 sudo apt install gnome-tweaks
 
+sudo update-alternatives --config x-terminal-emulator     # zmienia domyślny terminal
 # zmiana grafiki na nvidię
-# skróty klawiszowe -- ustawienia
+# klawiatura -- skróty klawiszowe -- ustawienia
     # move, resize and swap windows
         # adjustment mode -- Shift+Super+Return
     # uruchamianie

@@ -21,7 +21,7 @@ setlocal linebreak
 set tw=80
 set display+=lastline
 set backspace=indent,eol,start
-set scrolloff=10
+set scrolloff=14
 
 nnoremap <C-f> ggvG$
 nnoremap <C-k> gk
