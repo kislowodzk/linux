@@ -392,10 +392,10 @@ alias b0='xrandr --output LVDS-1 --brightness 1.0'
 alias bb='xrandr --output LVDS-1 --brightness 1.0'
 
 # Pomodoro
-alias pom-25='for i in `seq $((25*60)) -1 1` ;  do clear; x=$((i/60)) ; y=$((i%60)) ; echo "$x m $y s " | toilet; sleep 1 ; done'
-alias pom-5='for i in `seq $((5*60)) -1 1` ;  do clear; x=$((i/60)) ; y=$((i%60)) ; echo "$x m $y s " | toilet; sleep 1 ; done'
-alias pom-10='for i in `seq $((10*60)) -1 1` ;  do clear; x=$((i/60)) ; y=$((i%60)) ; echo "$x m $y s " | toilet; sleep 1 ; done'
-alias pom-15='for i in `seq $((15*60)) -1 1` ;  do clear; x=$((i/60)) ; y=$((i%60)) ; echo "$x m $y s " | toilet; sleep 1 ; done'
+alias pom-25='for i in `seq $((25*60)) -1 1` ;  do clear; x=$((i/60)) ; y=$((i%60)) ; echo "$x m $y s " | toilet; sleep 1 ; done ; cmatrix'
+alias pom-5='for i in `seq $((5*60)) -1 1` ;  do clear; x=$((i/60)) ; y=$((i%60)) ; echo "$x m $y s " | toilet; sleep 1 ; done ; cmatrix'
+alias pom-10='for i in `seq $((10*60)) -1 1` ;  do clear; x=$((i/60)) ; y=$((i%60)) ; echo "$x m $y s " | toilet; sleep 1 ; done ; cmatrix'
+alias pom-15='for i in `seq $((15*60)) -1 1` ;  do clear; x=$((i/60)) ; y=$((i%60)) ; echo "$x m $y s " | toilet; sleep 1 ; done ; cmatrix'
 
 # enable wildcard expansion, coś, co jest potrzebne w zsh
 set -o GLOB_SUBST
