@@ -54,13 +54,20 @@ sudo apt install python3-pip                            # to potrzebne, żeby dz
 pip3 install i3ipc
 
 # TERMINAL, ALE INACZEJ
+
+cd
+cd .icons
+git clone https://github.com/alvatip/Nordzy-icon
+cd Nordzy-icon/
+./install.sh
+
 cd
 cd .cache
 mkdir zsh
-echo 'set completion-ignore-case On' >> /etc/inputrc
+echo 'set completion-ignore-case On' >> /etc/inputrc    # nie wiem, czy nie trzeba tego zrobić w vimie
 rofi-theme-selector                                     # gruvbox-dark-soft
 nitrogen
-lxappearance
+lxappearance                                            # ciemny motyw + ikony nordzy dark
 
 sudo vim /etc/hostname                                  # delete old name and setup new
 sudo vim /etc/hosts                                     # zastąpić każde wystąpienie
@@ -78,12 +85,6 @@ Audacity
 Skype
 
 # Gnome desktop -- pop os
-
-cd
-cd .icons
-git clone https://github.com/alvatip/Nordzy-icon
-cd Nordzy-icon/
-./install.sh
 
 sudo apt install gnome-tweaks
 
