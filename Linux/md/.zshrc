@@ -358,15 +358,16 @@ alias cdf='cd $(fzf --exact --layout=reverse --height 40% | awk "BEGIN{FS=OFS=\"
 # export FZF_DEFAULT_COMMAND='find . -path './.git' -prune -o -print'
 
 # skrypty
-alias kopia='~/.kopiuj-na-gita.sh'
-alias scroll='~/.mysz.sh'
-# alias monitory_awesome='~/.arandr.sh'       # to muszę wygenerować za pomocą arandr, do tego skryptu w kolejnej linii warto
+alias kopia='~/skrypty/kopiuj-na-gita.sh'
+alias scroll='~/skrypty/mysz.sh'
+alias mysz='~/skrypty/mysz.sh'
+# alias monitory_awesome='~/skrypty/arandr.sh'       # to muszę wygenerować za pomocą arandr, do tego skryptu w kolejnej linii warto
                                             # dopisać:
                                             # echo 'awesome.restart()' | awesome-client
                                             # żeby od razu zrestartował awesome
 
-alias monitory_i3='~/.arandr_i3.sh'
-alias drugimonitor_i3='~/.drugi_monitor_i3.sh'
+# alias monitory_i3='~/skrypty/arandr_i3.sh'
+# alias drugimonitor_i3='~/skrypty/drugi_monitor_i3.sh'
 
 alias br='xrandr --output LVDS-1 --brightness'
 
@@ -393,11 +394,7 @@ alias b9='xrandr --output LVDS-1 --brightness 0.9'
 alias b0='xrandr --output LVDS-1 --brightness 1.0'
 alias bb='xrandr --output LVDS-1 --brightness 1.0'
 
-# Pomodoro
-alias pom-25='for i in `seq $((25*60)) -1 1` ;  do clear; x=$((i/60)) ; y=$((i%60)) ; echo "$x m $y s " | toilet; sleep 1 ; done ; cmatrix'
-alias pom-5='for i in `seq $((5*60)) -1 1` ;  do clear; x=$((i/60)) ; y=$((i%60)) ; echo "$x m $y s " | toilet; sleep 1 ; done ; cmatrix'
-alias pom-10='for i in `seq $((10*60)) -1 1` ;  do clear; x=$((i/60)) ; y=$((i%60)) ; echo "$x m $y s " | toilet; sleep 1 ; done ; cmatrix'
-alias pom-15='for i in `seq $((15*60)) -1 1` ;  do clear; x=$((i/60)) ; y=$((i%60)) ; echo "$x m $y s " | toilet; sleep 1 ; done ; cmatrix'
+alias pom='~/skrypty/pomodoro.sh'
 
 # enable wildcard expansion, coś, co jest potrzebne w zsh
 set -o GLOB_SUBST

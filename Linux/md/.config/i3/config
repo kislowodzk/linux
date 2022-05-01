@@ -15,7 +15,7 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:monospace 8
 
-# exec --no-startup-id ~/.autotile.py
+# exec --no-startup-id ~/skrypty/autotile.py"
 # exec --no-startup-id imwheel
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
@@ -279,7 +279,7 @@ bindsym $mod+s exec kitty -e nvim
 #                        split v
 #
 
-bindsym $mod+a exec --no-startup-id "~/.autotile.py"
+bindsym $mod+a exec --no-startup-id "~/skrypty/autotile.py"
 
 # przenoszenie workspace'ów między monitorami
 bindsym $mod+n move workspace to output left
@@ -287,8 +287,8 @@ bindsym $mod+m move workspace to output right
 
 focus_follows_mouse no
 
-bindsym $mod+o exec --no-startup-id "~/.arandr_i3.sh"
-bindsym $mod+i exec --no-startup-id "~/.drugi_monitor_i3.sh"
+bindsym $mod+o exec --no-startup-id "~/skrypty/arandr_i3.sh"
+bindsym $mod+i exec --no-startup-id "~/skrypty/drugi_monitor_i3.sh"
 
 # exec_always /home/md/.config/polybar/launch.sh &
 
