@@ -1,6 +1,8 @@
 # TERMINAL
 
 sudo apt install git
+# jak co, to nie trzeba przenosić folderu .fonts, ubuntu mono już jest, kitty
+# jest na to przygotowana
 git clone https://github.com/kislowodzk/linux.git
 sudo apt install neovim
 
