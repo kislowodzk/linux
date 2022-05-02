@@ -264,8 +264,7 @@ fi
 #
 #
 #
-export GOPATH=/home/md/.golib
-export PATH=$PATH:$GOPATH/bin
+export PATH="$HOME/.emacs.d/bin:$PATH"
 
 
 
