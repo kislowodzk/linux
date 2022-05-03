@@ -274,7 +274,8 @@ bindsym $mod+Shift+p exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2
 bindsym $mod+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 2.0em;}'"
 # bindsym $mod+Ctrl+Return exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
 # bindsym $mod+Ctrl+Return exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | rofi -show -dmenu | xargs flatpak run"
-bindsym $mod+Ctrl+Return exec --no-startup-id "rofi -show run"
+# bindsym $mod+Ctrl+Return exec --no-startup-id "rofi -show run"
+bindsym $mod+Ctrl+Return exec --no-startup-id "cool-retro-term"
 bindsym $mod+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 'element-icon { size: 2.0em;}'"
 bindsym Mod1+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 'element-icon { size: 2.0em;}'"
 

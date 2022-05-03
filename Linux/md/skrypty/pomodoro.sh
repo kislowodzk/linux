@@ -16,5 +16,6 @@ do
     sleep 1
 done
 unhide_cursor
+clear
 cmatrix
 
