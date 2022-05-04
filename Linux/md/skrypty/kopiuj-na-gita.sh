@@ -1,5 +1,6 @@
 #!/bin/bash
 cp ~/.vimrc ~/Dokumenty/linux/Linux/md/
+cp ~/.gvimrc ~/Dokumenty/linux/Linux/md/
 cp ~/.bashrc ~/Dokumenty/linux/Linux/md/
 cp ~/.config/kitty/kitty.conf ~/Dokumenty/linux/Linux/md/.config/kitty/
 cp ~/.config/nvim/init.vim ~/Dokumenty/linux/Linux/md/.config/nvim/

@@ -304,8 +304,8 @@ set s off
 xset -dpms
 xset s noblank
 xset r rate 350 43
-export VISUAL=vim
-export EDITOR=vim
+export VISUAL=nvim
+export EDITOR=nvim
 
 # tu powinna być komenda dla fzf, ale jest niżej
 
@@ -320,10 +320,9 @@ alias :Q=exit
 alias ZZ=exit
 alias ZQ=exit
 alias cls=clear
-alias v=vim
+alias v=nvim
 alias nv=nvim
-alias vtd='vim ~/Notatki/ToDo.md'
-alias nvtd='nvim ~/Notatki/ToDo.md'
+alias vtd='nvim ~/Notatki/ToDo.md'
 alias s='ranger ~/1-STUDIA/2_Rok/Semestr_4/'
 alias rt='gio trash'
 alias caps='setxkbmap -option caps:swapescape'
@@ -346,8 +345,8 @@ alias pa='pandoc -V geometry:margin=1in -V linestretch=1.5'
 alias kompresja='echo gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -sOutputFile=output.pdf input.pdf'
 
 # FZF
-alias vimf='vim $(fzf --exact --layout=reverse --height 40%)'
-alias vf='vim $(fzf --exact --layout=reverse --height 40%)'
+alias vimf='nvim $(fzf --exact --layout=reverse --height 40%)'
+alias vf='nvim $(fzf --exact --layout=reverse --height 40%)'
 alias nvimf='nvim $(fzf --exact --layout=reverse --height 40%)'
 alias nvf='nvim $(fzf --exact --layout=reverse --height 40%)'
 alias fzf='fzf --exact --layout=reverse --height 40%'
