@@ -264,8 +264,12 @@ fi
 #
 #
 #
-export PATH="$HOME/.emacs.d/bin:$PATH"
 
+
+
+# # EMACS CHURCH
+# export PATH="$HOME/.emacs.d/bin:$PATH"
+# # AMEN
 
 
 

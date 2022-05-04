@@ -215,12 +215,12 @@ exec_always "blueman-applet"
 exec_always imwheel
 
 
-# EMACS CHURCH ;---;
-exec_always "/usr/bin/emacs --daemon"
+# # EMACS CHURCH ;---;
+# exec_always "/usr/bin/emacs --daemon"
 
-bindsym $mod+e exec "emacsclient -c -a 'emacs'"
+# bindsym $mod+e exec "emacsclient -c -a 'emacs'"
 
-# AMEN
+# # AMEN
 
 
 
