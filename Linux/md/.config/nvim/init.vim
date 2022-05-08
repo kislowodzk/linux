@@ -82,7 +82,7 @@ setlocal linebreak
 set tw=80
 set display+=lastline
 set backspace=indent,eol,start
-set scrolloff=14
+set scrolloff=50
 
 " Don't add double space after dot at the end of the line
 set nojoinspaces
@@ -163,6 +163,9 @@ cnoremap Q q
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 let mapleader = " "
+
+" Saving, not technically leader, but still in this section
+nnoremap <C-Space> :w<CR>
 
 " Make adjusing split sizes a bit more friendly
 noremap <silent> <C-Left> :vertical resize +3<CR>
