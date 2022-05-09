@@ -112,9 +112,9 @@ bindsym $mod+space focus mode_toggle
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1-spo"
 set $ws2 " 2 "
-set $ws3 " 3 "
-set $ws4 "4-ter"
-set $ws5 "5-bro"
+set $ws3 "3-ter"
+set $ws4 "4-bro"
+set $ws5 " 5 "
 set $ws6 " 6 "
 set $ws7 " 7 "
 set $ws8 "8-mes"
@@ -301,10 +301,9 @@ bindsym $mod+m move workspace to output right
 
 focus_follows_mouse no
 
-bindsym $mod+o exec --no-startup-id "~/skrypty/arandr_i3.sh"
-bindsym $mod+i exec --no-startup-id "~/skrypty/drugi_monitor_i3.sh"
+bindsym $mod+i exec --no-startup-id "~/skrypty/arandr_i3.sh"
+bindsym $mod+o exec --no-startup-id "~/skrypty/drugi_monitor_i3.sh"
 
-# exec_always /home/md/.config/polybar/launch.sh &
 
 
 
