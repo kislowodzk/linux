@@ -13,5 +13,6 @@ cp ~/.tapeta/* ~/Dokumenty/linux/Linux/md/.tapeta
 cp ~/.config/i3/config ~/Dokumenty/linux/Linux/md/.config/i3/
 cp ~/.config/i3status/config ~/Dokumenty/linux/Linux/md/.config/i3status/
 cp ~/.startup_zsh/* ~/Dokumenty/linux/Linux/md/.startup_zsh
+cp ~/.tmux.conf ~/Dokumenty/linux/Linux/md/
 
 cp ~/skrypty/* ~/Dokumenty/linux/Linux/md/skrypty/
