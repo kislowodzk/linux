@@ -9,6 +9,7 @@ C-b , -- rename window
 C-b w -- window tree (next hjkl or C-p C-n, enter to choose)
 C-b f -- find window (name)
 C-b & -- kill window
+C-b . -- move window to (number)
 
 ## Panes
 
