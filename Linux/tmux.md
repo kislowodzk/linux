@@ -43,6 +43,7 @@ tmux ls -- list existing sessions
 tmux a -t{number} -- attach target session (number)     # without space after -t
 tmux a -t{name} -- attach target session (name)         # without space after -t
 tmux rename-session {name} -- rename current session (inside)
+C-a $ -- rename current session (inside)
 tmux rename-session -t{number} {name} -- rename (number)-th session (outside)
 
 ## Customization
