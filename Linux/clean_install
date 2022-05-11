@@ -65,6 +65,12 @@ git clone https://github.com/alvatip/Nordzy-icon
 cd Nordzy-icon/
 ./install.sh
 
+                                                        # poniżej link do
+                                                        # stronki, z której
+                                                        # można zainstalować
+                                                        # zsh-autosuggestions
+https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-autosuggestions&package=zsh-autosuggestions
+
 cd
 cd .cache
 mkdir zsh
