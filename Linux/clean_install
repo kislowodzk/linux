@@ -21,6 +21,9 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 sudo apt install universal-ctags
 
+# Kodeki
+sudo apt-get install ubuntu-restricted-extras; sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pkg
+
 sudo apt install zsh
 sudo apt install zsh-syntax-highlighting
 chsh -s /bin/zsh

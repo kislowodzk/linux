@@ -36,8 +36,7 @@ sudo apt install xscreensaver // zapobiega wyłączeniu ekranu, więcej
 w autostarcie awesomewm
 
 // poniższe 2 odpowiadają za kodeki
-sudo apt-get install ubuntu-restricted-extras
-sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pkg
+sudo apt-get install ubuntu-restricted-extras; sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pkg
 
 // bateria
 sudo systemctl enable fstrim.timer
@@ -49,7 +48,7 @@ systemctl enable tlp.service
 
 sudo apt install neofetch
 sudo apt install neovim
-
+sudo dpkg-reconfigure libdvd-pkg
 // czcionka, której używam z tej strony:
 https://www.nerdfonts.com/font-downloads pobieramy Ubuntu Mono Nerd Font
 rozpakowujemy i zawartość folderu przenosimy do naszego folderu ~/.fonts/

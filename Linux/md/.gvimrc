@@ -109,6 +109,9 @@ inoremap ; ;<c-g>u
 inoremap : :<c-g>u
 inoremap # #<c-g>u
 
+" Escape
+inoremap <C-Space> <Esc>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => cnoremaps
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -122,6 +125,9 @@ cnoremap Q q
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 let mapleader = " "
+
+" Saving, not technically leader, but still in this section
+nnoremap <C-Space> :w<CR>
 
 " Make adjusing split sizes a bit more friendly
 noremap <silent> <C-Left> :vertical resize +3<CR>
