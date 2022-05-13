@@ -324,6 +324,7 @@ alias :Q=exit
 alias ZZ=exit
 alias ZQ=exit
 alias cls=clear
+alias c.='cd ..'
 alias v=nvim
 alias nv=nvim
 alias vtd='nvim ~/Notatki/ToDo.md'
