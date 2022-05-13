@@ -1,8 +1,6 @@
 # TERMINAL
 
 sudo apt install git
-# jak co, to nie trzeba przenosić folderu .fonts, ubuntu mono już jest, kitty
-# jest na to przygotowana
 git clone https://github.com/kislowodzk/linux.git
 sudo apt install neovim
 sudo apt install vim-gtk3                               # W sumie tylko po to, żeby gvim był domyślym edytorem tekstu
@@ -11,10 +9,6 @@ sudo apt install vim-gtk3                               # W sumie tylko po to, �
 # sudo apt update
 # sudo apt install i3-gaps
 sudo apt install i3 
-# sudo add-apt-repository ppa:mmstick76/alacritty
-# sudo apt update
-# sudo apt install alacritty
-# Chyba jednak przerzucam się zupełnie na kitty
 sudo apt install kitty
 sudo apt install rofi
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
@@ -109,14 +103,10 @@ sudo update-alternatives --config x-terminal-emulator     # zmienia domyślny te
         # adjustment mode -- Shift+Super+Return
     # uruchamianie
         # launch terminal -- Super+Return
+    # Dźwięk i multimedia
+        # dźwięk w górę/dół -- Super+]/[
 # tweaks
     # keyboard & mouse
         # additional layout options
             # caps lock behavior -- swap esc and caps lock
-
-
-
-
-
-
 
