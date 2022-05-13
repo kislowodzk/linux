@@ -105,6 +105,11 @@ sudo update-alternatives --config x-terminal-emulator     # zmienia domyślny te
         # launch terminal -- Super+Return
     # Dźwięk i multimedia
         # dźwięk w górę/dół -- Super+]/[
+    # Nawigacja
+        # Przełączenie na (liczba) obszar roboczy -- Super + (liczba)
+        # Przełączenie na ostatni obszar roboczy -- Super + 0
+    # Zrzuty ekrany
+        # Interaktywne wykonanie zrzutu ekranu -- Super+Shift+S
 # tweaks
     # keyboard & mouse
         # additional layout options
