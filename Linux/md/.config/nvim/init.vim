@@ -30,7 +30,7 @@ call plug#begin()
                                         " s -- open split right
                                         " I -- hidden files on/off
                                         " u -- up a dir
-    Plug 'preservim/tagbar'         " Tagbar, leader + b
+    Plug 'preservim/tagbar'         " Tagbar, leader + c (table of contents)
                                     " I need to have ctag installed, eg.:
                                         " sudo apt install universal-ctags
     Plug 'tpope/vim-commentary'     " gcc or gc
@@ -197,8 +197,14 @@ nnoremap <silent> <leader>w :tabclose<CR>
 " NerdTree
 nnoremap <silent> <leader>q :NERDTree<CR>
 
-" Tagbar
-nnoremap <silent> <leader>b :Tagbar<CR>
+" Tagbar / table of contents
+nnoremap <silent> <leader>c :Tagbar<CR>
+
+" italic/bold
+nnoremap <silent> <leader>b lbi**<esc>ea**<esc>
+nnoremap <silent> <leader>i lbi*<esc>ea*<esc>
+nnoremap <silent> <leader>rb F*xF*xf*xx
+nnoremap <silent> <leader>ri F*xf*x
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Appearance
