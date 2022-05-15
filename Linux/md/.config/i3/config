@@ -286,6 +286,7 @@ bindsym $mod+x exec --no-startup-id nautilus
 # bindsym $mod+s exec alacritty -e nvim
 bindsym $mod+d exec kitty -e vifm
 bindsym $mod+s exec kitty -e nvim
+bindsym $mod+e exec kitty -e tmux
 
 # start main stack
 # bindsym $mod+a   layout splitv;\
