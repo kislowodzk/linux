@@ -183,11 +183,6 @@ nnoremap <leader>f :find **
 nnoremap <leader>v :wincmd v<CR>
 nnoremap <leader>s :wincmd s<CR>
 
-nnoremap <silent> <leader>h <C-w>h
-nnoremap <silent> <leader>l <C-w>l
-nnoremap <silent> <leader>k <C-w>k
-nnoremap <silent> <leader>j <C-w>j
-
 " Tags
 nnoremap <silent> <leader>t :tabnew<CR>
 nnoremap <silent> <leader>n :tabnext<CR>
@@ -200,11 +195,15 @@ nnoremap <silent> <leader>q :NERDTree<CR>
 " Tagbar / table of contents
 nnoremap <silent> <leader>c :Tagbar<CR>
 
-" italic/bold
+" Italic/bold
 nnoremap <silent> <leader>b lbi**<esc>ea**<esc>
 nnoremap <silent> <leader>i lbi*<esc>ea*<esc>
 nnoremap <silent> <leader>rb F*xF*xf*xx
 nnoremap <silent> <leader>ri F*xf*x
+
+" Images/links in markdown
+nnoremap <silent> <leader>l a[]()<esc>
+nnoremap <silent> <leader>p a![]()<esc>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Appearance
