@@ -1,0 +1,34 @@
+source $HOME/.config/nvim/general_settings.vim
+source $HOME/.config/nvim/leader_no_plugins.vim
+source $HOME/.config/nvim/gruvbox.vim
+
+" Coursor appearance -- depends on mode
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
+
+" Make coursor shape immidiate
+set timeoutlen=1000
+set ttimeoutlen=1
+
+" Statusline
+set laststatus=2
+set statusline=
+set statusline=%t\ %M\ %=\ %y\ %{&fileencoding?&fileencoding:&encoding}\ \[%{&fileformat}\]\ %l/%L:\ %v
+
+" No welcome message
+set shortmess+=I
+
+function! GruvboxHlsShowCursor()
+  call s:HL('Cursor', s:bg0, s:hls_cursor)
+endfunction
+
+function! GruvboxHlsHideCursor()
+  call s:HL('Cursor', s:none, s:none, s:inverse)
+endfunction
+
+set guioptions=i
+
+hi CursorLineNr guifg=#d79921
+set cursorline
+set cursorlineopt=number
+

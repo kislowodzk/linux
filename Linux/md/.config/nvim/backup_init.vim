@@ -21,6 +21,8 @@ call plug#begin()
     " In the init.vim
     " :PlugInstall
     " :PlugClean
+    Plug 'dracula/vim'              " Colorscheme dracula
+    Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
     Plug 'preservim/nerdtree'       " Nerdtree, leader + q
                                         " t -- open in new tab
                                         " T -- open in new tab silently
@@ -28,7 +30,7 @@ call plug#begin()
                                         " s -- open split right
                                         " I -- hidden files on/off
                                         " u -- up a dir
-    Plug 'preservim/tagbar'         " Tagbar, leader + b
+    Plug 'preservim/tagbar'         " Tagbar, leader + c (table of contents)
                                     " I need to have ctag installed, eg.:
                                         " sudo apt install universal-ctags
     Plug 'tpope/vim-commentary'     " gcc or gc
@@ -92,6 +94,8 @@ set clipboard^=unnamed,unnamedplus
 
 set smartindent
 
+set mouse=a
+
 " For .txt and .md i need autoindent (smartindent caused problems) and different format options
 autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent 
@@ -134,6 +138,8 @@ nnoremap Y y$
 nnoremap n nzzzv
 nnoremap N Nzzzv
 
+nnoremap <C-Space> :w<CR>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => inoremaps
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -147,6 +153,9 @@ inoremap - -<c-g>u
 inoremap ; ;<c-g>u
 inoremap : :<c-g>u
 inoremap # #<c-g>u
+
+" Escape
+inoremap <C-Space> <Esc>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => cnoremaps
@@ -162,9 +171,6 @@ cnoremap Q q
 
 let mapleader = " "
 
-" Saving, not technically leader, but still in this section
-nnoremap <C-Space> :w<CR>
-
 " Make adjusing split sizes a bit more friendly
 noremap <silent> <C-Left> :vertical resize +3<CR>
 noremap <silent> <C-Right> :vertical resize -3<CR>
@@ -175,13 +181,8 @@ noremap <silent> <C-Down> :resize -1<CR>
 nnoremap <leader>f :find **
 
 " Splits
-nnoremap <leader>v :wincmd s<CR>
-nnoremap <leader>s :wincmd v<CR>
-
-nnoremap <silent> <leader>h <C-w>h
-nnoremap <silent> <leader>l <C-w>l
-nnoremap <silent> <leader>k <C-w>k
-nnoremap <silent> <leader>j <C-w>j
+nnoremap <leader>v :wincmd v<CR>
+nnoremap <leader>s :wincmd s<CR>
 
 " Tags
 nnoremap <silent> <leader>t :tabnew<CR>
@@ -192,14 +193,18 @@ nnoremap <silent> <leader>w :tabclose<CR>
 " NerdTree
 nnoremap <silent> <leader>q :NERDTree<CR>
 
-" Tagbar
-nnoremap <silent> <leader>b :Tagbar<CR>
+" Tagbar / table of contents
+nnoremap <silent> <leader>c :Tagbar<CR>
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Colorscheme
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Italic/bold
+nnoremap <silent> <leader>b lbi**<esc>ea**<esc>
+nnoremap <silent> <leader>i lbi*<esc>ea*<esc>
+nnoremap <silent> <leader>rb F*xF*xf*xx
+nnoremap <silent> <leader>ri F*xf*x
 
-source $HOME/.config/nvim/gruvbox.vim
+" Images/links in markdown
+nnoremap <silent> <leader>l a[]()<esc>
+nnoremap <silent> <leader>p a![]()<esc>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Appearance
@@ -222,6 +227,8 @@ set statusline=%t\ %M\ %=\ %y\ %{&fileencoding?&fileencoding:&encoding}\ \[%{&fi
 
 " No welcome message
 set shortmess+=I
+
+colorscheme gruvbox
 
 " Make background transparent
 hi Normal guibg=NONE ctermbg=NONE
