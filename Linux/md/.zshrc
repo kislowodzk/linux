@@ -348,7 +348,7 @@ alias pai='pandoc -V geometry:margin=1in'    # pandoc z dobrymi marginesami, po 
 alias pa='pandoc -V geometry:margin=1in -V linestretch=1.5'
 
 alias kompresja='echo gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -sOutputFile=output.pdf input.pdf'
-alias mpv='mpv --no-video'
+alias mpv='clear; mpv --no-video'
 
 # FZF
 alias vimf='nvim $(fzf --exact --layout=reverse --height 40%)'
