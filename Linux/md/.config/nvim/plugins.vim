@@ -6,6 +6,7 @@ call plug#begin()
     " In the init.vim
     " :PlugInstall
     " :PlugClean
+    Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
     Plug 'dracula/vim'              " Colorscheme dracula
     Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
     Plug 'preservim/nerdtree'       " Nerdtree, leader + q

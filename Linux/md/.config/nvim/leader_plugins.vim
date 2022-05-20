@@ -39,3 +39,5 @@ nnoremap <silent> <leader>ri F*xf*x
 nnoremap <silent> <leader>l a[]()<esc>
 nnoremap <silent> <leader>p a![]()<esc>
 
+" Goyo -- focus mode
+nnoremap <silent> <leader>g :Goyo<CR>

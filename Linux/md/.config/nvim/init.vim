@@ -1,5 +1,6 @@
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/general_settings.vim
+source $HOME/.config/nvim/leader_no_plugins.vim
 source $HOME/.config/nvim/leader_plugins.vim
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -31,4 +32,13 @@ hi Normal guibg=NONE ctermbg=NONE
 
 " Only number of the line is highlighted
 hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
+"
+let g:goyo_width=81
 
+"Goyo Settings
+function! s:goyo_leave()
+    hi Normal guibg=NONE ctermbg=NONE
+    hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
+endfunction
+
+autocmd! User GoyoLeave nested call <SID>goyo_leave()
