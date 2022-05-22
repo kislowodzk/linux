@@ -286,7 +286,7 @@ exec_always imwheel
 
 
 
-bindsym $mod+t exec "setxkbmap -option caps:swapescape"; exec "xset r rate 350 43"
+bindsym $mod+t exec "setxkbmap -option caps:swapescape"; exec "xset r rate 350 43"; exec "killall nm-applet"; exec "killall blueman-applet"; exec nm-applet; exec "blueman-applet"
 
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev

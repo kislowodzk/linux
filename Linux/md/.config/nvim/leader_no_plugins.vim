@@ -20,7 +20,7 @@ nnoremap <leader>s :wincmd s<CR>
 " Tags
 nnoremap <silent> <leader>t :tabnew<CR>
 nnoremap <silent> <leader>n :tabnext<CR>
-nnoremap <silent> <leader>p :tabprevious<CR>
+nnoremap <silent> <leader>N :tabprevious<CR>
 nnoremap <silent> <leader>w :tabclose<CR>
 
 " File explorer
