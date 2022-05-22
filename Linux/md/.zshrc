@@ -340,6 +340,7 @@ alias wi=nmtui
 alias mi=pavucontrol
 alias mi_term=alsamixer
 alias open=xdg-open
+alias o=xdg-open
 alias kal='ncal -A1 -B1'
 alias clock='tty-clock -c'
 alias clock_s='tty-clock -s -c'
@@ -348,7 +349,7 @@ alias pai='pandoc -V geometry:margin=1in'    # pandoc z dobrymi marginesami, po 
 alias pa='pandoc -V geometry:margin=1in -V linestretch=1.5'
 
 alias kompresja='echo gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -sOutputFile=output.pdf input.pdf'
-alias mpv='clear; mpv --no-video'
+alias mpv='mpv --no-video'
 
 # FZF
 alias vimf='nvim $(fzf --exact --layout=reverse --height 40%)'
