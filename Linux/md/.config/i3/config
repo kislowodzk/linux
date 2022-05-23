@@ -346,7 +346,8 @@ bindsym Mod1+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 
 bindsym $mod+x exec --no-startup-id nautilus
 # bindsym $mod+d exec alacritty -e vifm
 # bindsym $mod+s exec alacritty -e nvim
-bindsym $mod+d exec kitty -e vifm
+# bindsym $mod+d exec kitty -e vifm
+bindsym $mod+d exec kitty -e ranger
 bindsym $mod+s exec kitty -e nvim
 bindsym $mod+e exec kitty -e tmux
 bindsym $mod+Shift+e exec kitty -e tmux a
