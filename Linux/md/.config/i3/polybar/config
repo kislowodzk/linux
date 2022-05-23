@@ -37,7 +37,7 @@ include-file = ~/.config/i3/polybar/themes/modules/modules_gruv.ini
 monitor = ${env:MONITOR}
 monitor-strict = false
 override-redirect = false
-wm-restack = i3
+;wm-restack = i3
 bottom = false
 fixed-center = true
 width = 100%
@@ -58,7 +58,7 @@ border-left-size = 5
 border-right-size = 5
 border-top-size = 3
 border-bottom-size = 3
-border-color = ${colors.bg0}
+border-color =
 
 padding-left = 1
 padding-right = 1
