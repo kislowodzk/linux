@@ -74,7 +74,7 @@ font-3 = "Fira Mono:size=10;2"
 
 modules-left = i3 xwindow 
 modules-center =
-modules-right = battery filesystem memory2 cpu2 pulseaudio date
+modules-right = battery memory2 cpu2 pulseaudio date
 
 ;separator = |
 
