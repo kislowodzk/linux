@@ -71,6 +71,20 @@ cd Nordzy-icon/
                                                         # zsh-autosuggestions
 https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-autosuggestions&package=zsh-autosuggestions
 
+
+// ZSH FOR HUMANS
+
+if command -v curl >/dev/null 2>&1; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
+else
+  sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
+fi
+
+
+
+
+
+
 cd
 cd .cache
 mkdir zsh
