@@ -43,8 +43,9 @@ fixed-center = true
 width = 100%
 height = 20
 
-background = ${colors.background}
-foreground = ${colors.foreground}
+;background = ${colors.background}
+;foreground = ${colors.foreground}
+background = none
 
 ; Background gradient (vertical steps)
 ;   background-[0-9]+ = #aarrggbb
@@ -71,8 +72,9 @@ font-0 = "Fira Code:size=10;2"
 font-1 = "FontAwesome:size=10;2"
 font-2 = "Fira Mono:size=10;2"
 font-3 = "Fira Code:size=13;3"
+font-4 = "Fira Code:size=29;3"
 
-modules-left = i3 xwindow 
+modules-left = i3 xwindow block arrow1
 modules-center =
 modules-right = arrow0 battery arrow-by memory2 arrow-yb cpu2 arrow-by pulseaudio arrow-yb date
 
@@ -81,13 +83,13 @@ modules-right = arrow0 battery arrow-by memory2 arrow-yb cpu2 arrow-by pulseaudi
 ;dim-value = 1.0
 
 tray-detached = false
-tray-offset-x = 0
+tray-offset-x = -8
 tray-offset-y = 0
 tray-padding = 2
 tray-maxsize = 20
 tray-scale = 1.0
 tray-position = right
-tray-background = ${colors.background}
+tray-background = ${colors.darkblue}
 
 #i3: Make the bar appear below windows
 ;wm-restack = i3
@@ -138,8 +140,10 @@ height = 30
 ;offset-x = 1%
 ;offset-y = 1%
 
-background = ${colors.background}
-foreground = ${colors.foreground}
+;background = ${colors.background}
+;foreground = ${colors.foreground}
+background = none
+foreground = none
 
 ; Background gradient (vertical steps)
 ;   background-[0-9]+ = #aarrggbb
