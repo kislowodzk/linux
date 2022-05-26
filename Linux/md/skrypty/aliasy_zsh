@@ -30,6 +30,7 @@ alias kal='ncal -A1 -B1'
 alias clock='tty-clock -c'
 alias clock_s='tty-clock -s -c'
 alias ra=ranger
+alias r='ranger .'
 alias pai='pandoc -V geometry:margin=1in'    # pandoc z dobrymi marginesami, po tym powinienem podać plik wejścia -o i plik wyjścia
 alias pa='pandoc -V geometry:margin=1in -V linestretch=1.5'
 
