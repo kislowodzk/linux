@@ -1,5 +1,5 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Leader
+" => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 let mapleader = " "
@@ -23,9 +23,6 @@ nnoremap <silent> <leader>n :tabnext<CR>
 nnoremap <silent> <leader>N :tabprevious<CR>
 nnoremap <silent> <leader>w :tabclose<CR>
 
-" File explorer
-nnoremap <silent> <leader>q :Vex<CR>
-
 " Italic/bold
 nnoremap <silent> <leader>b lbi**<esc>ea**<esc>
 nnoremap <silent> <leader>i lbi*<esc>ea*<esc>
@@ -35,4 +32,27 @@ nnoremap <silent> <leader>ri F*xf*x
 " Images/links in markdown
 nnoremap <silent> <leader>l a[]()<esc>
 nnoremap <silent> <leader>p a![]()<esc>
+
+" Adding things
+nnoremap <silent> <leader>al 50O<esc>49k
+nnoremap <silent> <leader>a1 I#
+nnoremap <silent> <leader>a2 I##
+nnoremap <silent> <leader>a3 I###
+nnoremap <silent> <leader>a4 I####
+nnoremap <silent> <leader>a5 I#####
+
+" Moving
+nnoremap <silent> <leader>me G{}
+nnoremap <silent> <leader>m1 ?^# <cr>
+nnoremap <silent> <leader>m2 ?^## <cr>
+nnoremap <silent> <leader>m3 ?^### <cr>
+nnoremap <silent> <leader>m4 ?^#### <cr>
+nnoremap <silent> <leader>m5 ?^##### <cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Instead of plugins
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" File explorer
+nnoremap <silent> <leader>q :Vex<CR>
 
