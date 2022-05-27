@@ -23,18 +23,12 @@ nnoremap <silent> <leader>n :tabnext<CR>
 nnoremap <silent> <leader>N :tabprevious<CR>
 nnoremap <silent> <leader>w :tabclose<CR>
 
-" Italic/bold
-nnoremap <silent> <leader>b lbi**<esc>ea**<esc>
-nnoremap <silent> <leader>i lbi*<esc>ea*<esc>
-nnoremap <silent> <leader>rb F*xF*xf*xx
-nnoremap <silent> <leader>ri F*xf*x
-
-" Images/links in markdown
-nnoremap <silent> <leader>l a[]()<esc>
-nnoremap <silent> <leader>p a![]()<esc>
-
 " Adding things
-nnoremap <silent> <leader>al 50O<esc>49k
+nnoremap <silent> <leader>ab lbi**<esc>ea**<esc>
+nnoremap <silent> <leader>ai lbi*<esc>ea*<esc>
+nnoremap <silent> <leader>al a[]()<esc>
+nnoremap <silent> <leader>ap a![]()<esc>
+nnoremap <silent> <leader>as 50O<esc>49k
 nnoremap <silent> <leader>a1 I#
 nnoremap <silent> <leader>a2 I##
 nnoremap <silent> <leader>a3 I###
