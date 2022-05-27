@@ -263,6 +263,8 @@ client.background       #ffffff
 # żeby nie pokazywał tytułów
 for_window [class="^.*"] border pixel 2
 
+hide_edge_borders smart
+
 # autostart
 exec_always nitrogen --restore
 exec_always compton
