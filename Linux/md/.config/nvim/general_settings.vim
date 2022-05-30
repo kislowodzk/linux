@@ -18,7 +18,7 @@ set hlsearch
 
 set path+=**
 " It works automatically in nvim
-" Display all matchung files when we tab complete
+" Display all matching files when we tab complete
 " set wildmenu
 
 " Spaces instead of tabs
@@ -70,13 +70,11 @@ nnoremap Q gq
 
 " Show white characters
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
-nnoremap <f5> :set nolist<enter>
-nnoremap <f6> :set list<enter>
+nnoremap <f8> :setlocal list!<enter>
 
 " Spellcheck
 set spellcapcheck=
-nnoremap <f8> :set spell spelllang=<enter>
-nnoremap <f9> :set spell spelllang=pl_pl,en_us<enter>
+nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us<enter>
 
 " Stop highlighting searching results
 nnoremap <silent> <CR> :noh<CR>

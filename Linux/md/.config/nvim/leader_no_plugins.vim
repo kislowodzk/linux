@@ -4,7 +4,7 @@
 
 let mapleader = " "
 
-" Make adjusing split sizes a bit more friendly
+" Make adjusting split sizes a bit more friendly
 noremap <silent> <C-Left> :vertical resize +3<CR>
 noremap <silent> <C-Right> :vertical resize -3<CR>
 noremap <silent> <C-Up> :resize +1<CR>
