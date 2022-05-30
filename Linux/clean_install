@@ -32,6 +32,7 @@ sudo apt-get install arandr
 sudo apt install fzf
 sudo apt install nitrogen
 sudo apt install htop
+sudo apt install btop
 sudo apt install cmatrix
 sudo apt install tree
 sudo apt install blueman
