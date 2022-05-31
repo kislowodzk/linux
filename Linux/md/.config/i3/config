@@ -5,6 +5,10 @@
 # this file and re-run i3-config-wizard(1).
 #
 
+exec kitty --class=scratch-terminal
+bindsym $mod+Shift+e exec "kitty --class=scratch-terminal"
+for_window [class="scratch-terminal"] move to scratchpad
+bindsym $mod+e [class="scratch-terminal"] scratchpad show; move position center;
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
