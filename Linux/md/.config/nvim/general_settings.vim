@@ -70,7 +70,7 @@ nnoremap Q gq
 
 " Show white characters
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
-nnoremap <f8> :setlocal list!<enter>
+nnoremap <f10> :setlocal list!<enter>
 
 " Spellcheck
 set spellcapcheck=
