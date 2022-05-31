@@ -209,7 +209,13 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+for_window [class="adfgx"] floating enable
+for_window [class="adfgx"] resize set 450 300
+for_window [class="adfgx"] move position center
+
+bindsym $mod+Shift+q exec "kitty --class=adfgx -e ~/skrypty/shutdown.sh"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -286,7 +292,7 @@ exec_always "~/.config/i3/polybar/launch.sh"
 
 
 
-
+# bindsym $mod+Mod1+Ctrl
 
 
 bindsym $mod+t exec "setxkbmap -option caps:swapescape"; exec "xset r rate 350 43"; exec "killall nm-applet"; exec "killall blueman-applet"; exec nm-applet; exec "blueman-applet"
@@ -351,8 +357,6 @@ bindsym $mod+x exec --no-startup-id nautilus
 # bindsym $mod+d exec kitty -e vifm
 bindsym $mod+d exec kitty -e ranger
 bindsym $mod+s exec kitty -e nvim
-bindsym $mod+e exec kitty -e tmux
-bindsym $mod+Shift+e exec kitty -e tmux a
 
 # start main stack
 # bindsym $mod+a   layout splitv;\
