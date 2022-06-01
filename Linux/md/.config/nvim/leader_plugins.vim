@@ -28,7 +28,7 @@ nnoremap <silent> <leader>ab lbi**<esc>ea**<esc>
 nnoremap <silent> <leader>ai lbi*<esc>ea*<esc>
 nnoremap <silent> <leader>al a[]()<esc>i
 nnoremap <silent> <leader>ap a![]()<esc>i
-nnoremap <silent> <leader>as 50O<esc>49k
+nnoremap <silent> <leader>as 50o<esc>50k
 nnoremap <silent> <leader>a1 I#
 nnoremap <silent> <leader>a2 I##
 nnoremap <silent> <leader>a3 I###
