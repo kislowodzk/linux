@@ -32,8 +32,8 @@ hi Normal guibg=NONE ctermbg=NONE
 
 " Only number of the line is highlighted
 hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
-"
-let g:goyo_width=81
+
+let g:goyo_width=82
 
 "Goyo Settings
 function! s:goyo_leave()
