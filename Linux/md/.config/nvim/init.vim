@@ -23,7 +23,7 @@ set cursorline
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 
-" Make coursor shape immidiate
+" Make coursor shape change immidiate
 set timeoutlen=1000
 set ttimeoutlen=1
 
@@ -36,7 +36,7 @@ colorscheme gruvbox
 hi Normal guibg=NONE ctermbg=NONE
 
 " Only number of the line is highlighted
-hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
+hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 
 " Statusline
 set laststatus=2

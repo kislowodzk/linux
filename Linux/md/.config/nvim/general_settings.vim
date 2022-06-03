@@ -76,6 +76,8 @@ nnoremap <f10> :setlocal list!<enter>
 set spellcapcheck=
 set spellsuggest=best,20
 nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us<enter>
+nnoremap [s [szt
+nnoremap ]s ]szt
 
 " Stop highlighting searching results
 nnoremap <silent> <CR> :noh<CR>
