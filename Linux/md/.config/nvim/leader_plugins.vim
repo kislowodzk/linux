@@ -55,3 +55,4 @@ nnoremap <silent> <leader>c :Tagbar<CR>
 
 " Goyo -- focus mode
 nnoremap <silent> <leader>g :Goyo<CR>
+
