@@ -2,7 +2,8 @@
 # alias lla='ls -alFh'
 # alias ll='ls -lFh'
 alias ls='exa --icons --color=always --group-directories-first'
-alias ll='exa -alF --icons --color=always --group-directories-first'
+alias ll='exa -lF --icons --color=always --group-directories-first'
+alias lla='exa -alF --icons --color=always --group-directories-first'
 alias la='exa -a --icons --color=always --group-directories-first'
 
 alias :wq=exit
