@@ -7,20 +7,25 @@ source $HOME/.config/nvim/leader_plugins.vim
 " => Appearance
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set cursorline
+let g:goyo_width=82
+
+" Goyo Settings
+function! s:goyo_leave()
+    hi Normal guibg=NONE ctermbg=NONE
+    hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
+endfunction
+
+autocmd! User GoyoLeave nested call <SID>goyo_leave()
+
 
 " Coursor appearance -- depends on mode
+set cursorline
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 
 " Make coursor shape immidiate
 set timeoutlen=1000
 set ttimeoutlen=1
-
-" Statusline
-set laststatus=2
-set statusline=
-set statusline=\ %{toupper(mode())}\ \|\ %t\ \|\ %M\ %=\ %{&filetype}\ \|\ %{&fileencoding?&fileencoding:&encoding}\ \|\ %{&fileformat}\ \|\ %2l/%L:\ %2v\ 
 
 " No welcome message
 set shortmess+=I
@@ -33,12 +38,23 @@ hi Normal guibg=NONE ctermbg=NONE
 " Only number of the line is highlighted
 hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
 
-let g:goyo_width=82
+" Statusline
+set laststatus=2
+set statusline=
+set statusline=\ %t\ %M\ %=\ %{&filetype}\ \|\ %{&fileencoding?&fileencoding:&encoding}\ \|\ %{&fileformat}\ \|\ %2l/%L:\ %2v\ 
 
-"Goyo Settings
-function! s:goyo_leave()
-    hi Normal guibg=NONE ctermbg=NONE
-    hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
+function! InsertStatuslineColor(mode)
+  if a:mode == 'i'
+    hi statusline cterm=bold ctermfg=0 ctermbg=172
+  elseif a:mode == 'r'
+    hi statusline cterm=bold ctermfg=0 ctermbg=4
+  else
+    hi statusline cterm=bold ctermfg=0 ctermbg=4
+  endif
 endfunction
 
-autocmd! User GoyoLeave nested call <SID>goyo_leave()
+au InsertEnter * call InsertStatuslineColor(v:insertmode)
+au InsertLeave * hi statusline cterm=bold ctermfg=3 ctermbg=238
+
+hi statusline cterm=bold ctermfg=3 ctermbg=238
+
