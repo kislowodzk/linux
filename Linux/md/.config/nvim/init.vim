@@ -17,7 +17,6 @@ endfunction
 
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
-
 " Coursor appearance -- depends on mode
 set cursorline
 let &t_SI = "\e[6 q"
@@ -34,7 +33,6 @@ colorscheme gruvbox
 
 " Make background transparent
 hi Normal guibg=NONE ctermbg=NONE
-
 " Only number of the line is highlighted
 hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 
