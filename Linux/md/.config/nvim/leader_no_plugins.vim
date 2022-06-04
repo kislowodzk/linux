@@ -35,6 +35,10 @@ nnoremap <silent> <leader>a3 I###
 nnoremap <silent> <leader>a4 I####
 nnoremap <silent> <leader>a5 I#####
 
+" Deleting things
+nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
+nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
+
 " Moving
 nnoremap <silent> <leader>me G{}
 nnoremap <silent> <leader>m1 ?^# <cr>
