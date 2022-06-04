@@ -7,7 +7,6 @@ call plug#begin()
     " :PlugInstall
     " :PlugClean
     Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
-    Plug 'dracula/vim'              " Colorscheme dracula
     Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
     Plug 'preservim/nerdtree'       " Nerdtree, leader + q
                                         " t -- open in new tab
@@ -21,6 +20,10 @@ call plug#begin()
                                         " sudo apt install universal-ctags
     Plug 'tpope/vim-commentary'     " gcc or gc
     Plug 'tpope/vim-surround'       " Surround
+                                        " Visual mode:
+                                            " S)
+                                        " Visual line mode
+                                            " S) inserts ) in previous and next line
                                         " Normal mode:
                                             " ys iw (
                                             " ds (
@@ -28,8 +31,4 @@ call plug#begin()
                                             " yss(
                                             " ( with space in between
                                             " ) without space
-                                        " Visual mode:
-                                            " S)
-                                        " Visual line mode
-                                            " S) inserts ) in previous and next line
 call plug#end()
