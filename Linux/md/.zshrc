@@ -1,3 +1,6 @@
+
+source ~/skrypty/autostart_zsh
+
 # Personal Zsh configuration file. It is strongly recommended to keep all
 # shell customization and configuration (including exported environment
 # variables such as PATH) in this file or in files sourced from it.
@@ -103,7 +106,4 @@ setopt glob_dots     # no special treatment for file names with a leading dot
 setopt no_auto_menu  # require an extra TAB press to open the completion menu
 
 
-
-source ~/skrypty/autostart_zsh
 source ~/skrypty/aliasy_zsh
-

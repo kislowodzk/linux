@@ -1,10 +1,16 @@
-  tput setaf 3
-  echo "
-  █░█░█ █ ▀█▀ ▄▀█ ░░█   █░█░█   █▄▀ █ █▀ █░░ █▀█ █░█░█ █▀█ █▀▄ ▀█ █▄▀ █░█
-  ▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
-  "
-  tput sgr0
-  starfetch
+
+#   # START
+#  tput setaf 3
+#  echo "
+#  █░█░█ █ ▀█▀ ▄▀█ ░░█   █░█░█   █▄▀ █ █▀ █░░ █▀█ █░█░█ █▀█ █▀▄ ▀█ █▄▀ █░█
+#  ▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
+#  "
+#  tput sgr0
+#  starfetch
+#   # KONIEC START
+
+~/skrypty/gif.sh
+
 #   ##| lolcat -p 1 -t
 #   
 #   tput setaf 4
@@ -16,6 +22,8 @@
 #   # cat ~/.kot | lolcat -p 1 -t
 #   
 #   # fortune | cowsay -f $(ls /usr/share/cowsay/cows/|shuf -n 1) # | lolcat -p 1 -t
+
+
 
 # autostart
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
