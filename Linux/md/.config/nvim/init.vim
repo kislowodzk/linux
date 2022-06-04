@@ -1,6 +1,6 @@
+
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/general_settings.vim
-source $HOME/.config/nvim/leader_no_plugins.vim
 source $HOME/.config/nvim/leader_plugins.vim
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -39,20 +39,11 @@ hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 " Statusline
 set laststatus=2
 set statusline=
-set statusline=\ %t\ %M\ %=\ %{&filetype}\ \|\ %{&fileencoding?&fileencoding:&encoding}\ \|\ %{&fileformat}\ \|\ %2l/%L:\ %2v\ 
+set statusline=%1*\ %t\ %M\ %*%=\ %{&filetype}\ \|\ %{&fileencoding?&fileencoding:&encoding}\ \|\ %{&fileformat}\ \|\ %2l/%L:\ %2v\ 
 
-function! InsertStatuslineColor(mode)
-  if a:mode == 'i'
-    hi statusline cterm=bold ctermfg=0 ctermbg=172
-  elseif a:mode == 'r'
-    hi statusline cterm=bold ctermfg=0 ctermbg=4
-  else
-    hi statusline cterm=bold ctermfg=0 ctermbg=4
-  endif
-endfunction
-
-au InsertEnter * call InsertStatuslineColor(v:insertmode)
-au InsertLeave * hi statusline cterm=bold ctermfg=3 ctermbg=238
+au InsertEnter * hi User1 cterm=bold ctermfg=0 ctermbg=3
+au InsertLeave * hi User1 cterm=bold ctermfg=3 ctermbg=238
 
 hi statusline cterm=bold ctermfg=3 ctermbg=238
+hi User1 cterm=bold ctermfg=3 ctermbg=238
 
