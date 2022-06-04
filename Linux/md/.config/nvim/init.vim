@@ -12,7 +12,9 @@ let g:goyo_width=82
 " Goyo Settings
 function! s:goyo_leave()
     hi Normal guibg=NONE ctermbg=NONE
-    hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi statusline cterm=bold ctermfg=3 ctermbg=238
+    hi User1 cterm=bold ctermfg=3 ctermbg=238
 endfunction
 
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
