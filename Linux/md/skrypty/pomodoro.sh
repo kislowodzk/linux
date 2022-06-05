@@ -12,7 +12,7 @@ do
     x=$((i/60))
     y=$((i%60))
     printf '\033[;H'
-    echo "$x m $y s " | figlet -c
+    echo "$x m $y s     " | figlet -c
     sleep 1
 done
 unhide_cursor
