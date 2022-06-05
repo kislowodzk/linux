@@ -18,5 +18,6 @@ done
 unhide_cursor
 clear
 mpv --no-video ~/skrypty/Alarm-clock-bell-ringing-sound-effect.mp3
+clear
 cmatrix
 
