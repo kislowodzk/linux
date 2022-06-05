@@ -49,9 +49,11 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-# bindsym $mod+Return exec alacritty
-bindsym $mod+Return exec kitty
+bindsym $mod+Return split h; exec kitty
+bindsym $mod+Ctrl+Return split v; exec kitty
 bindsym Mod1+Return exec kitty
+# bindsym $mod+v split h
+# bindsym $mod+g split v
 
 # kill focused window
 bindsym $mod+q kill
@@ -349,7 +351,6 @@ bindsym Mod1+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -s
 # bindsym $mod+Ctrl+Return exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
 # bindsym $mod+Ctrl+Return exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | rofi -show -dmenu | xargs flatpak run"
 # bindsym $mod+Ctrl+Return exec --no-startup-id "rofi -show run"
-bindsym $mod+Ctrl+Return exec --no-startup-id "cool-retro-term"
 bindsym $mod+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 'element-icon { size: 2.0em;}'"
 bindsym Mod1+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 'element-icon { size: 2.0em;}'"
 
