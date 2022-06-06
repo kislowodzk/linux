@@ -51,6 +51,7 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return split h; exec kitty
 bindsym $mod+Ctrl+Return split v; exec kitty
+bindsym $mod+Mod1+Return split v; exec kitty
 bindsym Mod1+Return exec kitty
 # bindsym $mod+v split h
 # bindsym $mod+g split v
