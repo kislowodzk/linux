@@ -11,8 +11,8 @@ for i in `seq $(($1*60)) -1 1`
 do
     x=$((i/60))
     y=$((i%60))
+    echo "$x m $y s     \n\n\n\n" | figlet -t -c
     printf '\033[;H'
-    echo "$x m $y s     " | figlet -t -c
     sleep 1
 done
 unhide_cursor
