@@ -40,7 +40,7 @@ nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
 
 " Moving
-nnoremap <silent> <leader>me G{}
+nnoremap <silent> <leader>me G{}k$zz
 nnoremap <silent> <leader>m1 ?^# <cr>
 nnoremap <silent> <leader>m2 ?^## <cr>
 nnoremap <silent> <leader>m3 ?^### <cr>
