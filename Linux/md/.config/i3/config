@@ -355,6 +355,8 @@ bindsym Mod1+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -s
 bindsym $mod+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 'element-icon { size: 2.0em;}'"
 bindsym Mod1+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 'element-icon { size: 2.0em;}'"
 
+bindsym $mod+c exec --no-startup-id "rofi -show emoji -modi emoji"
+
 # bindsym $mod+w exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | dmenu | xargs flatpak run"
 # bindsym $mod+q exec --no-startup-id dmenu_run
 bindsym $mod+x exec --no-startup-id nemo
@@ -373,7 +375,6 @@ bindsym $mod+s exec kitty -e nvim
 bindsym $mod+a exec --no-startup-id "~/skrypty/autotile.py"
 
 # przenoszenie workspace'ów między monitorami
-bindsym $mod+n move workspace to output left
 bindsym $mod+m move workspace to output right
 
 focus_follows_mouse no
