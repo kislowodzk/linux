@@ -302,7 +302,7 @@ exec_always "~/.config/i3/polybar/launch.sh"
 
 # bindsym $mod+Mod1+Ctrl
 
-bindsym $mod+t exec "setxkbmap -option caps:swapescape"; exec "xset r rate 350 43"; exec "killall nm-applet"; exec "killall blueman-applet"; exec nm-applet; exec "blueman-applet"
+bindsym $mod+t exec "setxkbmap -option caps:swapescape"; exec "xset r rate 350 43"; exec "killall nm-applet"; exec "killall blueman-applet"; exec "$HOME/.config/i3/polybar/launch.sh"; exec nm-applet; exec "blueman-applet"
 
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
