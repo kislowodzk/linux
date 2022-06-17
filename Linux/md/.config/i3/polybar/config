@@ -61,8 +61,8 @@ border-top-size = 0
 border-bottom-size = 0
 border-color =
 
-padding-left = 1
-padding-right = 1
+padding-left = 0
+padding-right = 0
 
 module-margin-left = 0
 module-margin-right = 0
@@ -83,7 +83,7 @@ modules-right = arrow0 battery arrow-by memory2 arrow-yb cpu2 arrow-by pulseaudi
 ;dim-value = 1.0
 
 tray-detached = false
-tray-offset-x = -8
+tray-offset-x = 0
 tray-offset-y = 0
 tray-padding = 2
 tray-maxsize = 20
