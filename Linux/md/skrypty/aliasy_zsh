@@ -7,6 +7,9 @@ alias lla='exa -alF --icons --color=always --group-directories-first'
 alias la='exa -a --icons --color=always --group-directories-first'
 
 alias :wq=exit
+alias :Wq=exit
+alias :wQ=exit
+alias :WQ=exit
 alias :q=exit
 alias :Q=exit
 # chcę wyrobić pamięć mięśniową :q
