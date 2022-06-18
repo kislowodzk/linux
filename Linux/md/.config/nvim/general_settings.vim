@@ -109,7 +109,6 @@ inoremap # #<c-g>u
 inoremap <C-Space> <Esc>
 
 " Bold and italic in markdown
-inoremap <C-i> *
 inoremap <C-b> **
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
