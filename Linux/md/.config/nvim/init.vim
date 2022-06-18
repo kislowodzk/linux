@@ -1,6 +1,7 @@
 
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/general_settings.vim
+source $HOME/.config/nvim/leader_general.vim
 source $HOME/.config/nvim/leader_plugins.vim
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
