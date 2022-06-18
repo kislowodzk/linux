@@ -24,6 +24,7 @@ sudo apt install zsh
 sudo apt install zsh-syntax-highlighting
 chsh -s /bin/zsh
 
+sudo apt install streamlink
 sudo apt install exa
 sudo apt install ncal
 sudo apt install tty-clock
