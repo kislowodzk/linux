@@ -108,6 +108,10 @@ inoremap # #<c-g>u
 " Escape
 inoremap <C-Space> <Esc>
 
+" Bold and italic in markdown
+inoremap <C-i> *
+inoremap <C-b> **
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => cnoremaps
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
