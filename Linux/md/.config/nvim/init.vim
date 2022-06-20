@@ -50,3 +50,4 @@ au InsertLeave * hi User1 cterm=bold ctermfg=3 ctermbg=238
 hi statusline cterm=bold ctermfg=3 ctermbg=238
 hi User1 cterm=bold ctermfg=3 ctermbg=238
 
+

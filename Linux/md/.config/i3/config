@@ -8,7 +8,7 @@
 exec kitty --class=scratch-terminal
 bindsym $mod+Shift+e exec "kitty --class=scratch-terminal"
 for_window [class="scratch-terminal"] move to scratchpad
-for_window [class="scratch-terminal"] resize set 1000 800
+for_window [class="scratch-terminal"] resize set 1000 750
 bindsym $mod+e [class="scratch-terminal"] scratchpad show; move position center;
 # i3 config file (v4)
 #

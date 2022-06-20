@@ -16,7 +16,7 @@ set ttimeoutlen=1
 " Statusline
 set laststatus=2
 set statusline=
-set statusline=\ %{toupper(mode())}\ \|\ %t\ \|\ %M\ %=\ %{&filetype}\ \|\ %{&fileencoding?&fileencoding:&encoding}\ \|\ %{&fileformat}\ \|\ %2l/%L:\ %2v\ 
+set statusline=\ %t\ \|\ %M\ %=\ %{&filetype}\ \|\ %{&fileencoding?&fileencoding:&encoding}\ \|\ %{&fileformat}\ \|\ %2l/%L:\ %2v\ 
 
 
 " No welcome message
