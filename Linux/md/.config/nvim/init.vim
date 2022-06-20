@@ -39,16 +39,53 @@ hi Normal guibg=NONE ctermbg=NONE
 " Only number of the line is highlighted
 hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 
+
+
+
+
+
+
+
 " Statusline
 set laststatus=2
 set statusline=
-set statusline=%1*\ %t\ %M\ %*%=\ %{&filetype}\ \│\ %{&fileencoding?&fileencoding:&encoding}\ \│\ %{&fileformat}\ \│\ %l/%L:\ %2v\ 
-" Without weird character as separator
-" set statusline=%1*\ %t\ %M\ %*%=\ %{&filetype}\ \|\ %{&fileencoding?&fileencoding:&encoding}\ \|\ %{&fileformat}\ \|\ %l/%L:\ %2v\ 
+set statusline=%1*\ %t\ %M\ %*%2*%*%=%3*%*%4*\ %{&filetype}\ %*%6*%*%5*\ %{&fileencoding?&fileencoding:&encoding}\ %*%6*%*%4*\ %{&fileformat}\ %*%6*%*%5*\ %l/%L:\ %2v\ %*
 
-au InsertEnter * hi User1 cterm=bold ctermfg=0 ctermbg=3
-au InsertLeave * hi User1 cterm=bold ctermfg=3 ctermbg=238
+hi statusline cterm=bold ctermfg=15 ctermbg=NONE
 
-hi statusline cterm=bold ctermfg=3 ctermbg=238
-hi User1 cterm=bold ctermfg=3 ctermbg=238
+hi User1 cterm=bold ctermfg=15 ctermbg=240
+
+au InsertEnter * hi User1 cterm=bold ctermfg=16 ctermbg=15
+au InsertLeave * hi User1 cterm=bold ctermfg=15 ctermbg=240
+
+hi User2 cterm=bold ctermfg=240 ctermbg=NONE
+
+au InsertEnter * hi User2 cterm=bold ctermfg=15 ctermbg=NONE
+au InsertLeave * hi User2 cterm=bold ctermfg=240 ctermbg=NONE
+
+hi User3 cterm=bold ctermfg=240 ctermbg=NONE
+hi User4 cterm=bold ctermfg=15 ctermbg=240
+hi User5 cterm=bold ctermfg=15 ctermbg=16
+hi User6 cterm=bold ctermfg=240 ctermbg=16
+
+
+
+
+
+
+
+" " Old statusline
+" " ------------------------------------------------------------
+" set laststatus=2
+" set statusline=
+" set statusline=%1*\ %t\ %M\ %*%=\ %{&filetype}\ \│\ %{&fileencoding?&fileencoding:&encoding}\ \│\ %{&fileformat}\ \│\ %l/%L:\ %2v\ 
+" " Without weird character as separator
+" " set statusline=%1*\ %t\ %M\ %*%=\ %{&filetype}\ \|\ %{&fileencoding?&fileencoding:&encoding}\ \|\ %{&fileformat}\ \|\ %l/%L:\ %2v\ 
+
+" au InsertEnter * hi User1 cterm=bold ctermfg=0 ctermbg=3
+" au InsertLeave * hi User1 cterm=bold ctermfg=3 ctermbg=238
+
+" hi statusline cterm=bold ctermfg=3 ctermbg=238
+" hi User1 cterm=bold ctermfg=3 ctermbg=238
+" " ------------------------------------------------------------
 
