@@ -26,6 +26,7 @@ chsh -s /bin/zsh
 
 sudo apt install streamlink
 sudo apt install exa
+sudo apt install brightnessctl
 sudo apt install ncal
 sudo apt install tty-clock
 sudo apt install stacer

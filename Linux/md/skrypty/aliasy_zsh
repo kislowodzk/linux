@@ -14,39 +14,49 @@ alias :wQ=exit
 alias :WQ=exit
 alias :q=exit
 alias :Q=exit
-# chcę wyrobić pamięć mięśniową :q
-# alias wq=exit
 alias ZZ=exit
 alias ZQ=exit
+
 alias cls=clear
 alias c.='cd ..'
 alias v=nvim
 alias nv=nvim
 alias vtd='nvim ~/Notatki/ToDo.md'
+
 alias s='ranger ~/1-STUDIA/2_Rok/Semestr_4/'
+alias ra=ranger
+alias r=ranger
+
 alias rt='gio trash'
+
 alias caps='setxkbmap -option caps:swapescape'
 alias nocaps='setxkbmap -option'
+
 alias fresh='sudo apt update -y; sudo apt upgrade -y; sudo apt autoremove -y'
 alias pop_fresh='flatpak update; sudo apt dist-upgrade'
+alias f='fresh; pop_fresh'
+
 alias bed='shutdown now'
+
 alias bl=blueman-manager
 alias wi=nmtui
 alias mi=pavucontrol
 alias mi_term=alsamixer
 alias open=xdg-open
 alias o=xdg-open
+
 alias kal='ncal -A1 -B1'
 alias clock='tty-clock -c -C 3'
 alias clocks='tty-clock -s -c -C 3'
+
 alias re='clear; ~/skrypty/gif.sh'
-alias ra=ranger
-alias r=ranger
+
 alias pai='pandoc -V geometry:margin=1in'    # pandoc z dobrymi marginesami, po tym powinienem podać plik wejścia -o i plik wyjścia
 alias pa='pandoc -V geometry:margin=1in -V linestretch=1.5'
 alias pa12='pandoc -V geometry:margin=1in -V linestretch=1.5 -V fontsize=12pt'
 
 alias kompresja='echo gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -sOutputFile=output.pdf input.pdf'
+
 alias m='mpv'
 alias ms='mpv --no-video'
 alias stream=streamlink
@@ -75,32 +85,12 @@ alias mysz='~/skrypty/mysz.sh'
 # alias monitory_i3='~/skrypty/arandr_i3.sh'
 # alias drugimonitor_i3='~/skrypty/drugi_monitor_i3.sh'
 
-alias br='xrandr --output LVDS-1 --brightness'
-
-alias br1='xrandr --output LVDS-1 --brightness 0.1'
-alias br2='xrandr --output LVDS-1 --brightness 0.2'
-alias br3='xrandr --output LVDS-1 --brightness 0.3'
-alias br4='xrandr --output LVDS-1 --brightness 0.4'
-alias br5='xrandr --output LVDS-1 --brightness 0.5'
-alias br6='xrandr --output LVDS-1 --brightness 0.6'
-alias br7='xrandr --output LVDS-1 --brightness 0.7'
-alias br8='xrandr --output LVDS-1 --brightness 0.8'
-alias br9='xrandr --output LVDS-1 --brightness 0.9'
-alias br0='xrandr --output LVDS-1 --brightness 1.0'
-
-alias b1='xrandr --output LVDS-1 --brightness 0.1'
-alias b2='xrandr --output LVDS-1 --brightness 0.2'
-alias b3='xrandr --output LVDS-1 --brightness 0.3'
-alias b4='xrandr --output LVDS-1 --brightness 0.4'
-alias b5='xrandr --output LVDS-1 --brightness 0.5'
-alias b6='xrandr --output LVDS-1 --brightness 0.6'
-alias b7='xrandr --output LVDS-1 --brightness 0.7'
-alias b8='xrandr --output LVDS-1 --brightness 0.8'
-alias b9='xrandr --output LVDS-1 --brightness 0.9'
-alias b0='xrandr --output LVDS-1 --brightness 1.0'
-alias bb='xrandr --output LVDS-1 --brightness 1.0'
+alias b='sudo brightnessctl s'
+alias br='sudo brightnessctl s'
+alias brightness='sudo brightnessctl s'
 
 alias pom='~/skrypty/pomodoro_sound.sh'
-alias pos='~/skrypty/pomodoro.sh'
+alias poms='~/skrypty/pomodoro.sh'
 
 alias gif='kitty +kitten icat --align left'
+
