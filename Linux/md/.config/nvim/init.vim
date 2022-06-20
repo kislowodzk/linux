@@ -42,12 +42,13 @@ hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 " Statusline
 set laststatus=2
 set statusline=
-set statusline=%1*\ %t\ %M\ %*%=\ %{&filetype}\ \|\ %{&fileencoding?&fileencoding:&encoding}\ \|\ %{&fileformat}\ \|\ %l/%L:\ %2v\ 
+set statusline=%1*\ %t\ %M\ %*%=\ %{&filetype}\ \│\ %{&fileencoding?&fileencoding:&encoding}\ \│\ %{&fileformat}\ \│\ %l/%L:\ %2v\ 
+" Without weird character as separator
+" set statusline=%1*\ %t\ %M\ %*%=\ %{&filetype}\ \|\ %{&fileencoding?&fileencoding:&encoding}\ \|\ %{&fileformat}\ \|\ %l/%L:\ %2v\ 
 
 au InsertEnter * hi User1 cterm=bold ctermfg=0 ctermbg=3
 au InsertLeave * hi User1 cterm=bold ctermfg=3 ctermbg=238
 
 hi statusline cterm=bold ctermfg=3 ctermbg=238
 hi User1 cterm=bold ctermfg=3 ctermbg=238
-
 
