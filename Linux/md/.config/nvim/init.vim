@@ -1,3 +1,15 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                _       _ _         _           
+"               (_)_ __ (_) |___   _(_)_ __ ___  
+"               | | '_ \| | __\ \ / / | '_ ` _ \ 
+"               | | | | | | |_ \ V /| | | | | | |
+"               |_|_| |_|_|\__(_)_/ |_|_| |_| |_|
+"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Sources
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/general_settings.vim
@@ -5,7 +17,7 @@ source $HOME/.config/nvim/leader_general.vim
 source $HOME/.config/nvim/leader_plugins.vim
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Appearance
+" => Goyo
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 let g:goyo_width=82
@@ -15,6 +27,7 @@ function! s:goyo_leave()
     hi Normal guibg=NONE ctermbg=NONE
     hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
     hi statusline cterm=bold ctermfg=15 ctermbg=237
+    hi statuslineNC cterm=NONE ctermfg=8 ctermbg=235
     hi User1 cterm=bold ctermfg=16 ctermbg=7
     hi User2 cterm=bold ctermfg=7 ctermbg=237
     hi User3 cterm=bold ctermfg=7 ctermbg=237
@@ -25,6 +38,10 @@ function! s:goyo_leave()
 endfunction
 
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Appearance
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Coursor appearance -- depends on mode
 set cursorline
@@ -45,8 +62,10 @@ hi Normal guibg=NONE ctermbg=NONE
 " Only number of the line is highlighted
 hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 
-" STATUSLINE
-" Black-gray-white
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Statusline
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 set laststatus=2
 set statusline=
 set statusline=%2*░▒▓%*%1*\ %t\ %M\ %*%2*%*%=%3*%*%4*\ %{&filetype}\ %*%6*%*%5*\ %{&fileencoding?&fileencoding:&encoding}\ %*%6*%*%4*\ %{&fileformat}\ %*%6*%*%5*\ %l/%L:\ %2v\ %*%7*▓▒░%*
