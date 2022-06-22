@@ -102,6 +102,17 @@ rofi-theme-selector                                     # gruvbox-dark-soft
 nitrogen
 lxappearance                                            # ciemny motyw + ikony nordzy dark
 mate-control-center                                     # tu wybrać domyślne programy -- do edycji tekstu gvim
+// żeby ustawić nvima jako domyślny edytor, to https://unix.stackexchange.com/questions/365587/how-to-open-vim-in-terminator-by-default
+// na przykład coś takiego, generalnie 
+sudo vim /usr/share/applications/nvim.desktop
+Exec=kitty -e vim %F
+Terminal=false
+//
+
+żeby z poziomu nemo otwierać kitty jako terminal
+
+gsettings set org.gnome.desktop.default-applications.terminal exec kitty
+gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
 
 https://github.com/Mange/rofi-emoji                     # emoji
 
