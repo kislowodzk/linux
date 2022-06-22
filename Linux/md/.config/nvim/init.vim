@@ -52,6 +52,7 @@ set statusline=
 set statusline=%2*░▒▓%*%1*\ %t\ %M\ %*%2*%*%=%3*%*%4*\ %{&filetype}\ %*%6*%*%5*\ %{&fileencoding?&fileencoding:&encoding}\ %*%6*%*%4*\ %{&fileformat}\ %*%6*%*%5*\ %l/%L:\ %2v\ %*%7*▓▒░%*
 
 hi statusline cterm=bold ctermfg=15 ctermbg=237
+hi statuslineNC cterm=NONE ctermfg=8 ctermbg=235
 
 hi User1 cterm=bold ctermfg=16 ctermbg=7
 au InsertEnter * hi User1 cterm=bold ctermfg=16 ctermbg=3
