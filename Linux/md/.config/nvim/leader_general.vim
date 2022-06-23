@@ -26,6 +26,12 @@ nnoremap <silent> <leader>w :tabclose<CR>
 " Adding things
 nnoremap <silent> <leader>ab lbi**<esc>ea**<esc>
 nnoremap <silent> <leader>ai lbi*<esc>ea*<esc>
+nnoremap <silent> <leader>a( lbi(<esc>ea)<esc>
+nnoremap <silent> <leader>a{ lbi{<esc>ea}<esc>
+nnoremap <silent> <leader>a[ lbi[<esc>ea]<esc>
+nnoremap <silent> <leader>a' lbi'<esc>ea'<esc>
+nnoremap <silent> <leader>a" lbi"<esc>ea"<esc>
+
 nnoremap <silent> <leader>al a[]()<esc>i
 nnoremap <silent> <leader>ap a![]()<esc>i
 nnoremap <silent> <leader>as 50o<esc>50k
@@ -35,9 +41,23 @@ nnoremap <silent> <leader>a3 I###
 nnoremap <silent> <leader>a4 I#### 
 nnoremap <silent> <leader>a5 I##### 
 
+vnoremap <silent> <leader>ab c****<Esc>hP
+vnoremap <silent> <leader>ai c**<Esc>P
+vnoremap <silent> <leader>a( c()<Esc>P
+vnoremap <silent> <leader>a{ c{}<Esc>P
+vnoremap <silent> <leader>a[ c[]<Esc>P
+vnoremap <silent> <leader>a' c''<Esc>P
+vnoremap <silent> <leader>a" c""<Esc>P
+
 " Deleting things
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
+nnoremap <silent> <leader>d( ?(<cr>x/)<cr>x:noh<cr>
+nnoremap <silent> <leader>d[ ?[<cr>x/]<cr>x:noh<cr>
+nnoremap <silent> <leader>d{ ?{<cr>x/}<cr>x:noh<cr>
+nnoremap <silent> <leader>d' ?'<cr>x/'<cr>x:noh<cr>
+nnoremap <silent> <leader>d" ?"<cr>x/"<cr>x:noh<cr>
+
 
 " Moving
 nnoremap <silent> <leader>me G{}k$zz

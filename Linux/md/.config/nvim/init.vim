@@ -8,13 +8,244 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Sources
+" => Plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-source $HOME/.config/nvim/plugins.vim
-source $HOME/.config/nvim/general_settings.vim
-source $HOME/.config/nvim/leader_general.vim
-source $HOME/.config/nvim/leader_plugins.vim
+call plug#begin()
+    " I need to have neovim, git and curl installed
+    " Vimplug install -- https://github.com/junegunn/vim-plug:
+    " sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+    "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+    " :PlugInstall
+    " :PlugClean
+    Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
+    Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
+    Plug 'preservim/nerdtree'       " Nerdtree, leader + q
+                                        " t -- open in new tab
+                                        " T -- open in new tab silently
+                                        " i -- open split down
+                                        " s -- open split right
+                                        " I -- hidden files on/off
+                                        " u -- up a dir
+    Plug 'preservim/tagbar'         " Tagbar, leader + c (table of contents)
+                                    " I need to have ctag installed, eg.:
+                                        " sudo apt install universal-ctags
+    Plug 'tpope/vim-commentary'     " gcc or gc
+call plug#end()
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Don't leave one letter words at the end of the line
+setlocal formatoptions+=1
+
+" Numbers
+set number relativenumber
+
+" Searching
+set ignorecase
+set smartcase
+set incsearch
+set complete+=s
+set showmatch
+set hlsearch
+
+set path+=**
+" It works automatically in nvim
+" Display all matching files when we tab complete
+" set wildmenu
+
+" Spaces instead of tabs
+set expandtab
+set softtabstop=4
+set shiftwidth=4
+set tabstop=4
+
+setlocal wrap
+setlocal linebreak
+set tw=80
+set display+=lastline
+set backspace=indent,eol,start
+set scrolloff=12
+
+" Don't add double space after dot at the end of the line
+set nojoinspaces
+
+" Open split on the right/below
+set splitbelow splitright
+
+set clipboard^=unnamed,unnamedplus
+
+set smartindent
+
+" set mouse=a
+
+" For .txt and .md i need autoindent (smartindent caused problems) and different format options
+autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent 
+
+" Complete by ctrl-x + ctrl-... in insert mode
+set omnifunc=syntaxcomplete#Complete
+
+syntax on
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => nnoremaps
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+nnoremap <C-f> ggvG$
+nnoremap <C-k> gk
+nnoremap <C-j> gj
+nnoremap <C-h> h
+nnoremap <C-l> l
+
+" I don't want that weird Q mode
+nnoremap Q gq
+
+" Show white characters
+set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
+nnoremap <f10> :setlocal list!<enter>
+
+" Spellcheck
+set spellcapcheck=
+set spellsuggest=best,20
+nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us<enter>
+nnoremap [s [szt
+nnoremap ]s ]szt
+
+" Stop highlighting searching results
+nnoremap <silent> <CR> :noh<CR>
+
+" Y yanks to the end of the line
+nnoremap Y y$
+
+" Centers line with match
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
+nnoremap <C-Space> :w<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => inoremaps
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Breakpoints for undo
+inoremap , ,<c-g>u
+inoremap . .<c-g>u
+inoremap ! !<c-g>u
+inoremap ? ?<c-g>u
+inoremap - -<c-g>u
+inoremap ; ;<c-g>u
+inoremap : :<c-g>u
+inoremap # #<c-g>u
+
+" Escape
+inoremap <C-Space> <Esc>
+
+" Bold and italic in markdown
+inoremap <C-b> **
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => cnoremaps
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" To avoid mistypes
+cnoremap W w
+cnoremap Q q
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vmaps
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+vmap < <gv
+vmap > >gv
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Leader general
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let mapleader = " "
+
+" Make adjusting split sizes a bit more friendly
+noremap <silent> <C-Left> :vertical resize +3<CR>
+noremap <silent> <C-Right> :vertical resize -3<CR>
+noremap <silent> <C-Up> :resize +1<CR>
+noremap <silent> <C-Down> :resize -1<CR>
+
+" File search
+nnoremap <leader>f :find **
+
+" Splits
+nnoremap <leader>v :wincmd v<CR>
+nnoremap <leader>s :wincmd s<CR>
+
+" Tags
+nnoremap <silent> <leader>t :tabnew<CR>
+nnoremap <silent> <leader>n :tabnext<CR>
+nnoremap <silent> <leader>N :tabprevious<CR>
+nnoremap <silent> <leader>w :tabclose<CR>
+
+" Adding things
+nnoremap <silent> <leader>ab lbi**<esc>ea**<esc>
+nnoremap <silent> <leader>ai lbi*<esc>ea*<esc>
+nnoremap <silent> <leader>a( lbi(<esc>ea)<esc>
+nnoremap <silent> <leader>a{ lbi{<esc>ea}<esc>
+nnoremap <silent> <leader>a[ lbi[<esc>ea]<esc>
+nnoremap <silent> <leader>a' lbi'<esc>ea'<esc>
+nnoremap <silent> <leader>a" lbi"<esc>ea"<esc>
+
+nnoremap <silent> <leader>al a[]()<esc>i
+nnoremap <silent> <leader>ap a![]()<esc>i
+nnoremap <silent> <leader>as 50o<esc>50k
+nnoremap <silent> <leader>a1 I# 
+nnoremap <silent> <leader>a2 I## 
+nnoremap <silent> <leader>a3 I### 
+nnoremap <silent> <leader>a4 I#### 
+nnoremap <silent> <leader>a5 I##### 
+
+vnoremap <silent> <leader>ab c****<Esc>hP
+vnoremap <silent> <leader>ai c**<Esc>P
+vnoremap <silent> <leader>a( c()<Esc>P
+vnoremap <silent> <leader>a{ c{}<Esc>P
+vnoremap <silent> <leader>a[ c[]<Esc>P
+vnoremap <silent> <leader>a' c''<Esc>P
+vnoremap <silent> <leader>a" c""<Esc>P
+
+" Deleting things
+nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
+nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
+nnoremap <silent> <leader>d( ?(<cr>x/)<cr>x:noh<cr>
+nnoremap <silent> <leader>d[ ?[<cr>x/]<cr>x:noh<cr>
+nnoremap <silent> <leader>d{ ?{<cr>x/}<cr>x:noh<cr>
+nnoremap <silent> <leader>d' ?'<cr>x/'<cr>x:noh<cr>
+nnoremap <silent> <leader>d" ?"<cr>x/"<cr>x:noh<cr>
+
+
+" Moving
+nnoremap <silent> <leader>me G{}k$zz
+nnoremap <silent> <leader>m1 ?^# <cr>
+nnoremap <silent> <leader>m2 ?^## <cr>
+nnoremap <silent> <leader>m3 ?^### <cr>
+nnoremap <silent> <leader>m4 ?^#### <cr>
+nnoremap <silent> <leader>m5 ?^##### <cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Leader plugins
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" NerdTree
+nnoremap <silent> <leader>q :NERDTree<CR>
+
+" Tagbar / table of contents
+nnoremap <silent> <leader>c :Tagbar<CR>
+
+" Goyo -- focus mode
+nnoremap <silent> <leader>g :Goyo<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Goyo

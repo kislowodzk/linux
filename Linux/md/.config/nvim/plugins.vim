@@ -19,16 +19,4 @@ call plug#begin()
                                     " I need to have ctag installed, eg.:
                                         " sudo apt install universal-ctags
     Plug 'tpope/vim-commentary'     " gcc or gc
-    Plug 'tpope/vim-surround'       " Surround
-                                        " Visual mode:
-                                            " S)
-                                        " Visual line mode
-                                            " S) inserts ) in previous and next line
-                                        " Normal mode:
-                                            " ys iw (
-                                            " ds (
-                                            " cs iw ([
-                                            " yss(
-                                            " ( with space in between
-                                            " ) without space
 call plug#end()
