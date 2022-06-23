@@ -17,5 +17,4 @@ do
 done
 unhide_cursor
 clear
-cmatrix
 
