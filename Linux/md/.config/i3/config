@@ -267,7 +267,13 @@ bindsym $mod+r mode "resize"
 # niebieskie
 # client.focused          #83a598 #83a598 #ebdbb2 #83a598   #83a598
 # żółte
-client.focused          #d79921 #d79921 #ebdbb2 #d79921   #d79921
+# client.focused          #d79921 #d79921 #ebdbb2 #d79921   #d79921
+
+# pomarańczoer
+# client.focused          #d65d0e #d65d0e #ebdbb2 #d65d0e   #d65d0e
+
+# biały
+client.focused          #ebdbb2 #ebdbb2 #ebdbb2 #ebdbb2   #ebdbb2
 client.focused_inactive #857d6e #857d6e #282828 #857d6e   #857d6e
 client.unfocused        #333333 #222222 #888888 #292d2e   #222222
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
