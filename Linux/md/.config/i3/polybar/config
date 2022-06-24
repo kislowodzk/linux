@@ -89,7 +89,8 @@ tray-padding = 2
 tray-maxsize = 20
 tray-scale = 1.0
 tray-position = right
-tray-background = ${colors.darkblue}
+tray-background = ${colors.none}
+; tray-background = ${colors.darkblue}
 
 #i3: Make the bar appear below windows
 ;wm-restack = i3
