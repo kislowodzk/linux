@@ -165,6 +165,7 @@ set $ws17 " 17 "
 set $ws18 " 18 "
 set $ws19 " 19 "
 set $ws20 " 20 "
+set $ws21 " 33 "
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -188,6 +189,8 @@ bindsym Mod1+7 workspace number $ws17
 bindsym Mod1+8 workspace number $ws18
 bindsym Mod1+9 workspace number $ws19
 bindsym Mod1+0 workspace number $ws20
+
+bindsym $mod+z workspace number $ws21
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
