@@ -220,6 +220,10 @@ vnoremap <silent> <leader>a[ c[]<Esc>P
 vnoremap <silent> <leader>a' c''<Esc>P
 vnoremap <silent> <leader>a" c""<Esc>P
 
+" Formatting -- to use gq
+nnoremap <leader>ll :set tw=10000<cr>
+nnoremap <leader>ls :set tw=80<cr>
+
 " Deleting things
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
@@ -228,7 +232,6 @@ nnoremap <silent> <leader>d[ ?[<cr>x/]<cr>x:noh<cr>
 nnoremap <silent> <leader>d{ ?{<cr>x/}<cr>x:noh<cr>
 nnoremap <silent> <leader>d' ?'<cr>x/'<cr>x:noh<cr>
 nnoremap <silent> <leader>d" ?"<cr>x/"<cr>x:noh<cr>
-
 
 " Moving
 nnoremap <silent> <leader>me G{}k$zz
