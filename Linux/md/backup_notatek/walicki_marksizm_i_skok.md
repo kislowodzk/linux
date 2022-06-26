@@ -842,22 +842,176 @@ w połączeniu z tezą Engelsa o anachroniczności rewolucjonizmu starego typu.
 
 ## III. Warianty necessarystycznego marksizmu
 
-### 1. Karl Kautsku: od historycznej konieczności komunizmu do historycznej konieczności demokracji
+### 1. Karl Kautsky: od historycznej konieczności komunizmu do historycznej konieczności demokracji
 
+Obiektywna konieczność dla Kautsky'ego różnicą między socjalizmem utopijnym 
+i naukowym. Jako jej zwolennik jest, razem z Plechanowem i Luksemburg, 
+przedstawicielem *necessarystycznego marksizmu*.
 
+Marksizm ma zastosowanie tylko do nauk społecznych i nie powinien aspirować do 
+stania się wszechogarniającą doktryną filozoficzną. Tak uważała też większość 
+socjalistów niemieckich. Jedynie Plechanow, z wybitnych teoretyków II 
+Międzynarodówki, będzie chciał przekształcić marksizm we wszechogarniającą 
+filozofię opartą na Engelsowskim *materializmie dialektycznym*.
 
+Wybór celów powinien być wynikiem trafnego rozpoznania konieczności dziejowej. 
+Etyka zawsze powinna być tylko przedmiotem nauk. Nauka jest nad etyką. Etyka nie 
+jest dyscypliną normatywną -- jej zadaniem jest jedynie wyjaśnienie genezy, 
+funkcji i względnego, przejściowego charakteru norm moralnych. Większość 
+zachowań ludzkich jest wynikiem ewolucji przyrodniczej.
 
+Odróżnienie *konieczności* od *nieuchronności*. *Konieczność* oznacza, że coś 
+jest niezbędnym warunkiem dalszego rozwoju, jednak nie nastąpi bez świadomego 
+wyboru i świadomej walki.
 
+Cele partii robotniczej muszą być formułowane w oparciu o naukową wiedzę, a więc 
+świadomość robotników musi być kształtowana z zewnątrz -- przez ludzi taką 
+wiedzę posiadających. Obrona profesjonalizmu przed koniecznością.
 
+Wyzwolenie przez myśl, dzięki naukowemu rozpoznaniu, ale także wyzwolenie 
+czynne, przez rewolucyjne zdobycie władzy. Nie ma tu miejsca na ogólny *sens* 
+historii.
 
+Powstawanie trustów i syndykatów koniecznym procesem centralizacji. Wzrastające 
+koncentracja kapitału i łączenie spółek w coraz większe korporacje toruje drogę 
+socjalizmowi.
 
+Ogólnospołeczne planowanie, techniczny podział pracy eliminujący *anarchię 
+rynku*.
 
+Produkcja socjalistyczna nie da się pogodzić z zupełną wolnością pracy, 
+z możliwością pracowania kiedy, gdzie i jako się pracownikowi podoba. Za to 
+praca będzie zorganizowana racjonalnie i służyć będzie interesom ogółu, 
+przestanie więc być odczuwana jako zewnętrzny przymus. Poza tym czas pracy 
+będzie skrócony, co zaowocuje możliwością rozwoju w czasie wolnym. Edukacja 
+potrzebą każdego, stanie się udziałem wszystkich.
 
+Wolność socjaldemokratyczna to zredukowanie czasu pracy w celu umożliwienia 
+każdemu wolnej działalności artystycznej i naukowej, swobodnego używania życia.
 
+Zniesienie gospodarki towarowej. Gospodarka socjalistyczna jako centralnie 
+kontrolowany i samowystarczalny zakład przemysłowa. Konieczność *naturalizacji* 
+stosunków ekonomicznych w okresie przejścia do socjalizmu.
 
+Komunizm zapanuje tylko nad jedną stroną człowieka, gdy absolutyzm panuje nad 
+całym człowiekiem.
 
+Kautsky nie zgadzał się, że zadaniem rewolucji jest zniesienie pieniądza. Ma on 
+pozostać, dopóki nie znajdzie się coś lepszego na jego miejsce.
 
+Kautsky po rewolucji w Rosji odrzuca konieczność zniesienia pieniądza i model 
+społeczeństwa jako *jednej fabryki*. Chodzi o usunięcie jedynie degradujących 
+człowieka skutków gospodarki pieniężnej.
 
+Rozróżnienie *komunizmu produkcji* i *komunizmu konsumpcji*. Ten drugi miał 
+obejmować nie tylko produkcję, ale też dystrybucję dóbr. U Marksa było to 
+rozróżnienie *niższej* i *wyższej* fazy komunizmu. Kautsky jako pierwszy 
+odrzucił *komunizm konsumpcji*, który przez wiele lat uchodził za ostateczny cel 
+ruchu robotniczego.
+
+Stwierdzenie, że dla socjalistów demokracja jest celem. Nie można zorganizować 
+mas w sposób tajny, tajna organizacja nie może być demokratyczna. Jeśli masy są 
+niedojrzałe a socjaliści widzą w sobie mesjanistycznych zbawców, to nie może 
+wyniknąć z tego ani demokracja, ani socjalizm.
+
+Dyktatura proletariatu to rządy proletariatu na bazie demokracji, to nie tylko 
+rządy większości, ale i obrona mniejszości.
+
+Wolność jest nie mniej ważna niż chleb -- to początkowy pogląd.
+
+Rewolucja społeczna, w odróżnieniu od politycznej, jest procesem przemian 
+stopniowych.
+
+Moralne potępienie bolszewizmu.
+
+To nie jest jakoś istotne, ale tak dobre, że muszę zacytować:
+
+> Nie była to rada, której Lenin chciałby słychać. W swojej długiej i pełnej 
+> oburzenia replice nazwał on Kautskiego "renegatem", a jego *Die Diktatur des 
+> Proletariats* określił jako "najbardziej jaskrawy przykład haniebnego 
+> sykofantyzmu na służbie burżuazji", "czołgania się na brzuchu przed 
+> kapitalistami i lizania im butów".
+
+### 2. Jerzy Plechanow: konieczność historyczna jako utopijny ideał
+
+Plechanow najbardziej dogmatycznym i nieprzejednanym necessarystą, ojcem 
+rosyjskiego marksizmu.
+
+Przeciwnie teoretycy narodnictwa -- Ławrow i Michajłowski, którzy odrzucili 
+obiektywizm, jako jedynie tendencje rozwoju żywiołowego, któremu można i trzeba 
+przeciwstawić czynnik subiektywny.
+
+Rozstanie się Plechanowa z narodnictwem. Marksizm koncepcją, która pozwalała 
+zaakceptować *fazę kapitalistyczną*, jako drogę do socjalizmu.
+
+Trzeba przejść drogę rozwoju kapitalistycznego. Między rewolucją polityczną 
+(obaleniem absolutyzmu) a rewolucją socjalistyczną musi upłynąć odpowiednio 
+długi czas, w którym rozwiną się siły wytwórcze, a robotnicy przejdą *szkołę 
+polityczną* w państwie parlamentarnym.
+
+Walka polityczna jako walka o wolność.
+
+Oparcie się o naukowość, skupienie się na tym, co jest, nie na tym, co być 
+powinno. Konieczność rozumiana już jako nieuchronność.
+
+Rozwój historyczny dokonuje się pod wpływem przyczyn nie mających nic wspólnego 
+z wolą i świadomością ludzką.
+
+Prawdziwa wolność internalizacją konieczności, świadomej z koniecznością 
+identyfikacji, aby konieczność przepojona została wolnością.
+
+Narodnicy odrzucali konieczność historyczną ze względów moralnych. Plechanow 
+twierdził, że jednostki sparaliżowane przez skrupuły moralne nigdy nie zdołają 
+utożsamić się z koniecznością i przekształcić jej w wolność.
+
+Podobnie jak Kautsky, Plechanow jest przekonany, że procesy społeczne można 
+rozważać w sposób całkowicie zobiektywizowany.
+
+Do działania sprowadza się cała filozofia praktyczna. Rzeczywistość trzeba 
+przekształcić, by stała się rozumna.
+
+Plechanow dążył za wszelką cenę do przekształcenia marksizmu w całościowy, 
+wszechogarniający system dialektycznego i historycznego materializmu. Odchylenia 
+od *słusznej* wiedzy nie mogły być tolerowane. Dla sukcesu rewolucji można 
+chwilowo ograniczyć sferę działania takiej czy innej zasady demokratycznej.
+
+### 3. Róża Luksemburg i rewolucyjny amor fati
+
+#### Wolność w historii
+
+Nie zgadzała się ona hamować rewolucyjności w obawie przed klęską. Wystarczyła 
+jej pewność co do tego, że cel ostateczny ruchu jest zgodny z prawami dziejów 
+i prędzej czy później zostanie osiągnięty. Wiara w historyczną konieczność 
+klęsk.
+
+U Kautskiego nie było miejsca na wiarę w jakikolwiek *sens* historii, 
+u Luksemburg marksizm właśnie uniwersalnym kluczem do sensu historii, 
+odpowiedzią na pytanie o sens indywidualnych działań. Natomiast u Plechanowa 
+jest wiara w sens historii, natomiast odrzucenie wiary w historyczny sens 
+heroicznych klęsk.
+
+Co do rozwoju, to jak Engels -- triadka -- ale Luksmburg podkreśla rolę 
+planowania w społeczeństwie starożytnym. Dialektyczny powrót do początku 
+okazywał się w jej ujęciu nie tylko powrotem do wspólnej własności 
+i bezklasowości, lecz również powrotem planowania. Jednak powrót do planowania 
+w socjalizmie będzie planowaniem w pełni świadomym, racjonalnym -- ten pierwotny 
+był instynktowny.
+
+Konieczność rozumiana jako gwarantująca szczęśliwe rozwiązanie dramatu historii.
+
+Przejście do socjalizmu, jako gwałtowna zmiana jakościowa, musi być skokiem.
+
+Teoria krachu kapitalizmu -- kapitalizm jest skazany na zagładę nie przez 
+sprzeczności wewnętrzne, lecz przez sprzeczności zewnętrzne -- sprzeczności 
+między kapitalistycznymi krajami a ich zewnętrznymi rynkami. Kapitalizm nie może 
+rozwijać się bez środowiska niekapitalistycznego, służącego mu jako rynek 
+i obiekt wyzysku. Jednocześnie jego ekspansja niszczy struktury 
+niekapitalistyczne.
+
+Ten upadek nie jest czymś, co dokona się automatycznie -- klasa robotnicza nie 
+może odwlekać rewolucji do tej chwili ekonomicznej niemożliwości kapitalizmu.
+
+#### Wolność w ruchu robotniczym
 
 
 
