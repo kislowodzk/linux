@@ -304,6 +304,9 @@ hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 " => STATUSLINE
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" If there is filetype, vim will overwrite this -- just for nice statusline
+set filetype=none
+
 set laststatus=2
 set statusline=
 
@@ -338,4 +341,3 @@ hi User7 cterm=bold ctermfg=16 ctermbg=237
 "     |_|\_\_|___/_|\___/ \_/\_/ \___/ \__,_/___|_|\_\ 
 "    
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
