@@ -306,7 +306,12 @@ hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 
 set laststatus=2
 set statusline=
+
+" Unicode
 set statusline=%2*░▒▓%*%1*\ %t\ %M\ %*%2*%*%=%3*%*%4*\ %{&filetype}\ %*%6*%*%5*\ %{&fileencoding?&fileencoding:&encoding}\ %*%6*%*%4*\ %{&fileformat}\ %*%6*%*%5*\ %l/%L:\ %2v\ %*%7*▓▒░%*
+
+" ASCII
+" set statusline=%1*\ \ %t\ %M\ %*%=\ %{&filetype}\ \|\ %{&fileencoding?&fileencoding:&encoding}\ \|\ %{&fileformat}\ %4*\ %l/%L:\ %2v\ %*
 
 hi statusline cterm=bold ctermfg=15 ctermbg=237
 hi statuslineNC cterm=NONE ctermfg=8 ctermbg=235
@@ -326,11 +331,11 @@ hi User6 cterm=bold ctermfg=7 ctermbg=16
 hi User7 cterm=bold ctermfg=16 ctermbg=237
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"       _  ___     _                          _     _    
-"      | |/ (_)___| | _______      _____   __| |___| | __
-"      | ' /| / __| |/ / _ \ \ /\ / / _ \ / _` |_  / |/ /
-"      | . \| \__ \   < (_) \ V  V / (_) | (_| |/ /|   < 
-"      |_|\_\_|___/_|\_\___/ \_/\_/ \___/ \__,_/___|_|\_\
+"      _  ___     _                        _     _    
+"     | |/ (_)___| | _____      _____   __| |___| | __
+"     | ' /| / __| |/ _ \ \ /\ / / _ \ / _` |_  / |/ /
+"     | . \| \__ \ | (_) \ V  V / (_) | (_| |/ /|   < 
+"     |_|\_\_|___/_|\___/ \_/\_/ \___/ \__,_/___|_|\_\ 
 "    
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
