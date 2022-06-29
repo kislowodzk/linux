@@ -300,7 +300,7 @@ exec_always "blueman-applet"
 exec_always imwheel
 exec_always "~/.config/i3/polybar/launch.sh"
 # exec always --no-startup-id "xwallpaper --zoom $HOME/.tapeta/tapeta_gruvbox_orange.jpg"
-exec --no-startup-id "feh --bg-scale ~/.tapeta/tapeta_gruvbox_orange.jpg"
+exec --no-startup-id "feh --bg-scale ~/.tapeta/tapeta/tapeta.jpg"
 
 
 
@@ -315,7 +315,11 @@ exec --no-startup-id "feh --bg-scale ~/.tapeta/tapeta_gruvbox_orange.jpg"
 
 # bindsym $mod+Mod1+Ctrl
 
-bindsym $mod+t exec "setxkbmap -option caps:swapescape"; exec "xset r rate 350 43"; exec "killall nm-applet"; exec "killall blueman-applet"; exec "$HOME/.config/i3/polybar/launch.sh"; exec nm-applet; exec "blueman-applet"; exec --no-startup-id "feh --bg-scale ~/.tapeta/tapeta_gruvbox_orange.jpg"
+bindsym $mod+t exec "setxkbmap -option caps:swapescape"; exec "xset r rate 350 43"; exec "killall nm-applet"; exec "killall blueman-applet"; exec "$HOME/.config/i3/polybar/launch.sh"; exec nm-applet; exec "blueman-applet"
+
+bindsym $mod+Shift+t exec --no-startup-id "feh --bg-scale ~/.tapeta/tapeta/tapeta.jpg"
+
+bindsym $mod+Ctrl+t exec --no-startup-id "~/skrypty/tapeta_rando.sh"
 
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev

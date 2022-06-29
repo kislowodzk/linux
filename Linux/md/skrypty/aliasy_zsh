@@ -27,6 +27,8 @@ alias s='ranger ~/1-STUDIA/2_Rok/Semestr_4/'
 alias ra=ranger
 alias r=ranger
 
+alias ta='feh --no-fehbg --bg-scale'
+
 alias rt='gio trash'
 
 alias caps='setxkbmap -option caps:swapescape'
