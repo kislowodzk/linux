@@ -51,6 +51,8 @@ sudo apt install mpv
 sudo apt remove figlet
 sudo apt remove toilet
 sudo apt install figlet
+# sudo apt install xwallpaper
+sudo apt install feh
 sudo apt install nemo
 
 sudo apt install pandoc

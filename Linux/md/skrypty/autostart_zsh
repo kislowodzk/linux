@@ -6,10 +6,10 @@
 #  ▀▄▀▄▀ █ ░█░ █▀█ █▄█   ▀▄▀▄▀   █░█ █ ▄█ █▄▄ █▄█ ▀▄▀▄▀ █▄█ █▄▀ █▄ █░█ █▄█
 #  "
 #  tput sgr0
-#  starfetch
+starfetch
 #   # KONIEC START
 
-~/skrypty/gif.sh
+# ~/skrypty/gif.sh
 
 #   ##| lolcat -p 1 -t
 #   

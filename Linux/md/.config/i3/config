@@ -270,11 +270,12 @@ bindsym $mod+r mode "resize"
 # client.focused          #d79921 #d79921 #ebdbb2 #d79921   #d79921
 
 # pomarańczoer
-# client.focused          #d65d0e #d65d0e #ebdbb2 #d65d0e   #d65d0e
+client.focused          #d65d0e #d65d0e #ebdbb2 #d65d0e   #d65d0e
 
 # biały
-client.focused          #ebdbb2 #ebdbb2 #ebdbb2 #ebdbb2   #ebdbb2
-client.focused_inactive #777777 #777777 #282828 #777777   #777777
+# client.focused          #ebdbb2 #ebdbb2 #ebdbb2 #ebdbb2   #ebdbb2
+client.focused_inactive          #ebdbb2 #ebdbb2 #ebdbb2 #ebdbb2   #ebdbb2
+# client.focused_inactive #777777 #777777 #282828 #777777   #777777
 client.unfocused        #333333 #222222 #888888 #292d2e   #222222
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
@@ -289,7 +290,7 @@ for_window [class="^.*"] border pixel 2
 hide_edge_borders smart
 
 # autostart
-exec_always nitrogen --restore
+# exec_always nitrogen --restore
 exec_always compton
 exec_always "setxkbmap -option caps:swapescape"
 exec_always "xset r rate 350 43"
@@ -298,6 +299,9 @@ exec_always "blueman-applet"
 # exec_always "~/.imwheelrc"
 exec_always imwheel
 exec_always "~/.config/i3/polybar/launch.sh"
+# exec always --no-startup-id "xwallpaper --zoom $HOME/.tapeta/tapeta_gruvbox_orange.jpg"
+exec --no-startup-id "feh --bg-scale ~/.tapeta/tapeta_gruvbox_orange.jpg"
+
 
 
 # # EMACS CHURCH ;---;
@@ -311,7 +315,7 @@ exec_always "~/.config/i3/polybar/launch.sh"
 
 # bindsym $mod+Mod1+Ctrl
 
-bindsym $mod+t exec "setxkbmap -option caps:swapescape"; exec "xset r rate 350 43"; exec "killall nm-applet"; exec "killall blueman-applet"; exec "$HOME/.config/i3/polybar/launch.sh"; exec nm-applet; exec "blueman-applet"
+bindsym $mod+t exec "setxkbmap -option caps:swapescape"; exec "xset r rate 350 43"; exec "killall nm-applet"; exec "killall blueman-applet"; exec "$HOME/.config/i3/polybar/launch.sh"; exec nm-applet; exec "blueman-applet"; exec --no-startup-id "feh --bg-scale ~/.tapeta/tapeta_gruvbox_orange.jpg"
 
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
