@@ -300,7 +300,7 @@ exec_always "blueman-applet"
 exec_always imwheel
 exec_always "~/.config/i3/polybar/launch.sh"
 # exec always --no-startup-id "xwallpaper --zoom $HOME/.tapeta/tapeta_gruvbox_orange.jpg"
-exec --no-startup-id "feh --bg-scale ~/.tapeta/tapeta/tapeta.jpg"
+exec_always --no-startup-id "~/skrypty/ostatnia_tapeta.sh"
 
 
 
@@ -317,7 +317,7 @@ exec --no-startup-id "feh --bg-scale ~/.tapeta/tapeta/tapeta.jpg"
 
 bindsym $mod+t exec "setxkbmap -option caps:swapescape"; exec "xset r rate 350 43"; exec "killall nm-applet"; exec "killall blueman-applet"; exec "$HOME/.config/i3/polybar/launch.sh"; exec nm-applet; exec "blueman-applet"
 
-bindsym $mod+Shift+t exec --no-startup-id "feh --bg-scale ~/.tapeta/tapeta/tapeta.jpg"
+bindsym $mod+Shift+t exec --no-startup-id "feh --bg-scale ~/.tapeta/tapeta/tapeta.jpg"; exec cp ~/skrypty/glowna_tapeta.sh ~/skrypty/ostatnia_tapeta.sh
 
 bindsym $mod+Ctrl+t exec --no-startup-id "~/skrypty/tapeta_rando.sh"
 
