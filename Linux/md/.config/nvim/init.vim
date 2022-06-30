@@ -311,12 +311,12 @@ set laststatus=2
 set statusline=
 set statusline=%1*▓▒░\ %t\ %M\ %2*%*%=%8*%7*\ %{&fileformat}\ \ %{&fileencoding?&fileencoding:&encoding}\ %5*%3*\ %{&filetype}\ %4*%*%6*\ %l/%L:\ %2v\ %1*░▒▓%*
 
-au InsertEnter * hi User1 cterm=none ctermfg=3 ctermbg=236
-au InsertLeave * hi User1 cterm=none ctermfg=166 ctermbg=236
+au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
+au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
 
 hi statusline cterm=none ctermfg=246 ctermbg=239
 
-hi User1 cterm=none ctermfg=166 ctermbg=236
+hi User1 cterm=bold ctermfg=166 ctermbg=236
 hi User2 cterm=none ctermfg=236 ctermbg=239
 hi User3 cterm=none ctermfg=246 ctermbg=237
 hi User4 cterm=none ctermfg=236 ctermbg=237
