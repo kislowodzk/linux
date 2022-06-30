@@ -309,29 +309,21 @@ set filetype=none
 
 set laststatus=2
 set statusline=
+set statusline=%1*▓▒░\ %t\ %M\ %2*%*%=%8*%7*\ %{&fileformat}\ \ %{&fileencoding?&fileencoding:&encoding}\ %5*%3*\ %{&filetype}\ %4*%*%6*\ %l/%L:\ %2v\ %1*░▒▓%*
 
-" Unicode
-set statusline=%2*░▒▓%*%1*\ %t\ %M\ %*%2*%*%=%3*%*%4*\ %{&filetype}\ %*%6*%*%5*\ %{&fileencoding?&fileencoding:&encoding}\ %*%6*%*%4*\ %{&fileformat}\ %*%6*%*%5*\ %l/%L:\ %2v\ %*%7*▓▒░%*
+au InsertEnter * hi User1 cterm=none ctermfg=3 ctermbg=236
+au InsertLeave * hi User1 cterm=none ctermfg=166 ctermbg=236
 
-" ASCII
-" set statusline=%1*\ \ %t\ %M\ %*%=\ %{&filetype}\ \|\ %{&fileencoding?&fileencoding:&encoding}\ \|\ %{&fileformat}\ %4*\ %l/%L:\ %2v\ %*
+hi statusline cterm=none ctermfg=246 ctermbg=239
 
-hi statusline cterm=bold ctermfg=15 ctermbg=237
-hi statuslineNC cterm=NONE ctermfg=8 ctermbg=235
-
-hi User1 cterm=bold ctermfg=16 ctermbg=7
-au InsertEnter * hi User1 cterm=bold ctermfg=16 ctermbg=3
-au InsertLeave * hi User1 cterm=bold ctermfg=16 ctermbg=7
-
-hi User2 cterm=bold ctermfg=7 ctermbg=237
-au InsertEnter * hi User2 cterm=bold ctermfg=3 ctermbg=237
-au InsertLeave * hi User2 cterm=bold ctermfg=7 ctermbg=237
-
-hi User3 cterm=bold ctermfg=7 ctermbg=237
-hi User4 cterm=bold ctermfg=16 ctermbg=7
-hi User5 cterm=bold ctermfg=15 ctermbg=16
-hi User6 cterm=bold ctermfg=7 ctermbg=16
-hi User7 cterm=bold ctermfg=16 ctermbg=237
+hi User1 cterm=none ctermfg=166 ctermbg=236
+hi User2 cterm=none ctermfg=236 ctermbg=239
+hi User3 cterm=none ctermfg=246 ctermbg=237
+hi User4 cterm=none ctermfg=236 ctermbg=237
+hi User5 cterm=none ctermfg=237 ctermbg=238
+hi User6 cterm=none ctermfg=246 ctermbg=236
+hi User7 cterm=none ctermfg=246 ctermbg=238
+hi User8 cterm=none ctermfg=238 ctermbg=239
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "      _  ___     _                        _     _    
