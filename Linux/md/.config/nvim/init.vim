@@ -314,15 +314,15 @@ set statusline=%1*█\ %t\ %M\ %2*%*%=%8*%7*\ %{&fileformat}\ \ %{&fileenc
 au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
 au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
 
-hi statusline cterm=none ctermfg=246 ctermbg=239
+hi statusline cterm=none ctermfg=248 ctermbg=239
 
 hi User1 cterm=bold ctermfg=166 ctermbg=236
 hi User2 cterm=none ctermfg=236 ctermbg=239
-hi User3 cterm=none ctermfg=246 ctermbg=237
+hi User3 cterm=none ctermfg=248 ctermbg=237
 hi User4 cterm=none ctermfg=236 ctermbg=237
 hi User5 cterm=none ctermfg=237 ctermbg=238
-hi User6 cterm=none ctermfg=246 ctermbg=236
-hi User7 cterm=none ctermfg=246 ctermbg=238
+hi User6 cterm=none ctermfg=248 ctermbg=236
+hi User7 cterm=none ctermfg=248 ctermbg=238
 hi User8 cterm=none ctermfg=238 ctermbg=239
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
