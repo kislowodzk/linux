@@ -309,7 +309,12 @@ set filetype=none
 
 set laststatus=2
 set statusline=
-set statusline=%1*█\ %t\ %M\ %2*%*%=%8*%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %5*%3*\ %{&filetype}\ %4*%*%6*\ %l/%L:\ %2v\ %1*%*
+
+" Uses specific characters
+" set statusline=%1*█\ %t\ %M\ %2*%*%=%8*%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %5*%3*\ %{&filetype}\ %4*%*%6*\ %l/%L:\ %2v\ %1*%*
+
+" Simple characters
+set statusline=%1*█\ %t\ %M\ %*%=%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %3*\ %{&filetype}\ %*%6*\ %l/%L:\ %2v\ %1*%*
 
 au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
 au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
