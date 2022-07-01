@@ -264,15 +264,17 @@ let g:goyo_width=82
 function! s:goyo_leave()
     hi Normal guibg=NONE ctermbg=NONE
     hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
-    hi statusline cterm=bold ctermfg=15 ctermbg=237
-    hi statuslineNC cterm=NONE ctermfg=8 ctermbg=235
-    hi User1 cterm=bold ctermfg=16 ctermbg=7
-    hi User2 cterm=bold ctermfg=7 ctermbg=237
-    hi User3 cterm=bold ctermfg=7 ctermbg=237
-    hi User4 cterm=bold ctermfg=16 ctermbg=7
-    hi User5 cterm=bold ctermfg=15 ctermbg=16
-    hi User6 cterm=bold ctermfg=7 ctermbg=16
-    hi User7 cterm=bold ctermfg=16 ctermbg=237
+    hi statusline cterm=none ctermfg=248 ctermbg=239
+    hi statuslineNC cterm=none ctermfg=248 ctermbg=236
+    hi User1 cterm=bold ctermfg=166 ctermbg=236
+    hi User2 cterm=none ctermfg=236 ctermbg=239
+    hi User3 cterm=none ctermfg=248 ctermbg=237
+    hi User4 cterm=none ctermfg=236 ctermbg=237
+    hi User5 cterm=none ctermfg=237 ctermbg=238
+    hi User6 cterm=none ctermfg=248 ctermbg=236
+    hi User7 cterm=none ctermfg=248 ctermbg=238
+    hi User8 cterm=none ctermfg=238 ctermbg=239
+    hi User9 cterm=bold ctermfg=236 ctermbg=166
 endfunction
 
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
@@ -311,15 +313,19 @@ set laststatus=2
 set statusline=
 
 " Uses specific characters
-" set statusline=%1*█\ %t\ %M\ %2*%*%=%8*%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %5*%3*\ %{&filetype}\ %4*%*%6*\ %l/%L:\ %2v\ %1*%*
+set statusline=%9*\ %*%1*\ %t\ %M\ %2*%*%=%8*%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %5*%3*\ %{&filetype}\ %4*%*%6*\ %l/%L:\ %2v\ %1*%*
 
 " Simple characters
-set statusline=%9*\ %*%1*\ %t\ %M\ %*%=%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %3*\ %{&filetype}\ %*%6*\ %l/%L:\ %2v\ %1*%*
+" set statusline=%9*\ %*%1*\ %t\ %M\ %*%=%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %3*\ %{&filetype}\ %*%6*\ %l/%L:\ %2v\ %1*%*
 
 au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
 au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
 
+au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=3
+au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=166
+
 hi statusline cterm=none ctermfg=248 ctermbg=239
+hi statuslineNC cterm=none ctermfg=248 ctermbg=236
 
 hi User1 cterm=bold ctermfg=166 ctermbg=236
 hi User2 cterm=none ctermfg=236 ctermbg=239
@@ -329,10 +335,7 @@ hi User5 cterm=none ctermfg=237 ctermbg=238
 hi User6 cterm=none ctermfg=248 ctermbg=236
 hi User7 cterm=none ctermfg=248 ctermbg=238
 hi User8 cterm=none ctermfg=238 ctermbg=239
-
 hi User9 cterm=bold ctermfg=236 ctermbg=166
-au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=3
-au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=166
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "      _  ___     _                        _     _    
