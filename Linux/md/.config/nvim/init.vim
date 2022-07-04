@@ -287,6 +287,7 @@ autocmd! User GoyoLeave nested call <SID>goyo_leave()
 set cursorline
 
 " Coursor shape -- this matters only in vim, not in neovim
+" let &t_SI = "\e[6 q"
 " let &t_EI = "\e[2 q"
 
 " Make coursor shape change immidiate (in neovim default value for ttimeoutlen
