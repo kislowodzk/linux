@@ -283,12 +283,14 @@ autocmd! User GoyoLeave nested call <SID>goyo_leave()
 " => APPEARANCE
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" Coursor appearance -- depends on mode
+" Coursor line lighlight
 set cursorline
-let &t_SI = "\e[6 q"
-let &t_EI = "\e[2 q"
 
-" Make coursor shape change immidiate
+" Coursor shape -- this matters only in vim, not in neovim
+" let &t_EI = "\e[2 q"
+
+" Make coursor shape change immidiate (in neovim default value for ttimeoutlen
+" is 50
 set timeoutlen=1000
 set ttimeoutlen=1
 
@@ -312,7 +314,7 @@ set filetype=none
 set laststatus=2
 set statusline=
 
-" Uses specific characters
+" Uses specific utf-8 characters
 set statusline=%9*\ %*%1*\ %t\ %M\ %2*%*%=%8*%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %5*%3*\ %{&filetype}\ %4*%*%6*\ %l/%L:\ %2v\ %1*%*
 
 " Simple characters
