@@ -108,15 +108,15 @@ scrolling:
 
 
 font:
-  size: 11.0
+  size: 10.0
   # size: 12.0
   normal:
-    family: Ubuntu Mono Nerd Font
+    family: Fira Code
     style: Regular
   bold:
-    family: Ubuntu Mono Nerd Font
+    family: Fira Code 
   italic:
-    family: Ubuntu Mono Nerd Font
+    family: Fira Code
 
 
 # font:
