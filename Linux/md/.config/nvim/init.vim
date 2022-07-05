@@ -147,9 +147,6 @@ inoremap # #<c-g>u
 " Escape
 inoremap <C-Space> <Esc>:w<cr>
 
-" New line with - <space>
-inoremap <C-j> <CR>- 
-
 " Bold and italic in markdown
 inoremap <C-b> **
 
