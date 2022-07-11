@@ -150,6 +150,9 @@ inoremap <C-Space> <Esc>:w<cr>
 " Bold and italic in markdown
 inoremap <C-b> **
 
+" ctrl-j in insert mode starts a new line with - and space
+inoremap <C-j> <CR>- 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "    => cnoremaps
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
