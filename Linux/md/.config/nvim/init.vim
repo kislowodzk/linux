@@ -18,10 +18,14 @@ call plug#begin()
     "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
     " :PlugInstall
     " :PlugClean
-    Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
+    
+    " Colorschemes:
     Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
     Plug 'tanvirtin/monokai.nvim'   " Colorscheme monokai
     Plug 'rmehri01/onenord.nvim'    " Colorscheme onenord
+
+    " Other_plugins:
+    Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
     Plug 'preservim/nerdtree'       " Nerdtree, leader + q
                                         " t -- open in new tab
                                         " T -- open in new tab silently
