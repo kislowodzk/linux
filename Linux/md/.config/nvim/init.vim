@@ -23,6 +23,7 @@ call plug#begin()
     Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
     Plug 'tanvirtin/monokai.nvim'   " Colorscheme monokai
     Plug 'rmehri01/onenord.nvim'    " Colorscheme onenord
+    Plug 'folke/tokyonight.nvim'    " Colorscheme tokyonight
 
     " Other_plugins:
     Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
