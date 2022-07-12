@@ -124,6 +124,10 @@ sudo reboot
 
 Instalacja Fira Code, żeby polybar działał
 
+# wizualizacja dźwięku
+wave vel cava https://github.com/karlstav/cava#configuration
+
+
 # POP_SHOP
 Simplenote
 Github Desktop
