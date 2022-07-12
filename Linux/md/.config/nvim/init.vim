@@ -20,6 +20,8 @@ call plug#begin()
     " :PlugClean
     Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
     Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
+    Plug 'tanvirtin/monokai.nvim'   " Colorscheme monokai
+    Plug 'rmehri01/onenord.nvim'    " Colorscheme onenord
     Plug 'preservim/nerdtree'       " Nerdtree, leader + q
                                         " t -- open in new tab
                                         " T -- open in new tab silently
