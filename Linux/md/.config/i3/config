@@ -389,7 +389,8 @@ bindsym $mod+s exec kitty -e nvim
 #                        split v
 #
 
-bindsym $mod+a exec --no-startup-id "~/skrypty/autotile.py"
+# bindsym $mod+a exec --no-startup-id "~/skrypty/autotile.py"
+bindsym $mod+a exec --no-startup-id "~/skrypty/eDEX-UI-Linux-x86_64.AppImage"
 
 # przenoszenie workspace'ów między monitorami
 bindsym $mod+m move workspace to output right

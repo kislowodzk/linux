@@ -551,3 +551,4 @@ alias b9='xrandr --output LVDS-1 --brightness 0.9'
 alias b0='xrandr --output LVDS-1 --brightness 1.0'
 alias bb='xrandr --output LVDS-1 --brightness 1.0'
 
+
