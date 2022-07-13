@@ -26,8 +26,8 @@ format-padding =
 format-margin =
 format-offset =
 
-include-file = ~/.config/i3/polybar/themes/gruvbox.ini
-include-file = ~/.config/i3/polybar/themes/modules/modules_gruv.ini
+include-file = ~/.config/i3/polybar/themes/nord.ini
+include-file = ~/.config/i3/polybar/themes/modules/modules_nord.ini
 
 
 ############                         MAINBAR-I3                     ############

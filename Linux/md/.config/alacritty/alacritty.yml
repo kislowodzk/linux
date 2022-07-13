@@ -41,7 +41,7 @@ window:
 
   # Spread additional padding evenly around the terminal content.
 #  dynamic_padding: false
-  opacity: 1.00
+  opacity: 0.87
   # Window decorations
   #
   # Values for `decorations`:
@@ -616,7 +616,7 @@ schemes:
 # *SolarizedDark
 # *TomorrowNight
 
-colors: *GruvboxDark
+colors: *Nord
 
 #######################################
 ##       END OF COLOR SCHEMES        ##
