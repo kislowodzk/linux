@@ -191,6 +191,7 @@ bindsym Mod1+9 workspace number $ws19
 bindsym Mod1+0 workspace number $ws20
 
 bindsym $mod+z workspace number $ws21
+bindsym $mod+Shift+z move container to workspace number $ws21
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1

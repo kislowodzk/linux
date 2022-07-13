@@ -1,9 +1,9 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"               _       _ _         _           
-"              (_)_ __ (_) |___   _(_)_ __ ___  
-"              | | '_ \| | __\ \ / / | '_ ` _ \ 
-"              | | | | | | |_ \ V /| | | | | | |
-"              |_|_| |_|_|\__(_)_/ |_|_| |_| |_|
+"              ___       _ _         _           
+"             |_ _|_ __ (_) |___   _(_)_ __ ___  
+"              | || '_ \| | __\ \ / / | '_ ` _ \ 
+"              | || | | | | |_ \ V /| | | | | | |
+"             |___|_| |_|_|\__(_)_/ |_|_| |_| |_|
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -19,11 +19,14 @@ call plug#begin()
     " :PlugInstall
     " :PlugClean
     
-    " Colorschemes:
-    Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
-    Plug 'tanvirtin/monokai.nvim'   " Colorscheme monokai
-    Plug 'rmehri01/onenord.nvim'    " Colorscheme onenord
-    Plug 'folke/tokyonight.nvim'    " Colorscheme tokyonight
+    " Colorschemes, not every one is working great with gruvbox themed kitty
+    Plug 'embark-theme/vim'             " Colorscheme embark
+    Plug 'morhetz/gruvbox'              " Colorscheme gruvbox <3
+    Plug 'tanvirtin/monokai.nvim'       " Colorscheme monokai -- monokai_pro <3
+    Plug 'haishanh/night-owl.vim'       " Colorscheme night-owl <3
+    Plug 'rmehri01/onenord.nvim'        " Colorscheme onenord <3
+    Plug 'NLKNguyen/papercolor-theme'   " Colorscheme papercolor
+    Plug 'folke/tokyonight.nvim'        " Colorscheme tokyonight
 
     " Other_plugins:
     Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
