@@ -36,3 +36,4 @@ xset s noblank
 xset r rate 350 43
 export VISUAL=nvim
 export EDITOR=nvim
+export TERM_ITALICS=true
