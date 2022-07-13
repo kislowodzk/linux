@@ -154,7 +154,7 @@ inoremap ; ;<c-g>u
 inoremap : :<c-g>u
 inoremap # #<c-g>u
 
-" Escape
+" Escape and save
 inoremap <C-Space> <Esc>:w<cr>
 
 " Bold and italic in markdown
@@ -162,6 +162,9 @@ inoremap <C-b> **
 
 " ctrl-j in insert mode starts a new line with - and space
 inoremap <C-j> <CR>- 
+
+" ctrl-z in insert mode moves coursor line to the middle of the screen
+inoremap <C-s> <C-o>zz
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "    => cnoremaps
@@ -328,11 +331,14 @@ set filetype=none
 set laststatus=2
 set statusline=
 
-" Uses specific utf-8 characters
+" Slanted transitions
 " set statusline=%9*\ %*%1*\ %t\ %M\ %2*%*%=%8*%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %5*%3*\ %{&filetype}\ %4*%*%6*\ %l/%L:\ %2v\ %1*%*
 
-" Simple characters
-set statusline=%9*\ %*%1*\ %t\ %M\ %*%=%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %3*\ %{&filetype}\ %*%6*\ %l/%L:\ %2v\ %1*%*
+" Blurred transition of the left panel
+set statusline=%9*\ %*%1*\ %t\ %M\ %2*▓▒░%*%=%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %3*\ %{&filetype}\ %*%6*\ %l/%L:\ %2v\ %1*%*
+
+" No special characters
+" set statusline=%9*\ %*%1*\ %t\ %M\ %*%=%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %3*\ %{&filetype}\ %*%6*\ %l/%L:\ %2v\ %1*%*
 
 au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
 au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236

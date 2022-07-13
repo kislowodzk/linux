@@ -1,7 +1,7 @@
-source $HOME/.config/nvim/general_settings.vim
-source $HOME/.config/nvim/leader_general.vim
-source $HOME/.config/nvim/leader_no_plugins.vim
-source $HOME/.config/nvim/dracula.vim
+source $HOME/.config/nvim/modular_build/general_settings.vim
+source $HOME/.config/nvim/modular_build/leader_general.vim
+source $HOME/.config/nvim/modular_build/leader_no_plugins.vim
+source $HOME/.config/nvim/colorschemes/dracula.vim
 
 set cursorline
 
