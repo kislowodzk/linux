@@ -279,7 +279,7 @@ function! s:goyo_leave()
     hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
     hi statusline cterm=none ctermfg=248 ctermbg=239
     hi statuslineNC cterm=none ctermfg=248 ctermbg=236
-    hi User1 cterm=bold ctermfg=166 ctermbg=236
+    hi User1 cterm=bold ctermfg=4 ctermbg=236
     hi User2 cterm=none ctermfg=236 ctermbg=239
     hi User3 cterm=none ctermfg=248 ctermbg=237
     hi User4 cterm=none ctermfg=236 ctermbg=237
@@ -287,7 +287,7 @@ function! s:goyo_leave()
     hi User6 cterm=none ctermfg=248 ctermbg=236
     hi User7 cterm=none ctermfg=248 ctermbg=238
     hi User8 cterm=none ctermfg=238 ctermbg=239
-    hi User9 cterm=bold ctermfg=236 ctermbg=166
+    hi User9 cterm=bold ctermfg=236 ctermbg=4
 endfunction
 
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
@@ -335,15 +335,15 @@ set statusline=
 set statusline=%9*\ %*%1*\ %t\ %M\ %*%=%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %3*\ %{&filetype}\ %*%6*\ %l/%L:\ %2v\ %1*%*
 
 au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
-au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
+au InsertLeave * hi User1 cterm=bold ctermfg=4 ctermbg=236
 
 au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=3
-au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=166
+au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=4
 
 hi statusline cterm=none ctermfg=248 ctermbg=239
 hi statuslineNC cterm=none ctermfg=248 ctermbg=236
 
-hi User1 cterm=bold ctermfg=166 ctermbg=236
+hi User1 cterm=bold ctermfg=4 ctermbg=236
 hi User2 cterm=none ctermfg=236 ctermbg=239
 hi User3 cterm=none ctermfg=248 ctermbg=237
 hi User4 cterm=none ctermfg=236 ctermbg=237
@@ -351,7 +351,7 @@ hi User5 cterm=none ctermfg=237 ctermbg=238
 hi User6 cterm=none ctermfg=248 ctermbg=236
 hi User7 cterm=none ctermfg=248 ctermbg=238
 hi User8 cterm=none ctermfg=238 ctermbg=239
-hi User9 cterm=bold ctermfg=236 ctermbg=166
+hi User9 cterm=bold ctermfg=236 ctermbg=4
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "      _  ___     _                        _     _    
