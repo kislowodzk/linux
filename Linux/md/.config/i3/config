@@ -49,10 +49,10 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return split h; exec kitty
-bindsym $mod+Ctrl+Return split v; exec kitty
-bindsym $mod+Mod1+Return split v; exec kitty
-bindsym Mod1+Return exec kitty
+bindsym $mod+Return split h; exec alacritty
+bindsym $mod+Ctrl+Return split v; exec alacritty
+bindsym $mod+Mod1+Return split v; exec alacritty
+bindsym Mod1+Return exec alacritty
 # bindsym $mod+v split h
 # bindsym $mod+g split v
 
@@ -381,8 +381,8 @@ bindsym $mod+x exec --no-startup-id nemo
 # bindsym $mod+d exec alacritty -e vifm
 # bindsym $mod+s exec alacritty -e nvim
 # bindsym $mod+d exec kitty -e vifm
-bindsym $mod+d exec kitty -e ranger
-bindsym $mod+s exec kitty -e nvim
+bindsym $mod+d exec alacritty -e ranger
+bindsym $mod+s exec alacritty -e nvim
 
 # start main stack
 # bindsym $mod+a   layout splitv;\
