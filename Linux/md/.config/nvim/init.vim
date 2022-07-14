@@ -29,6 +29,7 @@ call plug#begin()
     Plug 'folke/tokyonight.nvim'        " Colorscheme tokyonight
 
     " Other_plugins:
+    Plug 'mhinz/vim-startify'       " Welcome screen
     Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
     Plug 'preservim/nerdtree'       " Nerdtree, leader + q
                                         " t -- open in new tab
