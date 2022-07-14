@@ -277,7 +277,6 @@ nnoremap <silent> <leader>g :Goyo<CR>
 
 let g:goyo_width=82
 
-" Goyo Settings
 function! s:goyo_leave()
     hi Normal guibg=NONE ctermbg=NONE
     hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
@@ -295,6 +294,26 @@ function! s:goyo_leave()
 endfunction
 
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => STARFIFY IMAGE
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:startify_custom_header = [
+            \ '   __        ___ _         _                             ',
+            \ '   \ \      / (_) |_ __ _ (_) __      __                 ',
+            \ '    \ \ /\ / /| | __/ _` || | \ \ /\ / /                 ',
+            \ '     \ V  V / | | || (_| || |  \ V  V /                  ',
+            \ '      \_/\_/  |_|\__\__,_|/ |   \_/\_/                   ',
+            \ '                        |__/                             ',
+            \ '    _  ___     _                        _     _          ',
+            \ '   | |/ (_)___| | _____      _____   __| |___| | ___   _ ',
+            \ '   | ` /| / __| |/ _ \ \ /\ / / _ \ / _` |_  / |/ / | | |',
+            \ '   | ` \| \__ \ | (_) \ V  V / (_) | (_| |/ /|   <| |_| |',
+            \ '   |_|\_\_|___/_|\___/ \_/\_/ \___/ \__,_/___|_|\_\\__,_|',
+            \ ]
+
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => APPEARANCE
