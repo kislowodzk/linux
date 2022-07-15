@@ -8,6 +8,7 @@ alias la='exa -a --icons --color=always --group-directories-first'
 
 alias :w='figlet -t "Witaj w Kislowodzku"'
 alias :W='figlet -t "Witaj w Kislowodzku"'
+alias q=exit
 alias wq=exit
 alias :wq=exit
 alias :Wq=exit
