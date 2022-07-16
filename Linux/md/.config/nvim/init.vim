@@ -63,6 +63,7 @@ set showmatch
 set hlsearch
 
 set path+=**
+
 " It works automatically in nvim
 " Display all matching files when we tab complete
 " set wildmenu
