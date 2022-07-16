@@ -73,8 +73,8 @@ set softtabstop=4
 set shiftwidth=4
 set tabstop=4
 
-setlocal wrap
-setlocal linebreak
+set wrap
+set linebreak
 set tw=80
 set display+=lastline
 set backspace=indent,eol,start
