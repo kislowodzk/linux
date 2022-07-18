@@ -552,3 +552,7 @@ alias b0='xrandr --output LVDS-1 --brightness 1.0'
 alias bb='xrandr --output LVDS-1 --brightness 1.0'
 
 
+GREEN="\e[1;92m"
+CYAN="\e[1;36m"
+NC='\033[0m'
+export PS1="${CYAN}[\W]${GREEN} ❱❱❱${NC} "

@@ -3,9 +3,11 @@
 #
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
-#
 
 exec kitty --class=scratch-terminal
+exec --no-startup-id "~/skrypty/drugi_monitor_i3.sh"
+exec --no-startup-id "killall compton"
+exec --no-startup-id restart
 bindsym $mod+Shift+e exec "kitty --class=scratch-terminal"
 for_window [class="scratch-terminal"] move to scratchpad
 for_window [class="scratch-terminal"] resize set 1000 750
@@ -334,16 +336,16 @@ bindsym $mod+Mod1+l workspace next
 bindsym $mod+Mod1+h workspace prev
 
 # # Poniższe tylko dla i3-gaps
-# # Set inner/outer gaps
-# gaps inner 10
-# gaps outer -4
+# Set inner/outer gaps
+gaps inner 10
+gaps outer -4
 
-# # Smart gaps (gaps used if only more than one container on the workspace)
-# smart_gaps on
+# Smart gaps (gaps used if only more than one container on the workspace)
+smart_gaps on
 
-# # Smart borders (draw borders around container only if it is not the only container on this workspace) 
-# # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-# smart_borders on
+# Smart borders (draw borders around container only if it is not the only container on this workspace) 
+# on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
+smart_borders on
 
 
 # Bindy

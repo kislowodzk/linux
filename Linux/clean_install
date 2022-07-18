@@ -69,6 +69,10 @@ pip3 install i3ipc
 
 # TERMINAL, ALE INACZEJ
 
+
+# i3 gaps
+https://lottalinuxlinks.com/how-to-build-and-install-i3-gaps-on-debian/
+
 cd
 cd .icons
 git clone https://github.com/alvatip/Nordzy-icon

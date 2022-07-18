@@ -1,4 +1,3 @@
-
 source ~/skrypty/autostart_zsh
 
 # Personal Zsh configuration file. It is strongly recommended to keep all
