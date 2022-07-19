@@ -159,13 +159,17 @@ inoremap # #<c-g>u
 " Escape and save
 inoremap <C-Space> <Esc>:w<cr>
 
-" Bold and italic in markdown
-inoremap <C-b> **
+" ctrl-l gives two asterisks (for bold in markdown)
+inoremap <C-l> **
+
+" Emacs-like movement in insert mode
+inoremap <C-b> <Left>
+inoremap <C-f> <Right>
 
 " ctrl-j in insert mode starts a new line with - and space
 inoremap <C-j> <CR>- 
 
-" ctrl-z in insert mode moves coursor line to the middle of the screen
+" ctrl-s in insert mode moves coursor line to the middle of the screen
 inoremap <C-s> <C-o>zz
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
