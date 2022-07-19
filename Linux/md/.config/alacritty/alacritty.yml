@@ -41,7 +41,7 @@ window:
 
   # Spread additional padding evenly around the terminal content.
 #  dynamic_padding: false
-  opacity: 0.81
+  opacity: 0.90
   # Window decorations
   #
   # Values for `decorations`:
@@ -108,7 +108,7 @@ scrolling:
 
 
 font:
-  size: 10.0
+  size: 11.0
   normal:
     family: Fira Code
     style: Regular
