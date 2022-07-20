@@ -19,7 +19,7 @@ call plug#begin()
     " :PlugInstall
     " :PlugClean
     
-    " Colorschemes, not every one is working great with gruvbox themed kitty
+    " Colorschemes
     Plug 'embark-theme/vim'             " Colorscheme embark
     Plug 'sainnhe/everforest'           " Colorscheme everforest
     Plug 'morhetz/gruvbox'              " Colorscheme gruvbox <3
