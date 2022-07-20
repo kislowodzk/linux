@@ -21,6 +21,7 @@ call plug#begin()
     
     " Colorschemes, not every one is working great with gruvbox themed kitty
     Plug 'embark-theme/vim'             " Colorscheme embark
+    Plug 'sainnhe/everforest'           " Colorscheme everforest
     Plug 'morhetz/gruvbox'              " Colorscheme gruvbox <3
     Plug 'tanvirtin/monokai.nvim'       " Colorscheme monokai -- monokai_pro <3
     Plug 'haishanh/night-owl.vim'       " Colorscheme night-owl <3
