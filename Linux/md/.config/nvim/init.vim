@@ -21,7 +21,7 @@ call plug#begin()
     
     " Colorschemes
     Plug 'embark-theme/vim'             " Colorscheme embark
-    Plug 'sainnhe/everforest'           " Colorscheme everforest
+    Plug 'sainnhe/everforest'           " Colorscheme everforest <3 (also works with my statusline)
     Plug 'morhetz/gruvbox'              " Colorscheme gruvbox <3
     Plug 'tanvirtin/monokai.nvim'       " Colorscheme monokai -- monokai_pro <3
     Plug 'haishanh/night-owl.vim'       " Colorscheme night-owl <3
@@ -161,11 +161,7 @@ inoremap # #<c-g>u
 inoremap <C-Space> <Esc>:w<cr>
 
 " ctrl-l gives two asterisks (for bold in markdown)
-inoremap <C-l> **
-
-" Emacs-like movement in insert mode
-inoremap <C-b> <Left>
-inoremap <C-f> <Right>
+inoremap <C-b> **
 
 " ctrl-j in insert mode starts a new line with - and space
 inoremap <C-j> <CR>- 

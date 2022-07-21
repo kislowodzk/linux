@@ -108,7 +108,7 @@ scrolling:
 
 
 font:
-  size: 11.0
+  size: 10.0
   normal:
     family: Fira Code
     style: Regular
