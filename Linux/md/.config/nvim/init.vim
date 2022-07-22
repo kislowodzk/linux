@@ -339,7 +339,7 @@ set shortmess+=I
 colorscheme gruvbox
 
 " Make background transparent
-hi Normal guibg=NONE ctermbg=NONE
+" hi Normal guibg=NONE ctermbg=NONE
 " Only number of the line is highlighted
 hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 
