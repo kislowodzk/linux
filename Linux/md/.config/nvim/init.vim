@@ -280,7 +280,7 @@ nnoremap <silent> <leader>g :Goyo<CR>
 let g:goyo_width=82
 
 function! s:goyo_leave()
-    " hi Normal guibg=NONE ctermbg=NONE
+    hi Normal guibg=NONE ctermbg=NONE
     hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
     hi statusline cterm=none ctermfg=248 ctermbg=239
     hi statuslineNC cterm=none ctermfg=248 ctermbg=236
@@ -339,7 +339,7 @@ set shortmess+=I
 colorscheme gruvbox
 
 " Make background transparent
-" hi Normal guibg=NONE ctermbg=NONE
+hi Normal guibg=NONE ctermbg=NONE
 " Only number of the line is highlighted
 hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 
