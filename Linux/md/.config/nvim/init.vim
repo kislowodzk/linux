@@ -83,8 +83,8 @@ set clipboard^=unnamed,unnamedplus
 set smartindent
 
 " For .txt and .md i need autoindent (smartindent caused problems) and different format options
-autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent spell spelllang=pl_pl,en_us
-autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent spell spelllang=pl_pl,en_us
+autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent
 
 " Complete by ctrl-x + ctrl-... in insert mode
 set omnifunc=syntaxcomplete#Complete
