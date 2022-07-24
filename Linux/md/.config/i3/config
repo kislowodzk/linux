@@ -348,7 +348,7 @@ smart_borders on
 
 # Bindy
 bindsym $mod+b exec brave-browser
-bindsym $mod+Shift+b exec firefox
+bindsym $mod+Shift+b exec qutebrowser
 bindsym Mod1+b exec brave-browser
 bindsym $mod+Shift+s exec "flameshot gui"
 
