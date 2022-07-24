@@ -20,14 +20,11 @@ call plug#begin()
     " :PlugClean
     
     " Colorschemes
-    Plug 'embark-theme/vim'             " Colorscheme embark
-    Plug 'sainnhe/everforest'           " Colorscheme everforest <3 (also works with my statusline)
-    Plug 'morhetz/gruvbox'              " Colorscheme gruvbox <3
-    Plug 'tanvirtin/monokai.nvim'       " Colorscheme monokai -- monokai_pro <3
-    Plug 'haishanh/night-owl.vim'       " Colorscheme night-owl <3
-    Plug 'rmehri01/onenord.nvim'        " Colorscheme onenord <3
-    Plug 'NLKNguyen/papercolor-theme'   " Colorscheme papercolor
-    Plug 'folke/tokyonight.nvim'        " Colorscheme tokyonight
+    Plug 'sainnhe/everforest'           " Colorscheme everforest
+    Plug 'morhetz/gruvbox'              " Colorscheme gruvbox
+    Plug 'tanvirtin/monokai.nvim'       " Colorscheme monokai -- monokai_pro
+    Plug 'haishanh/night-owl.vim'       " Colorscheme night-owl
+    Plug 'rmehri01/onenord.nvim'        " Colorscheme onenord
 
     " Other_plugins:
     Plug 'mhinz/vim-startify'       " Welcome screen
