@@ -1,0 +1,7 @@
+-       go up a dir
+%       create new file
+d       create new directory
+D       delete file
+R       rename file
+cd      change path to current directory
+P       previev plik in a split
