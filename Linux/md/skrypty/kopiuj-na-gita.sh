@@ -6,6 +6,7 @@ cp ~/.bashrc ~/Dokumenty/linux/Linux/md/
 cp ~/.config/kitty/kitty.conf ~/Dokumenty/linux/Linux/md/.config/kitty/
 cp ~/.config/alacritty/alacritty.yml ~/Dokumenty/linux/Linux/md/.config/alacritty/
 cp -r ~/.config/nvim/ ~/Dokumenty/linux/Linux/md/.config/
+cp -r ~/.config/qutebrowser/ ~/Dokumenty/linux/Linux/md/.config/
 cp -r ~/.config/cava/ ~/Dokumenty/linux/Linux/md/.config/
 cp ~/.config/ranger/rc.conf ~/Dokumenty/linux/Linux/md/.config/ranger
 cp ~/.zshrc ~/Dokumenty/linux/Linux/md/
