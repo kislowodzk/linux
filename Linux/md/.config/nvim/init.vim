@@ -32,13 +32,6 @@ call plug#begin()
     " Other_plugins:
     Plug 'mhinz/vim-startify'       " Welcome screen
     Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
-    Plug 'preservim/nerdtree'       " Nerdtree, leader + q
-                                        " t -- open in new tab
-                                        " T -- open in new tab silently
-                                        " i -- open split down
-                                        " s -- open split right
-                                        " I -- hidden files on/off
-                                        " u -- up a dir
     Plug 'preservim/tagbar'         " Tagbar, leader + c (table of contents)
                                     " I need to have ctag installed, eg.:
                                         " sudo apt install universal-ctags
@@ -200,6 +193,10 @@ noremap <silent> <C-Right> :vertical resize -3<CR>
 noremap <silent> <C-Up> :resize +1<CR>
 noremap <silent> <C-Down> :resize -1<CR>
 
+" File explorer (netrw)
+nnoremap <silent> <leader>e :Ex<CR>
+nnoremap <silent> <leader>q :Vex<CR>
+
 " File search
 nnoremap <leader>f :find **
 
@@ -264,14 +261,19 @@ nnoremap <silent> <leader>m5 ?^##### <cr>
 "    => plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" NerdTree
-nnoremap <silent> <leader>q :NERDTree<CR>
-
 " Tagbar / table of contents
 nnoremap <silent> <leader>c :Tagbar<CR>
 
 " Goyo -- focus mode
 nnoremap <silent> <leader>g :Goyo<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => NETRW
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:netrw_liststyle = 0
+let g:netrw_banner = 0
+let g:netrw_winsize = 25
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GOYO
