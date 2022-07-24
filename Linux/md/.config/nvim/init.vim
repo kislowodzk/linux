@@ -338,6 +338,9 @@ set ttimeoutlen=1
 " No welcome message
 set shortmess+=I
 
+" Allow italic in the terminal
+let g:gruvbox_italic = '1'
+
 colorscheme gruvbox
 
 " Make background transparent
