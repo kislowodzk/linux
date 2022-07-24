@@ -85,8 +85,6 @@ set clipboard^=unnamed,unnamedplus
 
 set smartindent
 
-" set mouse=a
-
 " For .txt and .md i need autoindent (smartindent caused problems) and different format options
 autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent 
