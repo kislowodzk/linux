@@ -34,6 +34,8 @@ settings:
     global: both
   content.cookies.accept:
     global: no-3rdparty
+  content.geolocation:
+    https://www.olx.pl: false
   content.notifications.enabled:
     https://www.youtube.com: false
   scrolling.smooth:
