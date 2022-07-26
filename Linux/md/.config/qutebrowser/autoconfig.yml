@@ -37,6 +37,8 @@ settings:
   content.geolocation:
     https://www.olx.pl: false
   content.notifications.enabled:
+    https://www.filmweb.pl: false
+    https://www.netflix.com: false
     https://www.youtube.com: false
   scrolling.smooth:
     global: false
