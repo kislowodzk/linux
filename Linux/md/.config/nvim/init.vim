@@ -70,7 +70,7 @@ set linebreak
 set tw=80
 set display+=lastline
 set backspace=indent,eol,start
-set scrolloff=12
+set scrolloff=15
 
 " Don't add double space after dot at the end of the line
 set nojoinspaces
