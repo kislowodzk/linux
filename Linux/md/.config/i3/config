@@ -372,7 +372,8 @@ bindsym Mod1+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -s
 # bindsym $mod+Ctrl+Return exec --no-startup-id "flatpak list | awk -F'\t' '{ print $2 }' | rofi -show -dmenu | xargs flatpak run"
 # bindsym $mod+Ctrl+Return exec --no-startup-id "rofi -show run"
 bindsym $mod+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 'element-icon { size: 2.0em;}'"
-bindsym Mod1+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 'element-icon { size: 2.0em;}'"
+# alt tab zmienia focus na okno po prawej
+bindsym Mod1+Tab focus right
 
 bindsym $mod+c exec --no-startup-id "rofi -show emoji -modi emoji"
 

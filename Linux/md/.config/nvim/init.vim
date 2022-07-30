@@ -330,6 +330,8 @@ set cursorline
 set timeoutlen=1000
 set ttimeoutlen=1
 
+set guicursor=i:block
+
 " No welcome message
 set shortmess+=I
 
