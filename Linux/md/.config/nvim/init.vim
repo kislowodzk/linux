@@ -148,7 +148,7 @@ inoremap # #<c-g>u
 " Escape and save
 inoremap <C-Space> <Esc>:w<cr>
 
-" ctrl-l gives two asterisks (for bold in markdown)
+" ctrl-b gives two asterisks (for bold in markdown)
 inoremap <C-b> **
 
 " ctrl-j in insert mode starts a new line with - and space
