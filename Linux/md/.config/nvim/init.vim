@@ -52,10 +52,6 @@ set hlsearch
 
 set path+=**
 
-" It works automatically in nvim
-" Display all matching files when we tab complete
-" set wildmenu
-
 " Spaces instead of tabs
 set expandtab
 set softtabstop=4
@@ -298,12 +294,7 @@ autocmd! User GoyoLeave nested call <SID>goyo_leave()
 " Coursor line lighlight
 set cursorline
 
-" Coursor shape -- this matters only in vim, not in neovim
-" let &t_SI = "\e[6 q"
-" let &t_EI = "\e[2 q"
-
-" Make coursor shape change immidiate (in neovim default value for ttimeoutlen
-" is 50
+" Make coursor change immidiate (in neovim default ttimeoutlen value is 50)
 set timeoutlen=1000
 set ttimeoutlen=1
 
@@ -324,7 +315,7 @@ hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 " => STATUSLINE
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" If there is filetype, vim will overwrite this -- just for nice statusline
+" Just for nice statusline
 set filetype=none
 
 set laststatus=2
