@@ -20,14 +20,11 @@ call plug#begin()
     " :PlugClean
     
     " Colorschemes
-    Plug 'sainnhe/everforest'           " Colorscheme everforest
     Plug 'morhetz/gruvbox'              " Colorscheme gruvbox
     Plug 'tanvirtin/monokai.nvim'       " Colorscheme monokai -- monokai_pro
-    Plug 'haishanh/night-owl.vim'       " Colorscheme night-owl
     Plug 'rmehri01/onenord.nvim'        " Colorscheme onenord
 
     " Other_plugins:
-    Plug 'mhinz/vim-startify'       " Welcome screen
     Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
     Plug 'preservim/tagbar'         " Tagbar, leader + c (table of contents)
                                     " I need to have ctag installed, eg.:
@@ -293,26 +290,6 @@ function! s:goyo_leave()
 endfunction
 
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => STARFIFY IMAGE
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-let g:startify_custom_header = [
-            \ '   __        ___ _         _                             ',
-            \ '   \ \      / (_) |_ __ _ (_) __      __                 ',
-            \ '    \ \ /\ / /| | __/ _` || | \ \ /\ / /                 ',
-            \ '     \ V  V / | | || (_| || |  \ V  V /                  ',
-            \ '      \_/\_/  |_|\__\__,_|/ |   \_/\_/                   ',
-            \ '                        |__/                             ',
-            \ '    _  ___     _                        _     _          ',
-            \ '   | |/ (_)___| | _____      _____   __| |___| | ___   _ ',
-            \ '   | ` /| / __| |/ _ \ \ /\ / / _ \ / _` |_  / |/ / | | |',
-            \ '   | ` \| \__ \ | (_) \ V  V / (_) | (_| |/ /|   <| |_| |',
-            \ '   |_|\_\_|___/_|\___/ \_/\_/ \___/ \__,_/___|_|\_\\__,_|',
-            \ ]
-
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => APPEARANCE
