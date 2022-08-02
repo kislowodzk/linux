@@ -20,16 +20,18 @@ call plug#begin()
     " :PlugClean
     
     " Colorschemes
-    Plug 'morhetz/gruvbox'              " Colorscheme gruvbox
-    Plug 'tanvirtin/monokai.nvim'       " Colorscheme monokai -- monokai_pro
-    Plug 'rmehri01/onenord.nvim'        " Colorscheme onenord
+    Plug 'morhetz/gruvbox'                  " Colorscheme gruvbox
+    Plug 'tanvirtin/monokai.nvim'           " Colorscheme monokai -- monokai_pro
+    Plug 'rmehri01/onenord.nvim'            " Colorscheme onenord
+    Plug 'rafi/awesome-vim-colorschemes'    " Retro colorschemes
 
     " Other_plugins:
     Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
+    Plug 'ap/vim-css-color'         " CSS color preview
+    Plug 'tpope/vim-commentary'     " gcc or gc
     Plug 'preservim/tagbar'         " Tagbar, leader + c (table of contents)
                                     " I need to have ctag installed, eg.:
                                         " sudo apt install universal-ctags
-    Plug 'tpope/vim-commentary'     " gcc or gc
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

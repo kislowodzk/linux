@@ -338,7 +338,7 @@ bindsym $mod+Mod1+h workspace prev
 gaps inner 10
 gaps outer -4
 
-# Smart gaps (gaps used if only more than one container on the workspace)
+# # Smart gaps (gaps used if only more than one container on the workspace)
 smart_gaps on
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace) 
