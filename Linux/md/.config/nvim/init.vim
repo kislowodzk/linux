@@ -19,11 +19,8 @@ call plug#begin()
     " :PlugInstall
     " :PlugClean
     
-    " Colorschemes
-    Plug 'morhetz/gruvbox'                  " Colorscheme gruvbox
-    Plug 'tanvirtin/monokai.nvim'           " Colorscheme monokai -- monokai_pro
-    Plug 'rmehri01/onenord.nvim'            " Colorscheme onenord
-    Plug 'rafi/awesome-vim-colorschemes'    " Retro colorschemes
+    " Colorschemes:
+    Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
 
     " Other_plugins:
     Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
@@ -31,7 +28,7 @@ call plug#begin()
     Plug 'tpope/vim-commentary'     " gcc or gc
     Plug 'preservim/tagbar'         " Tagbar, leader + c (table of contents)
                                     " I need to have ctag installed, eg.:
-                                        " sudo apt install universal-ctags
+                                    "   sudo apt install universal-ctags
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -290,6 +287,21 @@ endfunction
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => GRUVBOX
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:gruvbox_italic = '1'
+
+colorscheme gruvbox
+
+hi! link markdownH1 GruvboxRedBold
+hi! link markdownH2 GruvboxYellowBold
+hi! link markdownH3 GruvboxGreenBold
+hi! link markdownH4 GruvboxBlueBold
+hi! link markdownH5 GruvboxPurpleBold
+hi! link markdownH6 GruvboxYellow
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => APPEARANCE
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -302,11 +314,6 @@ set ttimeoutlen=1
 
 " No welcome message
 set shortmess+=I
-
-" Allow italic in the terminal
-let g:gruvbox_italic = '1'
-
-colorscheme gruvbox
 
 " Make background transparent
 hi Normal guibg=NONE ctermbg=NONE
