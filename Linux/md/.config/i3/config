@@ -334,9 +334,9 @@ bindsym $mod+Mod1+l workspace next
 bindsym $mod+Mod1+h workspace prev
 
 # # Poniższe tylko dla i3-gaps
-# Set inner/outer gaps
-gaps inner 10
-gaps outer -4
+# Set inner/outer gaps (10/-4)
+gaps inner 6
+gaps outer -3
 
 # # Smart gaps (gaps used if only more than one container on the workspace)
 smart_gaps on
