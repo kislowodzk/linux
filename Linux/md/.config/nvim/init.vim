@@ -198,13 +198,13 @@ nnoremap <silent> <leader>N :tabprevious<CR>
 nnoremap <silent> <leader>w :tabclose<CR>
 
 " Adding things
-nnoremap <silent> <leader>ab lbi**<esc>ea**<esc>
-nnoremap <silent> <leader>ai lbi*<esc>ea*<esc>
-nnoremap <silent> <leader>a( lbi(<esc>ea)<esc>
-nnoremap <silent> <leader>a{ lbi{<esc>ea}<esc>
-nnoremap <silent> <leader>a[ lbi[<esc>ea]<esc>
-nnoremap <silent> <leader>a' lbi'<esc>ea'<esc>
-nnoremap <silent> <leader>a" lbi"<esc>ea"<esc>
+nnoremap <silent> <leader>ab bi**<esc>ea**<esc>
+nnoremap <silent> <leader>ai bi*<esc>ea*<esc>
+nnoremap <silent> <leader>a( bi(<esc>ea)<esc>
+nnoremap <silent> <leader>a{ bi{<esc>ea}<esc>
+nnoremap <silent> <leader>a[ bi[<esc>ea]<esc>
+nnoremap <silent> <leader>a' bi'<esc>ea'<esc>
+nnoremap <silent> <leader>a" bi"<esc>ea"<esc>
 
 nnoremap <silent> <leader>al a[]()<esc>i
 nnoremap <silent> <leader>ap a![]()<esc>i
