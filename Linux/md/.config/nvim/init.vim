@@ -106,10 +106,10 @@ nnoremap <f10> :setlocal list!<enter>
 
 " Spellcheck
 set spellcapcheck=
-set spellsuggest=best,20
+set spellsuggest=best,15
 nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us<enter>
-nnoremap [s [szt
-nnoremap ]s ]szt
+nnoremap [s [szz
+nnoremap ]s ]szz
 
 " Stop highlighting searching results
 nnoremap <silent> <CR> :noh<CR>
