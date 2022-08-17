@@ -275,12 +275,10 @@ function! s:goyo_leave()
     hi statuslineNC cterm=none ctermfg=249 ctermbg=236
     hi User1 cterm=bold ctermfg=166 ctermbg=236
     hi User2 cterm=none ctermfg=236 ctermbg=239
-    hi User3 cterm=none ctermfg=249 ctermbg=237
-    hi User4 cterm=none ctermfg=236 ctermbg=237
-    hi User5 cterm=none ctermfg=237 ctermbg=238
+    hi User3 cterm=none ctermfg=249 ctermbg=238
+    hi User4 cterm=none ctermfg=249 ctermbg=237
+    hi User5 cterm=bold ctermfg=247 ctermbg=236
     hi User6 cterm=none ctermfg=249 ctermbg=236
-    hi User7 cterm=none ctermfg=249 ctermbg=238
-    hi User8 cterm=none ctermfg=238 ctermbg=239
     hi User9 cterm=bold ctermfg=236 ctermbg=166
 endfunction
 
@@ -330,14 +328,8 @@ set filetype=none
 set laststatus=2
 set statusline=
 
-" Slanted transitions
-" set statusline=%9*\ %*%1*\ %t\ %M\ %2*%*%=%8*%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %5*%3*\ %{&filetype}\ %4*%*%6*\ %l/%L:\ %2v\ %1*%*
-
 " Blurred transition of the left panel
-set statusline=%9*\ %*%1*\ %t\ %M\ %2*▓▒░%*%=%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %3*\ %{&filetype}\ %*%6*\ %l/%L:\ %2v\ %1*%*
-
-" No special characters
-" set statusline=%9*\ %*%1*\ %t\ %M\ %*%=%7*\ %{&fileencoding?&fileencoding:&encoding}\ %{&fileformat}\ %3*\ %{&filetype}\ %*%6*\ %l/%L:\ %2v\ %1*%*
+set statusline=%9*\ %*%1*\ %t\ %M\ %2*▓▒░%*%=%3*\ %{&fileencoding?&fileencoding:&encoding}\ [%{&fileformat}]\ %4*\ %{&filetype}\ %5*\ %l/%6*%L:\ %5*%2v\ %9*\ %*
 
 au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
 au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
@@ -350,12 +342,10 @@ hi statuslineNC cterm=none ctermfg=249 ctermbg=236
 
 hi User1 cterm=bold ctermfg=166 ctermbg=236
 hi User2 cterm=none ctermfg=236 ctermbg=239
-hi User3 cterm=none ctermfg=249 ctermbg=237
-hi User4 cterm=none ctermfg=236 ctermbg=237
-hi User5 cterm=none ctermfg=237 ctermbg=238
+hi User3 cterm=none ctermfg=249 ctermbg=238
+hi User4 cterm=none ctermfg=249 ctermbg=237
+hi User5 cterm=bold ctermfg=247 ctermbg=236
 hi User6 cterm=none ctermfg=249 ctermbg=236
-hi User7 cterm=none ctermfg=249 ctermbg=238
-hi User8 cterm=none ctermfg=238 ctermbg=239
 hi User9 cterm=bold ctermfg=236 ctermbg=166
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
