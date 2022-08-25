@@ -333,7 +333,7 @@ set statusline=
 " set statusline=%9*\ %*%1*\ %t\ %M\ %2*▓▒░%*%=%3*\ %{&fileencoding?&fileencoding:&encoding}\ [%{&fileformat}]\ %4*\ %{&filetype}\ %5*\ %l/%6*%L:\ %5*%2v\ %9*\ %*
 
 " Basic separators
-set statusline=%9*\ %*%1*\ %t\ %M\ %*%=%3*\ %{&fileencoding?&fileencoding:&encoding}\ [%{&fileformat}]\ %4*\ %{&filetype}\ %5*\ %l/%6*%L:\ %5*%2v\ %9*\ %*
+set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%3*\ %{&fileencoding?&fileencoding:&encoding}\ [%{&fileformat}]\ %4*\ %{&filetype}\ %5*\ %l/%6*%L:\ %5*%2v\ %*
 
 au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
 au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
