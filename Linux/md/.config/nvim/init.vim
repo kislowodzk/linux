@@ -101,7 +101,8 @@ nnoremap <C-l> l
 nnoremap Q gq
 
 " Show white characters
-set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
+" set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
+set listchars=space:·,trail:•
 nnoremap <f10> :setlocal list!<enter>
 
 " Spellcheck
