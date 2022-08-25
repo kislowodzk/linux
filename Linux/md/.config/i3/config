@@ -333,13 +333,13 @@ bindsym $mod+Mod1+Left workspace prev
 bindsym $mod+Mod1+l workspace next
 bindsym $mod+Mod1+h workspace prev
 
-# # Poniższe tylko dla i3-gaps
-# Set inner/outer gaps (10/-4)
-gaps inner 6
-gaps outer -3
+# # # Poniższe tylko dla i3-gaps
+# # Set inner/outer gaps (10/-4)
+# gaps inner 6
+# gaps outer -3
 
-# # Smart gaps (gaps used if only more than one container on the workspace)
-smart_gaps on
+# # # Smart gaps (gaps used if only more than one container on the workspace)
+# smart_gaps on
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace) 
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
