@@ -199,13 +199,13 @@ nnoremap <silent> <leader>N :tabprevious<CR>
 nnoremap <silent> <leader>w :tabclose<CR>
 
 " Adding things
-nnoremap <silent> <leader>ab bi**<esc>ea**<esc>
-nnoremap <silent> <leader>ai bi*<esc>ea*<esc>
-nnoremap <silent> <leader>a( bi(<esc>ea)<esc>
-nnoremap <silent> <leader>a{ bi{<esc>ea}<esc>
-nnoremap <silent> <leader>a[ bi[<esc>ea]<esc>
-nnoremap <silent> <leader>a' bi'<esc>ea'<esc>
-nnoremap <silent> <leader>a" bi"<esc>ea"<esc>
+nnoremap <silent> <leader>ab viwc****<Esc>hP
+nnoremap <silent> <leader>ai viwc**<Esc>P
+nnoremap <silent> <leader>a( viwc()<Esc>P
+nnoremap <silent> <leader>a{ viwc{}<Esc>P
+nnoremap <silent> <leader>a[ viwc[]<Esc>P
+nnoremap <silent> <leader>a' viwc''<Esc>P
+nnoremap <silent> <leader>a" viwc""<Esc>P
 
 nnoremap <silent> <leader>al a[]()<esc>i
 nnoremap <silent> <leader>ap a![]()<esc>i
