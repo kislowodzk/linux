@@ -136,7 +136,6 @@ inoremap ? ?<c-g>u
 inoremap - -<c-g>u
 inoremap ; ;<c-g>u
 inoremap : :<c-g>u
-inoremap # #<c-g>u
 
 " Escape and save
 inoremap <C-Space> <Esc>:w<cr>
