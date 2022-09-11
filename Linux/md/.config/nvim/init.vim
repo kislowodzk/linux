@@ -112,6 +112,8 @@ nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us<enter>
 nnoremap [s [szz
 nnoremap ]s ]szz
 
+nnoremap <f8> :set nu! rnu!<CR>
+
 " Stop highlighting searching results
 nnoremap <silent> <CR> :noh<CR>
 
