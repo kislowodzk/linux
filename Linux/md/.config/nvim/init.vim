@@ -39,7 +39,7 @@ call plug#end()
 setlocal formatoptions+=1
 
 " Numbers
-set number relativenumber
+set relativenumber
 
 " Searching
 set ignorecase
@@ -111,8 +111,6 @@ set spellsuggest=best,15
 nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us<enter>
 nnoremap [s [szz
 nnoremap ]s ]szz
-
-nnoremap <f8> :set nu! rnu!<CR>
 
 " Stop highlighting searching results
 nnoremap <silent> <CR> :noh<CR>
