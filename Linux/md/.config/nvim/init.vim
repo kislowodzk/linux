@@ -40,6 +40,7 @@ setlocal formatoptions+=1
 
 " Numbers
 set relativenumber
+set numberwidth=3
 
 " Searching
 set ignorecase
