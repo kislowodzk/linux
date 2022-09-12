@@ -39,8 +39,7 @@ call plug#end()
 setlocal formatoptions+=1
 
 " Numbers
-set relativenumber
-set numberwidth=3
+set number relativenumber
 
 " Searching
 set ignorecase
