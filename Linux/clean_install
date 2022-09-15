@@ -3,7 +3,7 @@
 sudo apt install git
 git clone https://github.com/kislowodzk/linux.git
 sudo apt install neovim
-sudo apt install vim-gtk3                               # W sumie tylko po to, żeby gvim był domyślym edytorem tekstu
+# sudo apt install vim-gtk3                               # W sumie tylko po to, żeby gvim był domyślym edytorem tekstu
 
 # sudo add-apt-repository -y ppa:regolith-linux/stable
 # sudo apt update
@@ -24,37 +24,39 @@ sudo apt install zsh
 sudo apt install zsh-syntax-highlighting
 chsh -s /bin/zsh
 
-sudo apt install streamlink
-sudo apt install exa
-sudo apt install brightnessctl
-sudo apt install ncal
-sudo apt install tty-clock
-sudo apt install stacer
-sudo apt install imwheel
-sudo apt-get install arandr
-sudo apt install fzf
-sudo apt install nitrogen
-sudo apt install htop
-sudo apt install btop
-sudo apt install cmatrix
-sudo apt install tree
-sudo apt install blueman
-sudo apt install neofetch
-sudo apt install flameshot
+sudo apt install compton -y
+sudo apt install xautomation -y
+sudo apt install streamlink -y
+sudo apt install exa -y
+sudo apt install brightnessctl -y
+sudo apt install ncal -y
+sudo apt install tty-clock -y
+sudo apt install stacer -y
+sudo apt install imwheel -y
+sudo apt-get install arandr -y
+sudo apt install fzf -y
+sudo apt install nitrogen -y
+sudo apt install htop -y
+sudo apt install btop -y
+sudo apt install cmatrix -y
+sudo apt install tree -y
+sudo apt install blueman -y
+sudo apt install neofetch -y
+sudo apt install flameshot -y
+sudo apt-get install lxappearance -y
+sudo apt install vifm -y
+sudo apt install ranger -y
+sudo apt install pavucontrol -y
+sudo apt install mate-control-center -y
+sudo apt install mpv -y
+sudo apt remove figlet -y
+sudo apt remove toilet -y
+sudo apt install figlet -y
+# sudo apt install xwallpaper -y
+sudo apt install feh -y
+sudo apt install nemo -y
+# sudo apt install qutebrowser -y
 sudo apt install piper                                  # kolorek #FF9000
-sudo apt-get install lxappearance
-sudo apt install vifm
-sudo apt install ranger
-sudo apt install pavucontrol
-sudo apt install mate-control-center
-sudo apt install mpv
-sudo apt remove figlet
-sudo apt remove toilet
-sudo apt install figlet
-# sudo apt install xwallpaper
-sudo apt install feh
-sudo apt install nemo
-sudo apt install qutebrowser
 
 sudo apt install pandoc
 sudo apt install -y texlive texlive-font-utils texlive-pstricks-doc texlive-base texlive-formats-extra texlive-lang-german texlive-metapost texlive-publishers texlive-bibtex-extra texlive-latex-base texlive-metapost-doc texlive-publishers-doc texlive-binaries texlive-latex-base-doc texlive-science texlive-extra-utils texlive-latex-extra texlive-science-doc texlive-fonts-extra texlive-latex-extra-doc texlive-pictures texlive-xetex texlive-fonts-extra-doc texlive-latex-recommended texlive-pictures-doc texlive-fonts-recommended texlive-humanities texlive-lang-polish texlive-lang-english texlive-latex-recommended-doc texlive-fonts-recommended-doc texlive-humanities-doc texlive-luatex texlive-pstricks perl-tk texlive-latex-base
@@ -98,6 +100,11 @@ fi
 // p10k configure
 
 https://github.com/Haruno19/starfetch                   # Starfetch
+
+git clone https://github.com/Haruno19/starfetch
+cd starfetch
+make
+sudo make install
 
 
 
@@ -169,4 +176,12 @@ sudo update-alternatives --config x-terminal-emulator     # zmienia domyślny te
     # keyboard & mouse
         # additional layout options
             # caps lock behavior -- swap esc and caps lock
+            #
+
+
+
+
+sudo add-apt-repository ppa:aslatter/ppa
+sudo apt update
+sudo apt install alacritty
 
