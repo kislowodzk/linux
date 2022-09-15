@@ -104,3 +104,5 @@ alias poms='~/skrypty/pomodoro.sh'
 
 alias gif='kitty +kitten icat --align left'
 
+export PATH=$PATH:/home/md/.cargo/bin
+

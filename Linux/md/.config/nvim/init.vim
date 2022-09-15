@@ -23,7 +23,6 @@ call plug#begin()
     Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
 
     " Other_plugins:
-    Plug 'junegunn/goyo.vim'        " Goyo -- focus mode
     Plug 'ap/vim-css-color'         " CSS color preview
     Plug 'tpope/vim-commentary'     " gcc or gc
     Plug 'preservim/tagbar'         " Tagbar, leader + c (table of contents)
@@ -251,9 +250,6 @@ nnoremap <silent> <leader>m5 ?^##### <cr>
 " Tagbar / table of contents
 nnoremap <silent> <leader>c :Tagbar<CR>
 
-" Goyo -- focus mode
-nnoremap <silent> <leader>g :Goyo<CR>
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => NETRW
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -261,28 +257,6 @@ nnoremap <silent> <leader>g :Goyo<CR>
 let g:netrw_liststyle = 0
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => GOYO
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-let g:goyo_width=82
-
-function! s:goyo_leave()
-    hi Normal guibg=NONE ctermbg=NONE
-    hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
-    hi statusline cterm=none ctermfg=249 ctermbg=239
-    hi statuslineNC cterm=none ctermfg=249 ctermbg=236
-    hi User1 cterm=bold ctermfg=166 ctermbg=236
-    hi User2 cterm=none ctermfg=236 ctermbg=239
-    hi User3 cterm=none ctermfg=249 ctermbg=238
-    hi User4 cterm=none ctermfg=249 ctermbg=237
-    hi User5 cterm=bold ctermfg=247 ctermbg=236
-    hi User6 cterm=none ctermfg=249 ctermbg=236
-    hi User9 cterm=bold ctermfg=236 ctermbg=166
-endfunction
-
-autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GRUVBOX
@@ -328,9 +302,6 @@ set filetype=none
 set laststatus=2
 set statusline=
 
-" Blurred transition of the left panel
-" set statusline=%9*\ %*%1*\ %t\ %M\ %2*▓▒░%*%=%3*\ %{&fileencoding?&fileencoding:&encoding}\ [%{&fileformat}]\ %4*\ %{&filetype}\ %5*\ %l/%6*%L:\ %5*%2v\ %9*\ %*
-
 " Basic separators
 set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%3*\ %{&fileencoding?&fileencoding:&encoding}\ [%{&fileformat}]\ %4*\ %{&filetype}\ %5*\ %l/%6*%L:\ %5*%2v\ %*
 
@@ -350,6 +321,47 @@ hi User4 cterm=none ctermfg=249 ctermbg=237
 hi User5 cterm=bold ctermfg=247 ctermbg=236
 hi User6 cterm=none ctermfg=249 ctermbg=236
 hi User9 cterm=bold ctermfg=236 ctermbg=166
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => NEOVIDE
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+if exists("g:neovide")
+    let g:neovide_hide_mouse_when_typing = v:true
+    set guifont=Fira\ Code:h10
+    colorscheme gruvbox
+
+    set filetype=none
+    set laststatus=2
+    set statusline=
+    set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%3*\ %{&fileencoding?&fileencoding:&encoding}\ [%{&fileformat}]\ %4*\ %{&filetype}\ %5*\ %l/%6*%L:\ %5*%2v\ %*
+    
+    au InsertEnter * hi User1 gui=bold guifg=#d79921 guibg=#303030
+    au InsertLeave * hi User1 gui=bold guifg=#d75f00 guibg=#303030
+    
+    au InsertEnter * hi User9 gui=bold guifg=#303030 guibg=#d79921
+    au InsertLeave * hi User9 gui=bold guifg=#303030 guibg=#d75f00
+    
+    hi statusline gui=none guifg=#b2b2b2 guibg=#4e4e4e
+    hi statuslineNC gui=none guifg=#b2b2b2 guibg=#303030
+    
+    hi User1 gui=bold guifg=#d75f00 guibg=#303030
+    hi User2 gui=none guifg=#303030 guibg=#4e4e4e
+    hi User3 gui=none guifg=#b2b2b2 guibg=#444444
+    hi User4 gui=none guifg=#b2b2b2 guibg=#3a3a3a
+    hi User5 gui=bold guifg=#9e9e9e guibg=#303030
+    hi User6 gui=none guifg=#b2b2b2 guibg=#303030
+    hi User9 gui=bold guifg=#303030 guibg=#d75f00
+
+    hi CursorLine gui=NONE guibg=NONE guifg=NONE
+
+    hi! link markdownH1 GruvboxRedBold
+    hi! link markdownH2 GruvboxYellowBold
+    hi! link markdownH3 GruvboxGreenBold
+    hi! link markdownH4 GruvboxBlueBold
+    hi! link markdownH5 GruvboxPurpleBold
+    hi! link markdownH6 GruvboxYellow
+endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "      _  ___     _                        _     _    
