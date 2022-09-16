@@ -316,8 +316,8 @@ hi statuslineNC cterm=none ctermfg=249 ctermbg=236
 
 hi User1 cterm=bold ctermfg=166 ctermbg=236
 hi User2 cterm=none ctermfg=236 ctermbg=239
-hi User3 cterm=none ctermfg=249 ctermbg=238
-hi User4 cterm=none ctermfg=249 ctermbg=237
+hi User3 cterm=none ctermfg=244 ctermbg=238
+hi User4 cterm=none ctermfg=244 ctermbg=237
 hi User5 cterm=bold ctermfg=247 ctermbg=236
 hi User6 cterm=none ctermfg=249 ctermbg=236
 hi User9 cterm=bold ctermfg=236 ctermbg=166
@@ -347,8 +347,8 @@ if exists("g:neovide")
     
     hi User1 gui=bold guifg=#d75f00 guibg=#303030
     hi User2 gui=none guifg=#303030 guibg=#4e4e4e
-    hi User3 gui=none guifg=#b2b2b2 guibg=#444444
-    hi User4 gui=none guifg=#b2b2b2 guibg=#3a3a3a
+    hi User3 gui=none guifg=#808080 guibg=#444444
+    hi User4 gui=none guifg=#808080 guibg=#3a3a3a
     hi User5 gui=bold guifg=#9e9e9e guibg=#303030
     hi User6 gui=none guifg=#b2b2b2 guibg=#303030
     hi User9 gui=bold guifg=#303030 guibg=#d75f00
