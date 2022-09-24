@@ -200,6 +200,7 @@ nnoremap <silent> <leader>w :tabclose<CR>
 nnoremap <silent> <leader>ab viwc****<Esc>hP
 nnoremap <silent> <leader>ai viwc**<Esc>P
 nnoremap <silent> <leader>a( viwc()<Esc>P
+nnoremap <silent> <leader>a« viwc«»<Esc>P
 nnoremap <silent> <leader>a{ viwc{}<Esc>P
 nnoremap <silent> <leader>a[ viwc[]<Esc>P
 nnoremap <silent> <leader>a' viwc''<Esc>P
@@ -217,6 +218,7 @@ nnoremap <silent> <leader>a5 I#####
 vnoremap <silent> <leader>ab c****<Esc>hP
 vnoremap <silent> <leader>ai c**<Esc>P
 vnoremap <silent> <leader>a( c()<Esc>P
+vnoremap <silent> <leader>a« c«»<Esc>P
 vnoremap <silent> <leader>a{ c{}<Esc>P
 vnoremap <silent> <leader>a[ c[]<Esc>P
 vnoremap <silent> <leader>a' c''<Esc>P
@@ -328,7 +330,7 @@ hi User9 cterm=bold ctermfg=236 ctermbg=166
 
 if exists("g:neovide")
     let g:neovide_hide_mouse_when_typing = v:true
-    set guifont=Fira\ Code:h10
+    set guifont=Fira\ Code:h11
     colorscheme gruvbox
 
     set filetype=none
