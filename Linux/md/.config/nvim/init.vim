@@ -227,6 +227,7 @@ vnoremap <silent> <leader>a" c""<Esc>P
 " Formatting -- to use gq
 nnoremap <leader>ll :set tw=10000<cr>
 nnoremap <leader>ls :set tw=80<cr>
+nnoremap <leader>lm :set fo=1tawc<cr>
 
 " Deleting things
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
