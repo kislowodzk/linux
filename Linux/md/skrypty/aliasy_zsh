@@ -65,6 +65,11 @@ alias m='mpv'
 alias ms='mpv --no-video'
 alias stream=streamlink
 
+# Pliki konfiguracyjne
+alias cnvim='nvim ~/.config/nvim/init.vim'
+alias ci3='nvim ~/.config/i3/config'
+alias cpolybar='nvim ~/.config/i3/polybar/themes/modules/modules_gruv.ini'
+
 alias wave=cava
 
 alias pamietaj='clear; figlet -t -c "CO USTALANE BYLO DO KURWY NEDZY!?"'
@@ -104,5 +109,6 @@ alias poms='~/skrypty/pomodoro.sh'
 
 alias gif='kitty +kitten icat --align left'
 
+# Żeby działał neovide
 export PATH=$PATH:/home/md/.cargo/bin
 
