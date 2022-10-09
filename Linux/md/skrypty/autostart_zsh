@@ -42,6 +42,7 @@ xset s noblank
 xset r rate 350 43
 export VISUAL=nvim
 export EDITOR=nvim
+export DATE=$(date -I)
 # żeby gruvbox prawidłowo wyświetlał kursywę (jeśli nie to, to trzeba jeden if
 # zmienić w pliku źródłowym kolorku gruvbox
 # export TERM_ITALICS=true

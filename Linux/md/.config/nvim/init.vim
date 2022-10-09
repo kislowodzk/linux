@@ -58,7 +58,7 @@ set tabstop=4
 
 set wrap
 set linebreak
-set tw=80
+set tw=74
 set display+=lastline
 set backspace=indent,eol,start
 set scrolloff=12
@@ -226,7 +226,7 @@ vnoremap <silent> <leader>a" c""<Esc>P
 
 " Formatting -- to use gq
 nnoremap <leader>ll :set tw=10000<cr>
-nnoremap <leader>ls :set tw=80<cr>
+nnoremap <leader>ls :set tw=74<cr>
 nnoremap <leader>lm :set fo=1tawc<cr>
 
 " Deleting things

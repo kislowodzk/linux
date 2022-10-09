@@ -24,6 +24,7 @@ sudo apt install zsh
 sudo apt install zsh-syntax-highlighting
 chsh -s /bin/zsh
 
+sudo apt install zathura -y
 sudo apt install compton -y
 sudo apt install xautomation -y
 sudo apt install streamlink -y
