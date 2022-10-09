@@ -66,6 +66,7 @@ alias ms='mpv --no-video'
 alias stream=streamlink
 
 # Pliki konfiguracyjne
+alias calacritty='nvim ~/.config/alacritty/alacritty.yml'
 alias cnvim='nvim ~/.config/nvim/init.vim'
 alias ci3='nvim ~/.config/i3/config'
 alias cpolybar='nvim ~/.config/i3/polybar/themes/modules/modules_gruv.ini'
