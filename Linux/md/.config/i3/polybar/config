@@ -76,7 +76,8 @@ font-4 = "Fira Code:size=29;3"
 
 modules-left = i3 xwindow block arrow1
 modules-center =
-modules-right = arrow0 battery arrow-by memory2 arrow-yb cpu2 arrow-by pulseaudio arrow-yb date
+modules-right = arrow0 battery arrow-by arrow-yb arrow-by pulseaudio arrow-yb date
+;modules-right = arrow0 battery arrow-by memory2 arrow-yb cpu2 arrow-by pulseaudio arrow-yb date
 
 ;separator = |
 
