@@ -105,6 +105,18 @@ alias b='sudo brightnessctl s'
 alias br='sudo brightnessctl s'
 alias brightness='sudo brightnessctl s'
 
+alias b0='sudo brightnessctl s 1%'
+alias b1='sudo brightnessctl s 10%'
+alias b2='sudo brightnessctl s 20%'
+alias b3='sudo brightnessctl s 30%'
+alias b4='sudo brightnessctl s 40%'
+alias b5='sudo brightnessctl s 50%'
+alias b6='sudo brightnessctl s 60%'
+alias b7='sudo brightnessctl s 70%'
+alias b8='sudo brightnessctl s 80%'
+alias b9='sudo brightnessctl s 90%'
+alias bb='sudo brightnessctl s 100%'
+
 alias pom='~/skrypty/pomodoro_sound.sh'
 alias poms='~/skrypty/pomodoro.sh'
 
