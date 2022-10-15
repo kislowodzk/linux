@@ -278,7 +278,7 @@ hide_edge_borders smart
 
 # autostart
 # exec_always nitrogen --restore exec_always compton
-# exec_always "setxkbmap -option caps:escape"
+exec_always "setxkbmap -option caps:escape"
 exec_always "xset r rate 350 43"
 exec_always "blueman-applet"
 # nie trzeba tego poniżej, bo automatycznie to będzie działać

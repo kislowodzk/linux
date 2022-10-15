@@ -206,6 +206,14 @@ Section "InputClass"
         Option "NaturalScrolling" "True"            -- ta linia dodana
 EndSection
 
+Section "InputClass"
+        Identifier "libinput keyboard catchall"
+        MatchIsKeyboard "on"                        -- tu musi być Keyboard
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+        Option "XkbOptions" "caps:escape"           -- ta linia dodana
+EndSection
+
 
 
 
