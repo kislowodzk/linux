@@ -348,7 +348,6 @@ bindsym Mod1+Tab focus right
 bindsym $mod+c exec --no-startup-id "rofi -show emoji -modi emoji"
 
 bindsym $mod+x exec --no-startup-id nemo
-# bindsym $mod+d exec kitty -e ranger
 bindsym $mod+d workspace number $ws22
 bindsym $mod+Shift+d move container to workspace number $ws22
 
