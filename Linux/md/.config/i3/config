@@ -151,7 +151,7 @@ set $ws18 " 18 "
 set $ws19 " 19 "
 set $ws20 " 20 "
 set $ws21 " 33 "
-set $ws22 " 34 "
+set $ws22 " 77 "
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -354,6 +354,8 @@ bindsym $mod+Shift+d move container to workspace number $ws22
 bindsym $mod+s exec kitty -e nvim
 bindsym $mod+Ctrl+k exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
 bindsym $mod+Ctrl+j exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
+bindsym $mod+Mod1+k exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
+bindsym $mod+Mod1+j exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
 
 # start main stack
 # bindsym $mod+a   layout splitv;\
