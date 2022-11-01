@@ -84,10 +84,10 @@ modules-right = arrow0 battery arrow-by arrow-yb arrow-by pulseaudio arrow-yb da
 ;dim-value = 1.0
 
 tray-detached = true
-tray-offset-x = -19%
-;tray-offset-x = 0
+;tray-offset-x = -19%
+tray-offset-x = -250
 tray-offset-y = 0
-tray-padding = 3
+tray-padding = 6
 tray-maxsize = 15
 tray-scale = 1.0
 tray-position = right
