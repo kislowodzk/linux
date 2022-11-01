@@ -40,8 +40,8 @@ override-redirect = false
 ;wm-restack = i3
 bottom = false
 fixed-center = true
-width = 100%
-height = 20
+width = 99.8%
+height = 25
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -51,18 +51,18 @@ foreground = ${colors.foreground}
 ;   background-[0-9]+ = #aarrggbb
 ;background-0 =
 
-radius = 0.0
+radius = 10.0
 line-size = 2
 
 border-size = 0
-border-left-size = 0
+border-left-size = 0.2%
 border-right-size = 0
-border-top-size = 0
-border-bottom-size = 0
+border-top-size = 2
+border-bottom-size = 2
 border-color =
 
-padding-left = 0
-padding-right = 0
+padding-left = 1
+padding-right = 1
 
 module-margin-left = 0
 module-margin-right = 0
@@ -83,11 +83,12 @@ modules-right = arrow0 battery arrow-by arrow-yb arrow-by pulseaudio arrow-yb da
 
 ;dim-value = 1.0
 
-tray-detached = false
-tray-offset-x = 0
+tray-detached = true
+tray-offset-x = -19%
+;tray-offset-x = 0
 tray-offset-y = 0
-tray-padding = 2
-tray-maxsize = 20
+tray-padding = 3
+tray-maxsize = 15
 tray-scale = 1.0
 tray-position = right
 tray-background = ${colors.none}
