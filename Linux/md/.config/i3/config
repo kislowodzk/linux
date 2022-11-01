@@ -352,10 +352,17 @@ bindsym $mod+d workspace number $ws22
 bindsym $mod+Shift+d move container to workspace number $ws22
 
 bindsym $mod+s exec kitty -e nvim
+
 bindsym $mod+Ctrl+k exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
 bindsym $mod+Ctrl+j exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
 bindsym $mod+Mod1+k exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
 bindsym $mod+Mod1+j exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
+
+bindsym $mod+Ctrl+Up exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
+bindsym $mod+Ctrl+Down exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
+bindsym $mod+Mod1+Up exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
+bindsym $mod+Mod1+Down exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
+
 
 # start main stack
 # bindsym $mod+a   layout splitv;\
