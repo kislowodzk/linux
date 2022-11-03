@@ -309,7 +309,7 @@ bindsym $mod+Shift+b exec qutebrowser
 bindsym Mod1+b exec brave-browser
 bindsym $mod+Shift+s exec "flameshot gui"
 bindsym $mod+x exec --no-startup-id nemo
-bindsym $mod+s exec kitty -e nvim
+bindsym $mod+n exec kitty -e nvim
 
 # Pulse Audio controls
 bindsym $mod+bracketright exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
@@ -331,6 +331,8 @@ bindsym $mod+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 
 
 # Emoji
 bindsym $mod+c exec --no-startup-id "rofi -show emoji -modi emoji"
+
+bindsym $mod+s exec --no-startup-id "xdotool type $(grep -v '^#' ~/skrypty/wyszukiwanie | rofi -dmenu | cut -d' ' -f1)"
 
 # PgDn i PgUp
 bindsym $mod+Ctrl+k exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
