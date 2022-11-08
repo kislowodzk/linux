@@ -1,2 +1,2 @@
 #!/bin/bash
-feh --no-fehbg --bg-scale /home/md/.tapeta/gruvbox_orange//3.jpg
+feh --no-fehbg --bg-scale /home/md/.tapeta/gruvbox_orange//1505759278762.jpg
