@@ -221,15 +221,15 @@ bindsym $mod+Shift+q exec "kitty --class=adfgx -e ~/skrypty/shutdown.sh"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        bindsym l resize shrink width 4 px or 4 ppt
-        bindsym k resize grow height 4 px or 4 ppt
-        bindsym j resize shrink height 4 px or 4 ppt
-        bindsym h resize grow width 4 px or 4 ppt
+        bindsym l resize shrink width 2 px or 2 ppt
+        bindsym k resize grow height 2 px or 2 ppt
+        bindsym j resize shrink height 2 px or 2 ppt
+        bindsym h resize grow width 2 px or 2 ppt
 
-        bindsym Right resize shrink width 10 px or 10 ppt
-        bindsym Up resize grow height 10 px or 10 ppt
-        bindsym Down resize shrink height 10 px or 10 ppt
-        bindsym Left resize grow width 10 px or 10 ppt
+        bindsym Right resize shrink width 8 px or 8 ppt
+        bindsym Up resize grow height 8 px or 8 ppt
+        bindsym Down resize shrink height 8 px or 8 ppt
+        bindsym Left resize grow width 8 px or 8 ppt
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
