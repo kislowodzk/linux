@@ -306,7 +306,7 @@ bindsym $mod+Ctrl+t exec --no-startup-id "~/skrypty/tapeta_rando.sh"
 
 # Bindy
 bindsym $mod+b exec brave-browser
-bindsym $mod+Shift+b exec qutebrowser
+bindsym $mod+Shift+b exec firefox
 bindsym Mod1+b exec brave-browser
 bindsym $mod+Shift+s exec "flameshot gui"
 bindsym $mod+x exec --no-startup-id nemo
