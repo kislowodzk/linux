@@ -278,7 +278,6 @@ hide_edge_borders smart
 
 # autostart
 exec_always "setxkbmap -option caps:escape"
-# exec_always 'xinput set-prop "$(xinput list --name-only | grep -i glide)" "libinput Tapping Enabled" 1'
 exec_always "xset r rate 350 43"
 exec_always "blueman-applet"
 exec_always imwheel
