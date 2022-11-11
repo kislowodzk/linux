@@ -8,9 +8,9 @@ sudo apt install neovim
 # sudo add-apt-repository -y ppa:regolith-linux/stable
 # sudo apt update
 # sudo apt install i3-gaps
-sudo apt install i3 
-sudo apt install kitty
-sudo apt install rofi
+sudo apt install i3 -y
+sudo apt install kitty -y
+sudo apt install rofi -y
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 sudo apt install universal-ctags
@@ -53,11 +53,13 @@ sudo apt install mpv -y
 sudo apt remove figlet -y
 sudo apt remove toilet -y
 sudo apt install figlet -y
-# sudo apt install xwallpaper -y
 sudo apt install feh -y
 sudo apt install nemo -y
+# sudo apt install xwallpaper -y
 # sudo apt install qutebrowser -y
+
 sudo apt install piper                                  # kolorek #FF9000
+sudo apt install gimp
 
 
 
@@ -121,7 +123,7 @@ cd .cache
 mkdir zsh
 echo 'set completion-ignore-case On' >> /etc/inputrc    # nie wiem, czy nie trzeba tego zrobić w vimie
 rofi-theme-selector                                     # gruvbox-dark-soft
-nitrogen
+# nitrogen
 lxappearance                                            # ciemny motyw + ikony nordzy dark
 mate-control-center                                     # tu wybrać domyślne programy -- do edycji tekstu gvim
 // żeby ustawić nvima jako domyślny edytor, to https://unix.stackexchange.com/questions/365587/how-to-open-vim-in-terminator-by-default
@@ -160,6 +162,11 @@ VLC
 KolourPaint
 Audacity
 Skype
+Discord
+zoom
+telegram
+messenger
+
 
 # Gnome desktop -- pop os
 
