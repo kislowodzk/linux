@@ -90,7 +90,8 @@ bindsym $mod+space focus mode_toggle
 
 # START -- Workspaces
 #
-set $fm VGA-1
+# set $fm VGA-1 -- drugi ekran
+set $sm VGA-1
 set $sm LVDS-1
 
 workspace 1 output $fm
@@ -324,10 +325,10 @@ bindsym $mod+Shift+p exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2
 
 # Uruchamianie programów
 # rofi-theme-selector, żeby ustawić wygląd
-bindsym $mod+a exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.5em;}'"
-bindsym $mod+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.5em;}'"
-bindsym Mod1+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.5em;}'"
-bindsym $mod+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 'element-icon { size: 1.5em;}'"
+bindsym $mod+a exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.8em;}'"
+bindsym $mod+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.8em;}'"
+bindsym Mod1+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.8em;}'"
+bindsym $mod+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 'element-icon { size: 1.8em;}'"
 
 # Emoji
 bindsym $mod+c exec --no-startup-id "rofi -show emoji -modi emoji"
