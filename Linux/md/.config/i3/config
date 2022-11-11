@@ -5,7 +5,7 @@ exec --no-startup-id "~/skrypty/drugi_monitor_i3.sh"
 exec_always --no-startup-id compton
 bindsym $mod+Shift+e exec "kitty --class=scratch-terminal"
 for_window [class="scratch-terminal"] move to scratchpad
-for_window [class="scratch-terminal"] resize set 1000 750
+for_window [class="scratch-terminal"] resize set 1000 700
 bindsym $mod+e [class="scratch-terminal"] scratchpad show; move position center;
 
 set $mod Mod4
@@ -278,6 +278,7 @@ hide_edge_borders smart
 
 # autostart
 exec_always "setxkbmap -option caps:escape"
+# exec_always 'xinput set-prop "$(xinput list --name-only | grep -i glide)" "libinput Tapping Enabled" 1'
 exec_always "xset r rate 350 43"
 exec_always "blueman-applet"
 exec_always imwheel
