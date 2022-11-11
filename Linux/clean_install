@@ -133,10 +133,13 @@ Exec=kitty -e vim %F
 Terminal=false
 //
 
-żeby z poziomu nemo otwierać kitty jako terminal
+# żeby z poziomu nemo otwierać kitty jako terminal
 
 gsettings set org.gnome.desktop.default-applications.terminal exec kitty
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
+
+# żeby ustawić nemo jako domyślny file manager
+xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
 
 https://github.com/Mange/rofi-emoji                     # emoji
 
@@ -186,6 +189,8 @@ sudo update-alternatives --config x-terminal-emulator     # zmienia domyślny te
         # Przełączenie na ostatni obszar roboczy -- Super + 0
     # Zrzuty ekrany
         # Interaktywne wykonanie zrzutu ekranu -- Super+Shift+S
+    # Nawigacja
+        # Ukrycie wszystkich zwykłych okien -- Super + z
 # tweaks
     # keyboard & mouse
         # additional layout options
