@@ -333,9 +333,10 @@ bindsym $mod+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 
 # Emoji
 bindsym $mod+c exec --no-startup-id "rofi -show emoji -modi emoji"
 
-# bindsym $mod+s exec --no-startup-id "xdotool type $(grep -v '^#' ~/skrypty/wyszukiwanie | rofi -dmenu | cut -d' ' -f1)"
+bindsym $mod+s exec --no-startup-id "xdotool type $(grep -v '^#' ~/skrypty/wyszukiwanie | rofi -dmenu | cut -d' ' -f1)"
 
-bindsym $mod+s exec --no-startup-id "grep -v '^#' ~/skrypty/wyszukiwanie | rofi -dmenu | cut -d' ' -f1 | xclip -selection c"
+# Kopiowanie, zamiast wypisywania
+# bindsym $mod+s exec --no-startup-id "grep -v '^#' ~/skrypty/wyszukiwanie | rofi -dmenu | cut -d' ' -f1 | xclip -selection c"
 
 # PgDn i PgUp
 bindsym $mod+Ctrl+k exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"

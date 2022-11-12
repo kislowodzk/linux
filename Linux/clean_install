@@ -2,15 +2,12 @@
 
 sudo apt install git
 git clone https://github.com/kislowodzk/linux.git
-sudo apt install neovim
 # sudo apt install vim-gtk3                               # W sumie tylko po to, żeby gvim był domyślym edytorem tekstu
 
 # sudo add-apt-repository -y ppa:regolith-linux/stable
 # sudo apt update
 # sudo apt install i3-gaps
 sudo apt install i3 -y
-sudo apt install kitty -y
-sudo apt install rofi -y
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 sudo apt install universal-ctags
@@ -20,10 +17,12 @@ sudo apt install polybar
 # Kodeki
 sudo apt-get install ubuntu-restricted-extras; sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pkg
 
-sudo apt install zsh
-sudo apt install zsh-syntax-highlighting
-chsh -s /bin/zsh
 
+sudo apt install zsh -y
+sudo apt install zsh-syntax-highlighting -y
+sudo apt install neovim -y
+sudo apt install kitty -y
+sudo apt install rofi -y
 sudo apt install zathura -y
 sudo apt install compton -y
 sudo apt install xautomation -y
@@ -55,27 +54,31 @@ sudo apt remove toilet -y
 sudo apt install figlet -y
 sudo apt install feh -y
 sudo apt install nemo -y
-# sudo apt install xwallpaper -y
-# sudo apt install qutebrowser -y
+sudo apt install pandoc -y
+sudo apt install -y texlive texlive-font-utils texlive-pstricks-doc texlive-base texlive-formats-extra texlive-lang-german texlive-metapost texlive-publishers texlive-bibtex-extra texlive-latex-base texlive-metapost-doc texlive-publishers-doc texlive-binaries texlive-latex-base-doc texlive-science texlive-extra-utils texlive-latex-extra texlive-science-doc texlive-fonts-extra texlive-latex-extra-doc texlive-pictures texlive-xetex texlive-fonts-extra-doc texlive-latex-recommended texlive-pictures-doc texlive-fonts-recommended texlive-humanities texlive-lang-polish texlive-lang-english texlive-latex-recommended-doc texlive-fonts-recommended-doc texlive-humanities-doc texlive-luatex texlive-pstricks perl-tk texlive-latex-base
+sudo apt install piper -y
+sudo apt install gimp -y
 
-sudo apt install piper                                  # kolorek #FF9000
-sudo apt install gimp
 
-
+chsh -s /bin/zsh
 
 sudo add-apt-repository ppa:aslatter/ppa
 sudo apt update
 sudo apt install alacritty
-
-
-sudo apt install pandoc
-sudo apt install -y texlive texlive-font-utils texlive-pstricks-doc texlive-base texlive-formats-extra texlive-lang-german texlive-metapost texlive-publishers texlive-bibtex-extra texlive-latex-base texlive-metapost-doc texlive-publishers-doc texlive-binaries texlive-latex-base-doc texlive-science texlive-extra-utils texlive-latex-extra texlive-science-doc texlive-fonts-extra texlive-latex-extra-doc texlive-pictures texlive-xetex texlive-fonts-extra-doc texlive-latex-recommended texlive-pictures-doc texlive-fonts-recommended texlive-humanities texlive-lang-polish texlive-lang-english texlive-latex-recommended-doc texlive-fonts-recommended-doc texlive-humanities-doc texlive-luatex texlive-pstricks perl-tk texlive-latex-base
 
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 sudo apt update
 sudo apt install brave-browser
+
+# sudo apt install xwallpaper -y
+# sudo apt install qutebrowser -y
+
+
+
+
+
 
 sudo apt install python3-pip                            # to potrzebne, żeby działał skryppt autotile
 pip3 install i3ipc
@@ -178,17 +181,30 @@ sudo apt install gnome-tweaks
 sudo update-alternatives --config x-terminal-emulator     # zmienia domyślny terminal
 # zmiana grafiki na nvidię
 # klawiatura -- skróty klawiszowe -- ustawienia
-    # move, resize and swap windows
-        # adjustment mode -- Shift+Super+Return
-    # uruchamianie
-        # launch terminal -- Super+Return
+    # Move, resize and swap windows
+        # adjustment mode -- Super+R
     # Dźwięk i multimedia
         # dźwięk w górę/dół -- Super+]/[
+        # poprzednia/następna ścieżka -- Shift+Super+{/}
+        # Odtwarzanie (lub odtwarzanie/wstrzymanie -- Shift+Super+P
     # Nawigacja
+        # Przełączenie okien -- Alt+Tab
+        # Przełączenie programów -- Super+Tab
+        # Ukrucie wszystkich zwykłych okien -- Super+Z
         # Przełączenie na (liczba) obszar roboczy -- Super + (liczba)
         # Przełączenie na ostatni obszar roboczy -- Super + 0
+    # Okna
+        # Ukrycie okna -- Super+N
+    # System
+        # Aktywacja bieżącego powiadomienia -- Disabled
+    # Uruchamianie
+        # launch terminal -- Super+Return
+        # Uruchomienie klienta poczty -- Disabled
     # Niestandardowe skróty
-        # Polecenie: flameshot gui -- Super+Shift+S
+        # flameshot gui -- Super+Shift+S
+        # rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.8em;}' -- Super+Shift+Return
+        # sh /home/md/skrypty/skrypt_kopiowanie.sh -- Super+W
+        # sh /home/md/skrypty/skrypt_wyszukiwanie.sh -- Super+S
     # Nawigacja
         # Ukrycie wszystkich zwykłych okien -- Super + z
     # Usunąć
@@ -198,15 +214,6 @@ sudo update-alternatives --config x-terminal-emulator     # zmienia domyślny te
         # additional layout options
             # caps lock behavior -- swap esc and caps lock
             #
-
-
-
-
-sudo add-apt-repository ppa:aslatter/ppa
-sudo apt update
-sudo apt install alacritty
-
-
 
 # Reverse scrolling 
 
