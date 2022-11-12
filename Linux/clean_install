@@ -187,10 +187,12 @@ sudo update-alternatives --config x-terminal-emulator     # zmienia domyślny te
     # Nawigacja
         # Przełączenie na (liczba) obszar roboczy -- Super + (liczba)
         # Przełączenie na ostatni obszar roboczy -- Super + 0
-    # Zrzuty ekrany
-        # Interaktywne wykonanie zrzutu ekranu -- Super+Shift+S
+    # Niestandardowe skróty
+        # Polecenie: flameshot gui -- Super+Shift+S
     # Nawigacja
         # Ukrycie wszystkich zwykłych okien -- Super + z
+    # Usunąć
+        # uruchomienie klienta poczty
 # tweaks
     # keyboard & mouse
         # additional layout options

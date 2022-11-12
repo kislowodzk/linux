@@ -1,4 +1,4 @@
-source ./skrypty/autostart_zsh
+source $HOME/skrypty/autostart_zsh
 
 # Personal Zsh configuration file. It is strongly recommended to keep all
 # shell customization and configuration (including exported environment
@@ -104,4 +104,4 @@ alias ls="${aliases[ls]:-ls} -A"
 setopt glob_dots     # no special treatment for file names with a leading dot
 setopt no_auto_menu  # require an extra TAB press to open the completion menu
 
-source ./skrypty/aliasy_zsh
+source $HOME/skrypty/aliasy_zsh
