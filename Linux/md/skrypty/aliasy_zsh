@@ -67,6 +67,7 @@ alias ms='mpv --no-video'
 alias stream=streamlink
 
 # Pliki konfiguracyjne
+alias ckitty='nvim ~/.config/kitty/kitty.conf'
 alias calacritty='nvim ~/.config/alacritty/alacritty.yml'
 alias cnvim='nvim ~/.config/nvim/init.vim'
 alias ci3='nvim ~/.config/i3/config'

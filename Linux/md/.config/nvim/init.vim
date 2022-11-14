@@ -38,7 +38,8 @@ call plug#end()
 setlocal formatoptions+=1
 
 " Numbers
-set number relativenumber
+set nonumber norelativenumber
+nnoremap <f8> :setlocal number! relativenumber!<enter>
 
 " Searching
 set ignorecase
