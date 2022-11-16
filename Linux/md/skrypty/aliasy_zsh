@@ -40,6 +40,7 @@ alias nocaps='setxkbmap -option'
 alias fresh='sudo apt update -y; sudo apt upgrade -y; sudo apt autoremove -y'
 alias pop_fresh='flatpak update; sudo apt dist-upgrade'
 alias f='fresh; pop_fresh'
+alias fr='fresh; pop_fresh'
 
 alias bed='shutdown now'
 

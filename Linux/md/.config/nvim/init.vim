@@ -102,7 +102,7 @@ nnoremap Q gq
 
 " Show white characters
 " set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
-set listchars=space:·,trail:•
+set listchars=space:·,trail:•,eol:¶
 nnoremap <f10> :setlocal list!<enter>
 
 " Spellcheck
@@ -209,7 +209,7 @@ nnoremap <silent> <leader>a" viwc""<Esc>P
 
 nnoremap <silent> <leader>al a[]()<esc>i
 nnoremap <silent> <leader>ap a![]()<esc>i
-nnoremap <silent> <leader>as 50o<esc>50k$
+nnoremap <silent> <leader>as 25o<esc>25k$
 nnoremap <silent> <leader>a1 I# 
 nnoremap <silent> <leader>a2 I## 
 nnoremap <silent> <leader>a3 I### 
