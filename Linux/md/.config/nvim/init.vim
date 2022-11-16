@@ -75,8 +75,8 @@ set clipboard^=unnamed,unnamedplus
 set smartindent
 
 " For .txt and .md i need autoindent (smartindent caused problems) and different format options
-autocmd BufRead,BufNewFile   *.txt set fo=1tawc nosmartindent autoindent
-autocmd BufRead,BufNewFile   *.md set fo=1tawc nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.txt set fo=tawc nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.md set fo=tawc nosmartindent autoindent
 
 " Complete by ctrl-x + ctrl-... in insert mode
 set omnifunc=syntaxcomplete#Complete
@@ -225,10 +225,11 @@ vnoremap <silent> <leader>a[ c[]<Esc>P
 vnoremap <silent> <leader>a' c''<Esc>P
 vnoremap <silent> <leader>a" c""<Esc>P
 
-" Formatting -- to use gq
+" Formatting
 nnoremap <leader>ll :set tw=10000<cr>
 nnoremap <leader>ls :set tw=74<cr>
-nnoremap <leader>lm :set fo=1tawc<cr>
+nnoremap <leader>lf :set fo=tawc<cr>
+nnoremap <leader>z zz
 
 " Deleting things
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
