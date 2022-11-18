@@ -119,6 +119,8 @@ cd starfetch
 make
 sudo make install
 
+Aktywować obszar roboczy kiedy się najedzie na lewy gówny bok
+
 
 
 cd
@@ -236,9 +238,6 @@ Section "InputClass"
 EndSection
 
 
-Domyślna czcionka POP_OS -- Fira Sans SemiBold 10
-
-Czcionka elementary (którą stosuję też tu) -- Inter regular/bold
 
 
 
