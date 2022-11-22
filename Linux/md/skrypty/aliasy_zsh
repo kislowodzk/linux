@@ -23,8 +23,8 @@ alias cls=clear
 alias c.='cd ..'
 alias v=nvim
 alias nv=nvim
-alias vtd='nvim ~/Notatki/ToDo.md'
-alias td='nvim ~/Notatki/ToDo.md'
+alias vtd='nvim ~/Dokumenty/Notatki/ToDo.md'
+alias td='nvim ~/Dokumenty/Notatki/ToDo.md'
 
 alias s='ranger ~/1-STUDIA/2_Rok/Semestr_4/'
 alias ra=ranger
