@@ -333,7 +333,7 @@ hi User9 cterm=bold ctermfg=236 ctermbg=166
 
 if exists("g:neovide")
     let g:neovide_hide_mouse_when_typing = v:true
-    set guifont=Fira\ Code:h9
+    set guifont=Fira\ Code:h10
     colorscheme gruvbox
 
     set filetype=none
