@@ -182,6 +182,9 @@ sudo apt install gnome-tweaks
 
 sudo update-alternatives --config x-terminal-emulator     # zmienia domyślny terminal
 # zmiana grafiki na nvidię
+
+startup applications -- dodać opcję mysz, w opisie "imwheel -kill" i powinno być cacy
+
 # klawiatura -- skróty klawiszowe -- ustawienia
     # Move, resize and swap windows
         # adjustment mode -- Super+R
