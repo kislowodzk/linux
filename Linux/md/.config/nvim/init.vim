@@ -34,9 +34,6 @@ call plug#end()
 " => GENERAL SETTINGS
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" Don't leave one letter words at the end of the line
-setlocal formatoptions+=1
-
 " Numbers
 set nonumber norelativenumber
 nnoremap <f8> :setlocal number! relativenumber!<enter>
@@ -187,15 +184,11 @@ nnoremap <silent> <leader>q :Vex<CR>
 " File search
 nnoremap <leader>f :find **
 
-" Splits
-nnoremap <leader>v :wincmd v<CR>
-nnoremap <leader>s :wincmd s<CR>
-
 " Tags
-nnoremap <silent> <leader>t :tabnew<CR>
-nnoremap <silent> <leader>n :tabnext<CR>
-nnoremap <silent> <leader>N :tabprevious<CR>
-nnoremap <silent> <leader>w :tabclose<CR>
+nnoremap <silent> <leader>tt :tabnew<CR>
+nnoremap <silent> <leader>tn :tabnext<CR>
+nnoremap <silent> <leader>tp :tabprevious<CR>
+nnoremap <silent> <leader>tw :tabclose<CR>
 
 " Adding things
 nnoremap <silent> <leader>ab viwc****<Esc>hP
@@ -226,8 +219,8 @@ vnoremap <silent> <leader>a' c''<Esc>P
 vnoremap <silent> <leader>a" c""<Esc>P
 
 " Formatting
-nnoremap <leader>ll :set tw=10000<cr>
-nnoremap <leader>ls :set tw=74<cr>
+nnoremap <leader>sl :set tw=10000<cr>
+nnoremap <leader>ss :set tw=74<cr>
 nnoremap <leader>lf :set fo=tawc<cr>
 nnoremap <leader>z zz
 
@@ -333,7 +326,8 @@ hi User9 cterm=bold ctermfg=236 ctermbg=166
 
 if exists("g:neovide")
     let g:neovide_hide_mouse_when_typing = v:true
-    set guifont=Fira\ Code:h10
+    " set guifont=DejaVu\ Sans\ Mono:h11
+    set guifont=Hack:h10.5
     colorscheme gruvbox
 
     set filetype=none

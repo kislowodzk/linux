@@ -154,6 +154,8 @@ sudo reboot
 
 Instalacja Fira Code, żeby polybar działał
 
+Instalacja Inter, Hack
+
 # wizualizacja dźwięku
 wave vel cava https://github.com/karlstav/cava#configuration
 
@@ -174,6 +176,7 @@ Discord
 zoom
 telegram
 messenger
+MarkText
 
 
 # Gnome desktop -- pop os
@@ -210,6 +213,7 @@ startup applications -- dodać opcję mysz, w opisie "imwheel -kill" i powinno b
         # rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.8em;}' -- Super+Shift+Return
         # sh /home/md/skrypty/skrypt_kopiowanie.sh -- Super+W
         # sh /home/md/skrypty/skrypt_wyszukiwanie.sh -- Super+S
+        # /home/md/.cargo/bin/neovide -- Super+Shift+N
     # Nawigacja
         # Ukrycie wszystkich zwykłych okien -- Super + z
     # Usunąć

@@ -107,26 +107,26 @@ scrolling:
 
 
 
-font:
-  size: 10.0
-  normal:
-    family: Fira Code
-    style: Regular
-  bold:
-    family: Fira Code 
-  italic:
-    family: Fira Code
-
-
 # font:
 #   size: 10.0
 #   normal:
-#     family: monospace
+#     family: Fira Code
 #     style: Regular
 #   bold:
-#     family: monospace
+#     family: Fira Code 
 #   italic:
-#     family: monospace
+#     family: Fira Code
+
+
+font:
+  size: 10.0
+  normal:
+    family: Hack
+    style: Regular
+  bold:
+    family: Hack
+  italic:
+    family: Hack
 
 
 
@@ -232,7 +232,7 @@ font:
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
   offset:
     x: 0
-    y: 0
+    y: 2
 
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increasing `x` moves the glyph to the right,
