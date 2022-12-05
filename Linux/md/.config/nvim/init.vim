@@ -221,7 +221,7 @@ vnoremap <silent> <leader>a" c""<Esc>P
 " Formatting
 nnoremap <leader>sl :set tw=10000<cr>
 nnoremap <leader>ss :set tw=74<cr>
-nnoremap <leader>lf :set fo=tawc<cr>
+nnoremap <leader>sf :set fo=tawc<cr>
 nnoremap <leader>z zz
 
 " Deleting things
