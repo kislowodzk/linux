@@ -178,6 +178,20 @@ telegram
 messenger
 MarkText
 
+VSCodium:
+
+- Rozszerzenie: vim
+- Settings JSON
+
+{
+    "editor.fontFamily": "'Monaco', 'monospace', monospace",
+    "keyboard.dispatch": "keyCode",
+    "editor.lineNumbers": "relative",
+    "editor.cursorSurroundingLines": 9,
+    "editor.wordWrap": "on"
+}
+
+
 
 # Gnome desktop -- pop os
 
