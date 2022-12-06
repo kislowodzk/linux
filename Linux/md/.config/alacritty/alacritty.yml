@@ -41,7 +41,7 @@ window:
 
   # Spread additional padding evenly around the terminal content.
 #  dynamic_padding: false
-  opacity: 0.96
+  opacity: 0.98
   # Window decorations
   #
   # Values for `decorations`:
@@ -339,6 +339,10 @@ schemes:
       background: '#282828'
       # soft contrast: background = '0x32302f'
       foreground: '#ebdbb2'
+
+    cursor:
+      text: '#282828'
+      cursor: '#ebdbb2'
 
     # Normal colors
     normal:

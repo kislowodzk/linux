@@ -182,13 +182,15 @@ VSCodium:
 
 - Rozszerzenie: vim
 - Settings JSON
-
 {
-    "editor.fontFamily": "'Monaco', 'monospace', monospace",
+    "editor.fontFamily": "'Monaco Nerd Font Mono', 'monospace', monospace",
     "keyboard.dispatch": "keyCode",
     "editor.lineNumbers": "relative",
     "editor.cursorSurroundingLines": 9,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "git.confirmSync": false
 }
 
 
