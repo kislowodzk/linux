@@ -59,7 +59,7 @@ set linebreak
 set tw=74
 set display+=lastline
 set backspace=indent,eol,start
-set scrolloff=9
+set scrolloff=8
 
 " Don't add double space after dot at the end of the line
 set nojoinspaces
@@ -89,8 +89,10 @@ syntax on
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 nnoremap <C-f> ggvG$
-nnoremap <C-k> gk
-nnoremap <C-j> gj
+nnoremap j gj
+nnoremap k gk
+nnoremap <C-k> k
+nnoremap <C-j> j
 nnoremap <C-h> h
 nnoremap <C-l> l
 
@@ -104,7 +106,7 @@ nnoremap <f10> :setlocal list!<enter>
 
 " Spellcheck
 set spellcapcheck=
-set spellsuggest=best,17
+set spellsuggest=best,16
 nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us<enter>
 nnoremap [s [szz
 nnoremap ]s ]szz
@@ -327,7 +329,7 @@ hi User9 cterm=bold ctermfg=236 ctermbg=166
 if exists("g:neovide")
     let g:neovide_hide_mouse_when_typing = v:true
     " set guifont=DejaVu\ Sans\ Mono:h11
-    set guifont=Hack:h10.5
+    set guifont=Monaco\ Nerd\ Font\ Mono:h10
     colorscheme gruvbox
 
     set filetype=none
