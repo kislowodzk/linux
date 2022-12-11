@@ -211,13 +211,15 @@ startup applications -- dodać opcję mysz, w opisie "imwheel -kill" i powinno b
     # Dźwięk i multimedia
         # dźwięk w górę/dół -- Super+]/[
         # poprzednia/następna ścieżka -- Shift+Super+{/}
-        # Odtwarzanie (lub odtwarzanie/wstrzymanie -- Shift+Super+P
+        # Odtwarzanie (lub odtwarzanie/wstrzymanie) -- Shift+Super+P
     # Nawigacja
         # Przełączenie okien -- Alt+Tab
         # Przełączenie programów -- Super+Tab
         # Ukrucie wszystkich zwykłych okien -- Super+Z
-        # Przełączenie na (liczba) obszar roboczy -- Super + (liczba)
+        # Przełączenie na (liczba) obszar roboczy -- Super + (liczba) [też
+            # dla liczb od 6 do 0]
         # Przełączenie na ostatni obszar roboczy -- Super + 0
+        # Przeniesienie okna na obszar roboczy -- analogicznie, tylko z shiftem
     # Okna
         # Ukrycie okna -- Super+N
     # System
@@ -232,6 +234,10 @@ startup applications -- dodać opcję mysz, w opisie "imwheel -kill" i powinno b
         # sh /home/md/skrypty/skrypt_wyszukiwanie.sh -- Super+S
     # Nawigacja
         # Ukrycie wszystkich zwykłych okien -- Super + z
+    # Desktop
+        # Obszary robocze
+            # Stała liczba obszarów roboczych -- on
+            # Liczba obszarów roboczych -- 5
     # Usunąć
         # uruchomienie klienta poczty
 # tweaks
