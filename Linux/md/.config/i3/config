@@ -1,9 +1,9 @@
 # i3 config file
 
-exec kitty --class=scratch-terminal
+exec alacritty --class=scratch-terminal
 exec --no-startup-id "~/skrypty/drugi_monitor_i3.sh"
 exec_always --no-startup-id compton
-bindsym $mod+Shift+e exec "kitty --class=scratch-terminal"
+bindsym $mod+Shift+e exec "alacritty --class=scratch-terminal"
 for_window [class="scratch-terminal"] move to scratchpad
 for_window [class="scratch-terminal"] resize set 1000 700
 bindsym $mod+e [class="scratch-terminal"] scratchpad show; move position center;
