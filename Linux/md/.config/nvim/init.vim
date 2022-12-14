@@ -204,7 +204,7 @@ nnoremap <silent> <leader>a" viwc""<Esc>P
 
 nnoremap <silent> <leader>al a[]()<esc>i
 nnoremap <silent> <leader>ap a![]()<esc>i
-nnoremap <silent> <leader>as 25o<esc>25k$
+nnoremap <silent> <leader>as 25o<esc>25k$zz
 nnoremap <silent> <leader>a1 I# 
 nnoremap <silent> <leader>a2 I## 
 nnoremap <silent> <leader>a3 I### 

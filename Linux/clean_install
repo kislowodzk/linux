@@ -134,14 +134,14 @@ mate-control-center                                     # tu wybrać domyślne p
 // żeby ustawić nvima jako domyślny edytor, to https://unix.stackexchange.com/questions/365587/how-to-open-vim-in-terminator-by-default
 // na przykład coś takiego, generalnie 
 sudo vim /usr/share/applications/nvim.desktop
-Exec=kitty -e vim %F
+Exec=alacritty -e vim %F
 Terminal=false
 //
 
 # żeby z poziomu nemo otwierać kitty jako terminal
 
-gsettings set org.gnome.desktop.default-applications.terminal exec kitty
-gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
+gsettings set org.gnome.desktop.default-applications.terminal exec alacritty
+gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
 
 # żeby ustawić nemo jako domyślny file manager
 xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
@@ -232,6 +232,7 @@ startup applications -- dodać opcję mysz, w opisie "imwheel -kill" i powinno b
         # rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.8em;}' -- Super+Shift+Return
         # sh /home/md/skrypty/skrypt_kopiowanie.sh -- Super+W
         # sh /home/md/skrypty/skrypt_wyszukiwanie.sh -- Super+S
+        # kitty -- Ctrl+Super+Enter
     # Nawigacja
         # Ukrycie wszystkich zwykłych okien -- Super + z
     # Desktop
