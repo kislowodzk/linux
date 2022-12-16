@@ -245,7 +245,8 @@ startup applications -- dodać opcję mysz, w opisie "imwheel -kill" i powinno b
     # keyboard & mouse
         # additional layout options
             # caps lock behavior -- swap esc and caps lock
-            #
+# Zasilanie
+    # usypianie i przycisk zasilania -- zachowanie przycisku zasilania: uśpienie
 
 # Reverse scrolling 
 
