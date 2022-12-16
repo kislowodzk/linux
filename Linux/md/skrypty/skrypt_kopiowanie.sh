@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -v '^#' ~/skrypty/wyszukiwanie | rofi -dmenu | cut -d' ' -f1 | xclip -selection c
+grep -v '^#' ~/skrypty/wyszukiwanie | rofi -dmenu | cut -d' ' -f1 | tr -d $'\n' | xclip -selection c
