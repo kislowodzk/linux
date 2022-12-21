@@ -23,6 +23,7 @@ call plug#begin()
     Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
 
     " Other_plugins:
+    Plug 'farmergreg/vim-lastplace' " Open file at the place, the coursor was at
     Plug 'ap/vim-css-color'         " CSS color preview
     Plug 'tpope/vim-commentary'     " gcc or gc
     Plug 'preservim/tagbar'         " Tagbar, leader + c (table of contents)
