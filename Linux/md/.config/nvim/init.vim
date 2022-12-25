@@ -109,7 +109,7 @@ nnoremap <f10> :setlocal list!<enter>
 
 " Spellcheck
 set spellcapcheck=
-set spellsuggest=best,16
+set spellsuggest=best,14
 nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us<enter>
 nnoremap [s [szz
 nnoremap ]s ]szz
@@ -262,6 +262,21 @@ nnoremap <silent> <leader>m5 ?^##### <cr>
 "    => plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => RANGER
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:ranger_map_keys = 0
+map <leader>rr :RangerCurrentDirectory<CR>
+map <leader>rt :tabnew<CR>:Ranger<CR>
+map <leader>rc :tabnew<CR>:cd ~/.config<CR>:Ranger<CR>
+map <leader>rn :tabnew<CR>:cd ~/Dokumenty/Notatki<CR>:Ranger<CR>
+map <leader>rh :tabnew<CR>:cd ~<CR>:Ranger<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => TAGBAR
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " Tagbar / table of contents
 nnoremap <silent> <leader>c :Tagbar<CR>
 
@@ -272,13 +287,6 @@ nnoremap <silent> <leader>c :Tagbar<CR>
 let g:netrw_liststyle = 0
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => RANGER
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-let g:ranger_map_keys = 0
-map <leader>r :Ranger<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GRUVBOX
