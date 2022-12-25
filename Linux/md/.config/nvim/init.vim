@@ -20,15 +20,17 @@ call plug#begin()
     " :PlugClean
     
     " Colorschemes:
-    Plug 'morhetz/gruvbox'          " Colorscheme gruvbox
+    Plug 'morhetz/gruvbox'              " Colorscheme gruvbox
 
     " Other_plugins:
-    Plug 'farmergreg/vim-lastplace' " Open file at the place, the coursor was at
-    Plug 'ap/vim-css-color'         " CSS color preview
-    Plug 'tpope/vim-commentary'     " gcc or gc
-    Plug 'preservim/tagbar'         " Tagbar, leader + c (table of contents)
-                                    " I need to have ctag installed, eg.:
-                                    "   sudo apt install universal-ctags
+    Plug 'rbgrouleff/bclose.vim'        " Ranger prerequisite
+    Plug 'francoiscabrol/ranger.vim'    " Ranger
+    Plug 'farmergreg/vim-lastplace'     " Open file at the place, the coursor was at
+    Plug 'ap/vim-css-color'             " CSS color preview
+    Plug 'tpope/vim-commentary'         " gcc or gc
+    Plug 'preservim/tagbar'             " Tagbar, leader + c (table of contents)
+                                        " I need to have ctag installed, eg.:
+                                        "   sudo apt install universal-ctags
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -270,6 +272,13 @@ nnoremap <silent> <leader>c :Tagbar<CR>
 let g:netrw_liststyle = 0
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => RANGER
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:ranger_map_keys = 0
+map <leader>r :Ranger<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GRUVBOX
