@@ -18,6 +18,7 @@ sudo apt install polybar
 sudo apt-get install ubuntu-restricted-extras; sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pkg
 
 
+sudo apt install xfce4-terminal -y
 sudo apt install zsh -y
 sudo apt install zsh-syntax-highlighting -y
 sudo apt install neovim -y
@@ -143,14 +144,15 @@ mate-control-center                                     # tu wybrać domyślne p
 // żeby ustawić nvima jako domyślny edytor, to https://unix.stackexchange.com/questions/365587/how-to-open-vim-in-terminator-by-default
 // na przykład coś takiego, generalnie 
 sudo vim /usr/share/applications/nvim.desktop
-Exec=alacritty -e vim %F
+Exec=xfce4-terminal -e vim %F
 Terminal=false
 //
 
 # żeby z poziomu nemo otwierać kitty jako terminal
 
-gsettings set org.gnome.desktop.default-applications.terminal exec alacritty
-gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
+gsettings set org.gnome.desktop.default-applications.terminal exec xfce4-terminal
+gsettings set org.cinnamon.desktop.default-applications.terminal exec xfce4-terminal
+
 
 # żeby ustawić nemo jako domyślny file manager
 xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
