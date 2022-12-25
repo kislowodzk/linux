@@ -144,14 +144,14 @@ mate-control-center                                     # tu wybrać domyślne p
 // żeby ustawić nvima jako domyślny edytor, to https://unix.stackexchange.com/questions/365587/how-to-open-vim-in-terminator-by-default
 // na przykład coś takiego, generalnie 
 sudo vim /usr/share/applications/nvim.desktop
-Exec=xfce4-terminal -e vim %F
+Exec=alacritty -e vim %F
 Terminal=false
 //
 
 # żeby z poziomu nemo otwierać kitty jako terminal
 
-gsettings set org.gnome.desktop.default-applications.terminal exec xfce4-terminal
-gsettings set org.cinnamon.desktop.default-applications.terminal exec xfce4-terminal
+gsettings set org.gnome.desktop.default-applications.terminal exec alacritty
+gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
 
 # Żeby dobry padding był w xfce4-terminal
 
