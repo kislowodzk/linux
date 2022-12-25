@@ -153,6 +153,15 @@ Terminal=false
 gsettings set org.gnome.desktop.default-applications.terminal exec xfce4-terminal
 gsettings set org.cinnamon.desktop.default-applications.terminal exec xfce4-terminal
 
+# Żeby dobry padding był w xfce4-terminal
+
+vim .config/gtk-3.0/gtk.css
+
+VteTerminal, vte-terminal {
+    padding: 3px 10px;
+}
+
+
 
 # żeby ustawić nemo jako domyślny file manager
 xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
