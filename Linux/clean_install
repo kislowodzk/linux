@@ -292,6 +292,19 @@ EndSection
 
 sudo apt install kdeconnect-- łączenie sms z androidem
 
+### Welcome to the church
+
+sudo apt install emacs git ripgrep fdclone
+
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d
+~/.emacs.d/bin/doom install
+
+# yes na wszystko
+
+### AMENO
+
+
+
 
 
 
