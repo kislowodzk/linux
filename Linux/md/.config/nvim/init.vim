@@ -38,9 +38,10 @@ call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Numbers
-set nonumber norelativenumber
-nnoremap <f8> :setlocal number! relativenumber!<enter>
-nnoremap <f7> :set colorcolumn=75<enter>
+set nonumber relativenumber
+set colorcolumn=75
+nnoremap <f8> :setlocal nonumber norelativenumber<enter>
+nnoremap <f7> :set colorcolumn=0<enter>
 
 " Searching
 set ignorecase
