@@ -109,27 +109,39 @@ scrolling:
 
 
 
+# Tylko jeśli Fira Code, to trzeba zmienić odstępy między wierszami, bo
+# się rzeczy sypią
+
 # font:
 #   size: 10.0
 #   normal:
-#     family: Hack
+#     family: Fira Code
 #     style: Regular
 #   bold:
-#     family: Hack
+#     family: Fira Code
 #   italic:
-#     family: Hack
+#     family: Fira Code
 
+
+# font:
+#   size: 10.0
+#   normal:
+#     family: Monaco Nerd Font Mono
+#     style: Regular
+#   bold:
+#     family: Monaco Nerd Font Mono
+#   italic:
+#     family: Monaco Nerd Font Mono
 
 font:
-  size: 10.0
+  size: 11.0
   normal:
-    family: Monaco Nerd Font Mono
+    family: Fantasque Sans Mono
     style: Regular
   bold:
-    family: Monaco Nerd Font Mono
+    family: Fantasque Sans Mono
   italic:
-    family: Monaco Nerd Font Mono
-
+    family: Fantasque Sans Mono
 
 
 #   # Normal (roman) font face

@@ -40,6 +40,7 @@ call plug#end()
 " Numbers
 set nonumber norelativenumber
 nnoremap <f8> :setlocal number! relativenumber!<enter>
+nnoremap <f7> :set colorcolumn=75<enter>
 
 " Searching
 set ignorecase
