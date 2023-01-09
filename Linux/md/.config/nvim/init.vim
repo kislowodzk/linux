@@ -76,6 +76,11 @@ set clipboard^=unnamed,unnamedplus
 
 set smartindent
 
+" Hold my beer
+
+set noswapfile
+set nobackup
+
 " For .txt and .md i need autoindent (smartindent caused problems) and different format options
 autocmd BufRead,BufNewFile   *.txt set fo=tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=tawc nosmartindent autoindent
