@@ -65,6 +65,7 @@ set tw=74
 set display+=lastline
 set backspace=indent,eol,start
 set scrolloff=8
+set smartindent
 
 " Don't add double space after dot at the end of the line
 set nojoinspaces
@@ -74,10 +75,7 @@ set splitbelow splitright
 
 set clipboard^=unnamed,unnamedplus
 
-set smartindent
-
 " Hold my beer
-
 set noswapfile
 set nobackup
 
