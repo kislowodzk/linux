@@ -39,7 +39,7 @@ call plug#end()
 
 " Numbers
 set nonumber relativenumber
-set colorcolumn=75
+set colorcolumn=76
 nnoremap <f8> :setlocal nonumber norelativenumber<enter>
 nnoremap <f7> :set colorcolumn=0<enter>
 
