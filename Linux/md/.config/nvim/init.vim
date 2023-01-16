@@ -315,6 +315,7 @@ let g:netrw_winsize = 25
 
 " I changed the way sonokai shows bolds and italics in markdown
 source ~/.config/nvim/sonokai.vim
+hi CursorLineNr ctermfg=3
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => APPEARANCE
