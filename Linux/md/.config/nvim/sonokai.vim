@@ -1578,7 +1578,7 @@ highlight! link markdownHeadingRule Grey
 highlight! link markdownUrlDelimiter Grey
 highlight! link markdownLinkDelimiter Grey
 highlight! link markdownLinkTextDelimiter Grey
-highlight! link markdownHeadingDelimiter Grey
+highlight! link markdownHeadingDelimiter Red
 highlight! link markdownLinkText Red
 highlight! link markdownUrlTitleDelimiter Green
 highlight! link markdownIdDeclaration markdownLinkText
