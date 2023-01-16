@@ -324,6 +324,9 @@ hi! link markdownHeadingDelimiter Red
 " Color of current line number
 hi! CursorLineNr ctermfg=3
 
+" Reversed colors in visual mode
+hi! Visual cterm=reverse
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => APPEARANCE
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
