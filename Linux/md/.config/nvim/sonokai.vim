@@ -1564,8 +1564,8 @@ call sonokai#highlight('markdownH4', s:palette.green, s:palette.none, 'bold')
 call sonokai#highlight('markdownH5', s:palette.blue, s:palette.none, 'bold')
 call sonokai#highlight('markdownH6', s:palette.purple, s:palette.none, 'bold')
 call sonokai#highlight('markdownUrl', s:palette.blue, s:palette.none, 'underline')
-call sonokai#highlight('markdownItalic', s:palette.purple, s:palette.none, 'italic')
-call sonokai#highlight('markdownBold', s:palette.blue, s:palette.none, 'bold')
+call sonokai#highlight('markdownItalic', s:palette.blue, s:palette.none, 'italic')
+call sonokai#highlight('markdownBold', s:palette.purple, s:palette.none, 'bold')
 call sonokai#highlight('markdownItalicDelimiter', s:palette.grey, s:palette.none, 'italic')
 highlight! link markdownCode Green
 highlight! link markdownCodeBlock Green
@@ -1578,7 +1578,7 @@ highlight! link markdownHeadingRule Grey
 highlight! link markdownUrlDelimiter Grey
 highlight! link markdownLinkDelimiter Grey
 highlight! link markdownLinkTextDelimiter Grey
-highlight! link markdownHeadingDelimiter Red
+highlight! link markdownHeadingDelimiter Grey
 highlight! link markdownLinkText Red
 highlight! link markdownUrlTitleDelimiter Green
 highlight! link markdownIdDeclaration markdownLinkText

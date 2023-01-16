@@ -313,9 +313,16 @@ let g:netrw_winsize = 25
 " => SONOKAI
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" I changed the way sonokai shows bolds and italics in markdown
+" I changed the way sonokai does some things
+    " bold color
+    " italic color
 source ~/.config/nvim/sonokai.vim
-hi CursorLineNr ctermfg=3
+
+" Hashes before headings
+hi! link markdownHeadingDelimiter Red
+
+" Color of current line number
+hi! CursorLineNr ctermfg=3
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => APPEARANCE
