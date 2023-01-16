@@ -1,0 +1,8 @@
+[Main View]
+ShowLeftPanel=false
+
+[PageView]
+MouseMode=RectSelect
+
+[Reviews]
+QuickAnnotationDefaultAction=4
