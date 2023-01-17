@@ -125,6 +125,8 @@ alias poms='~/skrypty/pomodoro.sh'
 
 alias gif='kitty +kitten icat --align left'
 
+alias t=trans
+
 # Żeby działał neovide
 export PATH=$PATH:/home/md/.cargo/bin
 
