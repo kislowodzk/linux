@@ -314,8 +314,8 @@ let g:netrw_winsize = 25
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " I changed the way sonokai does some things
-    " bold color
-    " italic color
+    " bold text's color
+    " italic text's color
 source ~/.config/nvim/sonokai.vim
 
 " Hashes before headings

@@ -30,6 +30,7 @@ sudo apt install btop -y
 sudo apt install cmatrix -y
 sudo apt install tree -y
 sudo apt install blueman -y
+sudo apt-get install translate-shell -y
 sudo apt install neofetch -y
 sudo apt install flameshot -y
 sudo apt-get install lxappearance -y
