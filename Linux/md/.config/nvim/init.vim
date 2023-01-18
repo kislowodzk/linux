@@ -357,7 +357,10 @@ set laststatus=2
 set statusline=
 
 " Basic separators
-set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%3*\ %{&fileencoding?&fileencoding:&encoding}\ [%{&fileformat}]\ %4*\ %{&filetype}\ %5*\ %l/%6*%L:\ %5*%2v\ %*
+set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%5*\ %l/%6*%L:\ %5*%2v\ %*
+
+" Additional info
+" set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%3*\ %{&fileencoding?&fileencoding:&encoding}\ [%{&fileformat}]\ %4*\ %{&filetype}\ %5*\ %l/%6*%L:\ %5*%2v\ %*
 
 " SONOKAI
 
@@ -374,8 +377,8 @@ hi User1 cterm=bold ctermfg=110 ctermbg=236
 hi User2 cterm=none ctermfg=236 ctermbg=239
 hi User3 cterm=none ctermfg=244 ctermbg=238
 hi User4 cterm=none ctermfg=244 ctermbg=237
-hi User5 cterm=bold ctermfg=248 ctermbg=236
-hi User6 cterm=none ctermfg=251 ctermbg=236
+hi User5 cterm=bold ctermfg=251 ctermbg=236
+hi User6 cterm=none ctermfg=250 ctermbg=236
 hi User9 cterm=bold ctermfg=236 ctermbg=110
 
 "" GRUVBOX
