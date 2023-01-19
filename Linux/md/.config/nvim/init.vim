@@ -26,6 +26,7 @@ call plug#begin()
     " Other_plugins:
     Plug 'rbgrouleff/bclose.vim'        " Ranger prerequisite
     Plug 'francoiscabrol/ranger.vim'    " Ranger
+
     Plug 'farmergreg/vim-lastplace'     " Open file at the place, the coursor was at
     Plug 'ap/vim-css-color'             " CSS color preview
     Plug 'tpope/vim-commentary'         " gcc or gc
@@ -41,32 +42,21 @@ call plug#end()
 " Numbers
 set nonumber relativenumber
 set colorcolumn=76
-nnoremap <f8> :setlocal nonumber norelativenumber<enter>
-nnoremap <f7> :set colorcolumn=0<enter>
 
 " Searching
-set ignorecase
-set smartcase
-set incsearch
-set complete+=s
-set showmatch
-set hlsearch
+set ignorecase smartcase incsearch complete+=s showmatch hlsearch
 
 set path+=**
 
 " Spaces instead of tabs
-set expandtab
-set softtabstop=4
-set shiftwidth=4
-set tabstop=4
+set expandtab softtabstop=4 shiftwidth=4 tabstop=4
 
-set wrap
-set linebreak
-set tw=74
-set display+=lastline
+set wrap linebreak smartindent tw=74
+
 set backspace=indent,eol,start
+
+set display+=lastline
 set scrolloff=8
-set smartindent
 
 " Don't add double space after dot at the end of the line
 set nojoinspaces
@@ -74,13 +64,14 @@ set nojoinspaces
 " Open split on the right/below
 set splitbelow splitright
 
+" Copy to clipboard
 set clipboard^=unnamed,unnamedplus
 
 " Hold my beer
-set noswapfile
-set nobackup
+set noswapfile nobackup
 
-" For .txt and .md i need autoindent (smartindent caused problems) and different format options
+" For .txt and .md i need autoindent (smartindent caused problems) and
+" different format options
 autocmd BufRead,BufNewFile   *.txt set fo=tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=tawc nosmartindent autoindent
 
@@ -119,6 +110,9 @@ set spellsuggest=best,14
 nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us<enter>
 nnoremap [s [szz
 nnoremap ]s ]szz
+
+nnoremap <f8> :setlocal nonumber norelativenumber<enter>
+nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
 
 " Stop highlighting searching results
 nnoremap <silent> <CR> :noh<CR>
