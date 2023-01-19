@@ -165,6 +165,13 @@ cnoremap Q q
 vmap < <gv
 vmap > >gv
 
+vnoremap j gj
+vnoremap k gk
+vnoremap <C-k> k
+vnoremap <C-j> j
+vnoremap <C-h> h
+vnoremap <C-l> l
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => LEADER
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
