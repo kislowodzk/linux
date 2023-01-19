@@ -387,6 +387,43 @@ schemes:
       cyan:    '#8ec07c'
       white:   '#ebdbb2'
 
+
+  ### Gruvbox darker -- background from sonokai ###
+  GruvboxDarker: &GruvboxDarker
+    # Default colors
+    primary:
+      # hard contrast: background = '0x1d2021'
+      background: '#222327'
+      # soft contrast: background = '0x32302f'
+      foreground: '#ebdbb2'
+
+    cursor:
+      text: '#282828'
+      cursor: '#ebdbb2'
+
+    # Normal colors
+    normal:
+      black:   '#282828'
+      red:     '#cc241d'
+      green:   '#98971a'
+      yellow:  '#d79921'
+      blue:    '#458588'
+      magenta: '#b16286'
+      cyan:    '#689d6a'
+      white:   '#a89984'
+
+    # Bright colors
+    bright:
+      black:   '#928374'
+      red:     '#fb4934'
+      green:   '#b8bb26'
+      yellow:  '#fabd2f'
+      blue:    '#83a598'
+      magenta: '#d3869b'
+      cyan:    '#8ec07c'
+      white:   '#ebdbb2'
+
+
 ### Monokai ###
   MonokaiPro: &MonokaiPro
     # Default colors
@@ -617,6 +654,7 @@ schemes:
 # *DoomOne
 # *Dracula
 # *GruvboxDark
+# *GruvboxDarker
 # *MonokaiPro
 # *Nord
 # *OceanicNext
@@ -625,7 +663,7 @@ schemes:
 # *SolarizedDark
 # *TomorrowNight
 
-colors: *GruvboxDark
+colors: *GruvboxDarker
 
 #######################################
 ##       END OF COLOR SCHEMES        ##
