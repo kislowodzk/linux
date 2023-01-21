@@ -313,6 +313,9 @@ hi! CursorLineNr ctermfg=110
 " Reversed colors in visual mode
 hi! Visual cterm=reverse
 
+" Better tab colors
+hi TabLineSel ctermfg=203 ctermbg=235
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => APPEARANCE
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
