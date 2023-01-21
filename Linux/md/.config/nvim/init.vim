@@ -200,6 +200,7 @@ nnoremap <silent> <leader>tt :tabnew<CR>
 nnoremap <silent> <leader>tn :tabm +1<CR>
 nnoremap <silent> <leader>tp :tabm -1<CR>
 nnoremap <silent> <leader>tw :tabclose<CR>
+nnoremap <silent> <leader>tz :tabnew<CR>:terminal<CR>
 
 " Go to tab by number
 noremap <leader>1 1gt
@@ -299,8 +300,8 @@ let g:netrw_winsize = 25
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " I changed the way sonokai does some things
-    " bold text's color
-    " italic text's color
+    " call sonokai#highlight('markdownItalic', s:palette.blue, s:palette.none, 'italic')
+    " call sonokai#highlight('markdownBold', s:palette.purple, s:palette.none, 'bold')
 source ~/.config/nvim/sonokai.vim
 
 " Hashes before headings
@@ -343,10 +344,10 @@ set statusline=
 
 set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%4*\ %p%%\ %5*\ %l:\ %2v\ %*
 
-au InsertEnter * hi User1 cterm=bold ctermfg=179 ctermbg=236
+au InsertEnter * hi User1 cterm=bold ctermfg=203 ctermbg=236
 au InsertLeave * hi User1 cterm=bold ctermfg=110 ctermbg=236
 
-au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=179
+au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=203
 au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=110
 
 hi statusline cterm=none ctermfg=249 ctermbg=239
