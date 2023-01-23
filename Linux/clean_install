@@ -40,6 +40,7 @@ sudo apt install nitrogen -y
 sudo apt install htop -y
 sudo apt install btop -y
 sudo apt install cmatrix -y
+sudo apt install tmux -y
 sudo apt install tree -y
 sudo apt install blueman -y
 sudo apt-get install translate-shell -y
