@@ -197,6 +197,8 @@ nnoremap <leader>f :find **
 
 " Tabs
 nnoremap <silent> <leader>tt :tabnew<CR>
+nnoremap <silent> <leader>n :tabnext<cr>
+nnoremap <silent> <leader>p :tabprev<cr>
 nnoremap <silent> <leader>tn :tabm +1<CR>
 nnoremap <silent> <leader>tp :tabm -1<CR>
 nnoremap <silent> <leader>tw :tabclose<CR>

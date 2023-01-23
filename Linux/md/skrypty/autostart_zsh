@@ -48,3 +48,4 @@ export DATE=$(date -I)
 # żeby gruvbox prawidłowo wyświetlał kursywę (jeśli nie to, to trzeba jeden if
 # zmienić w pliku źródłowym kolorku gruvbox
 # export TERM_ITALICS=true
+

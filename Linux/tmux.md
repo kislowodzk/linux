@@ -1,4 +1,4 @@
-# TMUX
+# Tmux
 
 ## Windows -- basicly tabs
 
