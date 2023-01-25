@@ -18,11 +18,11 @@ call plug#begin()
     "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
     " :PlugInstall
     " :PlugClean
-    
-    " Colorschemes:
+
+    Plug 'mhinz/vim-startify'           " Startify
+
     Plug 'sainnhe/sonokai'              " Colorscheme sonokai
 
-    " Other_plugins:
     Plug 'rbgrouleff/bclose.vim'        " Ranger prerequisite
     Plug 'francoiscabrol/ranger.vim'    " Ranger
 
