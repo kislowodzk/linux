@@ -208,7 +208,7 @@ MarkText
 
 Menadżer rozszerzeń: (GNOME extension manager)
 
-- Compact Top Bar
+# - Compact Top Bar -- teraz jeszcze nie
 - App Icons Taskbar
     - isolate workspaces -- no
     - Icon size -- 15
