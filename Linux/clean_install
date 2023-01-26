@@ -206,6 +206,15 @@ telegram
 messenger
 MarkText
 
+Menadżer rozszerzeń: (GNOME extension manager)
+
+- Compact Top Bar
+- App Icons Taskbar
+    - isolate workspaces -- no
+    - Icon size -- 15
+    - Left click -- toggle/preview
+    - disable dock in pop-os settings
+
 VSCodium:
 
 - Rozszerzenie: vim
