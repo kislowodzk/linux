@@ -248,7 +248,6 @@ vnoremap <silent> <leader>a" c""<Esc>P
 nnoremap <leader>sl :set tw=10000<cr>
 nnoremap <leader>ss :set tw=74<cr>
 nnoremap <leader>sf :set fo=tawc<cr>
-nnoremap <leader>z zz
 
 " Deleting things
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
@@ -266,6 +265,10 @@ nnoremap <silent> <leader>m2 ?^## <cr>
 nnoremap <silent> <leader>m3 ?^### <cr>
 nnoremap <silent> <leader>m4 ?^#### <cr>
 nnoremap <silent> <leader>m5 ?^##### <cr>
+
+" Store session
+nnoremap <leader>zz :mks! ~/.my_session.vim<cr>
+nnoremap <leader>zo :so ~/.my_session.vim<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "    => plugins
