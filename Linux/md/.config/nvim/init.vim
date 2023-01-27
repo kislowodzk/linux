@@ -105,10 +105,11 @@ nnoremap <f10> :setlocal list!<enter>
 
 " Spellcheck
 set spellcapcheck=
-set spellsuggest=best,14
+set spellsuggest=best,13
 nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us<enter>
 nnoremap [s [szz
 nnoremap ]s ]szz
+nnoremap z= zzz=
 
 nnoremap <f8> :setlocal nonumber norelativenumber<enter>
 nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
@@ -268,7 +269,7 @@ nnoremap <silent> <leader>m5 ?^##### <cr>
 
 " Store session
 nnoremap <leader>zz :mks! ~/.my_session.vim<cr>
-nnoremap <leader>zo :so ~/.my_session.vim<cr><cr>
+nnoremap <leader>zo :so ~/.my_session.vim<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "    => plugins
