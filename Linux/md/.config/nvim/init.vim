@@ -39,7 +39,7 @@ call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Numbers
-set nonumber relativenumber
+set relativenumber
 set colorcolumn=76
 
 " Searching
@@ -111,7 +111,7 @@ nnoremap [s [szz
 nnoremap ]s ]szz
 nnoremap z= zzz=
 
-nnoremap <f8> :setlocal nonumber norelativenumber<enter>
+nnoremap <f8> :setlocal norelativenumber!<enter>
 nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
 
 " Stop highlighting searching results
