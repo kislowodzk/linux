@@ -82,6 +82,9 @@ set omnifunc=syntaxcomplete#Complete
 
 syntax on
 
+" Let it be, it's ok on TMUX and allows for scrolling
+set mouse=a
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => MAPPINGS
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
