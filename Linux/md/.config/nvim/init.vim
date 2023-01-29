@@ -26,6 +26,9 @@ call plug#begin()
     Plug 'rbgrouleff/bclose.vim'        " Ranger prerequisite
     Plug 'francoiscabrol/ranger.vim'    " Ranger
 
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+
     Plug 'farmergreg/vim-lastplace'     " Open file at the place, the coursor was at
     Plug 'ap/vim-css-color'             " CSS color preview
     Plug 'tpope/vim-commentary'         " gcc or gc
@@ -193,9 +196,6 @@ noremap <silent> <C-Down> :resize -1<CR>
 nnoremap <silent> <leader>e :Ex<CR>
 nnoremap <silent> <leader>q :Vex<CR>
 
-" File search
-nnoremap <leader>f :find **
-
 " Tabs
 nnoremap <silent> <leader>tt :tabnew<CR>
 nnoremap <silent> <leader>n :tabnext<cr>
@@ -276,15 +276,25 @@ nnoremap <leader>zo :so ~/.my_session.vim<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => FZF
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" File search
+nnoremap <leader>ff :Files ~/<CR>
+nnoremap <leader>fh :tabnew<CR>:Files ~/<CR>
+nnoremap <leader>fn :tabnew<CR>:Files ~/Dokumenty/Notatki/<CR>
+nnoremap <leader>fc :tabnew<CR>:Files ~/.config/<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => RANGER
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 let g:ranger_map_keys = 0
 map <leader>rr :RangerCurrentDirectory<CR>
 map <leader>rt :tabnew<CR>:Ranger<CR>
-map <leader>rc :tabnew<CR>:cd ~/.config<CR>:Ranger<CR>
-map <leader>rn :tabnew<CR>:cd ~/Dokumenty/Notatki<CR>:Ranger<CR>
 map <leader>rh :tabnew<CR>:cd ~<CR>:Ranger<CR>
+map <leader>rn :tabnew<CR>:cd ~/Dokumenty/Notatki<CR>:Ranger<CR>
+map <leader>rc :tabnew<CR>:cd ~/.config<CR>:Ranger<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => TAGBAR
