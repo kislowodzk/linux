@@ -208,14 +208,16 @@ MarkText
 
 Menadżer rozszerzeń: (GNOME extension manager)
 
-# - Compact Top Bar -- teraz jeszcze nie
-- App Icons Taskbar
-    - isolate workspaces -- no
-    - Icon size -- 15
-    - Left click -- toggle/preview
-    - disable dock in pop-os settings
-    - pozycja daty, godziny i powiadomień -- lewa -- pop os settings
-    - tweaks -- overview session -- right super
+- Compact Top Bar -- teraz jeszcze nie
+# - App Icons Taskbar
+#     - isolate workspaces -- no
+#     - Icon size -- 15
+#     - Left click -- toggle/preview
+#     - disable dock in pop-os settings
+#     - pozycja daty, godziny i powiadomień -- lewa -- pop os settings
+#     - tweaks -- overview session -- right super
+- Space Bar
+    - disable shortcuts to switch to workspace
 
 VSCodium:
 
@@ -268,8 +270,8 @@ startup applications -- dodać opcję mysz, w opisie "imwheel -kill" i powinno b
     # Niestandardowe skróty
         # flameshot gui -- Super+Shift+S
         # rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.8em;}' -- Super+Shift+Return
-        # sh /home/md/skrypty/skrypt_kopiowanie.sh -- Super+W
-        # sh /home/md/skrypty/skrypt_wyszukiwanie.sh -- Super+S
+        # sh /home/md/skrypty/skrypt_kopiowanie.sh -- Super+s
+        # sh /home/md/skrypty/skrypt_wyszukiwanie.sh -- Super+shifr+w
         # kitty -- Ctrl+Super+Enter
     # Nawigacja
         # Ukrycie wszystkich zwykłych okien -- Super + z
