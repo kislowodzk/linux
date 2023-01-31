@@ -208,16 +208,18 @@ chromium
 
 Menadżer rozszerzeń: (GNOME extension manager)
 
-- Compact Top Bar -- teraz jeszcze nie
-# - App Icons Taskbar
-#     - isolate workspaces -- no
-#     - Icon size -- 15
-#     - Left click -- toggle/preview
-#     - disable dock in pop-os settings
-#     - pozycja daty, godziny i powiadomień -- lewa -- pop os settings
-#     - tweaks -- overview session -- right super
+- Compact Top Bar
 - Space Bar
     - disable shortcuts to switch to workspace
+- Compiz windows effect
+    - friction - 2.0
+    - spring - 2.9
+    - speedup factor - 7.0
+    - mass - 80
+    - x tiles - 10
+    - y tiles - 8
+    - maximize effect - on
+    - resize effect - on
 
 VSCodium:
 
