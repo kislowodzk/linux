@@ -288,6 +288,10 @@ nnoremap <leader>fh :tabnew<CR>:Files ~/<CR>
 nnoremap <leader>fn :tabnew<CR>:Files ~/Dokumenty/Notatki/<CR>
 nnoremap <leader>fc :tabnew<CR>:Files ~/.config/<CR>
 
+" Line search
+nnoremap <leader>fs :Lines<CR>
+nnoremap <leader>fb :BLines<CR>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => RANGER
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
