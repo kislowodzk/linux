@@ -236,6 +236,10 @@ VSCodium:
     "git.confirmSync": false
 }
 
+LibreOffice:
+
+Tools -> options -> LibreOffice Writer -> Basic Fonts (Western) -> Default 
+-- CMU Serif
 
 
 # Gnome desktop -- pop os
