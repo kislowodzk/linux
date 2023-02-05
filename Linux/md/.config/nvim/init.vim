@@ -252,6 +252,7 @@ vnoremap <silent> <leader>a" c""<Esc>P
 nnoremap <leader>sl :set tw=10000<cr>
 nnoremap <leader>ss :set tw=74<cr>
 nnoremap <leader>sf :set fo=tawc<cr>
+nnoremap <leader>st :set filetype=
 
 " Deleting things
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
