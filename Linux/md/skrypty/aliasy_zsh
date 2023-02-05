@@ -21,8 +21,7 @@ alias ZQ=exit
 
 alias cls=clear
 alias c.='cd ..'
-alias v=nvim
-alias nv=nvim
+alias v=nvim -p
 alias vtd='nvim ~/Dokumenty/Notatki/ToDo.md'
 alias td='nvim ~/Dokumenty/Notatki/ToDo.md'
 
