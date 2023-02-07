@@ -329,13 +329,13 @@ let g:netrw_winsize = 25
 source ~/.config/nvim/sonokai.vim
 
 " Hashes before headings
-hi! link markdownHeadingDelimiter Red
+hi link markdownHeadingDelimiter Red
 
 " Color of current line number
-hi! CursorLineNr ctermfg=110
+hi CursorLineNr ctermfg=110
 
 " Reversed colors in visual mode
-hi! Visual cterm=reverse
+hi Visual cterm=reverse
 
 " Better tab colors
 hi TabLineSel ctermfg=203 ctermbg=235
