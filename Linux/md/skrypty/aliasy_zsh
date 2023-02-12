@@ -91,8 +91,8 @@ alias cdf='cd $(fzf --exact --layout=reverse --height 40% | awk "BEGIN{FS=OFS=\"
 # export FZF_DEFAULT_COMMAND='find . -path './.git' -prune -o -print'
 
 # skrypty
-alias kopia='~/skrypty/kopiuj-na-gita.sh'
-alias ko='~/skrypty/kopiuj-na-gita.sh'
+# alias kopia='~/skrypty/kopiuj-na-gita.sh'
+# alias ko='~/skrypty/kopiuj-na-gita.sh'
 alias scroll='~/skrypty/mysz.sh'
 alias mysz='~/skrypty/mysz.sh'
 # alias monitory_awesome='~/skrypty/arandr.sh'       # to muszę wygenerować za pomocą arandr, do tego skryptu w kolejnej linii warto
@@ -131,4 +131,6 @@ alias z=zathura
 
 # Żeby działał neovide
 export PATH=$PATH:/home/md/.cargo/bin
+
+alias termdown='/home/md/.local/bin/termdown'
 

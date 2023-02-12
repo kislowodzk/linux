@@ -90,6 +90,8 @@ pip3 install i3ipc
 # TERMINAL, ALE INACZEJ
 
 
+pip install termdown
+
 # i3 gaps
 https://lottalinuxlinks.com/how-to-build-and-install-i3-gaps-on-debian/
 
