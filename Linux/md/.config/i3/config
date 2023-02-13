@@ -193,15 +193,15 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # bindsym Mod1+Shift+9 move container to workspace number $ws19
 # bindsym Mod1+Shift+0 move container to workspace number $ws20
 
-bindsym $mod+Ctrl+Right workspace next
-bindsym $mod+Ctrl+Left workspace prev
-bindsym $mod+Ctrl+l workspace next
-bindsym $mod+Ctrl+h workspace prev
+bindsym $mod+Ctrl+Down workspace next
+bindsym $mod+Ctrl+Up workspace prev
+bindsym $mod+Ctrl+j workspace next
+bindsym $mod+Ctrl+k workspace prev
 
-bindsym $mod+Mod1+Right workspace next
-bindsym $mod+Mod1+Left workspace prev
-bindsym $mod+Mod1+l workspace next
-bindsym $mod+Mod1+h workspace prev
+bindsym $mod+Mod1+Down workspace next
+bindsym $mod+Mod1+Up workspace prev
+bindsym $mod+Mod1+j workspace next
+bindsym $mod+Mod1+k workspace prev
 # 
 # KONIEC -- Workspaces
 
@@ -331,23 +331,22 @@ bindsym Mod1+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -s
 bindsym $mod+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 'element-icon { size: 1.8em;}'"
 
 # Emoji
-bindsym $mod+c exec --no-startup-id "rofi -show emoji -modi emoji"
+bindsym $mod+s exec --no-startup-id "grep -v '^#' ~/skrypty/wyszukiwanie | rofi -dmenu | cut -d' ' -f1 | tr -d $'\n' | xclip -selection c"
 
-bindsym $mod+s exec --no-startup-id "xdotool type $(grep -v '^#' ~/skrypty/wyszukiwanie | rofi -dmenu | cut -d' ' -f1)"
 
 # Kopiowanie, zamiast wypisywania
 # bindsym $mod+s exec --no-startup-id "grep -v '^#' ~/skrypty/wyszukiwanie | rofi -dmenu | cut -d' ' -f1 | xclip -selection c"
 
 # PgDn i PgUp
-bindsym $mod+Ctrl+k exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
-bindsym $mod+Ctrl+j exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
-bindsym $mod+Mod1+k exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
-bindsym $mod+Mod1+j exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
+# bindsym $mod+Ctrl+k exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
+# bindsym $mod+Ctrl+j exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
+# bindsym $mod+Mod1+k exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
+# bindsym $mod+Mod1+j exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
 
-bindsym $mod+Ctrl+Up exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
-bindsym $mod+Ctrl+Down exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
-bindsym $mod+Mod1+Up exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
-bindsym $mod+Mod1+Down exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
+# bindsym $mod+Ctrl+Up exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
+# bindsym $mod+Ctrl+Down exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
+# bindsym $mod+Mod1+Up exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"; exec --no-startup-id "xte 'mouseclick 4'"
+# bindsym $mod+Mod1+Down exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"; exec --no-startup-id "xte 'mouseclick 5'"
 
 # bindsym $mod+a exec --no-startup-id "~/skrypty/autotile.py"
 # bindsym $mod+a exec --no-startup-id "~/skrypty/eDEX-UI-Linux-x86_64.AppImage"
