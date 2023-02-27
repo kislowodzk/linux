@@ -44,7 +44,6 @@ call plug#end()
 set nocompatible
 
 " Numbers
-set relativenumber
 set colorcolumn=76
 
 " Searching
