@@ -274,8 +274,8 @@ nnoremap <silent> <leader>m4 ?^#### <cr>
 nnoremap <silent> <leader>m5 ?^##### <cr>
 
 " Store session
-nnoremap <leader>zz :mks! ~/.my_session.vim<cr>
-nnoremap <leader>zo :so ~/.my_session.vim<cr>
+nnoremap <leader>zs :mks! ~/Dokumenty/linux/Linux/md/my_session.vim<cr>
+nnoremap <leader>zo :so ~/Dokumenty/linux/Linux/md/my_session.vim<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "    => plugins
