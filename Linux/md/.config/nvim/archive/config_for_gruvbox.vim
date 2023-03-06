@@ -20,7 +20,7 @@ hi! link markdownH5 GruvboxPurpleBold
 hi! link markdownH6 GruvboxYellow
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => STATUSLINE
+" => STATUSLINE GRUVBOX
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Just for nice statusline
