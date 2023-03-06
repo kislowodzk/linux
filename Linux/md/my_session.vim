@@ -14,7 +14,6 @@ set stal=2
 tabnew
 tabnew
 tabnew
-tabnew
 tabrewind
 edit ToDo.md
 argglobal
@@ -89,37 +88,18 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 278 - ((15 * winheight(0) + 15) / 31)
+let s:l = 280 - ((15 * winheight(0) + 15) / 31)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 278
-normal! 069|
-tabnext
-edit ~/Dokumenty/Notatki/README.md
-argglobal
-balt ~/Dokumenty/Notatki/Smoluchowski/T6.md
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let &fdl = &fdl
-let s:l = 2 - ((1 * winheight(0) + 15) / 31)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 2
-normal! 0
-tabnext 5
+keepjumps 280
+normal! 02|
+tabnext 4
 set stal=1
 badd +1 ~/Dokumenty/Notatki/Smoluchowski/T6.md
 badd +1 ~/Dokumenty/Notatki/Semestr_6/konspekty_zadania/Filozofia_jezyka_konspekty/notatki_czytanie/Kripke_III_referat.md
-badd +0 ~/Dokumenty/linux/Linux/md/.config/nvim/init.vim
+badd +1 ~/Dokumenty/linux/Linux/md/.config/nvim/init.vim
+badd +2 ~/Dokumenty/Notatki/README.md
 badd +24 ~/Dokumenty/Notatki/ToDo.md
 badd +3 ~/Dokumenty/Notatki/Semestr_6/Czytanie_tekstow_i_nie_tylko/Filo_nauki_konspekty/Popper_1_6.md
 badd +1 ~/Dokumenty/Notatki/Semestr_6/Heidegger_wy.md
@@ -135,7 +115,6 @@ badd +23 ~/Dokumenty/linux/Linux/md/.config/nvim/archive/config_for_gruvbox.vim
 badd +2013 ~/Dokumenty/Notatki/Semestr_6/Reizm.md
 badd +1193 ~/Dokumenty/Notatki/Semestr_6/Wspolczesna_cw.md
 badd +19 ~/Dokumenty/Notatki/Semestr_6/Filozofia_jezyka.md
-badd +0 ~/Dokumenty/Notatki/README.md
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
 endif
