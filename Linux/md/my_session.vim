@@ -3,7 +3,7 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/Dokumenty/Notatki/Semestr_6
+cd ~/Dokumenty/Notatki
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -12,8 +12,9 @@ argglobal
 %argdel
 set stal=2
 tabnew
+tabnew
 tabrewind
-edit ~/Dokumenty/Notatki/ToDo.md
+edit ToDo.md
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -46,13 +47,33 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 237 - ((12 * winheight(0) + 15) / 31)
+let s:l = 239 - ((11 * winheight(0) + 15) / 31)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 237
+keepjumps 239
 normal! 0
-tabnext 2
+tabnext
+edit ~/Dokumenty/Notatki/Semestr_6/Spor_o_nature_metafizyki.md
+argglobal
+balt ~/Dokumenty/Notatki/Semestr_6/Spor_o_nature_metafizyki.md
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 2098 - ((18 * winheight(0) + 15) / 31)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 2098
+normal! 0
+tabnext 3
 set stal=1
 badd +1 ~/Dokumenty/Notatki/Smoluchowski/T6.md
 badd +144 ~/Dokumenty/Notatki/Semestr_6/konspekty_zadania/Filozofia_jezyka_konspekty/notatki_czytanie/Kripke_III_referat.md
@@ -73,6 +94,8 @@ badd +23 ~/Dokumenty/linux/Linux/md/.config/nvim/archive/config_for_gruvbox.vim
 badd +2013 ~/Dokumenty/Notatki/Semestr_6/Reizm.md
 badd +1193 ~/Dokumenty/Notatki/Semestr_6/Wspolczesna_cw.md
 badd +1097 ~/Dokumenty/Notatki/Semestr_6/Filozofia_jezyka.md
+badd +19 ~/Dokumenty/linux/Linux/onlyoffice_shortcuts.md
+badd +0 ~/Dokumenty/Notatki/Semestr_6/Spor_o_nature_metafizyki.md
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
 endif
@@ -84,6 +107,7 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
