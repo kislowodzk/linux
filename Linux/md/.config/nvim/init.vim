@@ -379,17 +379,17 @@ hi Normal guibg=NONE ctermbg=NONE
 " Only number of the line is highlighted
 hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 
+" Just for nice statusline
+set filetype=none
+
+set laststatus=2
+set statusline=
+
+set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%4*\ %p%%\ %5*\ %l:\ %2v\ %*
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => STATUSLINE SONOKAI
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" " Just for nice statusline
-" set filetype=none
-
-" set laststatus=2
-" set statusline=
-
-" set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%4*\ %p%%\ %5*\ %l:\ %2v\ %*
 
 " au InsertEnter * hi User1 cterm=bold ctermfg=203 ctermbg=236
 " au InsertLeave * hi User1 cterm=bold ctermfg=110 ctermbg=236
@@ -408,17 +408,6 @@ hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => STATUSLINE GRUVBOX
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Just for nice statusline
-set filetype=none
-
-set laststatus=2
-set statusline=
-
-" Basic separators
-set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%5*\ %l/%6*%L:\ %5*%2v\ %*
-
-" GRUVBOX
 
 au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
 au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
