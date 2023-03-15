@@ -7,7 +7,7 @@ case $doit in
   r|R) reboot ;; 
   # e|E) i3-msg exit ;;
   l|L) gdmflexiserver ;; 
-  s|S) systemctl suspend ;;
+  s|S) systemctl suspend -i ;;
   *) echo "W klawisz nie umiesz trafic?" ;; 
 esac
 
