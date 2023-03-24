@@ -98,6 +98,8 @@ set mouse=a
 nnoremap <C-f> ggvG$
 nnoremap j gj
 nnoremap k gk
+nnoremap 0 g0
+nnoremap $ g$
 nnoremap <C-k> k
 nnoremap <C-j> j
 nnoremap <C-h> h
@@ -328,6 +330,7 @@ let g:netrw_winsize = 25
 " " I changed the way sonokai does some things
 "     " call sonokai#highlight('markdownItalic', s:palette.blue, s:palette.none, 'italic')
 "     " call sonokai#highlight('markdownBold', s:palette.purple, s:palette.none, 'bold')
+
 " source ~/.config/nvim/sonokai.vim
 
 " " Hashes before headings
@@ -341,6 +344,22 @@ let g:netrw_winsize = 25
 
 " " Better tab colors
 " hi! TabLineSel ctermfg=203 ctermbg=235
+
+" " Sonokai
+
+" au InsertEnter * hi User1 cterm=bold ctermfg=203 ctermbg=236
+" au InsertLeave * hi User1 cterm=bold ctermfg=110 ctermbg=236
+
+" au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=203
+" au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=110
+
+" hi statusline cterm=none ctermfg=249 ctermbg=239
+" hi statuslineNC cterm=none ctermfg=249 ctermbg=236
+
+" hi User1 cterm=bold ctermfg=110 ctermbg=236
+" hi User4 cterm=none ctermfg=248 ctermbg=237
+" hi User5 cterm=bold ctermfg=249 ctermbg=236
+" hi User9 cterm=bold ctermfg=236 ctermbg=110
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GRUVBOX
@@ -359,6 +378,24 @@ hi! link markdownH6 GruvboxYellow
 
 " Better tab colors
 hi! TabLineSel ctermfg=166 ctermbg=235
+
+" Statusline
+au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
+au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
+
+au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=3
+au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=166
+
+hi statusline cterm=none ctermfg=249 ctermbg=239
+hi statuslineNC cterm=none ctermfg=249 ctermbg=236
+
+hi User1 cterm=bold ctermfg=166 ctermbg=236
+hi User2 cterm=none ctermfg=236 ctermbg=239
+hi User3 cterm=none ctermfg=244 ctermbg=238
+hi User4 cterm=none ctermfg=244 ctermbg=237
+hi User5 cterm=bold ctermfg=248 ctermbg=236
+hi User6 cterm=none ctermfg=251 ctermbg=236
+hi User9 cterm=bold ctermfg=236 ctermbg=166
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => APPEARANCE
@@ -386,45 +423,6 @@ set laststatus=2
 set statusline=
 
 set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%4*\ %p%%\ %5*\ %l:\ %2v\ %*
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => STATUSLINE SONOKAI
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" au InsertEnter * hi User1 cterm=bold ctermfg=203 ctermbg=236
-" au InsertLeave * hi User1 cterm=bold ctermfg=110 ctermbg=236
-
-" au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=203
-" au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=110
-
-" hi statusline cterm=none ctermfg=249 ctermbg=239
-" hi statuslineNC cterm=none ctermfg=249 ctermbg=236
-
-" hi User1 cterm=bold ctermfg=110 ctermbg=236
-" hi User4 cterm=none ctermfg=248 ctermbg=237
-" hi User5 cterm=bold ctermfg=249 ctermbg=236
-" hi User9 cterm=bold ctermfg=236 ctermbg=110
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => STATUSLINE GRUVBOX
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
-au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
-
-au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=3
-au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=166
-
-hi statusline cterm=none ctermfg=249 ctermbg=239
-hi statuslineNC cterm=none ctermfg=249 ctermbg=236
-
-hi User1 cterm=bold ctermfg=166 ctermbg=236
-hi User2 cterm=none ctermfg=236 ctermbg=239
-hi User3 cterm=none ctermfg=244 ctermbg=238
-hi User4 cterm=none ctermfg=244 ctermbg=237
-hi User5 cterm=bold ctermfg=248 ctermbg=236
-hi User6 cterm=none ctermfg=251 ctermbg=236
-hi User9 cterm=bold ctermfg=236 ctermbg=166
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "      _  ___     _                        _     _    
