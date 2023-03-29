@@ -4,14 +4,17 @@
 
 if exists("g:neovide")
     let g:neovide_hide_mouse_when_typing = v:true
-    " set guifont=DejaVu\ Sans\ Mono:h11
-    set guifont=Monaco\ Nerd\ Font\ Mono:h10
+    set guifont=Fantasque\ Sans\ Mono:h12
     colorscheme gruvbox
+    set cursorline
+    set scrolloff=11
+
+    let g:neovide_padding_right = 16
 
     set filetype=none
     set laststatus=2
     set statusline=
-    set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%3*\ %{&fileencoding?&fileencoding:&encoding}\ [%{&fileformat}]\ %4*\ %{&filetype}\ %5*\ %l/%6*%L:\ %5*%2v\ %*
+    set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%4*\ %p%%\ %5*\ %l:\ %2v\ %*
     
     au InsertEnter * hi User1 gui=bold guifg=#d79921 guibg=#303030
     au InsertLeave * hi User1 gui=bold guifg=#d75f00 guibg=#303030

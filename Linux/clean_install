@@ -240,8 +240,18 @@ VSCodium:
 
 LibreOffice:
 
-Tools -> options -> LibreOffice Writer -> Basic Fonts (Western) -> Default 
--- CMU Serif
+- Tools -> options -> LibreOffice Writer -> Basic Fonts (Western) -> Georgia
+(to tylko jednorazowe)
+
+Create an empty document (or with a content you’d like to have included in all your future documents) where you customise the styles and even add your preferred custom ones. Don’t save this file the usual way, but with File>Template>Save as Template. Give it a name and it will be stored in a Writer-known location. For ease of editing, save it also in your home directory with File>Save As, giving it a name with extension .ott (very important so that the document is later considered a template).
+
+To make the newly saved template in the Writer location your default template, File>Templates>Manage Templates, right-click on the desired one and Set as Default.
+
+- 1.5 lines
+- below paragraph -- 0.35 cm
+
+
+
 
 
 # Gnome desktop -- pop os
