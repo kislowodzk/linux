@@ -14,71 +14,11 @@ set stal=2
 tabnew
 tabnew
 tabnew
+tabnew
 tabrewind
 edit ToDo.md
 argglobal
 balt Semestr_6/Fenomenologia.md
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let &fdl = &fdl
-let s:l = 11 - ((10 * winheight(0) + 19) / 38)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 11
-normal! 027|
-lcd ~/Dokumenty/Notatki
-tabnext
-edit ~/Dokumenty/Notatki/Smoluchowski/T7/T7.md
-argglobal
-balt ~/Dokumenty/Notatki/Filozofia/Wykłady_w_internecie/Historia_Filozofii_Analitycznej.md
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let &fdl = &fdl
-let s:l = 9 - ((8 * winheight(0) + 19) / 38)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 9
-normal! 0
-tabnext
-edit ~/Dokumenty/Notatki/Semestr_6/Heidegger_wy.md
-argglobal
-balt ~/Dokumenty/Notatki/Semestr_6/Heidegger_wy.md
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let &fdl = &fdl
-let s:l = 1634 - ((18 * winheight(0) + 19) / 38)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 1634
-normal! 014|
-tabnext
-edit ~/Dokumenty/Notatki/Semestr_6/konspekty_zadania/Metafizyczne_pytania_w_fizyce/zadania5.md
-argglobal
-balt ~/Dokumenty/Notatki/Smoluchowski/T7/T7.md
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -95,16 +35,95 @@ keepjumps exe s:l
 normal! zt
 keepjumps 1
 normal! 0
-tabnext 4
+lcd ~/Dokumenty/Notatki
+tabnext
+edit ~/Dokumenty/Notatki/Smoluchowski/T7/T7.md
+argglobal
+balt ~/Dokumenty/Notatki/Filozofia/Wykłady_w_internecie/Historia_Filozofii_Analitycznej.md
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 19 - ((7 * winheight(0) + 19) / 38)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 19
+normal! 0
+tabnext
+edit ~/Dokumenty/Notatki/Semestr_6/konspekty_zadania/Metafizyczne_pytania_w_fizyce/zadania5.md
+argglobal
+balt ~/Dokumenty/Notatki/Smoluchowski/T7/T7.md
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 48 - ((12 * winheight(0) + 19) / 38)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 48
+normal! 0
+tabnext
+edit ~/Dokumenty/Notatki/Semestr_6/Wspolczesna_cw.md
+argglobal
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 1341 - ((18 * winheight(0) + 19) / 38)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 1341
+normal! $
+tabnext
+edit ~/Dokumenty/Notatki/Semestr_6/Filozofia_informacji.md
+argglobal
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 508 - ((18 * winheight(0) + 19) / 38)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 508
+normal! 0
+tabnext 5
 set stal=1
-badd +1 ~/Dokumenty/Notatki/Smoluchowski/T7/T7.md
-badd +1 ~/Dokumenty/Notatki/Semestr_6/Heidegger_wy.md
-badd +1 ~/Dokumenty/Notatki/Semestr_6/konspekty_zadania/Metafizyczne_pytania_w_fizyce/zadania5.md
-badd +415 ~/Dokumenty/linux/Linux/md/.config/nvim/init.vim
-badd +34 ~/Dokumenty/linux/Linux/md/.config/nvim/archive/neovide_config.vim
 badd +1 ~/Dokumenty/Notatki/ToDo.md
+badd +1 ~/Dokumenty/Notatki/Smoluchowski/T7/T7.md
+badd +0 ~/Dokumenty/Notatki/Semestr_6/konspekty_zadania/Metafizyczne_pytania_w_fizyce/zadania5.md
 badd +218 ~/Dokumenty/Notatki/Semestr_6/Fenomenologia.md
 badd +2796 ~/Dokumenty/Notatki/Filozofia/Wykłady_w_internecie/Historia_Filozofii_Analitycznej.md
+badd +1637 ~/Dokumenty/Notatki/Semestr_6/Heidegger_wy.md
+badd +415 ~/Dokumenty/linux/Linux/md/.config/nvim/init.vim
+badd +34 ~/Dokumenty/linux/Linux/md/.config/nvim/archive/neovide_config.vim
 badd +1 ~/Dokumenty/Notatki/Semestr_6/konspekty_zadania/Metafizyczne_pytania_w_fizyce/zadania3.md
 badd +601 ~/Dokumenty/Notatki/Semestr_6/Pytania_metafizyczne_w_fizyce.md
 badd +48 ~/Dokumenty/Notatki/Semestr_6/konspekty_zadania/Filozofia_jezyka_konspekty/9_Evans_The_causal_theory_of_names.md
@@ -145,6 +164,7 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
