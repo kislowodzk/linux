@@ -407,7 +407,7 @@ if exists("g:neovide")
     colorscheme gruvbox
     set cursorline
     set relativenumber
-    set scrolloff=13
+    set scrolloff=12
 
     hi! TabLineSel guifg=#d75f00 guibg=#303030
 
