@@ -409,6 +409,8 @@ if exists("g:neovide")
     set relativenumber
     set scrolloff=12
 
+    let g:gruvbox_italic = '1'
+
     hi! TabLineSel guifg=#d75f00 guibg=#303030
 
     au InsertEnter * hi User1 gui=bold guifg=#d79921 guibg=#303030
