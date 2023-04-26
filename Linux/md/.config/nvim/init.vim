@@ -60,7 +60,7 @@ set wrap linebreak smartindent tw=74
 set backspace=indent,eol,start
 
 set display+=lastline
-set scrolloff=8
+set scrolloff=10
 
 " Don't add double space after dot at the end of the line
 set nojoinspaces
@@ -407,7 +407,7 @@ if exists("g:neovide")
     colorscheme gruvbox
     set cursorline
     set relativenumber
-    set scrolloff=12
+    set scrolloff=11
 
     let g:gruvbox_italic = '1'
 
