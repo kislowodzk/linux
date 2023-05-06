@@ -227,6 +227,7 @@ noremap <leader>0 10gt
 " Adding things
 nnoremap <silent> <leader>ab viwc****<Esc>hP
 nnoremap <silent> <leader>ai viwc**<Esc>P
+nnoremap <silent> <leader>a$ viwc$$<Esc>P
 nnoremap <silent> <leader>a( viwc()<Esc>P
 nnoremap <silent> <leader>a« viwc«»<Esc>P
 nnoremap <silent> <leader>a{ viwc{}<Esc>P
@@ -245,6 +246,7 @@ nnoremap <silent> <leader>a5 I#####
 
 vnoremap <silent> <leader>ab c****<Esc>hP
 vnoremap <silent> <leader>ai c**<Esc>P
+vnoremap <silent> <leader>a$ c$$<Esc>P
 vnoremap <silent> <leader>a( c()<Esc>P
 vnoremap <silent> <leader>a« c«»<Esc>P
 vnoremap <silent> <leader>a{ c{}<Esc>P
@@ -260,6 +262,7 @@ nnoremap <leader>st :set filetype=
 
 " Deleting things
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
+nnoremap <silent> <leader>d$ ?\$<cr>x/\$<cr>x:noh<cr>
 nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
 nnoremap <silent> <leader>d( ?(<cr>x/)<cr>x:noh<cr>
 nnoremap <silent> <leader>d[ ?[<cr>x/]<cr>x:noh<cr>
