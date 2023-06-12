@@ -411,7 +411,7 @@ if exists("g:neovide")
     colorscheme gruvbox
     set cursorline
     set relativenumber
-    set scrolloff=11
+    set scrolloff=9
 
     let g:gruvbox_italic = '1'
 
