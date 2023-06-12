@@ -12,6 +12,8 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 sudo apt install universal-ctags
 
+(DLA ELEMENTARY -- remove exuberant-ctags, install universal-ctags i będzie dizałać)
+
 sudo apt install polybar
 
 # Kodeki
@@ -96,6 +98,8 @@ pip install termdown
 https://lottalinuxlinks.com/how-to-build-and-install-i3-gaps-on-debian/
 
 # WhiteSur theme
+cd
+cd .icons
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme
 cd WhiteSur, czy coś
 ./install.sh
