@@ -32,16 +32,17 @@ starfetch
 
 
 
-# autostart
-xinput set-prop "$(xinput list --name-only | grep -i glide)" "libinput Tapping Enabled" 1
-# xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
-# dzięki temu touchpad działa tak, jak tego oczekuję
-setxkbmap -option caps:escape
-# jeśli odpalę 'setxkbmap -option', to wróci do normy
-set s off
-xset -dpms
-xset s noblank
-xset r rate 350 43
+# # autostart
+# xinput set-prop "$(xinput list --name-only | grep -i glide)" "libinput Tapping Enabled" 1
+# xinput set-prop "$(xinput list --name-only | grep -i glide)" 183 2.5 0 0 0 1 0 0 0 1
+# # xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
+# # dzięki temu touchpad działa tak, jak tego oczekuję
+# setxkbmap -option caps:escape
+# # jeśli odpalę 'setxkbmap -option', to wróci do normy
+# set s off
+# xset -dpms
+# xset s noblank
+xset r rate 330 43
 export VISUAL=nvim
 export EDITOR=nvim
 export DATE=$(date -I)

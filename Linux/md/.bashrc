@@ -2,8 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-source ~/skrypty/autostart_zsh
-
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -117,9 +115,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-. "$HOME/.cargo/env"
-
-PS1="\[\e]0;\[\033[01;34m\]\w\[\033[00m\] \e[0;32m❯ \e[m"
-
-source ~/skrypty/aliasy_zsh
-

@@ -328,6 +328,44 @@ let g:netrw_banner = 0
 let g:netrw_winsize = 25
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => SONOKAI
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" I changed the way sonokai does some things
+    " call sonokai#highlight('markdownItalic', s:palette.blue, s:palette.none, 'italic')
+    " call sonokai#highlight('markdownBold', s:palette.purple, s:palette.none, 'bold')
+
+" source ~/.config/nvim/sonokai.vim
+
+" " Hashes before headings
+" hi! link markdownHeadingDelimiter Red
+
+" " Color of current line number
+" hi! CursorLineNr ctermfg=110
+
+" " Reversed colors in visual mode
+" hi! Visual cterm=reverse
+
+" " Better tab colors
+" hi! TabLineSel ctermfg=203 ctermbg=235
+
+" " Sonokai
+
+" au InsertEnter * hi User1 cterm=bold ctermfg=203 ctermbg=236
+" au InsertLeave * hi User1 cterm=bold ctermfg=110 ctermbg=236
+
+" au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=203
+" au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=110
+
+" hi statusline cterm=none ctermfg=249 ctermbg=239
+" hi statuslineNC cterm=none ctermfg=249 ctermbg=236
+
+" hi User1 cterm=bold ctermfg=110 ctermbg=236
+" hi User4 cterm=none ctermfg=248 ctermbg=237
+" hi User5 cterm=bold ctermfg=249 ctermbg=236
+" hi User9 cterm=bold ctermfg=236 ctermbg=110
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GRUVBOX
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -362,6 +400,49 @@ hi User4 cterm=none ctermfg=244 ctermbg=237
 hi User5 cterm=bold ctermfg=248 ctermbg=236
 hi User6 cterm=none ctermfg=251 ctermbg=236
 hi User9 cterm=bold ctermfg=236 ctermbg=166
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => NEOVIDE
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+if exists("g:neovide")
+    let g:neovide_hide_mouse_when_typing = v:true
+    set guifont=Fantasque\ Sans\ Mono:h12
+    colorscheme gruvbox
+    set cursorline
+    set relativenumber
+    set scrolloff=8
+
+    let g:gruvbox_italic = '1'
+
+    hi! TabLineSel guifg=#d75f00 guibg=#303030
+
+    au InsertEnter * hi User1 gui=bold guifg=#d79921 guibg=#303030
+    au InsertLeave * hi User1 gui=bold guifg=#d75f00 guibg=#303030
+    
+    au InsertEnter * hi User9 gui=bold guifg=#303030 guibg=#d79921
+    au InsertLeave * hi User9 gui=bold guifg=#303030 guibg=#d75f00
+    
+    hi statusline gui=none guifg=#b2b2b2 guibg=#4e4e4e
+    hi statuslineNC gui=none guifg=#b2b2b2 guibg=#303030
+    
+    hi User1 gui=bold guifg=#d75f00 guibg=#303030
+    hi User2 gui=none guifg=#303030 guibg=#4e4e4e
+    hi User3 gui=none guifg=#808080 guibg=#444444
+    hi User4 gui=none guifg=#808080 guibg=#3a3a3a
+    hi User5 gui=bold guifg=#a8a8a8 guibg=#303030
+    hi User6 gui=none guifg=#c6c6c6 guibg=#303030
+    hi User9 gui=bold guifg=#303030 guibg=#d75f00
+
+    hi CursorLine gui=NONE guibg=NONE guifg=NONE
+
+    hi! link markdownH1 GruvboxRedBold
+    hi! link markdownH2 GruvboxYellowBold
+    hi! link markdownH3 GruvboxGreenBold
+    hi! link markdownH4 GruvboxBlueBold
+    hi! link markdownH5 GruvboxPurpleBold
+    hi! link markdownH6 GruvboxYellow
+endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => APPEARANCE
