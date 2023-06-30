@@ -60,7 +60,7 @@ set wrap linebreak smartindent tw=74
 set backspace=indent,eol,start
 
 set display+=lastline
-set scrolloff=10
+set scrolloff=8
 
 " Don't add double space after dot at the end of the line
 set nojoinspaces
