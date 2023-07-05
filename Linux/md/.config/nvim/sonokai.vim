@@ -52,7 +52,7 @@ else
     if s:configuration.dim_inactive_windows
       call sonokai#highlight('EndOfBuffer', s:palette.bg4, s:palette.bg_dim)
     else
-      call sonokai#highlight('EndOfBuffer', s:palette.bg4, s:palette.bg0)
+      call sonokai#highlight('EndOfBuffer', s:palette.bg4, s:palette.none)
     endif
   else
     if s:configuration.dim_inactive_windows
