@@ -45,7 +45,7 @@ else
   if s:configuration.dim_inactive_windows
     call sonokai#highlight('NormalNC', s:palette.fg, s:palette.bg_dim)
   else
-    call sonokai#highlight('NormalNC', s:palette.fg, s:palette.bg0)
+    call sonokai#highlight('NormalNC', s:palette.fg, s:palette.none)
   endif
   call sonokai#highlight('Terminal', s:palette.fg, s:palette.bg0)
   if s:configuration.show_eob

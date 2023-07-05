@@ -217,7 +217,7 @@ Menadżer rozszerzeń: (GNOME extension manager)
 - Space Bar
     - disable shortcuts to switch to workspace
 - Compiz windows effect
-    - friction - 2.0
+    - friction - 3.0
     - spring - 2.9
     - speedup factor - 7.0
     - mass - 80

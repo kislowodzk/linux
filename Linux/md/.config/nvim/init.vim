@@ -378,6 +378,12 @@ let g:netrw_winsize = 25
     " endif
   " else
 
+" if s:configuration.dim_inactive_windows
+"     call sonokai#highlight('NormalNC', s:palette.fg, s:palette.bg_dim)
+"   else
+"     call sonokai#highlight('NormalNC', s:palette.fg, s:palette.none) --
+"     tutaj zmiana
+"   endif
 
 source ~/.config/nvim/sonokai.vim
 
