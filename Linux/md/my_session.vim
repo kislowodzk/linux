@@ -32,7 +32,7 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 2 - ((1 * winheight(0) + 16) / 32)
+let s:l = 2 - ((1 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
@@ -52,7 +52,7 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 1 - ((0 * winheight(0) + 16) / 32)
+let s:l = 1 - ((0 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
@@ -71,16 +71,17 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 484 - ((20 * winheight(0) + 16) / 32)
+let s:l = 3 - ((2 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 484
+keepjumps 3
 normal! 0
+lcd ~/Dokumenty/Notatki/Semestr_6/Licencjat
 tabnext
-edit 4_v_benthem.md
+edit ~/Dokumenty/Notatki/Semestr_6/Licencjat/4_v_benthem.md
 argglobal
-balt 3_putnam.md
+balt ~/Dokumenty/Notatki/Semestr_6/Licencjat/3_putnam.md
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -91,36 +92,16 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 1 - ((0 * winheight(0) + 16) / 32)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 1
-normal! 0
-tabnext
-edit 5_savitt.md
-argglobal
-balt 3_putnam.md
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let &fdl = &fdl
-let s:l = 1 - ((0 * winheight(0) + 16) / 32)
+let s:l = 1 - ((0 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
 keepjumps 1
 normal! 0
 tabnext
-edit 6_zakonczenie.md
+edit ~/Dokumenty/Notatki/Semestr_6/Licencjat/5_savitt.md
 argglobal
-balt 3_putnam.md
+balt ~/Dokumenty/Notatki/Semestr_6/Licencjat/3_putnam.md
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -131,16 +112,16 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 1 - ((0 * winheight(0) + 16) / 32)
+let s:l = 1 - ((0 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
 keepjumps 1
 normal! 0
 tabnext
-edit 7_bibliografia.md
+edit ~/Dokumenty/Notatki/Semestr_6/Licencjat/6_zakonczenie.md
 argglobal
-balt 3_putnam.md
+balt ~/Dokumenty/Notatki/Semestr_6/Licencjat/3_putnam.md
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -151,16 +132,36 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 7 - ((6 * winheight(0) + 16) / 32)
+let s:l = 1 - ((0 * winheight(0) + 13) / 27)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 1
+normal! 0
+tabnext
+edit ~/Dokumenty/Notatki/Semestr_6/Licencjat/7_bibliografia.md
+argglobal
+balt ~/Dokumenty/Notatki/Semestr_6/Licencjat/3_putnam.md
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 7 - ((5 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
 keepjumps 7
 normal! 083|
 tabnext
-edit notatki.md
+edit ~/Dokumenty/Notatki/Semestr_6/Licencjat/notatki.md
 argglobal
-balt 1_naglowek.md
+balt ~/Dokumenty/Notatki/Semestr_6/Licencjat/1_naglowek.md
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -171,7 +172,7 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 1 - ((0 * winheight(0) + 16) / 32)
+let s:l = 1 - ((0 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
@@ -179,14 +180,14 @@ keepjumps 1
 normal! 0
 tabnext 3
 set stal=1
-badd +1 2_wstep.md
-badd +1 4_v_benthem.md
-badd +1 5_savitt.md
-badd +1 6_zakonczenie.md
-badd +1 7_bibliografia.md
-badd +1 notatki.md
-badd +1 1_naglowek.md
-badd +0 3_putnam.md
+badd +1 ~/Dokumenty/Notatki/Semestr_6/Licencjat/2_wstep.md
+badd +1 ~/Dokumenty/Notatki/Semestr_6/Licencjat/4_v_benthem.md
+badd +1 ~/Dokumenty/Notatki/Semestr_6/Licencjat/5_savitt.md
+badd +1 ~/Dokumenty/Notatki/Semestr_6/Licencjat/6_zakonczenie.md
+badd +1 ~/Dokumenty/Notatki/Semestr_6/Licencjat/7_bibliografia.md
+badd +1 ~/Dokumenty/Notatki/Semestr_6/Licencjat/notatki.md
+badd +1 ~/Dokumenty/Notatki/Semestr_6/Licencjat/1_naglowek.md
+badd +2 ~/Dokumenty/Notatki/Semestr_6/Licencjat/3_putnam.md
 badd +171 ~/Dokumenty/linux/Linux/md/.config/nvim/init.vim
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
@@ -199,6 +200,7 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
