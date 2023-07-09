@@ -200,7 +200,7 @@ noremap <silent> <C-Up> :resize +1<CR>
 noremap <silent> <C-Down> :resize -1<CR>
 
 " File explorer (netrw)
-nnoremap <silent> <leader>e :Ex<CR>
+nnoremap <silent> <leader>w :Ex<CR>
 nnoremap <silent> <leader>q :Vex<CR>
 
 " Tabs
