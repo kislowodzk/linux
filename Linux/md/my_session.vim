@@ -29,7 +29,7 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 2 - ((1 * winheight(0) + 14) / 28)
+let s:l = 2 - ((1 * winheight(0) + 16) / 32)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
@@ -48,17 +48,16 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 485 - ((13 * winheight(0) + 14) / 28)
+let s:l = 556 - ((23 * winheight(0) + 16) / 32)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 485
-normal! 0
+keepjumps 556
+normal! $
 lcd ~/Dokumenty/Notatki/Semestr_6/Licencjat
 tabnext
 edit ~/Dokumenty/Notatki/Semestr_6/Licencjat/5_savitt.md
 argglobal
-balt ~/Dokumenty/Notatki/Semestr_6/Licencjat/3_putnam.md
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -69,12 +68,13 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 71 - ((15 * winheight(0) + 14) / 28)
+let s:l = 1 - ((0 * winheight(0) + 16) / 32)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 71
-normal! 0
+keepjumps 1
+normal! 017|
+lcd ~/Dokumenty/Notatki/Semestr_6/Licencjat
 tabnext
 edit ~/Dokumenty/Notatki/Semestr_6/Licencjat/7_bibliografia.md
 argglobal
@@ -89,12 +89,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 7 - ((6 * winheight(0) + 14) / 28)
+let s:l = 15 - ((11 * winheight(0) + 16) / 32)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 7
-normal! 049|
+keepjumps 15
+normal! 0
 tabnext
 edit ~/Dokumenty/Notatki/Semestr_6/Licencjat/notatki.md
 argglobal
@@ -109,7 +109,7 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 1 - ((0 * winheight(0) + 14) / 28)
+let s:l = 1 - ((0 * winheight(0) + 16) / 32)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
@@ -117,7 +117,7 @@ keepjumps 1
 normal! 0
 tabnext 3
 set stal=1
-badd +1 ~/Dokumenty/Notatki/Semestr_6/Licencjat/5_savitt.md
+badd +214 ~/Dokumenty/Notatki/Semestr_6/Licencjat/5_savitt.md
 badd +1 ~/Dokumenty/Notatki/Semestr_6/Licencjat/7_bibliografia.md
 badd +1 ~/Dokumenty/Notatki/Semestr_6/Licencjat/notatki.md
 badd +2 ~/Dokumenty/Notatki/Semestr_6/Licencjat/1_naglowek.md
