@@ -23,6 +23,7 @@ call plug#begin()
 
     Plug 'sainnhe/sonokai'              " Colorscheme sonokai
     Plug 'morhetz/gruvbox'              " Colorscheme gruvbox
+    Plug 'NLKNguyen/papercolor-theme'
 
     Plug 'rbgrouleff/bclose.vim'        " Ranger prerequisite
     Plug 'francoiscabrol/ranger.vim'    " Ranger
