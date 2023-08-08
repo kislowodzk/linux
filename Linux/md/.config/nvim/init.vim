@@ -19,8 +19,6 @@ call plug#begin()
     " :PlugInstall
     " :PlugClean
 
-    Plug 'mhinz/vim-startify'           " Startify
-
     Plug 'sainnhe/sonokai'              " Colorscheme sonokai
     Plug 'morhetz/gruvbox'              " Colorscheme gruvbox
     Plug 'NLKNguyen/papercolor-theme'
