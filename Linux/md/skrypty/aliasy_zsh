@@ -58,6 +58,7 @@ alias re='clear; ~/skrypty/gif.sh'
 alias pai='pandoc -V geometry:margin=1in'    # pandoc z dobrymi marginesami, po tym powinienem podać plik wejścia -o i plik wyjścia
 alias pa='pandoc -V geometry:margin=1in -V linestretch=1.5'
 alias pa12='pandoc -V geometry:margin=1in -V linestretch=1.5 -V fontsize=12pt'
+alias pan='pandoc -V geometry:margin=1in -V linestretch=1.2 -V fontsize=11pt'
 
 alias kompresja='echo gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -sOutputFile=output.pdf input.pdf'
 
