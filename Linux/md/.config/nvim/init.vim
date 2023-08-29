@@ -94,7 +94,7 @@ set mouse=a
 "    => nnoremaps
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-nnoremap <C-f> ggvG$
+nnoremap <C-f> gg0vG$
 nnoremap j gj
 nnoremap k gk
 nnoremap 0 g0
