@@ -65,7 +65,7 @@ Fallback Encoding=ISO 8859-15
 Animate Bracket Matching=true
 Auto Color Theme Selection=false
 Color Theme=Atom One Dark
-Font=DejaVu Sans Mono,10.5,-1,5,50,0,0,0,0,0
+Font=JetBrains Mono,10.5,-1,5,50,0,0,0,0,0
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
 Word Wrap Marker=true
@@ -73,7 +73,7 @@ Word Wrap Marker=true
 [KTextEditor View]
 Allow Mark Menu=true
 Auto Brackets=false
-Auto Center Lines=9
+Auto Center Lines=8
 Auto Completion=true
 Auto Completion Preselect First Entry=true
 Backspace Remove Composed Characters=false
@@ -127,6 +127,8 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
 eDP-1 Height 1366x768=698
 eDP-1 Width 1366x768=770
 eDP-1 Window-Maximized 1366x768=true
