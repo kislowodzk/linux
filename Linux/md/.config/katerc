@@ -64,7 +64,7 @@ Fallback Encoding=ISO 8859-15
 [KTextEditor Renderer]
 Animate Bracket Matching=true
 Auto Color Theme Selection=false
-Color Theme=Atom One Dark
+Color Theme=Monokai
 Font=JetBrains Mono,10.5,-1,5,50,0,0,0,0,0
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -73,7 +73,7 @@ Word Wrap Marker=true
 [KTextEditor View]
 Allow Mark Menu=true
 Auto Brackets=false
-Auto Center Lines=8
+Auto Center Lines=9
 Auto Completion=true
 Auto Completion Preselect First Entry=true
 Backspace Remove Composed Characters=false
