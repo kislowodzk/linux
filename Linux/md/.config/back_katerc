@@ -54,7 +54,7 @@ Swap Sync Interval=15
 Tab Handling=2
 Tab Width=4
 Trailing Marker Size=1
-Word Wrap=false
+Word Wrap=true
 Word Wrap Column=75
 
 [KTextEditor Editor]
@@ -83,7 +83,7 @@ Chars To Enclose Selection=<>(){}[]'"
 Default Mark Type=1
 Dynamic Word Wrap=true
 Dynamic Word Wrap Align Indent=80
-Dynamic Word Wrap At Static Marker=true
+Dynamic Word Wrap At Static Marker=false
 Dynamic Word Wrap Indicators=1
 Dynamic Wrap not at word boundaries=false
 Fold First Line=false
