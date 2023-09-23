@@ -68,7 +68,7 @@ Color Theme=gruvbox Light
 Font=Helvetica Neue,11,-1,5,50,0,0,0,0,0
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
-Word Wrap Marker=true
+Word Wrap Marker=false
 
 [KTextEditor View]
 Allow Mark Menu=true
