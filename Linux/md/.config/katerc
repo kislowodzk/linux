@@ -55,7 +55,7 @@ Tab Handling=2
 Tab Width=4
 Trailing Marker Size=1
 Word Wrap=false
-Word Wrap Column=75
+Word Wrap Column=70
 
 [KTextEditor Editor]
 Encoding Prober Type=1
