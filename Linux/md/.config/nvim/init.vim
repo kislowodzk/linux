@@ -198,6 +198,10 @@ noremap <silent> <C-Right> :vertical resize -3<CR>
 noremap <silent> <C-Up> :resize +1<CR>
 noremap <silent> <C-Down> :resize -1<CR>
 
+" Statistics of file
+nnoremap <silent> <leader>g g<C-g>
+
+
 " File explorer (netrw)
 nnoremap <silent> <leader>w :Ex<CR>
 nnoremap <silent> <leader>q :Vex<CR>
