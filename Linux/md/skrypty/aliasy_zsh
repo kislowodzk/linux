@@ -75,10 +75,6 @@ alias cpolybar='nvim ~/.config/i3/polybar/themes/modules/modules_gruv.ini'
 
 alias wave=cava
 
-alias pamietaj='clear; figlet -t -c "CO USTALANE BYLO DO KURWY NEDZY!?"'
-alias member='clear; figlet -t -c "CO USTALANE BYLO DO KURWY NEDZY!?"'
-alias remember='clear; figlet -t -c "CO USTALANE BYLO DO KURWY NEDZY!?"'
-
 # FZF
 alias vimf='nvim $(fzf --exact --layout=reverse --height 40%)'
 alias vf='nvim $(fzf --exact --layout=reverse --height 40%)'
@@ -128,6 +124,8 @@ alias t=trans
 alias a=trans
 
 alias z=zathura
+
+alias word='cp /home/md/skrypty/Wzor.docx .; mv Wzor.docx'
 
 # Żeby działał neovide
 export PATH=$PATH:/home/md/.cargo/bin
