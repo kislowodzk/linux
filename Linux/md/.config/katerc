@@ -46,7 +46,7 @@ PageUp/PageDown Moves Cursor=false
 Remove Spaces=1
 ReplaceTabsDyn=true
 Show Spaces=0
-Show Tabs=true
+Show Tabs=false
 Smart Home=true
 Swap Directory=
 Swap File Mode=1
@@ -55,7 +55,7 @@ Tab Handling=2
 Tab Width=4
 Trailing Marker Size=1
 Word Wrap=false
-Word Wrap Column=70
+Word Wrap Column=75
 
 [KTextEditor Editor]
 Encoding Prober Type=1
@@ -65,7 +65,7 @@ Fallback Encoding=ISO 8859-15
 Animate Bracket Matching=true
 Auto Color Theme Selection=false
 Color Theme=gruvbox Light
-Font=Helvetica Neue,11,-1,5,50,0,0,0,0,0
+Font=EB Garamond,14,-1,5,50,0,0,0,0,0
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
 Word Wrap Marker=false
@@ -93,13 +93,13 @@ Icon Bar=false
 Input Mode=1
 Keyword Completion=true
 Line Modification=false
-Line Numbers=true
+Line Numbers=false
 Maximum Search History Size=100
 Mouse Paste At Cursor Position=false
 Persistent Selection=false
 Scroll Bar Marks=false
 Scroll Bar Mini Map All=true
-Scroll Bar Mini Map Width=60
+Scroll Bar Mini Map Width=40
 Scroll Bar MiniMap=true
 Scroll Bar Preview=true
 Scroll Past End=false
@@ -114,9 +114,12 @@ Text Drag And Drop=true
 User Sets Of Chars To Enclose Selection=
 Vi Input Mode Steal Keys=true
 Vi Relative Line Numbers=true
-Word Completion=true
+Word Completion=false
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
+
+[KTextEditor::Search]
+Search History=Khun
 
 [Konsole]
 AutoSyncronize=true
@@ -129,9 +132,8 @@ SetEditor=false
 [MainWindow]
 State=AAAA/wAAAAD9AAAAAAAABVYAAAKmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-eDP-1 Height 1366x768=698
-eDP-1 Width 1366x768=770
-eDP-1 Window-Maximized 1366x768=true
+eDP-1 Height 1366x768=702
+eDP-1 Width 1366x768=621
 
 [Shortcuts]
 kate_mdi_toolview_kate_lspclient=none
