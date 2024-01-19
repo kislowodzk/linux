@@ -115,7 +115,7 @@ nnoremap <f10> :setlocal list!<enter>
 " Spellcheck
 set spellcapcheck=
 set spellsuggest=best,13
-nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us<enter>
+nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us,de<enter>
 nnoremap [s [szz
 nnoremap ]s ]szz
 nnoremap z= zzz=
@@ -237,6 +237,7 @@ nnoremap <silent> <leader>a{ viwc{}<Esc>P
 nnoremap <silent> <leader>a[ viwc[]<Esc>P
 nnoremap <silent> <leader>a' viwc''<Esc>P
 nnoremap <silent> <leader>a" viwc""<Esc>P
+nnoremap <silent> <leader>ac viwc""<Esc>P
 
 nnoremap <silent> <leader>al a[]()<esc>i
 nnoremap <silent> <leader>ap a![]()<esc>i
@@ -257,6 +258,7 @@ vnoremap <silent> <leader>a{ c{}<Esc>P
 vnoremap <silent> <leader>a[ c[]<Esc>P
 vnoremap <silent> <leader>a' c''<Esc>P
 vnoremap <silent> <leader>a" c""<Esc>P
+vnoremap <silent> <leader>ac c""<Esc>P
 
 " Formatting
 nnoremap <leader>sl :set tw=10000<cr>
@@ -273,6 +275,7 @@ nnoremap <silent> <leader>d[ ?[<cr>x/]<cr>x:noh<cr>
 nnoremap <silent> <leader>d{ ?{<cr>x/}<cr>x:noh<cr>
 nnoremap <silent> <leader>d' ?'<cr>x/'<cr>x:noh<cr>
 nnoremap <silent> <leader>d" ?"<cr>x/"<cr>x:noh<cr>
+nnoremap <silent> <leader>dc ?"<cr>x/"<cr>x:noh<cr>
 
 " Moving
 nnoremap <silent> <leader>me G{}k$zz

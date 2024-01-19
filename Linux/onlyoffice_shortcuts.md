@@ -6,8 +6,8 @@
 - copy style -- ctrl+shift+c
 - apply style -- ctrl+shift+v
 - strikeout -- ctrl+5
-- subscript -- cttl+.
-- superscript -- cttl+,
+- subscript -- ctrl+.
+- superscript -- ctrl+,
 - heading 1,2,3 style -- alt+1,2,3
 - remove formatting -- ctrl+space
 - bullet list -- ctrl+shift+l
