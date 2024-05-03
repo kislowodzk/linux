@@ -59,7 +59,7 @@ set wrap linebreak smartindent tw=74
 set backspace=indent,eol,start
 
 set display+=lastline
-set scrolloff=8
+set scrolloff=10
 
 " Don't add double space after dot at the end of the line
 set nojoinspaces
@@ -84,7 +84,7 @@ set omnifunc=syntaxcomplete#Complete
 syntax on
 
 " Let it be, it's ok on TMUX and allows for scrolling
-set mouse=a
+" set mouse=a
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => MAPPINGS
@@ -228,16 +228,16 @@ noremap <leader>9 9gt
 noremap <leader>0 10gt
 
 " Adding things
-nnoremap <silent> <leader>ab viwc****<Esc>hP
-nnoremap <silent> <leader>ai viwc**<Esc>P
-nnoremap <silent> <leader>a$ viwc$$<Esc>P
-nnoremap <silent> <leader>a( viwc()<Esc>P
-nnoremap <silent> <leader>a« viwc«»<Esc>P
-nnoremap <silent> <leader>a{ viwc{}<Esc>P
-nnoremap <silent> <leader>a[ viwc[]<Esc>P
-nnoremap <silent> <leader>a' viwc''<Esc>P
-nnoremap <silent> <leader>a" viwc""<Esc>P
-nnoremap <silent> <leader>ac viwc""<Esc>P
+nnoremap <silent> <leader>ab viwc****<Esc>hPe
+nnoremap <silent> <leader>ai viwc**<Esc>Pe
+nnoremap <silent> <leader>a$ viwc$$<Esc>Pe
+nnoremap <silent> <leader>a( viwc()<Esc>Pe
+nnoremap <silent> <leader>a« viwc«»<Esc>Pe
+nnoremap <silent> <leader>a{ viwc{}<Esc>Pe
+nnoremap <silent> <leader>a[ viwc[]<Esc>Pe
+nnoremap <silent> <leader>a' viwc''<Esc>Pe
+nnoremap <silent> <leader>a" viwc""<Esc>Pe
+nnoremap <silent> <leader>ac viwc""<Esc>Pe
 
 nnoremap <silent> <leader>al a[]()<esc>i
 nnoremap <silent> <leader>ap a![]()<esc>i
@@ -249,19 +249,19 @@ nnoremap <silent> <leader>a3 I###
 nnoremap <silent> <leader>a4 I#### 
 nnoremap <silent> <leader>a5 I##### 
 
-vnoremap <silent> <leader>ab c****<Esc>hP
-vnoremap <silent> <leader>ai c**<Esc>P
-vnoremap <silent> <leader>a$ c$$<Esc>P
-vnoremap <silent> <leader>a( c()<Esc>P
-vnoremap <silent> <leader>a« c«»<Esc>P
-vnoremap <silent> <leader>a{ c{}<Esc>P
-vnoremap <silent> <leader>a[ c[]<Esc>P
-vnoremap <silent> <leader>a' c''<Esc>P
-vnoremap <silent> <leader>a" c""<Esc>P
-vnoremap <silent> <leader>ac c""<Esc>P
+vnoremap <silent> <leader>ab c****<Esc>hPe
+vnoremap <silent> <leader>ai c**<Esc>Pe
+vnoremap <silent> <leader>a$ c$$<Esc>Pe
+vnoremap <silent> <leader>a( c()<Esc>Pe
+vnoremap <silent> <leader>a« c«»<Esc>Pe
+vnoremap <silent> <leader>a{ c{}<Esc>Pe
+vnoremap <silent> <leader>a[ c[]<Esc>Pe
+vnoremap <silent> <leader>a' c''<Esc>Pe
+vnoremap <silent> <leader>a" c""<Esc>Pe
+vnoremap <silent> <leader>ac c""<Esc>Pe
 
 " Formatting
-nnoremap <leader>sl :set tw=10000<cr>
+nnoremap <leader>sl :set tw=99999<cr>
 nnoremap <leader>ss :set tw=74<cr>
 nnoremap <leader>sf :set fo=tawc<cr>
 nnoremap <leader>st :set filetype=
@@ -337,37 +337,37 @@ let g:netrw_winsize = 25
 " => GRUVBOX
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" let g:gruvbox_italic = '1'
+let g:gruvbox_italic = '1'
 
-" colorscheme gruvbox
+colorscheme gruvbox
 
-" hi! link markdownH1 GruvboxRedBold
-" hi! link markdownH2 GruvboxYellowBold
-" hi! link markdownH3 GruvboxGreenBold
-" hi! link markdownH4 GruvboxBlueBold
-" hi! link markdownH5 GruvboxPurpleBold
-" hi! link markdownH6 GruvboxYellow
+hi! link markdownH1 GruvboxRedBold
+hi! link markdownH2 GruvboxYellowBold
+hi! link markdownH3 GruvboxGreenBold
+hi! link markdownH4 GruvboxBlueBold
+hi! link markdownH5 GruvboxPurpleBold
+hi! link markdownH6 GruvboxYellow
 
-" " Better tab colors
-" hi! TabLineSel ctermfg=166 ctermbg=235
+" Better tab colors
+hi! TabLineSel ctermfg=166 ctermbg=235
 
-" " Statusline
-" au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
-" au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
+" Statusline
+au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
+au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
 
-" au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=3
-" au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=166
+au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=3
+au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=166
 
-" hi statusline cterm=none ctermfg=249 ctermbg=239
-" hi statuslineNC cterm=none ctermfg=249 ctermbg=236
+hi statusline cterm=none ctermfg=249 ctermbg=239
+hi statuslineNC cterm=none ctermfg=249 ctermbg=236
 
-" hi User1 cterm=bold ctermfg=166 ctermbg=236
-" hi User2 cterm=none ctermfg=236 ctermbg=239
-" hi User3 cterm=none ctermfg=244 ctermbg=238
-" hi User4 cterm=none ctermfg=244 ctermbg=237
-" hi User5 cterm=bold ctermfg=248 ctermbg=236
-" hi User6 cterm=none ctermfg=251 ctermbg=236
-" hi User9 cterm=bold ctermfg=236 ctermbg=166
+hi User1 cterm=bold ctermfg=166 ctermbg=236
+hi User2 cterm=none ctermfg=236 ctermbg=239
+hi User3 cterm=none ctermfg=244 ctermbg=238
+hi User4 cterm=none ctermfg=244 ctermbg=237
+hi User5 cterm=bold ctermfg=248 ctermbg=236
+hi User6 cterm=none ctermfg=251 ctermbg=236
+hi User9 cterm=bold ctermfg=236 ctermbg=166
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => SONOKAI
@@ -391,35 +391,37 @@ let g:netrw_winsize = 25
 "     tutaj zmiana
 "   endif
 
-source ~/.config/nvim/sonokai.vim
 
-" Hashes before headings
-hi! link markdownHeadingDelimiter Red
+" OD TEGO MIEJSCA ODKOMENTOWAĆ SONOKAI
+" source ~/.config/nvim/sonokai.vim
 
-" Color of current line number
-hi! CursorLineNr ctermfg=110
+" " Hashes before headings
+" hi! link markdownHeadingDelimiter Red
 
-" Reversed colors in visual mode
-hi! Visual cterm=reverse
+" " Color of current line number
+" hi! CursorLineNr ctermfg=110
 
-" Better tab colors
-hi! TabLineSel ctermfg=203 ctermbg=235
+" " Reversed colors in visual mode
+" hi! Visual cterm=reverse
 
-" Sonokai
+" " Better tab colors
+" hi! TabLineSel ctermfg=203 ctermbg=235
 
-au InsertEnter * hi User1 cterm=bold ctermfg=203 ctermbg=236
-au InsertLeave * hi User1 cterm=bold ctermfg=110 ctermbg=236
+" " Sonokai
 
-au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=203
-au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=110
+" au InsertEnter * hi User1 cterm=bold ctermfg=203 ctermbg=236
+" au InsertLeave * hi User1 cterm=bold ctermfg=110 ctermbg=236
 
-hi statusline cterm=none ctermfg=249 ctermbg=239
-hi statuslineNC cterm=none ctermfg=249 ctermbg=236
+" au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=203
+" au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=110
 
-hi User1 cterm=bold ctermfg=110 ctermbg=236
-hi User4 cterm=none ctermfg=248 ctermbg=237
-hi User5 cterm=bold ctermfg=249 ctermbg=236
-hi User9 cterm=bold ctermfg=236 ctermbg=110
+" hi statusline cterm=none ctermfg=249 ctermbg=239
+" hi statuslineNC cterm=none ctermfg=249 ctermbg=236
+
+" hi User1 cterm=bold ctermfg=110 ctermbg=236
+" hi User4 cterm=none ctermfg=248 ctermbg=237
+" hi User5 cterm=bold ctermfg=249 ctermbg=236
+" hi User9 cterm=bold ctermfg=236 ctermbg=110
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => APPEARANCE
