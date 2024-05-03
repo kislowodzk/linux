@@ -35,7 +35,6 @@ call plug#begin()
     Plug 'preservim/tagbar'             " Tagbar, leader + c (table of contents)
                                         " I need to have ctag installed, eg.:
                                         "   sudo apt install universal-ctags
-    Plug 'vimwiki/vimwiki'
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -333,12 +332,6 @@ nnoremap <silent> <leader>c :Tagbar<CR>
 let g:netrw_liststyle = 0
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => VimWiki
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-let g:vimwiki_global_ext = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GRUVBOX
