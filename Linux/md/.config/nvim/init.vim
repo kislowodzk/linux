@@ -352,7 +352,7 @@ let g:vimwiki_global_ext = 0
 " :verb set fo
 " mogę sprawdzić, gdzie ostatnio była dokonana zmiana opcji formatowania. 
 " Mogę tam wejść i dodać ręcznie na końcu
-" set fo=tawc
+" set fo=tawc nosmartindent autoindent 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GRUVBOX
