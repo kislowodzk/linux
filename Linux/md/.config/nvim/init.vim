@@ -19,9 +19,7 @@ call plug#begin()
     " :PlugInstall
     " :PlugClean
 
-    Plug 'sainnhe/sonokai'              " Colorscheme sonokai
     Plug 'morhetz/gruvbox'              " Colorscheme gruvbox
-    Plug 'NLKNguyen/papercolor-theme'
 
     Plug 'rbgrouleff/bclose.vim'        " Ranger prerequisite
     Plug 'francoiscabrol/ranger.vim'    " Ranger
@@ -83,6 +81,8 @@ autocmd BufRead,BufNewFile   *.md set fo=tawc nosmartindent autoindent
 set omnifunc=syntaxcomplete#Complete
 
 syntax on
+
+set rnu nu
 
 " Let it be, it's ok on TMUX and allows for scrolling
 " set mouse=a
@@ -202,13 +202,13 @@ noremap <silent> <C-Down> :resize -1<CR>
 " Statistics of file
 nnoremap <silent> <leader>g g<C-g>
 
-
-" File explorer (netrw)
-nnoremap <silent> <leader>w :Ex<CR>
-nnoremap <silent> <leader>q :Vex<CR>
+" Clean Highligt after searching
+nnoremap <silent> <leader>q :noh<CR>
+nnoremap <silent> <leader>h :noh<CR>
 
 " Tabs
 nnoremap <silent> <leader>tt :tabnew<CR>
+nnoremap <silent> <leader>T :tabnew<CR>
 nnoremap <silent> <leader>n :tabnext<cr>
 nnoremap <silent> <leader>p :tabprev<cr>
 nnoremap <silent> <leader>tn :tabm +1<CR>
@@ -231,6 +231,7 @@ noremap <leader>0 10gt
 " Adding things
 nnoremap <silent> <leader>ab viwc****<Esc>hPe
 nnoremap <silent> <leader>ai viwc**<Esc>Pe
+nnoremap <silent> <leader>au viwc__<Esc>Pe
 nnoremap <silent> <leader>a$ viwc$$<Esc>Pe
 nnoremap <silent> <leader>a( viwc()<Esc>Pe
 nnoremap <silent> <leader>a« viwc«»<Esc>Pe
@@ -243,7 +244,7 @@ nnoremap <silent> <leader>ac viwc""<Esc>Pe
 nnoremap <silent> <leader>al a[]()<esc>i
 nnoremap <silent> <leader>ap a![]()<esc>i
 nnoremap <silent> <leader>as 43o<esc>43k$zz
-nnoremap <silent> <leader>aa 7o<esc>7k$zz
+nnoremap <silent> <leader>aa 11o<esc>11k$zz
 nnoremap <silent> <leader>a1 I# 
 nnoremap <silent> <leader>a2 I## 
 nnoremap <silent> <leader>a3 I### 
@@ -252,6 +253,7 @@ nnoremap <silent> <leader>a5 I#####
 
 vnoremap <silent> <leader>ab c****<Esc>hPe
 vnoremap <silent> <leader>ai c**<Esc>Pe
+vnoremap <silent> <leader>au c__<Esc>Pe
 vnoremap <silent> <leader>a$ c$$<Esc>Pe
 vnoremap <silent> <leader>a( c()<Esc>Pe
 vnoremap <silent> <leader>a« c«»<Esc>Pe
@@ -269,6 +271,7 @@ nnoremap <leader>st :set filetype=
 
 " Deleting things
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
+nnoremap <silent> <leader>du ?\_<cr>x/\_<cr>x:noh<cr>
 nnoremap <silent> <leader>d$ ?\$<cr>x/\$<cr>x:noh<cr>
 nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
 nnoremap <silent> <leader>d( ?(<cr>x/)<cr>x:noh<cr>
@@ -286,12 +289,19 @@ nnoremap <silent> <leader>m3 ?^### <cr>
 nnoremap <silent> <leader>m4 ?^#### <cr>
 nnoremap <silent> <leader>m5 ?^##### <cr>
 
+nnoremap <silent> <leader>m! ?^= <cr>
+nnoremap <silent> <leader>m@ ?^== <cr>
+nnoremap <silent> <leader>m# ?^=== <cr>
+nnoremap <silent> <leader>m$ ?^==== <cr>
+nnoremap <silent> <leader>m% ?^===== <cr>
+
+
 " Store session
 nnoremap <leader>zs :mks! ~/Dokumenty/linux/Linux/md/my_session.vim<cr>
 nnoremap <leader>zo :so ~/Dokumenty/linux/Linux/md/my_session.vim<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"    => plugins
+"    => Plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -300,13 +310,17 @@ nnoremap <leader>zo :so ~/Dokumenty/linux/Linux/md/my_session.vim<cr>
 
 " File search
 nnoremap <leader>ff :Files ~/<CR>
-nnoremap <leader>fh :tabnew<CR>:Files ~/<CR>
-nnoremap <leader>fn :tabnew<CR>:Files ~/Dokumenty/Notatki/<CR>
-nnoremap <leader>fc :tabnew<CR>:Files ~/.config/<CR>
+nnoremap <leader>F :Files ~/<CR>
+nnoremap <leader>fh :Files ~/<CR>
+nnoremap <leader>fn :Files ~/Dokumenty/Notatki/<CR>
+nnoremap <leader>fw :Files ~/vimwiki/<CR>
+nnoremap <leader>fc :Files ~/.config/<CR>
 
 " Line search
-nnoremap <leader>fl :Lines<CR>
-nnoremap <leader>fb :BLines<CR>
+" all buffers
+nnoremap <leader>fb :Lines<CR>  
+" only this buffer
+nnoremap <leader>fl :BLines<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => RANGER
@@ -314,10 +328,12 @@ nnoremap <leader>fb :BLines<CR>
 
 let g:ranger_map_keys = 0
 map <leader>rr :RangerCurrentDirectory<CR>
+map <leader>R :RangerCurrentDirectory<CR>
 map <leader>rt :tabnew<CR>:Ranger<CR>
-map <leader>rh :tabnew<CR>:cd ~<CR>:Ranger<CR>
-map <leader>rn :tabnew<CR>:cd ~/Dokumenty/Notatki<CR>:Ranger<CR>
-map <leader>rc :tabnew<CR>:cd ~/.config<CR>:Ranger<CR>
+map <leader>rh :cd ~<CR>:Ranger<CR>
+map <leader>rn :cd ~/Dokumenty/Notatki<CR>:Ranger<CR>
+map <leader>rn :cd ~/vimwiki<CR>:Ranger<CR>
+map <leader>rc :cd ~/.config<CR>:Ranger<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => TAGBAR
@@ -327,18 +343,16 @@ map <leader>rc :tabnew<CR>:cd ~/.config<CR>:Ranger<CR>
 nnoremap <silent> <leader>c :Tagbar<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => NETRW
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-let g:netrw_liststyle = 0
-let g:netrw_banner = 0
-let g:netrw_winsize = 25
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VimWiki
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 let g:vimwiki_global_ext = 0
+" Tutaj uwaga -- jeśli chodzi o formatoptions, to vimwiki zmienia to jako
+" ostatni. Więc jeśli tego nie chcę, to komendą:
+" :verb set fo
+" mogę sprawdzić, gdzie ostatnio była dokonana zmiana opcji formatowania. 
+" Mogę tam wejść i dodać ręcznie na końcu
+" set fo=tawc
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GRUVBOX
@@ -375,60 +389,6 @@ hi User4 cterm=none ctermfg=244 ctermbg=237
 hi User5 cterm=bold ctermfg=248 ctermbg=236
 hi User6 cterm=none ctermfg=251 ctermbg=236
 hi User9 cterm=bold ctermfg=236 ctermbg=166
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => SONOKAI
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" I changed the way sonokai does some things
-"     call sonokai#highlight('markdownItalic', s:palette.blue, s:palette.none, 'italic')
-"     call sonokai#highlight('markdownBold', s:palette.purple, s:palette.none, 'bold')
-"       if s:configuration.show_eob
-    " if s:configuration.dim_inactive_windows
-    "   call sonokai#highlight('EndOfBuffer', s:palette.bg4, s:palette.bg_dim)
-    " else
-    "   call sonokai#highlight('EndOfBuffer', s:palette.bg4, s:palette.none) -- tutaj było bg0 na końcu
-    " endif
-  " else
-
-" if s:configuration.dim_inactive_windows
-"     call sonokai#highlight('NormalNC', s:palette.fg, s:palette.bg_dim)
-"   else
-"     call sonokai#highlight('NormalNC', s:palette.fg, s:palette.none) --
-"     tutaj zmiana
-"   endif
-
-
-" OD TEGO MIEJSCA ODKOMENTOWAĆ SONOKAI
-" source ~/.config/nvim/sonokai.vim
-
-" " Hashes before headings
-" hi! link markdownHeadingDelimiter Red
-
-" " Color of current line number
-" hi! CursorLineNr ctermfg=110
-
-" " Reversed colors in visual mode
-" hi! Visual cterm=reverse
-
-" " Better tab colors
-" hi! TabLineSel ctermfg=203 ctermbg=235
-
-" " Sonokai
-
-" au InsertEnter * hi User1 cterm=bold ctermfg=203 ctermbg=236
-" au InsertLeave * hi User1 cterm=bold ctermfg=110 ctermbg=236
-
-" au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=203
-" au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=110
-
-" hi statusline cterm=none ctermfg=249 ctermbg=239
-" hi statuslineNC cterm=none ctermfg=249 ctermbg=236
-
-" hi User1 cterm=bold ctermfg=110 ctermbg=236
-" hi User4 cterm=none ctermfg=248 ctermbg=237
-" hi User5 cterm=bold ctermfg=249 ctermbg=236
-" hi User9 cterm=bold ctermfg=236 ctermbg=110
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => APPEARANCE
