@@ -102,6 +102,7 @@ set ttimeoutlen=1
 set shortmess+=I
 
 nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
+nnoremap <f8> :setlocal rnu! nu!<enter>
 
 set spellcapcheck=
 set spellsuggest=best,13

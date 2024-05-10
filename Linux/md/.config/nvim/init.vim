@@ -121,7 +121,7 @@ nnoremap [s [szz
 nnoremap ]s ]szz
 nnoremap z= zzz=
 
-nnoremap <f8> :setlocal norelativenumber!<enter>
+nnoremap <f8> :setlocal rnu! nu!<enter>
 nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
 
 " Stop highlighting searching results
