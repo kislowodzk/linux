@@ -270,6 +270,7 @@ vnoremap <silent> <leader>ac c""<Esc>Pe
 nnoremap <leader>sl :set tw=99999<cr>
 nnoremap <leader>ss :set tw=74<cr>
 nnoremap <leader>sf :set fo=tawc<cr>
+nnoremap <leader>sF :set fo=jcroql<cr>
 nnoremap <leader>st :set filetype=
 
 " Deleting things
