@@ -65,9 +65,6 @@ inoremap . .<c-g>u
 inoremap ! !<c-g>u
 inoremap ? ?<c-g>u
 
-inoremap <C-h> <Left>
-inoremap <C-l> <Right>
-
 let mapleader = " "
 
 nnoremap <silent> <leader>ab viwc****<Esc>hPe
