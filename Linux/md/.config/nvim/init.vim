@@ -161,6 +161,9 @@ inoremap <C-j> <CR>-
 " ctrl-s in insert mode moves coursor line to the middle of the screen
 inoremap <C-s> <C-o>zz
 
+inoremap <C-h> <Left>
+inoremap <C-l> <Right>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "    => cnoremaps
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -416,8 +419,6 @@ set laststatus=2
 set statusline=
 
 set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%4*\ %p%%\ %5*\ %l:\ %2v\ %*
-
-set guicursor=n-v-c-i:block
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "      _  ___     _                        _     _    
