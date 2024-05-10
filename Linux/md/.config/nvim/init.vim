@@ -47,7 +47,6 @@ set colorcolumn=76
 
 " Searching
 set ignorecase smartcase incsearch complete+=s showmatch hlsearch
-
 set path+=**
 
 " Spaces instead of tabs
@@ -76,6 +75,7 @@ set noswapfile nobackup
 " different format options
 autocmd BufRead,BufNewFile   *.txt set fo=tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=tawc nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.wiki set fo=tawc nosmartindent autoindent
 
 " Complete by ctrl-x + ctrl-... in insert mode
 set omnifunc=syntaxcomplete#Complete
