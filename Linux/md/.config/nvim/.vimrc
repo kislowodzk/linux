@@ -62,6 +62,7 @@ vnoremap <C-h> h
 vnoremap <C-l> l
 
 inoremap . .<c-g>u
+inoremap - -<c-g>u
 inoremap ! !<c-g>u
 inoremap ? ?<c-g>u
 
