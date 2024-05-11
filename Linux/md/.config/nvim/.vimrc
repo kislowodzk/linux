@@ -35,6 +35,10 @@ set shortmess+=I
 
 colorscheme default
 
+hi statusline cterm=none ctermfg=253 ctermbg=none
+set laststatus=2
+set statusline=\|\ %*\ %t\ %M\ \ %*%=\ %p%%\ \ %l:\ %2v\ \ \|%* 
+
 " Normal mode
 nnoremap j gj
 nnoremap k gk
@@ -95,8 +99,8 @@ let mapleader = " "
 nnoremap <leader>sl :set tw=99999<cr>
 nnoremap <leader>ss :set tw=74<cr>
 nnoremap <leader>sf :set fo=tawc<cr>
-nnoremap <leader>sF :set fo=croql<cr>
 nnoremap <leader>sc :set fo=croql<cr>
+nnoremap <leader>sF :set fo=coql<cr>
 nnoremap <leader>st :set filetype=
 
 nnoremap <silent> <leader>me G{}k$zz
@@ -127,4 +131,10 @@ vnoremap <silent> <leader>au c__<Esc>Pe
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
 endif
+
+" Vimwiki
+let g:vimwiki_global_ext = 0
+" :verb set fo
+" vim ~/path
+" set fo=tawc nosmartindent autoindent 
 
