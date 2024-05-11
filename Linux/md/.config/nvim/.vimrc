@@ -1,3 +1,8 @@
+" Plugins
+call plug#begin()
+    Plug 'vimwiki/vimwiki'
+call plug#end()
+
 " General
 set nocompatible
 
@@ -19,23 +24,16 @@ autocmd BufRead,BufNewFile   *.txt set fo=tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.wiki set fo=tawc nosmartindent autoindent
 
-set omnifunc=syntaxcomplete#Complete
-
 syntax on
+set omnifunc=syntaxcomplete#Complete
 
 set rnu nu
 
-set timeoutlen=1000
-set ttimeoutlen=1
+set timeoutlen=1000 ttimeoutlen=1
 
 set shortmess+=I
 
 colorscheme default
-
-" Save location
-if has("autocmd")
-  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
-endif
 
 " Normal mode
 nnoremap j gj
@@ -124,4 +122,9 @@ nnoremap <silent> <leader>aa 11o<esc>11k$zz
 vnoremap <silent> <leader>ab c****<Esc>hPe
 vnoremap <silent> <leader>ai c**<Esc>Pe
 vnoremap <silent> <leader>au c__<Esc>Pe
+
+" Save location
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
+endif
 
