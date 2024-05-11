@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/md'
+let g:netrw_dirhist_8='/home/md/Cashe'
+let g:netrw_dirhist_7='/home/md/vimwiki/notatki/lektury'
+let g:netrw_dirhist_6='/home/md/.vim/plugged/vimwiki'
+let g:netrw_dirhist_5='/home/md/vimwiki/notatki/lektury'
+let g:netrw_dirhist_4='/home/md'
+let g:netrw_dirhist_3='/home/md/vimwiki'
+let g:netrw_dirhist_2='/home/md/vimwiki/notatki'
+let g:netrw_dirhist_1='/home/md/vimwiki/notatki/lektury'
