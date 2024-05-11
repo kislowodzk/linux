@@ -1,3 +1,4 @@
+" general
 set nocompatible
 
 set ignorecase smartcase incsearch complete+=s showmatch hlsearch
@@ -7,9 +8,7 @@ set expandtab softtabstop=4 shiftwidth=4 tabstop=4
 set wrap linebreak smartindent tw=74
 set backspace=indent,eol,start
 
-set display+=lastline
-set scrolloff=10
-set nojoinspaces
+set display+=lastline scrolloff=10 nojoinspaces
 set splitbelow splitright
 
 set clipboard^=unnamed,unnamedplus
@@ -26,6 +25,14 @@ syntax on
 
 set rnu nu
 
+set timeoutlen=1000
+set ttimeoutlen=1
+
+set shortmess+=I
+
+colorscheme default
+
+" normal mode
 nnoremap j gj
 nnoremap k gk
 nnoremap 0 g0
@@ -37,20 +44,25 @@ nnoremap <C-l> l
 
 nnoremap Q gq
 
-nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
-
-nnoremap <silent> <CR> :noh<CR>
-nnoremap <silent> <leader>q :noh<CR>
-nnoremap <silent> <leader>h :noh<CR>
-
 nnoremap Y y$
 nnoremap n nzzzv
 nnoremap N Nzzzv
 nnoremap <C-Space> :w<CR>
+
+" insert mode
 inoremap <C-Space> <Esc>:w<cr>
 inoremap <C-j> <CR>- 
+
+inoremap . .<c-g>u
+inoremap - -<c-g>u
+inoremap ! !<c-g>u
+inoremap ? ?<c-g>u
+
+" console mode
 cnoremap W w
 cnoremap Q q
+
+" visual mode
 vmap < <gv
 vmap > >gv
 
@@ -61,22 +73,22 @@ vnoremap <C-j> j
 vnoremap <C-h> h
 vnoremap <C-l> l
 
-inoremap . .<c-g>u
-inoremap - -<c-g>u
-inoremap ! !<c-g>u
-inoremap ? ?<c-g>u
+" function keys
+nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
+nnoremap <f8> :setlocal rnu! nu!<enter>
 
+set spellcapcheck=
+set spellsuggest=best,13
+nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us,de<enter>
+nnoremap [s [szz
+nnoremap ]s ]szz
+nnoremap z= zzz=
+
+set listchars=space:·,trail:•,eol:¶
+nnoremap <f10> :setlocal list!<enter>
+
+" leader
 let mapleader = " "
-
-nnoremap <silent> <leader>ab viwc****<Esc>hPe
-nnoremap <silent> <leader>ai viwc**<Esc>Pe
-nnoremap <silent> <leader>au viwc__<Esc>Pe
-nnoremap <silent> <leader>as 43o<esc>43k$zz
-nnoremap <silent> <leader>aa 11o<esc>11k$zz
-
-vnoremap <silent> <leader>ab c****<Esc>hPe
-vnoremap <silent> <leader>ai c**<Esc>Pe
-vnoremap <silent> <leader>au c__<Esc>Pe
 
 nnoremap <leader>sl :set tw=99999<cr>
 nnoremap <leader>ss :set tw=74<cr>
@@ -94,23 +106,17 @@ nnoremap <silent> <leader>tp :tabm -1<CR>
 nnoremap <silent> <leader>tw :tabclose<CR>
 nnoremap <silent> <leader>tz :tabnew<CR>:terminal<CR>
 
-set timeoutlen=1000
-set ttimeoutlen=1
+nnoremap <silent> <CR> :noh<CR>
+nnoremap <silent> <leader>q :noh<CR>
+nnoremap <silent> <leader>h :noh<CR>
 
-set shortmess+=I
+nnoremap <silent> <leader>ab viwc****<Esc>hPe
+nnoremap <silent> <leader>ai viwc**<Esc>Pe
+nnoremap <silent> <leader>au viwc__<Esc>Pe
+nnoremap <silent> <leader>as 43o<esc>43k$zz
+nnoremap <silent> <leader>aa 11o<esc>11k$zz
 
-nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
-nnoremap <f8> :setlocal rnu! nu!<enter>
-
-set spellcapcheck=
-set spellsuggest=best,13
-nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us,de<enter>
-nnoremap [s [szz
-nnoremap ]s ]szz
-nnoremap z= zzz=
-
-set listchars=space:·,trail:•,eol:¶
-nnoremap <f10> :setlocal list!<enter>
-
-colorscheme default
+vnoremap <silent> <leader>ab c****<Esc>hPe
+vnoremap <silent> <leader>ai c**<Esc>Pe
+vnoremap <silent> <leader>au c__<Esc>Pe
 
