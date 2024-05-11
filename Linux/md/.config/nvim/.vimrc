@@ -25,16 +25,17 @@ syntax on
 
 set rnu nu
 
-if has("autocmd")
-  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
-endif
-
 set timeoutlen=1000
 set ttimeoutlen=1
 
 set shortmess+=I
 
 colorscheme default
+
+" save location
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
+endif
 
 " normal mode
 nnoremap j gj
