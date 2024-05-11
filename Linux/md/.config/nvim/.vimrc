@@ -1,4 +1,4 @@
-" general
+" General
 set nocompatible
 
 set ignorecase smartcase incsearch complete+=s showmatch hlsearch
@@ -32,12 +32,12 @@ set shortmess+=I
 
 colorscheme default
 
-" save location
+" Save location
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
 endif
 
-" normal mode
+" Normal mode
 nnoremap j gj
 nnoremap k gk
 nnoremap 0 g0
@@ -53,7 +53,7 @@ nnoremap Y y$
 nnoremap n nzzzv
 nnoremap N Nzzzv
 
-" insert mode
+" Insert mode
 inoremap <C-Space> <Esc>
 inoremap <C-j> <CR>- 
 
@@ -62,11 +62,11 @@ inoremap - -<c-g>u
 inoremap ! !<c-g>u
 inoremap ? ?<c-g>u
 
-" console mode
+" Console mode
 cnoremap W w
 cnoremap Q q
 
-" visual mode
+" Visual mode
 vmap < <gv
 vmap > >gv
 
@@ -77,7 +77,7 @@ vnoremap <C-j> j
 vnoremap <C-h> h
 vnoremap <C-l> l
 
-" function keys
+" Function keys
 nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
 nnoremap <f8> :setlocal rnu! nu!<enter>
 
@@ -91,7 +91,7 @@ nnoremap z= zzz=
 set listchars=space:·,trail:•,eol:¶
 nnoremap <f10> :setlocal list!<enter>
 
-" leader
+" Leader
 let mapleader = " "
 
 nnoremap <leader>sl :set tw=99999<cr>
