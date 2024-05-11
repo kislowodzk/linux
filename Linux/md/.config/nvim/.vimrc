@@ -25,6 +25,10 @@ syntax on
 
 set rnu nu
 
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
+endif
+
 set timeoutlen=1000
 set ttimeoutlen=1
 
@@ -47,10 +51,9 @@ nnoremap Q gq
 nnoremap Y y$
 nnoremap n nzzzv
 nnoremap N Nzzzv
-nnoremap <C-Space> :w<CR>
 
 " insert mode
-inoremap <C-Space> <Esc>:w<cr>
+inoremap <C-Space> <Esc>
 inoremap <C-j> <CR>- 
 
 inoremap . .<c-g>u
