@@ -33,7 +33,18 @@ set timeoutlen=1000 ttimeoutlen=1
 
 set shortmess+=I
 
+set colorcolumn=76
+set cursorline
+
 colorscheme default
+
+hi IncSearch          ctermbg=0            ctermfg=253
+hi Search             ctermbg=166          ctermfg=236
+hi Visual             cterm=reverse        ctermbg=NONE
+hi ColorColumn        ctermbg=237
+hi CursorLine         ctermbg=NONE         cterm=NONE
+hi SpellBad           ctermbg=NONE         ctermfg=250
+hi CursorLineNr       cterm=bold
 
 hi statusline cterm=none ctermfg=253 ctermbg=none
 set laststatus=2
