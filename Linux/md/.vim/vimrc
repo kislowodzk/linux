@@ -41,14 +41,18 @@ set cursorline
 " Colorscheme
 colorscheme default
 
-hi IncSearch          ctermbg=0            ctermfg=253
-hi Search             ctermbg=166          ctermfg=236
-hi Visual             cterm=reverse        ctermbg=NONE
-hi ColorColumn        ctermbg=237
-hi CursorLine         ctermbg=NONE         cterm=NONE
-hi SpellBad           ctermbg=NONE         ctermfg=250
-hi CursorLineNr       cterm=bold
-hi Title              ctermbg=NONE         ctermfg=130      cterm=bold
+hi IncSearch        ctermbg=0            ctermfg=253
+hi Search           ctermbg=166          ctermfg=236
+hi Visual           cterm=reverse        ctermbg=NONE
+hi ColorColumn      ctermbg=237
+hi CursorLine       ctermbg=NONE         cterm=NONE
+hi SpellBad         ctermbg=NONE         ctermbg=237
+hi CursorLineNr     cterm=bold
+hi Title            ctermbg=NONE         ctermfg=130      cterm=bold
+hi vimwikiItalic    ctermfg=109          cterm=italic
+hi htmlItalic       ctermfg=109          cterm=italic
+hi vimwikiBold      ctermfg=175          cterm=bold
+hi htmlBold         ctermfg=175          cterm=bold
 
 hi statusline cterm=bold ctermfg=250 ctermbg=none
 set laststatus=2
