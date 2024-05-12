@@ -48,6 +48,7 @@ hi ColorColumn        ctermbg=237
 hi CursorLine         ctermbg=NONE         cterm=NONE
 hi SpellBad           ctermbg=NONE         ctermfg=250
 hi CursorLineNr       cterm=bold
+hi Title              ctermbg=NONE         ctermfg=130      cterm=bold
 
 hi statusline cterm=bold ctermfg=250 ctermbg=none
 set laststatus=2
@@ -70,7 +71,6 @@ nnoremap n nzzzv
 nnoremap N Nzzzv
 
 " Insert mode
-inoremap <C-Space> <Esc>
 inoremap <C-j> <CR>- 
 
 inoremap . .<c-g>u
