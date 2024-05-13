@@ -42,17 +42,20 @@ set cursorline
 colorscheme default
 
 hi IncSearch        ctermbg=0            ctermfg=253
-hi Search           ctermbg=166          ctermfg=236
+hi Search           ctermbg=130          ctermfg=236
 hi Visual           cterm=reverse        ctermbg=NONE
 hi ColorColumn      ctermbg=237
 hi CursorLine       ctermbg=NONE         cterm=NONE
-hi SpellBad         ctermbg=NONE         ctermbg=237
+hi SpellBad         ctermbg=NONE         ctermbg=239
 hi CursorLineNr     cterm=bold
-hi Title            ctermbg=NONE         ctermfg=130      cterm=bold
-hi vimwikiItalic    ctermfg=109          cterm=italic
-hi htmlItalic       ctermfg=109          cterm=italic
-hi vimwikiBold      ctermfg=175          cterm=bold
-hi htmlBold         ctermfg=175          cterm=bold
+hi Title            ctermfg=255           cterm=bold
+hi vimwikiItalic    ctermfg=228          cterm=italic
+hi htmlItalic       ctermfg=228          cterm=italic
+hi vimwikiBold      ctermfg=228          cterm=bold
+hi htmlBold         ctermfg=228          cterm=bold
+hi Identifier       ctermfg=109
+hi Underlined       ctermfg=109          cterm=NONE
+
 
 hi statusline cterm=bold ctermfg=250 ctermbg=none
 set laststatus=2
