@@ -60,6 +60,7 @@ hi Underlined       ctermfg=109          cterm=NONE
 hi ModeMsg          ctermbg=NONE         ctermfg=208
 hi MatchParen       ctermbg=NONE         ctermbg=241
 hi Todo             ctermbg=NONE         ctermfg=166    cterm=bold
+hi Folded           ctermbg=237          ctermfg=245    cterm=italic
 
 hi statusline cterm=bold ctermfg=250 ctermbg=none
 set laststatus=2
