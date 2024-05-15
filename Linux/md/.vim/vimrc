@@ -69,6 +69,7 @@ set laststatus=2
 set statusline=\|%*\ %t\ %M\ \ %*%=\ %p%%\ \ %l:\ %2v\ \|%* 
 
 " Normal mode
+nnoremap <C-f> gg0vG$
 nnoremap j gj
 nnoremap k gk
 nnoremap 0 g0
