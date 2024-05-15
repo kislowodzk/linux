@@ -42,13 +42,13 @@ set cursorline
 colorscheme default
 set background=light
 
-hi IncSearch        ctermbg=253          ctermfg=0      cterm=NONE
-hi Search           ctermbg=130          ctermfg=0      cterm=NONE
+hi IncSearch        ctermbg=253          ctermfg=16     cterm=NONE
+hi Search           ctermbg=130          ctermfg=16     cterm=NONE
 hi Visual           cterm=reverse        ctermbg=NONE
 hi ColorColumn      ctermbg=237
 hi CursorLine       ctermbg=NONE         cterm=NONE
 hi SpellBad         ctermbg=NONE         ctermbg=239
-hi CursorLineNr     cterm=bold           ctermfg=166
+hi CursorLineNr     cterm=bold           ctermfg=130
 hi LineNr           ctermfg=130
 hi Title            ctermfg=166          cterm=bold
 hi vimwikiItalic    ctermfg=228          cterm=italic
@@ -167,6 +167,10 @@ nnoremap <silent> <leader>aa 11o<esc>11k$zz
 vnoremap <silent> <leader>ab c****<Esc>hPe
 vnoremap <silent> <leader>ai c**<Esc>Pe
 vnoremap <silent> <leader>au c__<Esc>Pe
+
+nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
+nnoremap <silent> <leader>du ?\_<cr>x/\_<cr>x:noh<cr>
+nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 
 nnoremap <leader>ee :e ~/**/*
 nnoremap <leader>E :e ~/**/*
