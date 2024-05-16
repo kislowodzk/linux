@@ -93,6 +93,11 @@ nnoremap Y y$
 nnoremap n nzzzv
 nnoremap N Nzzzv
 
+noremap <silent> <C-Left> :vertical resize +3<CR>
+noremap <silent> <C-Right> :vertical resize -3<CR>
+noremap <silent> <C-Up> :resize +1<CR>
+noremap <silent> <C-Down> :resize -1<CR>
+
 " Insert mode
 inoremap <C-j> <CR>- 
 
@@ -202,8 +207,10 @@ let g:vimwiki_global_ext = 0
 " set fo=tawc nosmartindent autoindent 
 
 if has("gui_running")
+    set guicursor+=a:blinkon0
     colorscheme gruvbox
 	set lines=34 columns=85
+    set mouse -=a
 	set guioptions -=m
 	set guioptions -=T
 	set guioptions -=r
