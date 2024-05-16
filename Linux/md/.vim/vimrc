@@ -50,6 +50,7 @@ hi CursorLine       ctermbg=NONE         cterm=NONE
 hi SpellBad         ctermbg=NONE         ctermbg=239
 hi CursorLineNr     cterm=bold           ctermfg=130
 hi LineNr           ctermfg=130
+hi Delimiter        ctermbg=NONE         ctermfg=253    cterm=bold
 hi Title            ctermfg=166          cterm=bold
 hi vimwikiItalic    ctermfg=228          cterm=italic
 hi htmlItalic       ctermfg=228          cterm=italic
@@ -64,9 +65,16 @@ hi MatchParen       ctermbg=NONE         ctermbg=241
 hi Todo             ctermbg=NONE         ctermfg=166    cterm=bold,italic
 hi Folded           ctermbg=237          ctermfg=245    cterm=italic
 
-hi statusline cterm=bold ctermfg=250 ctermbg=none
+au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
+au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
+au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=3
+au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=166
+hi User1 cterm=bold ctermfg=166 ctermbg=236
+hi User9 cterm=bold ctermfg=236 ctermbg=166
+hi statusline cterm=bold ctermfg=249 ctermbg=none
+hi statuslineNC cterm=none ctermfg=249 ctermbg=236
 set laststatus=2
-set statusline=\|%*\ %t\ %M\ \ %*%=\ %p%%\ \ %l:\ %2v\ \|%* 
+set statusline=%9*\ %*%1*\ %t\ %M\ %1*\ %=%1*\ %p%%\ \ %l:\ %2v\ \%9*\ %* 
 
 " Normal mode
 nnoremap <C-f> gg0vG$
@@ -192,4 +200,13 @@ let g:vimwiki_global_ext = 0
 " :verb set fo
 " vim ~/path
 " set fo=tawc nosmartindent autoindent 
+
+if has("gui_running")
+    colorscheme gruvbox
+	set lines=34 columns=85
+	set guioptions -=m
+	set guioptions -=T
+	set guioptions -=r
+    set guifont=DejaVu\ Sans\ Mono\ 10.5
+endif
 
