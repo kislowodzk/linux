@@ -1,6 +1,10 @@
 " Plugins
 call plug#begin()
     Plug 'vimwiki/vimwiki'
+    Plug 'tpope/vim-commentary'   " gcc or gc
+    Plug 'preservim/tagbar'       " Tagbar, leader + c (table of contents)
+                                  " I need to have ctag installed, eg.:
+                                  "   sudo apt install universal-ctags
 call plug#end()
 
 " General
@@ -100,6 +104,7 @@ noremap <silent> <C-Down> :resize -1<CR>
 
 " Insert mode
 inoremap <C-j> <CR>- 
+inoremap <C-S-j> <CR>- [ ] 
 
 inoremap . .<c-g>u
 inoremap - -<c-g>u
@@ -186,12 +191,20 @@ nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
 nnoremap <silent> <leader>du ?\_<cr>x/\_<cr>x:noh<cr>
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 
-nnoremap <leader>ee :e! ~/**/*
-nnoremap <leader>E :e! ~/**/*
-nnoremap <leader>en :e! ~/Dokumenty/Notatki/**/*
-nnoremap <leader>es :e! ~/1-STUDIA/**/*
-nnoremap <leader>ec :e! ~/.config/**/*
-nnoremap <leader>ev :e! ~/vimwiki/**/*
+nnoremap <leader>vd :set background=dark<cr>
+nnoremap <leader>vl :set background=light<cr>
+nnoremap <leader>vgd :colorscheme gruvbox \| set background=dark<CR>
+nnoremap <leader>vgl :colorscheme gruvbox \| set background=light<CR>
+nnoremap <leader>vtn :colorscheme Tomorrow-Night \| set background=dark<CR>
+nnoremap <leader>vtb :colorscheme Tomorrow-Night-Bright \| set background=dark<CR>
+nnoremap <leader>vk :colorscheme kislowodzk \| set background=light<CR>
+
+nnoremap <leader>ee :e! ~/**/*\c
+nnoremap <leader>E :e! ~/**/*\c
+nnoremap <leader>en :e! ~/Dokumenty/Notatki/**/*\c
+nnoremap <leader>es :e! ~/1-STUDIA/**/*\c
+nnoremap <leader>ec :e! ~/.config/**/*\c
+nnoremap <leader>ew :e! ~/vimwiki/**/*\c
 
 nnoremap <leader>b :b <C-d>
 
@@ -200,7 +213,8 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
 endif
 
-" Vimwiki
+" Extensions
+nnoremap <silent> <leader>c :Tagbar<CR>
 let g:vimwiki_global_ext = 0
 " :verb set fo
 " vim ~/path
@@ -209,11 +223,11 @@ let g:vimwiki_global_ext = 0
 if has("gui_running")
     set guicursor+=a:blinkon0
     colorscheme gruvbox
-	set lines=34 columns=85
     set mouse -=a
-	set guioptions -=m
-	set guioptions -=T
-	set guioptions -=r
+    set guioptions -=m
+    set guioptions -=T
+    set guioptions -=r
+    set guioptions -=L
     set guifont=DejaVu\ Sans\ Mono\ 10.5
 endif
 

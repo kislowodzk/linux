@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/md/.vim'
+let g:netrw_dirhist_2='/home/md'
 let g:netrw_dirhist_1='/home/md/Dokumenty/linux/Linux/md/.vim/colors'
 let g:netrw_dirhist_0='/home/md/Dokumenty/linux/Linux/md'
 let g:netrw_dirhist_9='/home/md/Dokumenty/linux/Linux/md/.vim'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_7='/home/md/1-STUDIA/4_Rok/Konferencja'
 let g:netrw_dirhist_6='/home/md/1-STUDIA/4_Rok/Konferencja/Artykuł'
 let g:netrw_dirhist_5='/home/md/1-STUDIA/4_Rok/Konferencja'
 let g:netrw_dirhist_4='/home/md/1-STUDIA/4_Rok/Konferencja/Artykuł'
-let g:netrw_dirhist_3='/home/md/1-STUDIA/4_Rok/Konferencja'
-let g:netrw_dirhist_2='/home/md/1-STUDIA/4_Rok/Konferencja/Artykuł'
