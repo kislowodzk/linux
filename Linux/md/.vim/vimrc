@@ -74,6 +74,7 @@ hi Type             ctermbg=NONE         ctermfg=214
 hi Constant         ctermbg=NONE         ctermfg=13
 hi PreProc          ctermbg=NONE         ctermfg=14
 hi Special          ctermbg=NONE         ctermfg=166
+hi Operator         ctermbg=NONE         ctermfg=15
 
 au InsertEnter * hi User1   cterm=bold   ctermfg=3      ctermbg=236
 au InsertLeave * hi User1   cterm=bold   ctermfg=166    ctermbg=236
@@ -219,6 +220,8 @@ if has("autocmd")
 endif
 
 " Extensions
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
 nnoremap <silent> <leader>c :Tagbar<CR>
 let g:vimwiki_global_ext = 0
 " :verb set fo
