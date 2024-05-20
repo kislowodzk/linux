@@ -42,6 +42,9 @@ set shortmess+=I
 set colorcolumn=76
 set cursorline
 
+let &t_SI = "\e[4 q"
+let &t_EI = "\e[2 q"
+
 " Colorscheme
 colorscheme default
 set background=light
