@@ -18,9 +18,11 @@ set wrap linebreak smartindent tw=74
 set backspace=indent,eol,start
 set wildmenu
 
-set display+=lastline scrolloff=10 nojoinspaces
+set display+=lastline scrolloff=9 nojoinspaces
 set splitbelow splitright
 
+set encoding=utf-8
+set fileencoding=utf-8
 set clipboard^=unnamed,unnamedplus
 set noswapfile nobackup
 
@@ -78,6 +80,13 @@ hi Constant         ctermbg=NONE         ctermfg=13
 hi PreProc          ctermbg=NONE         ctermfg=14
 hi Special          ctermbg=NONE         ctermfg=166
 hi Operator         ctermbg=NONE         ctermfg=15
+
+hi Pmenu            ctermbg=235          ctermfg=NONE
+hi PmenuSel         ctermbg=234          ctermfg=166
+hi VertSplit        ctermbg=233          ctermfg=233
+hi TabLine          ctermbg=236          ctermfg=249    cterm=none
+hi TabLineSel       ctermfg=166          ctermbg=236
+hi TabLineFill      ctermbg=0            ctermfg=236
 
 au InsertEnter * hi User1   cterm=bold   ctermfg=3      ctermbg=236
 au InsertLeave * hi User1   cterm=bold   ctermfg=166    ctermbg=236
@@ -183,7 +192,6 @@ noremap <leader>9 9gt
 noremap <leader>0 10gt
 
 nnoremap <silent> <CR> :noh<CR>
-nnoremap <silent> <leader>q :noh<CR>
 nnoremap <silent> <leader>h :noh<CR>
 
 nnoremap <silent> <leader>ab viwc****<Esc>hPe
@@ -225,6 +233,9 @@ endif
 " Extensions
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+let g:netrw_winsize = 20
+nnoremap <silent> <leader>q :Vex<CR>
 nnoremap <silent> <leader>c :Tagbar<CR>
 let g:vimwiki_global_ext = 0
 " :verb set fo
