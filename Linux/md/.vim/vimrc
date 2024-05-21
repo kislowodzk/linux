@@ -213,8 +213,8 @@ nnoremap <leader>vl :set background=light<cr>
 nnoremap <leader>vgd :colorscheme gruvbox \| set background=dark<CR>
 nnoremap <leader>vgl :colorscheme gruvbox \| set background=light<CR>
 nnoremap <leader>vtn :colorscheme Tomorrow-Night \| set background=dark<CR>
-nnoremap <leader>vtb :colorscheme Tomorrow-Night-Bright \| set background=dark<CR>
-nnoremap <leader>vk :colorscheme kislowodzk \| set background=light<CR>
+nnoremap <leader>ve :e! ~/.vim/vimrc<CR>
+nnoremap <leader>vs :so ~/.vim/vimrc<CR>
 
 nnoremap <leader>ee :e! ~/**/*\c
 nnoremap <leader>E :e! ~/**/*\c
