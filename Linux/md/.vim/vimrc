@@ -29,7 +29,7 @@ set noswapfile nobackup
 set fo=croql
 autocmd BufRead,BufNewFile   *.txt set fo=tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=tawc nosmartindent autoindent
-autocmd BufRead,BufNewFile   *.wiki set fo=tawc nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.wiki set filetype=vimwiki fo=tawc nosmartindent autoindent
 
 syntax on
 set omnifunc=syntaxcomplete#Complete
@@ -56,7 +56,10 @@ hi Search           ctermbg=130          ctermfg=16     cterm=NONE
 hi Visual           cterm=reverse        ctermbg=NONE
 hi ColorColumn      ctermbg=237
 hi CursorLine       ctermbg=NONE         cterm=NONE
-hi SpellBad         ctermbg=NONE         ctermbg=239
+hi SpellBad         ctermbg=237
+hi SpellCap         ctermbg=237
+hi SpellLocal       ctermbg=237
+hi SpellRare        ctermbg=237
 hi CursorLineNr     cterm=bold           ctermfg=130
 hi LineNr           ctermfg=130
 hi Delimiter        ctermbg=NONE         ctermfg=253    cterm=bold
@@ -81,6 +84,8 @@ hi PreProc          ctermbg=NONE         ctermfg=14
 hi Special          ctermbg=NONE         ctermfg=166
 hi Operator         ctermbg=NONE         ctermfg=15
 
+hi Special          ctermbg=NONE         ctermfg=166
+hi Directory        ctermbg=NONE         ctermfg=3
 hi Pmenu            ctermbg=235          ctermfg=NONE
 hi PmenuSel         ctermbg=234          ctermfg=166
 hi VertSplit        ctermbg=233          ctermfg=233
@@ -197,7 +202,7 @@ nnoremap <silent> <leader>h :noh<CR>
 nnoremap <silent> <leader>ab viwc****<Esc>hPe
 nnoremap <silent> <leader>ai viwc**<Esc>Pe
 nnoremap <silent> <leader>au viwc__<Esc>Pe
-nnoremap <silent> <leader>as 43o<esc>43k$zz
+nnoremap <silent> <leader>as 28o<esc>28k$zz
 nnoremap <silent> <leader>aa 11o<esc>11k$zz
 
 vnoremap <silent> <leader>ab c****<Esc>hPe
