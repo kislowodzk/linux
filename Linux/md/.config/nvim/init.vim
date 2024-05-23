@@ -26,7 +26,7 @@ set fileencoding=utf-8
 set clipboard^=unnamed,unnamedplus
 set noswapfile nobackup
 
-" set fo=croql
+set fo=croql
 autocmd BufRead,BufNewFile   *.txt set fo=tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.wiki set filetype=vimwiki fo=tawc nosmartindent autoindent
@@ -174,7 +174,6 @@ nnoremap <leader>sc :set fo=croql<cr>
 nnoremap <leader>sF :set fo=ql<cr>
 nnoremap <leader>st :set filetype=
 
-formatoptions
 nnoremap <silent> <leader>me G{}k$zz
 nnoremap <leader>mh ?^
 
@@ -217,11 +216,8 @@ nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 
 nnoremap <leader>vd :set background=dark<cr>
 nnoremap <leader>vl :set background=light<cr>
-nnoremap <leader>vgd :colorscheme gruvbox \| set background=dark<CR>
-nnoremap <leader>vgl :colorscheme gruvbox \| set background=light<CR>
-nnoremap <leader>vtn :colorscheme Tomorrow-Night \| set background=dark<CR>
-nnoremap <leader>ve :e! ~/.vim/vimrc<CR>
-nnoremap <leader>vs :so ~/.vim/vimrc<CR>
+nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
+nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
 
 nnoremap <leader>ee :e! ~/**/*\c
 nnoremap <leader>E :e! ~/**/*\c
@@ -245,8 +241,9 @@ let g:netrw_winsize = 20
 nnoremap <silent> <leader>q :Vex<CR>
 nnoremap <silent> <leader>c :Tagbar<CR>
 let g:vimwiki_global_ext = 0
+" To tylko dla vima
 " :verb set fo
-" vim ~/path
+" edit this: ~/path
 " set fo=tawc nosmartindent autoindent 
 
 if has("gui_running")
