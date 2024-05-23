@@ -56,10 +56,6 @@ hi Search           ctermbg=130          ctermfg=16     cterm=NONE
 hi Visual           cterm=reverse        ctermbg=NONE
 hi ColorColumn      ctermbg=237
 hi CursorLine       ctermbg=NONE         cterm=NONE
-hi SpellBad         ctermbg=237
-hi SpellCap         ctermbg=237
-hi SpellLocal       ctermbg=237
-hi SpellRare        ctermbg=237
 hi CursorLineNr     cterm=bold           ctermfg=130
 hi LineNr           ctermfg=130
 hi Delimiter        ctermbg=NONE         ctermfg=253    cterm=bold
@@ -70,6 +66,10 @@ hi markdownItalic   ctermfg=228          cterm=italic
 hi vimwikiBold      ctermfg=228          cterm=bold
 hi htmlBold         ctermfg=228          cterm=bold
 hi markdownBold     ctermfg=228          cterm=bold
+hi SpellBad         ctermbg=238
+hi SpellCap         ctermbg=238
+hi SpellLocal       ctermbg=238
+hi SpellRare        ctermbg=238
 hi Identifier       ctermfg=109
 hi Underlined       ctermfg=109          cterm=NONE
 hi ModeMsg          ctermbg=NONE         ctermfg=3      cterm=bold
