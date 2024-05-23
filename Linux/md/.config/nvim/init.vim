@@ -84,6 +84,7 @@ hi Constant         ctermbg=NONE         ctermfg=13
 hi PreProc          ctermbg=NONE         ctermfg=14
 hi Special          ctermbg=NONE         ctermfg=166
 hi Operator         ctermbg=NONE         ctermfg=15
+hi Comment          ctermbg=NONE         ctermfg=4
 
 hi Special          ctermbg=NONE         ctermfg=166
 hi Directory        ctermbg=NONE         ctermfg=3
@@ -94,16 +95,9 @@ hi TabLine          ctermbg=236          ctermfg=249    cterm=none
 hi TabLineSel       ctermfg=166          ctermbg=236
 hi TabLineFill      ctermbg=0            ctermfg=236
 
-au InsertEnter * hi User1   cterm=bold   ctermfg=3      ctermbg=236
-au InsertLeave * hi User1   cterm=bold   ctermfg=166    ctermbg=236
-au InsertEnter * hi User9   cterm=bold   ctermfg=236    ctermbg=3
-au InsertLeave * hi User9   cterm=bold   ctermfg=236    ctermbg=166
-hi User1            cterm=bold           ctermfg=166    ctermbg=236
-hi User9            cterm=bold           ctermfg=236    ctermbg=166
-hi statusline       cterm=bold           ctermfg=249    ctermbg=none
-hi statuslineNC     cterm=none           ctermfg=249    ctermbg=236
-set laststatus=2
-set statusline=%9*\ %*%1*\ %t\ %M\ %1*\ %=%1*\ %p%%\ \ %l:\ %2v\ \%9*\ %* 
+set laststatus=1
+hi statusline       cterm=bold           ctermfg=252    ctermbg=NONE
+hi statuslineNC     cterm=none           ctermfg=248    ctermbg=NONE
 
 " Normal mode
 nnoremap <C-f> gg0vG$
@@ -225,6 +219,7 @@ nnoremap <leader>en :e! ~/Dokumenty/Notatki/**/*\c
 nnoremap <leader>es :e! ~/1-STUDIA/**/*\c
 nnoremap <leader>ec :e! ~/.config/**/*\c
 nnoremap <leader>ew :e! ~/vimwiki/**/*\c
+nnoremap <leader>ev :e! ~/vimwiki/**/*\c
 
 nnoremap <leader>b :b <C-d>
 
@@ -236,7 +231,7 @@ endif
 " Extensions
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
-" let g:netrw_browse_split = 4                  " zamiast tego 'P' otwiera
+" let g:netrw_browse_split = 4              " Capital 'P' opens in a split
 let g:netrw_winsize = 20
 nnoremap <silent> <leader>q :Vex<CR>
 nnoremap <silent> <leader>c :Tagbar<CR>
