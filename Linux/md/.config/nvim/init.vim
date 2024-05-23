@@ -1,100 +1,111 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"              ___       _ _         _           
-"             |_ _|_ __ (_) |___   _(_)_ __ ___  
-"              | || '_ \| | __\ \ / / | '_ ` _ \ 
-"              | || | | | | |_ \ V /| | | | | | |
-"             |___|_| |_|_|\__(_)_/ |_|_| |_| |_|
-"
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => PLUGINS
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+" Plugins
 call plug#begin()
-    " I need to have neovim, git and curl installed
-    " Vimplug install -- https://github.com/junegunn/vim-plug:
-    " sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-    "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-    " :PlugInstall
-    " :PlugClean
-
-    Plug 'morhetz/gruvbox'              " Colorscheme gruvbox
-
-    Plug 'rbgrouleff/bclose.vim'        " Ranger prerequisite
-    Plug 'francoiscabrol/ranger.vim'    " Ranger
-
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
-
-    Plug 'farmergreg/vim-lastplace'     " Open file at the place, the coursor was at
-    Plug 'ap/vim-css-color'             " CSS color preview
-    Plug 'tpope/vim-commentary'         " gcc or gc
-    Plug 'preservim/tagbar'             " Tagbar, leader + c (table of contents)
-                                        " I need to have ctag installed, eg.:
-                                        "   sudo apt install universal-ctags
     Plug 'vimwiki/vimwiki'
+    Plug 'tpope/vim-commentary'   " gcc or gc
+    Plug 'preservim/tagbar'       " Tagbar, leader + c (table of contents)
+                                  " I need to have ctag installed, eg.:
+                                  "   sudo apt install universal-ctags
 call plug#end()
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => GENERAL SETTINGS
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+" General
 set nocompatible
 
-" Numbers
-set colorcolumn=76
-
-" Searching
 set ignorecase smartcase incsearch complete+=s showmatch hlsearch
 set path+=**
 
-" Spaces instead of tabs
 set expandtab softtabstop=4 shiftwidth=4 tabstop=4
-
 set wrap linebreak smartindent tw=74
-
 set backspace=indent,eol,start
+set wildmenu
 
-set display+=lastline
-set scrolloff=10
-
-" Don't add double space after dot at the end of the line
-set nojoinspaces
-
-" Open split on the right/below
+set display+=lastline scrolloff=9 nojoinspaces
 set splitbelow splitright
 
-" Copy to clipboard
+set encoding=utf-8
+set fileencoding=utf-8
 set clipboard^=unnamed,unnamedplus
-
-" Hold my beer
 set noswapfile nobackup
 
-" For .txt and .md i need autoindent (smartindent caused problems) and
-" different format options
+" set fo=croql
 autocmd BufRead,BufNewFile   *.txt set fo=tawc nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=tawc nosmartindent autoindent
-autocmd BufRead,BufNewFile   *.wiki set fo=tawc nosmartindent autoindent
-
-" Complete by ctrl-x + ctrl-... in insert mode
-set omnifunc=syntaxcomplete#Complete
+autocmd BufRead,BufNewFile   *.wiki set filetype=vimwiki fo=tawc nosmartindent autoindent
 
 syntax on
+set omnifunc=syntaxcomplete#Complete
 
 set rnu nu
+set showcmd
 
-" Let it be, it's ok on TMUX and allows for scrolling
-" set mouse=a
+set timeoutlen=1000 ttimeoutlen=1
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => MAPPINGS
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set shortmess+=I
+set title
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"    => nnoremaps
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set colorcolumn=76
+set cursorline
+set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
+let &t_SI = "\e[4 q"
+let &t_EI = "\e[2 q"
 
+" Colorscheme
+colorscheme default
+set background=light
+
+hi IncSearch        ctermbg=253          ctermfg=16     cterm=NONE
+hi Search           ctermbg=130          ctermfg=16     cterm=NONE
+hi Visual           cterm=reverse        ctermbg=NONE
+hi ColorColumn      ctermbg=237
+hi CursorLine       ctermbg=NONE         cterm=NONE
+hi CursorLineNr     cterm=bold           ctermfg=130
+hi LineNr           ctermfg=130
+hi Delimiter        ctermbg=NONE         ctermfg=253    cterm=bold
+hi Title            ctermfg=166          cterm=bold
+hi vimwikiItalic    ctermfg=228          cterm=italic
+hi htmlItalic       ctermfg=228          cterm=italic
+hi markdownItalic   ctermfg=228          cterm=italic
+hi vimwikiBold      ctermfg=228          cterm=bold
+hi htmlBold         ctermfg=228          cterm=bold
+hi markdownBold     ctermfg=228          cterm=bold
+hi SpellBad         ctermbg=238
+hi SpellCap         ctermbg=238
+hi SpellLocal       ctermbg=238
+hi SpellRare        ctermbg=238
+hi Identifier       ctermfg=109
+hi Underlined       ctermfg=109          cterm=NONE
+hi ModeMsg          ctermbg=NONE         ctermfg=3      cterm=bold
+hi MatchParen       ctermbg=NONE         ctermbg=241
+hi Todo             ctermbg=NONE         ctermfg=166    cterm=bold,italic
+hi Folded           ctermbg=237          ctermfg=245    cterm=italic
+hi Statement        ctermbg=NONE         ctermfg=9
+hi String           ctermbg=NONE         ctermfg=2
+hi Type             ctermbg=NONE         ctermfg=214
+hi Constant         ctermbg=NONE         ctermfg=13
+hi PreProc          ctermbg=NONE         ctermfg=14
+hi Special          ctermbg=NONE         ctermfg=166
+hi Operator         ctermbg=NONE         ctermfg=15
+
+hi Special          ctermbg=NONE         ctermfg=166
+hi Directory        ctermbg=NONE         ctermfg=3
+hi Pmenu            ctermbg=235          ctermfg=NONE
+hi PmenuSel         ctermbg=234          ctermfg=166
+hi VertSplit        ctermbg=233          ctermfg=233
+hi TabLine          ctermbg=236          ctermfg=249    cterm=none
+hi TabLineSel       ctermfg=166          ctermbg=236
+hi TabLineFill      ctermbg=0            ctermfg=236
+
+au InsertEnter * hi User1   cterm=bold   ctermfg=3      ctermbg=236
+au InsertLeave * hi User1   cterm=bold   ctermfg=166    ctermbg=236
+au InsertEnter * hi User9   cterm=bold   ctermfg=236    ctermbg=3
+au InsertLeave * hi User9   cterm=bold   ctermfg=236    ctermbg=166
+hi User1            cterm=bold           ctermfg=166    ctermbg=236
+hi User9            cterm=bold           ctermfg=236    ctermbg=166
+hi statusline       cterm=bold           ctermfg=249    ctermbg=none
+hi statuslineNC     cterm=none           ctermfg=249    ctermbg=236
+set laststatus=2
+set statusline=%9*\ %*%1*\ %t\ %M\ %1*\ %=%1*\ %p%%\ \ %l:\ %2v\ \%9*\ %* 
+
+" Normal mode
 nnoremap <C-f> gg0vG$
 nnoremap j gj
 nnoremap k gk
@@ -105,74 +116,30 @@ nnoremap <C-j> j
 nnoremap <C-h> h
 nnoremap <C-l> l
 
-" I don't want that weird Q mode
 nnoremap Q gq
 
-" Show white characters
-" set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶
-set listchars=space:·,trail:•,eol:¶
-nnoremap <f10> :setlocal list!<enter>
-
-" Spellcheck
-set spellcapcheck=
-set spellsuggest=best,13
-nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us,de<enter>
-nnoremap [s [szz
-nnoremap ]s ]szz
-nnoremap z= zzz=
-
-nnoremap <f8> :setlocal rnu! nu!<enter>
-nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
-
-" Stop highlighting searching results
-nnoremap <silent> <CR> :noh<CR>
-
-" Y yanks to the end of the line
 nnoremap Y y$
-
-" Centers line with match
 nnoremap n nzzzv
 nnoremap N Nzzzv
 
-nnoremap <C-Space> :w<CR>
+noremap <silent> <C-Left> :vertical resize +3<CR>
+noremap <silent> <C-Right> :vertical resize -3<CR>
+noremap <silent> <C-Up> :resize +1<CR>
+noremap <silent> <C-Down> :resize -1<CR>
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"    => inoremaps
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Breakpoints for undo
-inoremap , ,<c-g>u
-inoremap . .<c-g>u
-inoremap ! !<c-g>u
-inoremap ? ?<c-g>u
-inoremap - -<c-g>u
-inoremap ; ;<c-g>u
-inoremap : :<c-g>u
-
-" Escape and save
-inoremap <C-Space> <Esc>:w<cr>
-
-" ctrl-b gives two asterisks (for bold in markdown)
-inoremap <C-b> **
-
-" ctrl-j in insert mode starts a new line with - and space
+" Insert mode
 inoremap <C-j> <CR>- 
 
-" ctrl-s in insert mode moves coursor line to the middle of the screen
-inoremap <C-s> <C-o>zz
+inoremap . .<c-g>u
+inoremap - -<c-g>u
+inoremap ! !<c-g>u
+inoremap ? ?<c-g>u
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"    => cnoremaps
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" To avoid mistypes
+" Console mode
 cnoremap W w
 cnoremap Q q
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"    => vmaps
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+" Visual mode
 vmap < <gv
 vmap > >gv
 
@@ -183,30 +150,34 @@ vnoremap <C-j> j
 vnoremap <C-h> h
 vnoremap <C-l> l
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => LEADER
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Function keys
+nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
+nnoremap <f8> :setlocal rnu! nu!<enter>
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"    => general
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set spellcapcheck=
+set spellsuggest=best,13
+nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us,de<enter>
+nnoremap [s [szz
+nnoremap ]s ]szz
+nnoremap z= zzz=
 
+set listchars=space:·,trail:•,eol:¶
+nnoremap <f10> :setlocal list!<enter>
+
+" Leader
 let mapleader = " "
 
-" Make adjusting split sizes a bit more friendly
-noremap <silent> <C-Left> :vertical resize +3<CR>
-noremap <silent> <C-Right> :vertical resize -3<CR>
-noremap <silent> <C-Up> :resize +1<CR>
-noremap <silent> <C-Down> :resize -1<CR>
+nnoremap <leader>sl :set tw=99999<cr>
+nnoremap <leader>ss :set tw=74<cr>
+nnoremap <leader>sf :set fo=tawc<cr>
+nnoremap <leader>sc :set fo=croql<cr>
+nnoremap <leader>sF :set fo=ql<cr>
+nnoremap <leader>st :set filetype=
 
-" Statistics of file
-nnoremap <silent> <leader>g g<C-g>
+formatoptions
+nnoremap <silent> <leader>me G{}k$zz
+nnoremap <leader>mh ?^
 
-" Clean Highligt after searching
-nnoremap <silent> <leader>q :noh<CR>
-nnoremap <silent> <leader>h :noh<CR>
-
-" Tabs
 nnoremap <silent> <leader>tt :tabnew<CR>
 nnoremap <silent> <leader>T :tabnew<CR>
 nnoremap <silent> <leader>n :tabnext<cr>
@@ -216,7 +187,6 @@ nnoremap <silent> <leader>tp :tabm -1<CR>
 nnoremap <silent> <leader>tw :tabclose<CR>
 nnoremap <silent> <leader>tz :tabnew<CR>:terminal<CR>
 
-" Go to tab by number
 noremap <leader>1 1gt
 noremap <leader>2 2gt
 noremap <leader>3 3gt
@@ -228,202 +198,65 @@ noremap <leader>8 8gt
 noremap <leader>9 9gt
 noremap <leader>0 10gt
 
-" Adding things
+nnoremap <silent> <CR> :noh<CR>
+nnoremap <silent> <leader>h :noh<CR>
+
 nnoremap <silent> <leader>ab viwc****<Esc>hPe
 nnoremap <silent> <leader>ai viwc**<Esc>Pe
 nnoremap <silent> <leader>au viwc__<Esc>Pe
-nnoremap <silent> <leader>a$ viwc$$<Esc>Pe
-nnoremap <silent> <leader>a( viwc()<Esc>Pe
-nnoremap <silent> <leader>a« viwc«»<Esc>Pe
-nnoremap <silent> <leader>a{ viwc{}<Esc>Pe
-nnoremap <silent> <leader>a[ viwc[]<Esc>Pe
-nnoremap <silent> <leader>a' viwc''<Esc>Pe
-nnoremap <silent> <leader>a" viwc""<Esc>Pe
-nnoremap <silent> <leader>ac viwc""<Esc>Pe
-
-nnoremap <silent> <leader>al a[]()<esc>i
-nnoremap <silent> <leader>ap a![]()<esc>i
-nnoremap <silent> <leader>as 43o<esc>43k$zz
+nnoremap <silent> <leader>as 28o<esc>28k$zz
 nnoremap <silent> <leader>aa 11o<esc>11k$zz
-nnoremap <silent> <leader>a1 I# 
-nnoremap <silent> <leader>a2 I## 
-nnoremap <silent> <leader>a3 I### 
-nnoremap <silent> <leader>a4 I#### 
-nnoremap <silent> <leader>a5 I##### 
 
 vnoremap <silent> <leader>ab c****<Esc>hPe
 vnoremap <silent> <leader>ai c**<Esc>Pe
 vnoremap <silent> <leader>au c__<Esc>Pe
-vnoremap <silent> <leader>a$ c$$<Esc>Pe
-vnoremap <silent> <leader>a( c()<Esc>Pe
-vnoremap <silent> <leader>a« c«»<Esc>Pe
-vnoremap <silent> <leader>a{ c{}<Esc>Pe
-vnoremap <silent> <leader>a[ c[]<Esc>Pe
-vnoremap <silent> <leader>a' c''<Esc>Pe
-vnoremap <silent> <leader>a" c""<Esc>Pe
-vnoremap <silent> <leader>ac c""<Esc>Pe
 
-" Formatting
-nnoremap <leader>sl :set tw=99999<cr>
-nnoremap <leader>ss :set tw=74<cr>
-nnoremap <leader>sf :set fo=tawc<cr>
-nnoremap <leader>sF :set fo=jcroql<cr>
-nnoremap <leader>sc :set fo=jcroql<cr>
-nnoremap <leader>st :set filetype=
-
-" Deleting things
-nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
-nnoremap <silent> <leader>du ?\_<cr>x/\_<cr>x:noh<cr>
-nnoremap <silent> <leader>d$ ?\$<cr>x/\$<cr>x:noh<cr>
 nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
-nnoremap <silent> <leader>d( ?(<cr>x/)<cr>x:noh<cr>
-nnoremap <silent> <leader>d[ ?[<cr>x/]<cr>x:noh<cr>
-nnoremap <silent> <leader>d{ ?{<cr>x/}<cr>x:noh<cr>
-nnoremap <silent> <leader>d' ?'<cr>x/'<cr>x:noh<cr>
-nnoremap <silent> <leader>d" ?"<cr>x/"<cr>x:noh<cr>
-nnoremap <silent> <leader>dc ?"<cr>x/"<cr>x:noh<cr>
+nnoremap <silent> <leader>du ?\_<cr>x/\_<cr>x:noh<cr>
+nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 
-" Moving
-nnoremap <silent> <leader>me G{}k$zz
-nnoremap <silent> <leader>m1 ?^# <cr>
-nnoremap <silent> <leader>m2 ?^## <cr>
-nnoremap <silent> <leader>m3 ?^### <cr>
-nnoremap <silent> <leader>m4 ?^#### <cr>
-nnoremap <silent> <leader>m5 ?^##### <cr>
+nnoremap <leader>vd :set background=dark<cr>
+nnoremap <leader>vl :set background=light<cr>
+nnoremap <leader>vgd :colorscheme gruvbox \| set background=dark<CR>
+nnoremap <leader>vgl :colorscheme gruvbox \| set background=light<CR>
+nnoremap <leader>vtn :colorscheme Tomorrow-Night \| set background=dark<CR>
+nnoremap <leader>ve :e! ~/.vim/vimrc<CR>
+nnoremap <leader>vs :so ~/.vim/vimrc<CR>
 
-nnoremap <silent> <leader>m! ?^= <cr>
-nnoremap <silent> <leader>m@ ?^== <cr>
-nnoremap <silent> <leader>m# ?^=== <cr>
-nnoremap <silent> <leader>m$ ?^==== <cr>
-nnoremap <silent> <leader>m% ?^===== <cr>
+nnoremap <leader>ee :e! ~/**/*\c
+nnoremap <leader>E :e! ~/**/*\c
+nnoremap <leader>en :e! ~/Dokumenty/Notatki/**/*\c
+nnoremap <leader>es :e! ~/1-STUDIA/**/*\c
+nnoremap <leader>ec :e! ~/.config/**/*\c
+nnoremap <leader>ew :e! ~/vimwiki/**/*\c
 
+nnoremap <leader>b :b <C-d>
 
-" Store session
-nnoremap <leader>zs :mks! ~/Dokumenty/linux/Linux/md/my_session.vim<cr>
-nnoremap <leader>zo :so ~/Dokumenty/linux/Linux/md/my_session.vim<cr>
+" Save location
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
+endif
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"    => Plugins
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => FZF
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" File search
-nnoremap <leader>ff :Files ~/<CR>
-nnoremap <leader>F :Files ~/<CR>
-nnoremap <leader>fh :Files ~/<CR>
-nnoremap <leader>fn :Files ~/Dokumenty/Notatki/<CR>
-nnoremap <leader>fw :Files ~/vimwiki/<CR>
-nnoremap <leader>fc :Files ~/.config/<CR>
-
-" Line search
-" all buffers
-nnoremap <leader>fb :Lines<CR>  
-" only this buffer
-nnoremap <leader>fl :BLines<CR>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => RANGER
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-let g:ranger_map_keys = 0
-map <leader>rr :RangerCurrentDirectory<CR>
-map <leader>R :RangerCurrentDirectory<CR>
-map <leader>rt :tabnew<CR>:Ranger<CR>
-map <leader>rh :cd ~<CR>:Ranger<CR>
-map <leader>rn :cd ~/Dokumenty/Notatki<CR>:Ranger<CR>
-map <leader>rn :cd ~/vimwiki<CR>:Ranger<CR>
-map <leader>rc :cd ~/.config<CR>:Ranger<CR>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => TAGBAR
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Tagbar / table of contents
+" Extensions
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+let g:netrw_winsize = 20
+nnoremap <silent> <leader>q :Vex<CR>
 nnoremap <silent> <leader>c :Tagbar<CR>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => VimWiki
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 let g:vimwiki_global_ext = 0
-" Tutaj uwaga -- jeśli chodzi o formatoptions, to vimwiki zmienia to jako
-" ostatni. Więc jeśli tego nie chcę, to komendą:
 " :verb set fo
-" mogę sprawdzić, gdzie ostatnio była dokonana zmiana opcji formatowania. 
-" Mogę tam wejść i dodać ręcznie na końcu
+" vim ~/path
 " set fo=tawc nosmartindent autoindent 
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => GRUVBOX
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+if has("gui_running")
+    set guicursor+=a:blinkon0
+    colorscheme gruvbox
+    set mouse -=a
+    set guioptions -=m
+    set guioptions -=T
+    set guioptions -=r
+    set guioptions -=L
+    set guifont=DejaVu\ Sans\ Mono\ 10.5
+endif
 
-let g:gruvbox_italic = '1'
-
-colorscheme gruvbox
-
-hi! link markdownH1 GruvboxRedBold
-hi! link markdownH2 GruvboxYellowBold
-hi! link markdownH3 GruvboxGreenBold
-hi! link markdownH4 GruvboxBlueBold
-hi! link markdownH5 GruvboxPurpleBold
-hi! link markdownH6 GruvboxYellow
-
-" Better tab colors
-hi! TabLineSel ctermfg=166 ctermbg=235
-
-" Statusline
-au InsertEnter * hi User1 cterm=bold ctermfg=3 ctermbg=236
-au InsertLeave * hi User1 cterm=bold ctermfg=166 ctermbg=236
-
-au InsertEnter * hi User9 cterm=bold ctermfg=236 ctermbg=3
-au InsertLeave * hi User9 cterm=bold ctermfg=236 ctermbg=166
-
-hi statusline cterm=none ctermfg=249 ctermbg=239
-hi statuslineNC cterm=none ctermfg=249 ctermbg=236
-
-hi User1 cterm=bold ctermfg=166 ctermbg=236
-hi User2 cterm=none ctermfg=236 ctermbg=239
-hi User3 cterm=none ctermfg=244 ctermbg=238
-hi User4 cterm=none ctermfg=244 ctermbg=237
-hi User5 cterm=bold ctermfg=248 ctermbg=236
-hi User6 cterm=none ctermfg=251 ctermbg=236
-hi User9 cterm=bold ctermfg=236 ctermbg=166
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => APPEARANCE
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Coursor line lighlight
-set cursorline
-
-" Make coursor change immidiate (in neovim default ttimeoutlen value is 50)
-set timeoutlen=1000
-set ttimeoutlen=1
-
-" No welcome message
-set shortmess+=I
-
-" Make background transparent
-hi Normal ctermbg=NONE
-" Only number of the line is highlighted
-hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
-
-" Just for nice statusline
-set filetype=none
-
-set laststatus=2
-set statusline=
-
-set statusline=%9*\ %*%1*\ %t\ %M\ %9*\ %*%=%4*\ %p%%\ %5*\ %l:\ %2v\ %*
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"      _  ___     _                        _     _    
-"     | |/ (_)___| | _____      _____   __| |___| | __
-"     | ' /| / __| |/ _ \ \ /\ / / _ \ / _` |_  / |/ /
-"     | . \| \__ \ | (_) \ V  V / (_) | (_| |/ /|   < 
-"     |_|\_\_|___/_|\___/ \_/\_/ \___/ \__,_/___|_|\_\ 
-"    
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
