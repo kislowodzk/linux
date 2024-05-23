@@ -44,9 +44,9 @@ set title
 
 set colorcolumn=76
 set cursorline
-set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
-let &t_SI = "\e[4 q"
-let &t_EI = "\e[2 q"
+set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20       " for nvim
+let &t_SI = "\e[4 q"                                    " for vim
+let &t_EI = "\e[2 q"                                    " for vim
 
 " Colorscheme
 colorscheme default
