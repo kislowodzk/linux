@@ -236,24 +236,9 @@ endif
 " Extensions
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
-let g:netrw_browse_split = 4
+" let g:netrw_browse_split = 4                  " zamiast tego 'P' otwiera
 let g:netrw_winsize = 20
 nnoremap <silent> <leader>q :Vex<CR>
 nnoremap <silent> <leader>c :Tagbar<CR>
 let g:vimwiki_global_ext = 0
-" To tylko dla vima
-" :verb set fo
-" edit this: ~/path
-" set fo=tawc nosmartindent autoindent 
-
-if has("gui_running")
-    set guicursor+=a:blinkon0
-    colorscheme gruvbox
-    set mouse -=a
-    set guioptions -=m
-    set guioptions -=T
-    set guioptions -=r
-    set guioptions -=L
-    set guifont=DejaVu\ Sans\ Mono\ 10.5
-endif
 
