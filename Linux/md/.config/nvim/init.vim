@@ -170,6 +170,8 @@ nnoremap <leader>st :set filetype=
 
 nnoremap <silent> <leader>me G{}k$zz
 nnoremap <leader>mh ?^
+nnoremap <leader>mw /^=<CR>
+nnoremap <leader>mm /^#<CR>
 
 nnoremap <silent> <leader>tt :tabnew<CR>
 nnoremap <silent> <leader>T :tabnew<CR>
@@ -214,12 +216,10 @@ nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
 
 nnoremap <leader>ee :e! ~/**/*\c
-nnoremap <leader>E :e! ~/**/*\c
 nnoremap <leader>en :e! ~/Dokumenty/Notatki/**/*\c
 nnoremap <leader>es :e! ~/1-STUDIA/**/*\c
 nnoremap <leader>ec :e! ~/.config/**/*\c
 nnoremap <leader>ew :e! ~/vimwiki/**/*\c
-nnoremap <leader>ev :e! ~/vimwiki/**/*\c
 
 nnoremap <leader>b :b <C-d>
 
