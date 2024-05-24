@@ -110,6 +110,8 @@ nnoremap <C-j> j
 nnoremap <C-h> h
 nnoremap <C-l> l
 
+nnoremap <C-s> :w<CR>
+
 nnoremap Q gq
 
 nnoremap Y y$

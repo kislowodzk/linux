@@ -50,6 +50,7 @@ let &t_EI = "\e[2 q"                                    " for vim
 
 " Colorscheme
 colorscheme default
+set background=light
 
 hi IncSearch        ctermbg=253          ctermfg=16     cterm=NONE
 hi Search           ctermbg=130          ctermfg=16     cterm=NONE
@@ -108,6 +109,8 @@ nnoremap <C-k> k
 nnoremap <C-j> j
 nnoremap <C-h> h
 nnoremap <C-l> l
+
+nnoremap <C-s> :w<CR>
 
 nnoremap Q gq
 
