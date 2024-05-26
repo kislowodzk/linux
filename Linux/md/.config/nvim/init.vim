@@ -1,5 +1,8 @@
 " Plugins
 call plug#begin()
+    Plug 'altercation/vim-colors-solarized'
+    Plug 'morhetz/gruvbox'
+
     Plug 'vimwiki/vimwiki'
     Plug 'tpope/vim-commentary'   " gcc or gc
     Plug 'preservim/tagbar'       " Tagbar, leader + c (table of contents)

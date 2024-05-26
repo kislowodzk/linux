@@ -1,6 +1,7 @@
 " Plugins
 call plug#begin()
     Plug 'vimwiki/vimwiki'
+    Plug 'altercation/vim-colors-solarized'
     Plug 'tpope/vim-commentary'   " gcc or gc
     Plug 'preservim/tagbar'       " Tagbar, leader + c (table of contents)
                                   " I need to have ctag installed, eg.:
