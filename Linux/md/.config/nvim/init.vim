@@ -182,7 +182,6 @@ nnoremap <silent> <leader>p :tabprev<cr>
 nnoremap <silent> <leader>tn :tabm +1<CR>
 nnoremap <silent> <leader>tp :tabm -1<CR>
 nnoremap <silent> <leader>tw :tabclose<CR>
-nnoremap <silent> <leader>tz :tabnew<CR>:terminal<CR>
 
 noremap <leader>1 1gt
 noremap <leader>2 2gt
@@ -212,6 +211,7 @@ nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
 nnoremap <silent> <leader>du ?\_<cr>x/\_<cr>x:noh<cr>
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 
+nnoremap <leader>vt :colorscheme slate<cr> :set nocursorline<cr> :set background=light<cr>
 nnoremap <leader>vd :set background=dark<cr>
 nnoremap <leader>vl :set background=light<cr>
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
