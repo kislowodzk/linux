@@ -1,9 +1,7 @@
 " Plugins
 call plug#begin()
-    Plug 'sainnhe/everforest'
-    Plug 'justinmk/molokai'
-    Plug 'ayu-theme/ayu-vim'
-    Plug 'mhartington/oceanic-next'
+    Plug 'altercation/vim-colors-solarized'
+    Plug 'morhetz/gruvbox'
 
     Plug 'vimwiki/vimwiki'
     Plug 'tpope/vim-commentary'   " gcc or gc
@@ -47,16 +45,62 @@ set timeoutlen=1000 ttimeoutlen=1
 set shortmess+=I
 set title
 
-set mouse=
-
-colorscheme ayu
-hi LineNr     guifg=#565B66
-hi IncSearch  guibg=#FF8F40  guifg=#0D1017
-hi CursorLine guibg=NONE guifg=NONE
-set cursorline
 set colorcolumn=76
-set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
+set cursorline
+set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20       " for nvim
+let &t_SI = "\e[4 q"                                    " for vim
+let &t_EI = "\e[2 q"                                    " for vim
+
+" Colorscheme
+colorscheme default
+set background=dark
+
+hi IncSearch        ctermbg=253          ctermfg=16     cterm=NONE
+hi Search           ctermbg=130          ctermfg=16     cterm=NONE
+hi Visual           cterm=reverse        ctermbg=NONE
+hi ColorColumn      ctermbg=237
+hi CursorLine       ctermbg=NONE         cterm=NONE
+hi CursorLineNr     cterm=bold           ctermfg=130
+hi LineNr           ctermfg=130
+hi Delimiter        ctermbg=NONE         ctermfg=253    cterm=bold
+hi Title            ctermfg=166          cterm=bold
+hi vimwikiItalic    ctermfg=228          cterm=italic
+hi htmlItalic       ctermfg=228          cterm=italic
+hi markdownItalic   ctermfg=228          cterm=italic
+hi vimwikiBold      ctermfg=228          cterm=bold
+hi htmlBold         ctermfg=228          cterm=bold
+hi markdownBold     ctermfg=228          cterm=bold
+hi SpellBad         ctermbg=238
+hi SpellCap         ctermbg=238
+hi SpellLocal       ctermbg=238
+hi SpellRare        ctermbg=238
+hi Identifier       ctermfg=109
+hi Underlined       ctermfg=109          cterm=NONE
+hi ModeMsg          ctermbg=NONE         ctermfg=3      cterm=bold
+hi MatchParen       ctermbg=NONE         ctermbg=241
+hi Todo             ctermbg=NONE         ctermfg=166    cterm=bold,italic
+hi Folded           ctermbg=237          ctermfg=245    cterm=italic
+hi Statement        ctermbg=NONE         ctermfg=9
+hi String           ctermbg=NONE         ctermfg=2
+hi Type             ctermbg=NONE         ctermfg=214
+hi Constant         ctermbg=NONE         ctermfg=13
+hi PreProc          ctermbg=NONE         ctermfg=14
+hi Special          ctermbg=NONE         ctermfg=166
+hi Operator         ctermbg=NONE         ctermfg=15
+hi Comment          ctermbg=NONE         ctermfg=4
+
+hi Special          ctermbg=NONE         ctermfg=166
+hi Directory        ctermbg=NONE         ctermfg=3
+hi Pmenu            ctermbg=235          ctermfg=NONE
+hi PmenuSel         ctermbg=234          ctermfg=166
+hi VertSplit        ctermbg=233          ctermfg=233
+hi TabLine          ctermbg=236          ctermfg=249    cterm=none
+hi TabLineSel       ctermfg=166          ctermbg=236
+hi TabLineFill      ctermbg=0            ctermfg=236
+
 set laststatus=1
+hi statusline       cterm=bold           ctermfg=252    ctermbg=NONE
+hi statuslineNC     cterm=none           ctermfg=248    ctermbg=NONE
 
 " Normal mode
 nnoremap <C-f> gg0vG$
@@ -68,6 +112,8 @@ nnoremap <C-k> k
 nnoremap <C-j> j
 nnoremap <C-h> h
 nnoremap <C-l> l
+
+nnoremap <C-s> :w<CR>
 
 nnoremap Q gq
 
@@ -128,12 +174,9 @@ nnoremap <leader>sF :set fo=ql<cr>
 nnoremap <leader>st :set filetype=
 
 nnoremap <silent> <leader>me G{}k$zz
-nnoremap <leader>mh /^
-nnoremap <leader>mH ?^
+nnoremap <leader>mh ?^
 nnoremap <leader>mw /^=<CR>
-nnoremap <leader>mW ?^=<CR>
 nnoremap <leader>mm /^#<CR>
-nnoremap <leader>mM ?^#<CR>
 
 nnoremap <silent> <leader>tt :tabnew<CR>
 nnoremap <silent> <leader>T :tabnew<CR>
@@ -176,9 +219,6 @@ nnoremap <leader>vd :set background=dark<cr>
 nnoremap <leader>vl :set background=light<cr>
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
-nnoremap <leader>vc :hi CursorLine guibg=NONE guifg=NONE<CR>
-nnoremap <leader>vo :colo <c-d>
-
 
 nnoremap <leader>ee :e! ~/**/*\c
 nnoremap <leader>en :e! ~/Dokumenty/Notatki/**/*\c
