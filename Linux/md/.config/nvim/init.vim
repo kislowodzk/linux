@@ -52,12 +52,14 @@ set mouse=
 
 colorscheme ayu
 " To tylko dla ayu
-hi LineNr     guifg=#565B66
-hi IncSearch  guibg=#FF8F40  guifg=#0D1017
-hi Directory  guifg=#FF8F40
+hi LineNr        guifg=#565B66
+hi IncSearch     guibg=#FF8F40    guifg=#0D1017
+hi Directory     guifg=#FF8F40
+hi TabLine       gui=NONE
+hi TabLineSel    guifg=#FF8F40
 
 " To ogólnie
-hi CursorLine guibg=NONE guifg=NONE
+hi CursorLine    guibg=NONE       guifg=NONE
 set cursorline
 set colorcolumn=76
 set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
