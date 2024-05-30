@@ -1,8 +1,9 @@
 " Plugins
 call plug#begin()
-    Plug 'sainnhe/everforest'
-    Plug 'justinmk/molokai'
     Plug 'ayu-theme/ayu-vim'
+    Plug 'Shatur/neovim-ayu'
+
+    Plug 'justinmk/molokai'
     Plug 'mhartington/oceanic-next'
 
     Plug 'vimwiki/vimwiki'
