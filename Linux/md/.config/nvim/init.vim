@@ -50,8 +50,10 @@ set title
 set mouse=
 
 colorscheme ayu
+" To tylko dla ayu
 hi LineNr     guifg=#565B66
 hi IncSearch  guibg=#FF8F40  guifg=#0D1017
+
 hi CursorLine guibg=NONE guifg=NONE
 set cursorline
 set colorcolumn=76
@@ -126,14 +128,11 @@ nnoremap <leader>sf :set fo=tawc<cr>
 nnoremap <leader>sc :set fo=croql<cr>
 nnoremap <leader>sF :set fo=ql<cr>
 nnoremap <leader>st :set filetype=
+nnoremap <leader>sk :! xset r rate 330 43<CR>
 
 nnoremap <silent> <leader>me G{}k$zz
 nnoremap <leader>mh /^
 nnoremap <leader>mH ?^
-nnoremap <leader>mw /^=<CR>
-nnoremap <leader>mW ?^=<CR>
-nnoremap <leader>mm /^#<CR>
-nnoremap <leader>mM ?^#<CR>
 
 nnoremap <silent> <leader>tt :tabnew<CR>
 nnoremap <silent> <leader>T :tabnew<CR>
