@@ -53,10 +53,10 @@ set mouse=
 colorscheme ayu
 " To tylko dla ayu
 hi LineNr        guifg=#565B66
-hi IncSearch     guibg=#FF8F40    guifg=#0D1017
-hi Directory     guifg=#FF8F40
+hi IncSearch     guibg=#fe7733    guifg=#0f1419
+hi Directory     guifg=#fe7733
 hi TabLine       gui=NONE
-hi TabLineSel    guifg=#FF8F40
+hi TabLineSel    guifg=#fe7733
 
 " To ogólnie
 hi CursorLine    guibg=NONE       guifg=NONE
