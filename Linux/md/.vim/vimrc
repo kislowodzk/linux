@@ -244,7 +244,7 @@ let g:vimwiki_global_ext = 0
 
 if has("gui_running")
     set guicursor+=a:blinkon0
-    colorscheme gruvbox
+    colorscheme ayu
     set mouse -=a
     set guioptions -=m
     set guioptions -=T
