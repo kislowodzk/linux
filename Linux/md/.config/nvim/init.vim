@@ -1,15 +1,10 @@
 " Plugins
 call plug#begin()
     Plug 'ayu-theme/ayu-vim'
-
-    Plug 'justinmk/molokai'
-    Plug 'mhartington/oceanic-next'
-
     Plug 'vimwiki/vimwiki'
     Plug 'tpope/vim-commentary'   " gcc or gc
     Plug 'preservim/tagbar'       " Tagbar, leader + c (table of contents)
-                                  " I need to have ctag installed, eg.:
-                                  "   sudo apt install universal-ctags
+                                  " potrzebne: sudo apt install universal-ctags
 call plug#end()
 
 " General
@@ -76,7 +71,6 @@ nnoremap <C-h> h
 nnoremap <C-l> l
 
 nnoremap Q gq
-
 nnoremap Y y$
 nnoremap n nzzzv
 nnoremap N Nzzzv
