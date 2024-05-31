@@ -56,6 +56,12 @@ hi IncSearch     guibg=#fe7733    guifg=#0f1419
 hi Directory     guifg=#fe7733
 hi TabLine       gui=NONE
 hi TabLineSel    guifg=#fe7733
+hi vimwikiItalic    guifg=#ffee99          gui=italic
+hi htmlItalic       guifg=#ffee99          gui=italic
+hi markdownItalic   guifg=#ffee99          gui=italic
+hi vimwikiBold      guifg=#ffee99          gui=bold
+hi htmlBold         guifg=#ffee99          gui=bold
+hi markdownBold     guifg=#ffee99          gui=bold
 
 hi CursorLine    guibg=NONE       guifg=NONE
 set cursorline
