@@ -26,8 +26,7 @@ set wildmenu
 set display+=lastline scrolloff=9 nojoinspaces
 set splitbelow splitright
 
-set encoding=utf-8
-set fileencoding=utf-8
+set encoding=utf-8 fileencoding=utf-8
 set clipboard^=unnamed,unnamedplus
 set noswapfile nobackup
 
@@ -44,11 +43,9 @@ set showcmd
 
 set timeoutlen=1000 ttimeoutlen=1
 
-set shortmess+=I
-set title
-set mouse=
+set shortmess+=I title mouse=
 
-" COLORSCHEME AYU
+" COLORSCHEME
 colorscheme ayu
 hi LineNr          guifg=#565B66
 hi IncSearch       guibg=#fe7733    guifg=#0f1419
@@ -63,8 +60,7 @@ hi htmlBold        guifg=#ffee99    gui=bold
 hi markdownBold    guifg=#ffee99    gui=bold
 
 hi CursorLine      guibg=NONE       guifg=NONE
-set cursorline
-set colorcolumn=76
+set cursorline colorcolumn=76
 set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 set laststatus=1
 
@@ -185,7 +181,6 @@ nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vc :hi CursorLine guibg=NONE guifg=NONE<CR>
 nnoremap <leader>vo :colo <c-d>
-
 
 nnoremap <leader>ee :e! ~/**/*\c
 nnoremap <leader>en :e! ~/Dokumenty/Notatki/**/*\c
