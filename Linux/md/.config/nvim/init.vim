@@ -47,18 +47,16 @@ set timeoutlen=1000 ttimeoutlen=1
 
 set shortmess+=I
 set title
-
 set mouse=
 
+" COLORSCHEME AYU
 colorscheme ayu
-" To tylko dla ayu
 hi LineNr        guifg=#565B66
 hi IncSearch     guibg=#fe7733    guifg=#0f1419
 hi Directory     guifg=#fe7733
 hi TabLine       gui=NONE
 hi TabLineSel    guifg=#fe7733
 
-" To ogólnie
 hi CursorLine    guibg=NONE       guifg=NONE
 set cursorline
 set colorcolumn=76
