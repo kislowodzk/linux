@@ -45,8 +45,8 @@ colorscheme ayu
 hi LineNr          guifg=#565B66
 hi IncSearch       guibg=#FE7733    guifg=#0F1419
 hi Directory       guifg=#FE7733
-hi TabLine         gui=NONe
-hi TabLineSel      guifg=#FE7733
+hi TabLine         gui=NONE
+hi TabLineSel      guifg=#E6B673
 hi vimwikiItalic   guifg=#E6B673    gui=ITALIC
 hi htmlItalic      guifg=#E6B673    gui=ITALIC
 hi markdownItalic  guifg=#E6B673    gui=ITALIC
@@ -54,8 +54,8 @@ hi vimwikiBold     guifg=#E6B673    gui=BOLD
 hi htmlBold        guifg=#E6B673    gui=BOLD
 hi markdownBold    guifg=#E6B673    gui=BOLD
 hi Title           gui=BOLD
-hi ModeMsg         guifg=#E6B673
-hi Identifier      gui=BOLD
+hi ModeMsg         guifg=#E6B673    gui=REVERSE
+hi Identifier      gui=BOLD,ITALIC
 
 hi CursorLine      guibg=NONE       guifg=NONE
 set cursorline colorcolumn=76
