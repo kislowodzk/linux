@@ -1,5 +1,6 @@
 " Plugins
 call plug#begin()
+    Plug 'maxmx03/solarized.nvim'
     Plug 'ayu-theme/ayu-vim'
     Plug 'vimwiki/vimwiki'
     Plug 'tpope/vim-commentary'   " gcc or gc
@@ -79,8 +80,13 @@ endfunction
 
 function! Light()
     set background=light
-    colorscheme wildcharm
-    hi Identifier      guifg=#af0000    gui=BOLD
+    colorscheme solarized
+    hi vimwikiItalic   guifg=#af87af    gui=ITALIC
+    hi htmlItalic      guifg=#af87af    gui=ITALIC
+    hi markdownItalic  guifg=#af87af    gui=ITALIC
+    hi vimwikiBold     guifg=#af87af    gui=BOLD
+    hi htmlBold        guifg=#af87af    gui=BOLD
+    hi markdownBold    guifg=#af87af    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
 endfunction
 
