@@ -37,25 +37,55 @@ set showcmd
 set timeoutlen=1000 ttimeoutlen=1
 set shortmess+=I title mouse=
 
-colorscheme ayu
-hi LineNr          guifg=#565B66
-hi IncSearch       guibg=#FE7733    guifg=#0F1419
-hi Directory       guifg=#FE7733
-hi TabLine         gui=NONE
-hi TabLineSel      guifg=#E6B673
-hi vimwikiItalic   guifg=#E6B673    gui=ITALIC
-hi htmlItalic      guifg=#E6B673    gui=ITALIC
-hi markdownItalic  guifg=#E6B673    gui=ITALIC
-hi vimwikiBold     guifg=#E6B673    gui=BOLD
-hi htmlBold        guifg=#E6B673    gui=BOLD
-hi markdownBold    guifg=#E6B673    gui=BOLD
-hi Title           gui=BOLD
-hi ModeMsg         guifg=#E6B673    gui=REVERSE
-hi Identifier      gui=BOLD
+function! Hab()
+    colorscheme habamax
+    hi Normal          guibg=#131313
+    hi Identifier      guifg=#ca7f59    gui=BOLD  
+    hi vimwikiItalic   guifg=#af87af    gui=ITALIC
+    hi htmlItalic      guifg=#af87af    gui=ITALIC
+    hi markdownItalic  guifg=#af87af    gui=ITALIC
+    hi vimwikiBold     guifg=#af87af    gui=BOLD
+    hi htmlBold        guifg=#af87af    gui=BOLD
+    hi markdownBold    guifg=#af87af    gui=BOLD
+    hi CursorLine      guibg=NONE       guifg=NONE
+endfunction
 
-hi statuslinenc    guibg=#a8a8a8    guifg=#050505
-hi statusline      guibg=#E6B673    guifg=#050505
-hi CursorLine      guibg=NONE       guifg=NONE
+function Ayu()
+    colorscheme ayu
+    hi LineNr          guifg=#565B66
+    hi IncSearch       guibg=#FE7733    guifg=#0F1419
+    hi Directory       guifg=#FE7733
+    hi TabLine         gui=NONE
+    hi TabLineSel      guifg=#E6B673
+    hi vimwikiItalic   guifg=#E6B673    gui=ITALIC
+    hi htmlItalic      guifg=#E6B673    gui=ITALIC
+    hi markdownItalic  guifg=#E6B673    gui=ITALIC
+    hi vimwikiBold     guifg=#E6B673    gui=BOLD
+    hi htmlBold        guifg=#E6B673    gui=BOLD
+    hi markdownBold    guifg=#E6B673    gui=BOLD
+    hi Title           gui=BOLD
+    hi ModeMsg         guifg=#E6B673    gui=REVERSE
+    hi Identifier      gui=BOLD
+    hi statuslinenc    guibg=#a8a8a8    guifg=#050505
+    hi statusline      guibg=#E6B673    guifg=#050505
+    hi CursorLine      guibg=NONE       guifg=NONE
+endfunction
+
+function! Gruv()
+    set background=dark
+    colorscheme retrobox
+    hi CursorLine      guibg=NONE       guifg=NONE
+endfunction
+
+function! Light()
+    set background=light
+    colorscheme wildcharm
+    hi Identifier      guifg=#af0000    gui=BOLD
+    hi CursorLine      guibg=NONE       guifg=NONE
+endfunction
+
+call Hab()
+
 set cursorline colorcolumn=76
 set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 set laststatus=1
@@ -169,8 +199,12 @@ nnoremap <silent> <leader>du ?\_<cr>x/\_<cr>x:noh<cr>
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 
 nnoremap <leader>vt :colorscheme slate<cr> :set nocursorline<cr> :set background=light<cr>
-nnoremap <leader>vd :set background=dark<cr>
-nnoremap <leader>vl :set background=light<cr>
+
+nnoremap <leader>va :call Ayu()<cr>
+nnoremap <leader>vg :call Gruv()<cr>
+nnoremap <leader>vl :call Light()<cr>
+nnoremap <leader>vh :call Hab()<cr>
+
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vc :hi CursorLine guibg=NONE guifg=NONE<CR>
