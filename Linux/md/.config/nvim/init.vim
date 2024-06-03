@@ -55,8 +55,10 @@ hi htmlBold        guifg=#E6B673    gui=BOLD
 hi markdownBold    guifg=#E6B673    gui=BOLD
 hi Title           gui=BOLD
 hi ModeMsg         guifg=#E6B673    gui=REVERSE
-hi Identifier      gui=BOLD,ITALIC
+hi Identifier      gui=BOLD
 
+hi statuslinenc    guibg=#a8a8a8    guifg=#050505
+hi statusline      guibg=#E6B673    guifg=#050505
 hi CursorLine      guibg=NONE       guifg=NONE
 set cursorline colorcolumn=76
 set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
@@ -125,9 +127,9 @@ let mapleader = " "
 
 nnoremap <leader>sl :set tw=99999<cr>
 nnoremap <leader>ss :set tw=74<cr>
-nnoremap <leader>sf :set fo=tawc<cr>
-nnoremap <leader>sc :set fo=croql<cr>
-nnoremap <leader>sF :set fo=ql<cr>
+nnoremap <leader>sf :set fo=tawc nosmartindent autoindent<cr>
+nnoremap <leader>sc :set fo=croql smartindent autoindent<cr>
+nnoremap <leader>sF :set fo=ql nosmartindent autoindent<cr>
 nnoremap <leader>st :set filetype=
 nnoremap <leader>sk :! xset r rate 330 43<CR>
 
