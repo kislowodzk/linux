@@ -12,7 +12,6 @@ set nocompatible
 
 set ignorecase smartcase incsearch complete+=s showmatch hlsearch
 set path+=**
-
 set expandtab softtabstop=4 shiftwidth=4 tabstop=4
 set wrap linebreak smartindent tw=74
 set backspace=indent,eol,start
@@ -35,12 +34,9 @@ set omnifunc=syntaxcomplete#Complete
 
 set rnu nu
 set showcmd
-
 set timeoutlen=1000 ttimeoutlen=1
-
 set shortmess+=I title mouse=
 
-" COLORSCHEME
 colorscheme ayu
 hi LineNr          guifg=#565B66
 hi IncSearch       guibg=#FE7733    guifg=#0F1419
@@ -112,8 +108,7 @@ vnoremap <C-l> l
 nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
 nnoremap <f8> :setlocal rnu! nu!<enter>
 
-set spellcapcheck=
-set spellsuggest=best,13
+set spellcapcheck= spellsuggest=best,13
 nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us,de<enter>
 nnoremap [s [szz
 nnoremap ]s ]szz
