@@ -86,9 +86,7 @@ function! Gruv()
     hi htmlBold        guifg=#E6B673    gui=BOLD
     hi markdownBold    guifg=#E6B673    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
-    hi Identifier      guifg=#fa4b33
-    hi Title           guifg=#f5801c
-    hi Delimiter       guifg=#ebdbb2
+    hi Identifier      guifg=#459598    gui=BOLD
 endfunction
 
 function! Light()
