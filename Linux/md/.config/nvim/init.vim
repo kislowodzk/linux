@@ -2,8 +2,10 @@
 call plug#begin()
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+
     Plug 'maxmx03/solarized.nvim'
     Plug 'ayu-theme/ayu-vim'
+
     Plug 'vimwiki/vimwiki'
     Plug 'tpope/vim-commentary'   " gcc or gc
     Plug 'preservim/tagbar'       " Tagbar, leader + c (table of contents)
@@ -77,25 +79,27 @@ endfunction
 function! Gruv()
     set background=dark
     colorscheme retrobox
-    hi vimwikiItalic   guifg=#E6B673    gui=ITALIC
-    hi htmlItalic      guifg=#E6B673    gui=ITALIC
-    hi markdownItalic  guifg=#E6B673    gui=ITALIC
+    hi vimwikiItalic   guifg=#f6c663    gui=ITALIC
+    hi htmlItalic      guifg=#f6c663    gui=ITALIC
+    hi markdownItalic  guifg=#f6c663    gui=ITALIC
     hi vimwikiBold     guifg=#E6B673    gui=BOLD
     hi htmlBold        guifg=#E6B673    gui=BOLD
     hi markdownBold    guifg=#E6B673    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
-    hi Identifier      guifg=#458588    gui=BOLD
+    hi Identifier      guifg=#fa4b33
+    hi Title           guifg=#f5801c
+    hi Delimiter       guifg=#ebdbb2
 endfunction
 
 function! Light()
     set background=light
-    colorscheme solarized
-    hi vimwikiItalic   guifg=#111111    gui=ITALIC
-    hi htmlItalic      guifg=#111111    gui=ITALIC
-    hi markdownItalic  guifg=#111111    gui=ITALIC
-    hi vimwikiBold     guifg=#111111    gui=BOLD
-    hi htmlBold        guifg=#111111    gui=BOLD
-    hi markdownBold    guifg=#111111    gui=BOLD
+    colorscheme retrobox
+    hi vimwikiItalic   guifg=#000000    gui=ITALIC
+    hi htmlItalic      guifg=#000000    gui=ITALIC
+    hi markdownItalic  guifg=#000000    gui=ITALIC
+    hi vimwikiBold     guifg=#000000    gui=BOLD
+    hi htmlBold        guifg=#000000    gui=BOLD
+    hi markdownBold    guifg=#000000    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
     hi Identifier      guifg=#111111    gui=BOLD
 endfunction
