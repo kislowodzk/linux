@@ -42,9 +42,9 @@ function! Hab()
     colorscheme habamax
     hi Normal          guibg=#131313
     hi Identifier      guifg=#ca7f59    gui=BOLD  
-    hi vimwikiItalic   guifg=#af87af    gui=ITALIC
-    hi htmlItalic      guifg=#af87af    gui=ITALIC
-    hi markdownItalic  guifg=#af87af    gui=ITALIC
+    hi vimwikiItalic   guifg=#80a7cd    gui=ITALIC
+    hi htmlItalic      guifg=#80a7cd    gui=ITALIC
+    hi markdownItalic  guifg=#80a7cd    gui=ITALIC
     hi vimwikiBold     guifg=#af87af    gui=BOLD
     hi htmlBold        guifg=#af87af    gui=BOLD
     hi markdownBold    guifg=#af87af    gui=BOLD
@@ -75,19 +75,27 @@ endfunction
 function! Gruv()
     set background=dark
     colorscheme retrobox
+    hi vimwikiItalic   guifg=#8ec07c    gui=ITALIC
+    hi htmlItalic      guifg=#8ec07c    gui=ITALIC
+    hi markdownItalic  guifg=#8ec07c    gui=ITALIC
+    hi vimwikiBold     guifg=#8ec07c    gui=BOLD
+    hi htmlBold        guifg=#8ec07c    gui=BOLD
+    hi markdownBold    guifg=#8ec07c    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
+    hi Identifier      guifg=#458588    gui=BOLD
 endfunction
 
 function! Light()
     set background=light
     colorscheme solarized
-    hi vimwikiItalic   guifg=#af87af    gui=ITALIC
-    hi htmlItalic      guifg=#af87af    gui=ITALIC
-    hi markdownItalic  guifg=#af87af    gui=ITALIC
-    hi vimwikiBold     guifg=#af87af    gui=BOLD
-    hi htmlBold        guifg=#af87af    gui=BOLD
-    hi markdownBold    guifg=#af87af    gui=BOLD
+    hi vimwikiItalic   guifg=#111111    gui=ITALIC
+    hi htmlItalic      guifg=#111111    gui=ITALIC
+    hi markdownItalic  guifg=#111111    gui=ITALIC
+    hi vimwikiBold     guifg=#111111    gui=BOLD
+    hi htmlBold        guifg=#111111    gui=BOLD
+    hi markdownBold    guifg=#111111    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
+    hi Identifier      guifg=#111111    gui=BOLD
 endfunction
 
 function! Tty()
