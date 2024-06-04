@@ -1,5 +1,7 @@
 " Plugins
 call plug#begin()
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
     Plug 'maxmx03/solarized.nvim'
     Plug 'ayu-theme/ayu-vim'
     Plug 'vimwiki/vimwiki'
@@ -75,12 +77,12 @@ endfunction
 function! Gruv()
     set background=dark
     colorscheme retrobox
-    hi vimwikiItalic   guifg=#8ec07c    gui=ITALIC
-    hi htmlItalic      guifg=#8ec07c    gui=ITALIC
-    hi markdownItalic  guifg=#8ec07c    gui=ITALIC
-    hi vimwikiBold     guifg=#8ec07c    gui=BOLD
-    hi htmlBold        guifg=#8ec07c    gui=BOLD
-    hi markdownBold    guifg=#8ec07c    gui=BOLD
+    hi vimwikiItalic   guifg=#E6B673    gui=ITALIC
+    hi htmlItalic      guifg=#E6B673    gui=ITALIC
+    hi markdownItalic  guifg=#E6B673    gui=ITALIC
+    hi vimwikiBold     guifg=#E6B673    gui=BOLD
+    hi htmlBold        guifg=#E6B673    gui=BOLD
+    hi markdownBold    guifg=#E6B673    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
     hi Identifier      guifg=#458588    gui=BOLD
 endfunction
@@ -111,7 +113,7 @@ function! Tty()
     hi Title           ctermfg=9
 endfunction
 
-call Ayu()
+call Gruv()
 
 set cursorline colorcolumn=76
 set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
@@ -235,25 +237,34 @@ nnoremap <leader>vh :call Hab()<cr>
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vc :hi CursorLine guibg=NONE guifg=NONE<CR>
-nnoremap <leader>vo :colo <c-d>
 
-nnoremap <leader>ee :e! ~/**/*\c
-nnoremap <leader>en :e! ~/Dokumenty/Notatki/**/*\c
-nnoremap <leader>es :e! ~/1-STUDIA/**/*\c
-nnoremap <leader>ec :e! ~/.config/**/*\c
-nnoremap <leader>ew :e! ~/vimwiki/**/*\c
+" fzf
+nnoremap <leader>vo :Colors
+nnoremap <leader>b :Buffers<cr>
 
-nnoremap <leader>b :b <C-d>
+let g:fzf_vim = {}
+let g:fzf_vim.preview_window = ['up,50%', 'ctrl-/']
+let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.9 } }
+let $FZF_DEFAULT_COMMAND = "rg --files -L"
+
+nnoremap <leader>ff :Files ~/<cr>
+nnoremap <leader>fn :Files ~/Dokumenty/Notatki/<cr>
+nnoremap <leader>fs :Files ~/1-STUDIA/<cr>
+nnoremap <leader>fc :Files ~/.config/<cr>
+nnoremap <leader>fw :Files ~/vimwiki/<cr>
+"all buffers
+nnoremap <leader>fl :Lines<CR> 
+"only current buffer
+nnoremap <leader>fb :BLines<CR>
 
 " Save location
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
 endif
 
-" Extensions
+" Netrw -- P opens in split
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
-" let g:netrw_browse_split = 4              " Capital 'P' opens in a split
 let g:netrw_winsize = 20
 nnoremap <silent> <leader>q :Vex<CR>
 nnoremap <silent> <leader>c :Tagbar<CR>
