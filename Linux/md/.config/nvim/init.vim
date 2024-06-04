@@ -1,9 +1,5 @@
 " Plugins
 call plug#begin()
-    Plug 'marko-cerovac/material.nvim'
-    Plug 'bluz71/vim-moonfly-colors'
-
-
     Plug 'maxmx03/solarized.nvim'
     Plug 'ayu-theme/ayu-vim'
     Plug 'vimwiki/vimwiki'
@@ -53,19 +49,6 @@ function! Hab()
     hi htmlBold        guifg=#af87af    gui=BOLD
     hi markdownBold    guifg=#af87af    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
-endfunction
-
-function! Mat()
-    colorscheme material-darker
-    hi vimwikiItalic   guifg=#af87af    gui=ITALIC
-    hi htmlItalic      guifg=#af87af    gui=ITALIC
-    hi markdownItalic  guifg=#af87af    gui=ITALIC
-    hi vimwikiBold     guifg=#af87af    gui=BOLD
-    hi htmlBold        guifg=#af87af    gui=BOLD
-    hi markdownBold    guifg=#af87af    gui=BOLD
-    hi CursorLine      guibg=NONE       guifg=NONE
-    hi Identifier      guifg=#ca7f59    gui=BOLD  
-    hi LineNr          guifg=#565B66
 endfunction
 
 function Ayu()
@@ -237,7 +220,6 @@ nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 nnoremap <leader>vt :call Tty()<cr>
 
 nnoremap <leader>va :call Ayu()<cr>
-nnoremap <leader>vm :call Mat()<cr>
 nnoremap <leader>vg :call Gruv()<cr>
 nnoremap <leader>vl :call Light()<cr>
 nnoremap <leader>vh :call Hab()<cr>
