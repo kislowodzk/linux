@@ -1,5 +1,9 @@
 " Plugins
 call plug#begin()
+    Plug 'marko-cerovac/material.nvim'
+    Plug 'bluz71/vim-moonfly-colors'
+
+
     Plug 'maxmx03/solarized.nvim'
     Plug 'ayu-theme/ayu-vim'
     Plug 'vimwiki/vimwiki'
@@ -51,6 +55,19 @@ function! Hab()
     hi CursorLine      guibg=NONE       guifg=NONE
 endfunction
 
+function! Mat()
+    colorscheme material-darker
+    hi vimwikiItalic   guifg=#af87af    gui=ITALIC
+    hi htmlItalic      guifg=#af87af    gui=ITALIC
+    hi markdownItalic  guifg=#af87af    gui=ITALIC
+    hi vimwikiBold     guifg=#af87af    gui=BOLD
+    hi htmlBold        guifg=#af87af    gui=BOLD
+    hi markdownBold    guifg=#af87af    gui=BOLD
+    hi CursorLine      guibg=NONE       guifg=NONE
+    hi Identifier      guifg=#ca7f59    gui=BOLD  
+    hi LineNr          guifg=#565B66
+endfunction
+
 function Ayu()
     colorscheme ayu
     hi LineNr          guifg=#565B66
@@ -90,7 +107,20 @@ function! Light()
     hi CursorLine      guibg=NONE       guifg=NONE
 endfunction
 
-call Hab()
+function! Tty()
+    colorscheme slate
+    set background=light
+    set cursorline
+    hi vimwikiItalic   ctermfg=6        term=ITALIC
+    hi htmlItalic      ctermfg=6        term=ITALIC
+    hi markdownItalic  ctermfg=6        term=ITALIC
+    hi vimwikiBold     ctermfg=3        term=BOLD
+    hi htmlBold        ctermfg=3        term=BOLD
+    hi markdownBold    ctermfg=3        term=BOLD
+    hi Title           ctermfg=9
+endfunction
+
+call Ayu()
 
 set cursorline colorcolumn=76
 set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
@@ -204,9 +234,10 @@ nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
 nnoremap <silent> <leader>du ?\_<cr>x/\_<cr>x:noh<cr>
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 
-nnoremap <leader>vt :colorscheme slate<cr> :set nocursorline<cr> :set background=light<cr>
+nnoremap <leader>vt :call Tty()<cr>
 
 nnoremap <leader>va :call Ayu()<cr>
+nnoremap <leader>vm :call Mat()<cr>
 nnoremap <leader>vg :call Gruv()<cr>
 nnoremap <leader>vl :call Light()<cr>
 nnoremap <leader>vh :call Hab()<cr>
