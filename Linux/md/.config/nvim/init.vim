@@ -1,9 +1,17 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"              ___       _ _         _           
+"             |_ _|_ __ (_) |___   _(_)_ __ ___  
+"              | || '_ \| | __\ \ / / | '_ ` _ \ 
+"              | || | | | | |_ \ V /| | | | | | |
+"             |___|_| |_|_|\__(_)_/ |_|_| |_| |_|
+"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " Plugins
 call plug#begin()
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
 
-    Plug 'maxmx03/solarized.nvim'
     Plug 'ayu-theme/ayu-vim'
 
     Plug 'vimwiki/vimwiki'
@@ -92,14 +100,15 @@ endfunction
 function! Light()
     set background=light
     colorscheme retrobox
-    hi vimwikiItalic   guifg=#000000    gui=ITALIC
-    hi htmlItalic      guifg=#000000    gui=ITALIC
-    hi markdownItalic  guifg=#000000    gui=ITALIC
-    hi vimwikiBold     guifg=#000000    gui=BOLD
-    hi htmlBold        guifg=#000000    gui=BOLD
-    hi markdownBold    guifg=#000000    gui=BOLD
+    hi vimwikiItalic   guifg=#af3a03    gui=ITALIC
+    hi htmlItalic      guifg=#af3a03    gui=ITALIC
+    hi markdownItalic  guifg=#af3a03    gui=ITALIC
+    hi vimwikiBold     guifg=#af3a03    gui=BOLD
+    hi htmlBold        guifg=#af3a03    gui=BOLD
+    hi markdownBold    guifg=#af3a03    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
-    hi Identifier      guifg=#111111    gui=BOLD
+    hi Identifier      guifg=#9d0006    gui=BOLD
+    hi Title           guifg=#9d0006
 endfunction
 
 function! Tty()
@@ -271,4 +280,13 @@ let g:netrw_winsize = 20
 nnoremap <silent> <leader>q :Vex<CR>
 nnoremap <silent> <leader>c :Tagbar<CR>
 let g:vimwiki_global_ext = 0
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"      _  ___     _                        _     _    
+"     | |/ (_)___| | _____      _____   __| |___| | __
+"     | ' /| / __| |/ _ \ \ /\ / / _ \ / _` |_  / |/ /
+"     | . \| \__ \ | (_) \ V  V / (_) | (_| |/ /|   < 
+"     |_|\_\_|___/_|\___/ \_/\_/ \___/ \__,_/___|_|\_\ 
+"    
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
