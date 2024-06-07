@@ -15,6 +15,7 @@ call plug#begin()
     Plug 'ayu-theme/ayu-vim'
     Plug 'itchyny/lightline.vim'
 
+    Plug 'mhinz/vim-startify'
     Plug 'vimwiki/vimwiki'
     Plug 'ap/vim-css-color'
     Plug 'tpope/vim-commentary'   " gcc or gc
@@ -145,7 +146,7 @@ set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 set laststatus=2
 set noshowmode
 let g:lightline = {
-  \ 'colorscheme': 'deus',
+  \ 'colorscheme': 'material',
   \ }
 
 " Normal mode
