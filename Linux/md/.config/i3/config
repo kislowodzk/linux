@@ -32,10 +32,10 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return split h; exec alacritty
+bindsym $mod+Return split h; exec kitty
 bindsym $mod+Ctrl+Return split h; exec tilix
-bindsym $mod+Mod1+Return split v; exec alacritty
-bindsym Mod1+Return exec alacritty
+bindsym $mod+Mod1+Return split v; exec kitty
+bindsym Mod1+Return exec kitty
 
 # kill focused window
 bindsym $mod+q kill
@@ -310,7 +310,7 @@ bindsym $mod+Shift+b exec firefox
 bindsym Mod1+b exec brave-browser
 bindsym $mod+Shift+s exec "flameshot gui"
 bindsym $mod+x exec --no-startup-id nemo
-bindsym $mod+n exec alacritty -e nvim
+bindsym $mod+n exec kitty -e /opt/nvim-linux64/bin/nvim
 
 # Pulse Audio controls
 bindsym $mod+bracketright exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status

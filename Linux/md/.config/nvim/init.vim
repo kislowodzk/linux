@@ -13,8 +13,10 @@ call plug#begin()
     Plug 'junegunn/fzf.vim'
 
     Plug 'ayu-theme/ayu-vim'
+    Plug 'itchyny/lightline.vim'
 
     Plug 'vimwiki/vimwiki'
+    Plug 'ap/vim-css-color'
     Plug 'tpope/vim-commentary'   " gcc or gc
     Plug 'preservim/tagbar'       " Tagbar, leader + c (table of contents)
                                   " potrzebne: sudo apt install universal-ctags
@@ -61,6 +63,8 @@ function! Hab()
     hi htmlBold        guifg=#af87af    gui=BOLD
     hi markdownBold    guifg=#af87af    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
+    set laststatus=2
+    set noshowmode
 endfunction
 
 function Ayu()
@@ -82,6 +86,8 @@ function Ayu()
     hi statuslinenc    guibg=#a8a8a8    guifg=#050505
     hi statusline      guibg=#E6B673    guifg=#050505
     hi CursorLine      guibg=NONE       guifg=NONE
+    set laststatus=2
+    set noshowmode
 endfunction
 
 function! Gruv()
@@ -95,6 +101,8 @@ function! Gruv()
     hi markdownBold    guifg=#E6B673    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
     hi Identifier      guifg=#459598    gui=BOLD
+    set laststatus=2
+    set noshowmode
 endfunction
 
 function! Light()
@@ -109,6 +117,8 @@ function! Light()
     hi CursorLine      guibg=NONE       guifg=NONE
     hi Identifier      guifg=#9d0006    gui=BOLD
     hi Title           guifg=#9d0006
+    set laststatus=2
+    set noshowmode
 endfunction
 
 function! Tty()
@@ -122,13 +132,21 @@ function! Tty()
     hi htmlBold        ctermfg=3        term=BOLD
     hi markdownBold    ctermfg=3        term=BOLD
     hi Title           ctermfg=9
+    set laststatus=1
+    set showmode
 endfunction
 
-call Gruv()
+call Ayu()
 
 set cursorline colorcolumn=76
 set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
-set laststatus=1
+
+" Statusline
+set laststatus=2
+set noshowmode
+let g:lightline = {
+  \ 'colorscheme': 'deus',
+  \ }
 
 " Normal mode
 nnoremap <C-f> gg0vG$
