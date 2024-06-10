@@ -151,16 +151,15 @@ set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 " Statusline
 set laststatus=2
 set noshowmode
-let g:lightline = {
-  \ 'colorscheme': 'srcery_drk',
-  \ }
 
-let g:lightline.active = { 
+let g:lightline = { 
+\ 'colorscheme': 'srcery_drk',
+\ 'active': {
 \ 'left': [ [ 'mode', 'paste' ],
 \           [ 'readonly', 'filename', 'modified' ] ],
 \ 'right': [ [ 'lineinfo' ],
 \            [ 'percent' ],  
-\            [ 'filetype' ] ] }
+\            [ 'filetype' ] ] } }
 
 " Normal mode
 nnoremap <C-f> gg0vG$
