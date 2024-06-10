@@ -155,6 +155,12 @@ let g:lightline = {
   \ 'colorscheme': 'srcery_drk',
   \ }
 
+let g:lightline.active = { 
+\ 'left': [ [ 'mode', 'paste' ],
+\           [ 'readonly', 'filename', 'modified' ] ],
+\ 'right': [ [ 'lineinfo' ],
+\            [ 'percent' ],  
+\            [ 'filetype' ] ] }
 
 " Normal mode
 nnoremap <C-f> gg0vG$
@@ -304,7 +310,9 @@ let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_winsize = 20
 nnoremap <silent> <leader>q :Vex<CR>
+
 nnoremap <silent> <leader>c :Tagbar<CR>
+
 let g:vimwiki_global_ext = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

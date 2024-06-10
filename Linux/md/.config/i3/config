@@ -3,7 +3,7 @@
 exec alacritty --class=scratch-terminal
 exec --no-startup-id "~/skrypty/drugi_monitor_i3.sh"
 exec_always --no-startup-id compton
-bindsym $mod+Shift+e exec "alacritty --class=scratch-terminal"
+bindsym $mod+Shift+e exec "kitty --class=scratch-terminal"
 for_window [class="scratch-terminal"] move to scratchpad
 for_window [class="scratch-terminal"] resize set 1000 700
 bindsym $mod+e [class="scratch-terminal"] scratchpad show; move position center;
@@ -33,8 +33,8 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return split h; exec kitty
-bindsym $mod+Ctrl+Return split h; exec tilix
-bindsym $mod+Mod1+Return split v; exec kitty
+# bindsym $mod+Ctrl+Return split h; exec tilix
+bindsym $mod+Ctrl+Return split v; exec kitty
 bindsym Mod1+Return exec kitty
 
 # kill focused window
@@ -75,7 +75,7 @@ bindsym $mod+v split h
 bindsym $mod+g split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+bindsym $mod+m fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 # bindsym $mod+s layout stacking
@@ -214,7 +214,7 @@ bindsym $mod+Shift+r exec --no-startup-id "killall compton"; restart
 
 # Scratchpad
 for_window [class="adfgx"] floating enable
-for_window [class="adfgx"] resize set 450 300
+for_window [class="adfgx"] resize set 537 300
 for_window [class="adfgx"] move position center
 
 # Shutdown
@@ -273,7 +273,7 @@ client.background       #ffffff
 
 
 # żeby nie pokazywał tytułów
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 3
 
 hide_edge_borders smart
 
@@ -305,23 +305,23 @@ bindsym $mod+Ctrl+t exec --no-startup-id "~/skrypty/tapeta_rando.sh"
 # smart_borders on
 
 # Bindy
-bindsym $mod+b exec brave-browser
+bindsym $mod+b exec vivaldi
 bindsym $mod+Shift+b exec firefox
 bindsym Mod1+b exec brave-browser
 bindsym $mod+Shift+s exec "flameshot gui"
-bindsym $mod+x exec --no-startup-id nemo
+bindsym $mod+f exec --no-startup-id nemo
 bindsym $mod+n exec kitty -e /opt/nvim-linux64/bin/nvim
 
 # Pulse Audio controls
 bindsym $mod+bracketright exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
-bindsym $mod+p exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
-bindsym $mod+bracketleft exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym $mod+Ctrl+bracketleft exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ 100% && $refresh_i3status
+bindsym $mod+bracketleft exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
+bindsym $mod+p exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+bindsym $mod+Ctrl+p exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ 100% && $refresh_i3status
 
 # Spotify next/prev
-bindsym $mod+Shift+bracketleft exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
+bindsym $mod+Shift+p exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
 bindsym $mod+Shift+bracketright exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
-bindsym $mod+Shift+p exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
+bindsym $mod+Shift+bracketleft exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
 
 # Uruchamianie programów
 # rofi-theme-selector, żeby ustawić wygląd
@@ -352,7 +352,7 @@ bindsym $mod+s exec --no-startup-id "grep -v '^#' ~/skrypty/wyszukiwanie | rofi 
 # bindsym $mod+a exec --no-startup-id "~/skrypty/eDEX-UI-Linux-x86_64.AppImage"
 
 # przenoszenie workspace'ów między monitorami
-bindsym $mod+m move workspace to output right
+bindsym $mod+x move workspace to output right
 
 # Monitory
 focus_follows_mouse no
@@ -360,4 +360,6 @@ focus_follows_mouse no
 bindsym $mod+i exec --no-startup-id "~/skrypty/arandr_i3.sh"
 bindsym $mod+o exec --no-startup-id "~/skrypty/drugi_monitor_i3.sh"
 
+
+exec xinput set-prop "AlpsPS/2 ALPS GlidePoint" "libinput Tapping Enabled" 1
 # END
