@@ -143,7 +143,7 @@ function! Tty()
     set showmode
 endfunction
 
-call Ayu()
+call Gruv()
 
 set cursorline colorcolumn=76
 set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20

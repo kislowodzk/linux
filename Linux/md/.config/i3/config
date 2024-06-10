@@ -53,6 +53,9 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
+# Just don't do it
+focus_wrapping no
+
 # alt tab
 bindsym Mod1+Tab focus right
 
@@ -193,15 +196,15 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # bindsym Mod1+Shift+9 move container to workspace number $ws19
 # bindsym Mod1+Shift+0 move container to workspace number $ws20
 
-bindsym $mod+Ctrl+Down workspace next
-bindsym $mod+Ctrl+Up workspace prev
-bindsym $mod+Ctrl+j workspace next
-bindsym $mod+Ctrl+k workspace prev
+# bindsym $mod+Ctrl+Down workspace next
+# bindsym $mod+Ctrl+Up workspace prev
+# bindsym $mod+Ctrl+j workspace next
+# bindsym $mod+Ctrl+k workspace prev
 
-bindsym $mod+Mod1+Down workspace next
-bindsym $mod+Mod1+Up workspace prev
-bindsym $mod+Mod1+j workspace next
-bindsym $mod+Mod1+k workspace prev
+# bindsym $mod+Mod1+Down workspace next
+# bindsym $mod+Mod1+Up workspace prev
+# bindsym $mod+Mod1+j workspace next
+# bindsym $mod+Mod1+k workspace prev
 # 
 # KONIEC -- Workspaces
 
