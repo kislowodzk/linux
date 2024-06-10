@@ -6,6 +6,12 @@
 "             |___|_| |_|_|\__(_)_/ |_|_| |_| |_|
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" I need to have neovim, git and curl installed
+" Vimplug install -- https://github.com/junegunn/vim-plug:
+" sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+"       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+" :PlugInstall
+" :PlugClean
 
 " Plugins
 call plug#begin()
@@ -146,8 +152,9 @@ set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 set laststatus=2
 set noshowmode
 let g:lightline = {
-  \ 'colorscheme': 'material',
+  \ 'colorscheme': 'srcery_drk',
   \ }
+
 
 " Normal mode
 nnoremap <C-f> gg0vG$
