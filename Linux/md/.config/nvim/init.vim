@@ -84,8 +84,8 @@ function Ayu()
     hi Title           gui=BOLD
     hi ModeMsg         guifg=#E6B673    gui=REVERSE
     hi Identifier      gui=BOLD
-    hi statuslinenc    guibg=#a8a8a8    guifg=#050505
-    hi statusline      guibg=#E6B673    guifg=#050505
+    " hi statuslinenc    guibg=#a8a8a8    guifg=#050505
+    " hi statusline      guibg=#E6B673    guifg=#050505
     hi CursorLine      guibg=NONE       guifg=NONE
     set laststatus=2
     set noshowmode
