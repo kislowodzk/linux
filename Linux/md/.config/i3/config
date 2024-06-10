@@ -266,7 +266,7 @@ bindsym $mod+r mode "resize"
 # pomarańczowe
 client.focused          #d65d0e #d65d0e #ebdbb2 #d65d0e   #d65d0e
 
-client.focused_inactive #777777 #777777 #282828 #777777   #777777
+client.focused_inactive #444444 #444444 #282828 #444444   #444444
 client.unfocused        #333333 #222222 #888888 #292d2e   #222222
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c

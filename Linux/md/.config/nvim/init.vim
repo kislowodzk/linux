@@ -47,9 +47,9 @@ set clipboard^=unnamed,unnamedplus
 set noswapfile nobackup
 
 set fo=croql
-autocmd BufRead,BufNewFile   *.txt set fo=tawc nosmartindent autoindent
-autocmd BufRead,BufNewFile   *.md set fo=tawc nosmartindent autoindent
-autocmd BufRead,BufNewFile   *.wiki set filetype=vimwiki fo=tawc nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.txt set fo=taw nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.md set fo=taw nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.wiki set filetype=vimwiki fo=taw nosmartindent autoindent
 
 syntax on
 set omnifunc=syntaxcomplete#Complete
@@ -223,7 +223,7 @@ let mapleader = " "
 
 nnoremap <leader>sl :set tw=99999<cr>
 nnoremap <leader>ss :set tw=74<cr>
-nnoremap <leader>sf :set fo=tawc nosmartindent autoindent<cr>
+nnoremap <leader>sf :set fo=taw nosmartindent autoindent<cr>
 nnoremap <leader>sc :set fo=croql smartindent autoindent<cr>
 nnoremap <leader>sF :set fo=ql nosmartindent autoindent<cr>
 nnoremap <leader>st :set filetype=
