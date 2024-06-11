@@ -138,11 +138,9 @@ endif
 let g:lightline = { 
 \ 'colorscheme': 'srcery_drk',
 \ 'active': {
-\ 'left': [ [ 'mode', 'paste' ],
-\           [ 'readonly', 'filename', 'modified' ] ],
-\ 'right': [ [ 'lineinfo' ],
-\            [ 'percent' ],  
-\            [ 'filetype' ] ] } }
+\ 'left': [ [ 'mode', 'paste' ], [ 'readonly', 'filename', 'modified' ] ],
+\ 'right': [ [ 'lineinfo2' ], [ 'percent' ], [ 'filetype' ] ] },
+\ 'component': { 'lineinfo2': '%3l:%-2v' } }
 
 " fzf
 nnoremap <leader>vo :Colors<cr>

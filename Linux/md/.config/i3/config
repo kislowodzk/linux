@@ -310,7 +310,6 @@ bindsym $mod+Ctrl+t exec --no-startup-id "~/skrypty/tapeta_rando.sh"
 # Bindy
 bindsym $mod+b exec vivaldi
 bindsym $mod+Shift+b exec firefox
-bindsym Mod1+b exec brave-browser
 bindsym $mod+Shift+s exec "flameshot gui"
 bindsym $mod+f exec --no-startup-id nemo
 bindsym $mod+n exec kitty -e /opt/nvim-linux64/bin/nvim

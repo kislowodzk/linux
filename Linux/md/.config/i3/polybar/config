@@ -51,18 +51,18 @@ foreground = ${colors.foreground}
 ;   background-[0-9]+ = #aarrggbb
 ;background-0 =
 
-radius = 10.0
+radius = 7.0
 line-size = 2
 
 border-size = 0
 border-left-size = 0.15%
 border-right-size = 0
-border-top-size = 2
-border-bottom-size = 2
+border-top-size = 0
+border-bottom-size = 1
 border-color =
 
-padding-left = 1
-padding-right = 1
+padding-left = 0
+padding-right = 0
 
 module-margin-left = 0
 module-margin-right = 0
