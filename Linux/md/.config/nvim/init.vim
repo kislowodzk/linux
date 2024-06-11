@@ -53,7 +53,6 @@ hi markdownBold    guifg=#E6B673    gui=BOLD
 hi CursorLine      guibg=NONE       guifg=NONE
 hi Identifier      guifg=#459598    gui=BOLD
 hi Statement       guifg=#fb4934
-hi ModeMsg         guifg=#1c1c1c
 
 nnoremap <C-f> gg0vG$
 nnoremap j gj
