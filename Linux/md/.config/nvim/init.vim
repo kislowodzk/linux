@@ -116,7 +116,6 @@ nnoremap <leader>st :set filetype=
 nnoremap <leader>sk :! xset r rate 330 43<CR>
 
 nnoremap <silent> <leader>me G{}k$zz
-" (number)gt -> goes to this tab
 nnoremap <silent> <leader>tt :tabnew<CR>
 nnoremap <silent> <leader>n :tabnext<cr>
 nnoremap <silent> <leader>p :tabprev<cr>
