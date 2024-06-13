@@ -42,17 +42,51 @@ set laststatus=2
 syntax on
 set omnifunc=syntaxcomplete#Complete
 
-set background=dark
-colorscheme retrobox
-hi vimwikiItalic   guifg=#f6c663    gui=ITALIC
-hi htmlItalic      guifg=#f6c663    gui=ITALIC
-hi markdownItalic  guifg=#f6c663    gui=ITALIC
-hi vimwikiBold     guifg=#E6B673    gui=BOLD
-hi htmlBold        guifg=#E6B673    gui=BOLD
-hi markdownBold    guifg=#E6B673    gui=BOLD
-hi CursorLine      guibg=NONE       guifg=NONE
-hi Identifier      guifg=#459598    gui=BOLD
-hi Statement       guifg=#fb4934
+function! Dark()
+    set background=dark
+    colorscheme retrobox
+    hi vimwikiItalic   guifg=#f6c663    gui=ITALIC
+    hi htmlItalic      guifg=#f6c663    gui=ITALIC
+    hi markdownItalic  guifg=#f6c663    gui=ITALIC
+    hi vimwikiBold     guifg=#E6B673    gui=BOLD
+    hi htmlBold        guifg=#E6B673    gui=BOLD
+    hi markdownBold    guifg=#E6B673    gui=BOLD
+    hi CursorLine      guibg=NONE       guifg=NONE
+    hi Identifier      guifg=#459598    gui=BOLD
+    hi Statement       guifg=#fb4934
+    set laststatus=2
+endfunction
+
+function! Light()
+    set background=light
+    colorscheme retrobox
+    hi vimwikiItalic   guifg=#af3a03    gui=ITALIC
+    hi htmlItalic      guifg=#af3a03    gui=ITALIC
+    hi markdownItalic  guifg=#af3a03    gui=ITALIC
+    hi vimwikiBold     guifg=#af3a03    gui=BOLD
+    hi htmlBold        guifg=#af3a03    gui=BOLD
+    hi markdownBold    guifg=#af3a03    gui=BOLD
+    hi CursorLine      guibg=NONE       guifg=NONE
+    hi Identifier      guifg=#9d0006    gui=BOLD
+    hi Title           guifg=#9d0006
+    set laststatus=2
+endfunction
+
+function! Tty()
+    colorscheme slate
+    set background=light
+    set cursorline
+    hi vimwikiItalic   ctermfg=6        term=ITALIC
+    hi htmlItalic      ctermfg=6        term=ITALIC
+    hi markdownItalic  ctermfg=6        term=ITALIC
+    hi vimwikiBold     ctermfg=3        term=BOLD
+    hi htmlBold        ctermfg=3        term=BOLD
+    hi markdownBold    ctermfg=3        term=BOLD
+    hi Title           ctermfg=9
+    set laststatus=1
+endfunction
+
+call Dark()
 
 nnoremap <C-f> gg0vG$
 nnoremap j gj
@@ -141,6 +175,10 @@ nnoremap <silent> <leader>as 28o<esc>28k$zz
 
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
+nnoremap <leader>vd :call Dark()<cr>
+nnoremap <leader>vl :call Light()<cr>
+nnoremap <leader>vt :call Tty()<cr>
+
 
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
