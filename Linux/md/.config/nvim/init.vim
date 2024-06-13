@@ -54,7 +54,6 @@ function! Dark()
     hi CursorLine      guibg=NONE       guifg=NONE
     hi Identifier      guifg=#459598    gui=BOLD
     hi Statement       guifg=#fb4934
-    set laststatus=2
 endfunction
 
 function! Light()
@@ -69,7 +68,6 @@ function! Light()
     hi CursorLine      guibg=NONE       guifg=NONE
     hi Identifier      guifg=#9d0006    gui=BOLD
     hi Title           guifg=#9d0006
-    set laststatus=2
 endfunction
 
 function! Tty()
@@ -83,7 +81,6 @@ function! Tty()
     hi htmlBold        ctermfg=3        term=BOLD
     hi markdownBold    ctermfg=3        term=BOLD
     hi Title           ctermfg=9
-    set laststatus=1
 endfunction
 
 call Dark()
