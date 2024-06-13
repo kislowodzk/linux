@@ -1,6 +1,6 @@
 # i3 config file
 
-exec alacritty --class=scratch-terminal
+exec kitty --class=scratch-terminal
 exec --no-startup-id "~/skrypty/drugi_monitor_i3.sh"
 exec_always --no-startup-id compton
 bindsym $mod+Shift+e exec "kitty --class=scratch-terminal"
