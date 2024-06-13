@@ -1,5 +1,4 @@
 call plug#begin()
-    Plug 'RRethy/base16-nvim'
     Plug 'mhinz/vim-startify'
     Plug 'itchyny/lightline.vim'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -135,6 +134,9 @@ nnoremap <silent> <leader>0 10gt
 nnoremap <silent> <CR> :noh<CR>
 nnoremap <silent> <leader>h :noh<CR>
 
+nnoremap <silent> <leader>ab viwc****<Esc>hPe
+nnoremap <silent> <leader>ai viwc**<Esc>Pe
+nnoremap <silent> <leader>au viwc__<Esc>Pe
 nnoremap <silent> <leader>as 28o<esc>28k$zz
 
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
