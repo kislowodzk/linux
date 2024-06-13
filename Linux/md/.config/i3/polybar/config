@@ -41,7 +41,7 @@ override-redirect = false
 bottom = false
 fixed-center = true
 width = 99.85%
-height = 25
+height = 24
 
 background = ${colors.background}
 foreground = ${colors.foreground}

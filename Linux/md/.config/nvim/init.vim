@@ -1,4 +1,5 @@
 call plug#begin()
+    Plug 'RRethy/base16-nvim'
     Plug 'mhinz/vim-startify'
     Plug 'itchyny/lightline.vim'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -121,6 +122,16 @@ nnoremap <silent> <leader>n :tabnext<cr>
 nnoremap <silent> <leader>p :tabprev<cr>
 nnoremap <silent> <leader>tn :tabm +1<CR>
 nnoremap <silent> <leader>tp :tabm -1<CR>
+nnoremap <silent> <leader>1 1gt
+nnoremap <silent> <leader>2 2gt
+nnoremap <silent> <leader>3 3gt
+nnoremap <silent> <leader>4 4gt
+nnoremap <silent> <leader>5 5gt
+nnoremap <silent> <leader>6 6gt
+nnoremap <silent> <leader>7 7gt
+nnoremap <silent> <leader>8 8gt
+nnoremap <silent> <leader>9 9gt
+nnoremap <silent> <leader>0 10gt
 
 nnoremap <silent> <CR> :noh<CR>
 nnoremap <silent> <leader>h :noh<CR>
