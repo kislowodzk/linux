@@ -184,9 +184,16 @@ endif
 let g:lightline = { 
 \ 'colorscheme': 'srcery_drk',
 \ 'active': {
-\ 'left': [ [ 'mode', 'paste' ], [ 'readonly', 'filename', 'modified' ] ],
+\ 'left': [ [ 'mode', 'paste' ], [ 'readonly', 'filename' ] ],
 \ 'right': [ [ 'lineinfo2' ], [ 'percent' ], [ 'filetype' ] ] },
-\ 'component': { 'lineinfo2': '%3l:%-2v' } }
+\ 'component': { 'lineinfo2': '%3l:%-2v' },
+\ 'component_function': { 'filename': 'LightlineFilename' }, }
+
+function! LightlineFilename()
+  let filename = expand('%:t') !=# '' ? expand('%:t') : '[No Name]'
+  let modified = &modified ? ' +' : ''
+  return filename . modified
+endfunction
 
 " fzf
 nnoremap <leader>vo :Colors<cr>
