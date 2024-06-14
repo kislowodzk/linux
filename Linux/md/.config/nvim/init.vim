@@ -1,4 +1,5 @@
 call plug#begin()
+    Plug 'morhetz/gruvbox'
     Plug 'mhinz/vim-startify'
     Plug 'itchyny/lightline.vim'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -44,7 +45,10 @@ set omnifunc=syntaxcomplete#Complete
 
 function! Dark()
     set background=dark
-    colorscheme retrobox
+    let g:gruvbox_contrast_dark = 'hard'
+    let g:gruvbox_italic = 1
+    colorscheme gruvbox
+    hi Normal          guibg=#1c1c1c
     hi vimwikiItalic   guifg=#f6c663    gui=ITALIC
     hi htmlItalic      guifg=#f6c663    gui=ITALIC
     hi markdownItalic  guifg=#f6c663    gui=ITALIC
@@ -52,13 +56,13 @@ function! Dark()
     hi htmlBold        guifg=#E6B673    gui=BOLD
     hi markdownBold    guifg=#E6B673    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
-    hi Identifier      guifg=#459598    gui=BOLD
-    hi Statement       guifg=#fb4934
+    hi! link markdownListMarker GruvboxRed
+    hi! link markdownOrderedListMarker GruvboxRed
 endfunction
 
 function! Light()
     set background=light
-    colorscheme retrobox
+    colorscheme gruvbox
     hi vimwikiItalic   guifg=#af3a03    gui=ITALIC
     hi htmlItalic      guifg=#af3a03    gui=ITALIC
     hi markdownItalic  guifg=#af3a03    gui=ITALIC
@@ -66,8 +70,9 @@ function! Light()
     hi htmlBold        guifg=#af3a03    gui=BOLD
     hi markdownBold    guifg=#af3a03    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
-    hi Identifier      guifg=#9d0006    gui=BOLD
     hi Title           guifg=#9d0006
+    hi! link markdownListMarker GruvboxRed
+    hi! link markdownOrderedListMarker GruvboxRed
 endfunction
 
 function! Tty()
