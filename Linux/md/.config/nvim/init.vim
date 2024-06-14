@@ -56,8 +56,9 @@ function! Dark()
     hi htmlBold        guifg=#E6B673    gui=BOLD
     hi markdownBold    guifg=#E6B673    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
-    hi! link markdownListMarker GruvboxRed
-    hi! link markdownOrderedListMarker GruvboxRed
+    hi! link markdownListMarker GruvboxRedBold
+    hi! link markdownOrderedListMarker GruvboxRedBold
+    hi! link VimwikiList GruvboxBlueBold
 endfunction
 
 function! Light()
@@ -71,6 +72,9 @@ function! Light()
     hi markdownBold    guifg=#af3a03    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
     hi Title           guifg=#9d0006
+    hi markdownListMarker               guifg=#9d0006    gui=BOLD
+    hi markdownOrderedListMarker        guifg=#9d0006    gui=BOLD
+    hi VimwikiList     guifg=#9d0006    gui=BOLD
 endfunction
 
 function! Tty()
