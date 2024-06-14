@@ -62,7 +62,7 @@ endfunction
 
 function! Light()
     set background=light
-    colorscheme gruvbox
+    colorscheme morning
     hi vimwikiItalic   guifg=#af3a03    gui=ITALIC
     hi htmlItalic      guifg=#af3a03    gui=ITALIC
     hi markdownItalic  guifg=#af3a03    gui=ITALIC
@@ -71,8 +71,6 @@ function! Light()
     hi markdownBold    guifg=#af3a03    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
     hi Title           guifg=#9d0006
-    hi! link markdownListMarker GruvboxRed
-    hi! link markdownOrderedListMarker GruvboxRed
 endfunction
 
 function! Tty()
