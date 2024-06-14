@@ -176,11 +176,11 @@ nnoremap <leader>vd :call Dark()<cr>
 nnoremap <leader>vl :call Light()<cr>
 nnoremap <leader>vt :call Tty()<cr>
 
-
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
 endif
 
+" Lightline
 let g:lightline = { 
 \ 'colorscheme': 'srcery_drk',
 \ 'active': {
@@ -217,10 +217,9 @@ let g:netrw_liststyle = 3
 let g:netrw_winsize = 20
 nnoremap <silent> <leader>q :Vex<CR>
 
+" Other
 nnoremap <silent> <leader>c :Tagbar<CR>
-
 let g:vimwiki_global_ext = 0
-
 let g:startify_custom_header = [
     \ '            |\__/,|   (`\        _.-|   |          |\__/,|   (`\    ' ,
     \ '            |o o  |__ _) )      {   |   |          |o o  |__ _) )   ' ,
