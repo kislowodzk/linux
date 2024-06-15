@@ -88,6 +88,7 @@ function! Tty()
     hi htmlBold        ctermfg=3        term=BOLD
     hi markdownBold    ctermfg=3        term=BOLD
     hi Title           ctermfg=9
+    :terminal sudo loadkeys ~/.keystrings 
 endfunction
 
 call Dark()
