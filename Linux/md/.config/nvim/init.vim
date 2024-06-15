@@ -52,13 +52,13 @@ function! Dark()
     hi vimwikiItalic   guifg=#f6c663    gui=ITALIC
     hi htmlItalic      guifg=#f6c663    gui=ITALIC
     hi markdownItalic  guifg=#f6c663    gui=ITALIC
-    hi vimwikiBold     guifg=#E6B673    gui=BOLD
-    hi htmlBold        guifg=#E6B673    gui=BOLD
-    hi markdownBold    guifg=#E6B673    gui=BOLD
+    hi vimwikiBold     guifg=#f6c663    gui=BOLD
+    hi htmlBold        guifg=#f6c663    gui=BOLD
+    hi markdownBold    guifg=#f6c663    gui=BOLD
     hi CursorLine      guibg=NONE       guifg=NONE
     hi! link markdownListMarker GruvboxRedBold
     hi! link markdownOrderedListMarker GruvboxRedBold
-    hi! link VimwikiList GruvboxBlueBold
+    hi! link VimwikiList GruvboxRedBold
 endfunction
 
 function! Light()
