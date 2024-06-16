@@ -103,8 +103,7 @@ function Ayu()
     " hi CursorLine      guibg=NONE       guifg=NONE
     hi Title           gui=BOLD
     hi VimwikiList     guifg=#FE7733
-    " set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
-    set guicursor=n-v-c-sm-i-ci-ve-r-cr-o:block
+    set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 endfunction
 
 function! Tty()
