@@ -1,5 +1,9 @@
+" ========================================================================
+" PLUG CALL
+" ========================================================================
 call plug#begin()
     Plug 'morhetz/gruvbox'
+    Plug 'ayu-theme/ayu-vim'
     Plug 'mhinz/vim-startify'
     Plug 'itchyny/lightline.vim'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -10,7 +14,9 @@ call plug#begin()
     Plug 'preservim/tagbar'       " Tagbar, leader + c (table of contents); potrzebne: sudo apt install universal-ctags
 call plug#end()
 
-" General
+" ========================================================================
+" GENERAL
+" ========================================================================
 set nocompatible
 
 set ignorecase smartcase incsearch complete+=s showmatch hlsearch
@@ -43,7 +49,10 @@ set laststatus=2
 syntax on
 set omnifunc=syntaxcomplete#Complete
 
-function! Dark()
+" ========================================================================
+" COLORSCHEMES
+" ========================================================================
+function! Gruv()
     set background=dark
     let g:gruvbox_contrast_dark = 'hard'
     let g:gruvbox_italic = 1
@@ -59,6 +68,7 @@ function! Dark()
     hi! link markdownListMarker GruvboxRedBold
     hi! link markdownOrderedListMarker GruvboxRedBold
     hi! link VimwikiList GruvboxRedBold
+    set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 endfunction
 
 function! Light()
@@ -75,24 +85,46 @@ function! Light()
     hi markdownListMarker               guifg=#9d0006    gui=BOLD
     hi markdownOrderedListMarker        guifg=#9d0006    gui=BOLD
     hi VimwikiList     guifg=#9d0006    gui=BOLD
+    set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
+endfunction
+
+function Ayu()
+    colorscheme ayu
+    hi LineNr          guifg=#565B66
+    hi IncSearch       guibg=#FE7733    guifg=#0F1419
+    hi Directory       guifg=#FE7733
+    hi TabLine         gui=NONE
+    hi vimwikiItalic   guifg=#f6c663    gui=ITALIC
+    hi htmlItalic      guifg=#f6c663    gui=ITALIC
+    hi markdownItalic  guifg=#f6c663    gui=ITALIC
+    hi vimwikiBold     guifg=#f6c663    gui=BOLD
+    hi htmlBold        guifg=#f6c663    gui=BOLD
+    hi markdownBold    guifg=#f6c663    gui=BOLD
+    " hi CursorLine      guibg=NONE       guifg=NONE
+    hi Title           gui=BOLD
+    hi VimwikiList     guifg=#FE7733
+    set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 endfunction
 
 function! Tty()
     colorscheme slate
     set background=light
     set cursorline
-    hi vimwikiItalic   ctermfg=6        term=ITALIC
-    hi htmlItalic      ctermfg=6        term=ITALIC
-    hi markdownItalic  ctermfg=6        term=ITALIC
-    hi vimwikiBold     ctermfg=3        term=BOLD
-    hi htmlBold        ctermfg=3        term=BOLD
-    hi markdownBold    ctermfg=3        term=BOLD
+    hi vimwikiItalic   ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
+    hi htmlItalic      ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
+    hi markdownItalic  ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
+    hi vimwikiBold     ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
+    hi htmlBold        ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
+    hi markdownBold    ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
     hi Title           ctermfg=9
-    :terminal sudo loadkeys ~/.keystrings 
+    set guicursor=n-v-c-sm-i-ci-ve-r-cr-o:block
 endfunction
 
-call Dark()
+call Ayu()
 
+" ========================================================================
+" REMAPS
+" ========================================================================
 nnoremap <C-f> gg0vG$
 nnoremap j gj
 nnoremap k gk
@@ -143,6 +175,9 @@ nnoremap z= zzz=
 set listchars=space:·,trail:•,eol:¶
 nnoremap <f10> :setlocal list!<enter>
 
+" ========================================================================
+" LEADER KEY
+" ========================================================================
 let mapleader = " "
 
 nnoremap <leader>sl :set tw=99999<cr>
@@ -152,6 +187,7 @@ nnoremap <leader>sc :set fo=jcroql smartindent autoindent<cr>
 nnoremap <leader>sF :set fo=ql nosmartindent autoindent<cr>
 nnoremap <leader>st :set filetype=
 nnoremap <leader>sk :! xset r rate 330 43<CR>
+nnoremap <leader>se :term sudo loadkeys ~/.keystrings<CR>
 
 nnoremap <silent> <leader>me G{}k$zz
 nnoremap <silent> <leader>tt :tabnew<CR>
@@ -180,10 +216,15 @@ nnoremap <silent> <leader>as 28o<esc>28k$zz
 
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
-nnoremap <leader>vd :call Dark()<cr>
+nnoremap <leader>va :call Ayu()<cr>
+nnoremap <leader>vg :call Gruv()<cr>
 nnoremap <leader>vl :call Light()<cr>
 nnoremap <leader>vt :call Tty()<cr>
 
+" ========================================================================
+" PLUGIN SETUP
+" ========================================================================
+" Remember coursor position
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
 endif
@@ -203,7 +244,7 @@ function! LightlineFilename()
   return filename . modified
 endfunction
 
-" fzf
+" Fzf
 nnoremap <leader>vo :Colors<cr>
 nnoremap <leader>b :Buffers<cr>
 let g:fzf_vim = {}
@@ -211,6 +252,7 @@ let g:fzf_vim.preview_window = ['up,50%', 'ctrl-/']
 let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.9 } }
 let $FZF_DEFAULT_COMMAND = "rg --files -L"
 
+"what folder
 nnoremap <leader>ff :Files ~/<cr>
 nnoremap <leader>fc :Files ~/.config/<cr>
 nnoremap <leader>fw :Files ~/vimwiki/<cr>
@@ -225,9 +267,11 @@ let g:netrw_liststyle = 3
 let g:netrw_winsize = 20
 nnoremap <silent> <leader>q :Vex<CR>
 
-" Other
+" Tagbar
 nnoremap <silent> <leader>c :Tagbar<CR>
+" Vimwiki
 let g:vimwiki_global_ext = 0
+" Startify
 let g:startify_custom_header = [
     \ '            |\__/,|   (`\        _.-|   |          |\__/,|   (`\    ' ,
     \ '            |o o  |__ _) )      {   |   |          |o o  |__ _) )   ' ,
@@ -235,3 +279,4 @@ let g:startify_custom_header = [
     \ '  n._    ((_ `^--` /_<  \         .--`-`-.     _((_ `^--` /_<  \    ' ,
     \ '<" _ }=- `` `-`(((/  (((/       .+|______|__.-||__)`-`(((/  (((/    ' ,
     \ ]
+
