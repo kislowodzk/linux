@@ -57,14 +57,17 @@ function! Gruv()
     let g:gruvbox_contrast_dark = 'hard'
     let g:gruvbox_italic = 1
     colorscheme gruvbox
-    hi Normal          guibg=#1c1c1c
-    hi vimwikiItalic   guifg=#f6c663    gui=ITALIC
-    hi htmlItalic      guifg=#f6c663    gui=ITALIC
-    hi markdownItalic  guifg=#f6c663    gui=ITALIC
-    hi vimwikiBold     guifg=#f6c663    gui=BOLD
-    hi htmlBold        guifg=#f6c663    gui=BOLD
-    hi markdownBold    guifg=#f6c663    gui=BOLD
-    hi CursorLine      guibg=NONE       guifg=NONE
+    hi Normal             guibg=#1c1c1c
+    hi vimwikiItalic      guifg=#f6c663    gui=ITALIC
+    hi htmlItalic         guifg=#f6c663    gui=ITALIC
+    hi markdownItalic     guifg=#f6c663    gui=ITALIC
+    hi vimwikiBold        guifg=#f6c663    gui=BOLD
+    hi htmlBold           guifg=#f6c663    gui=BOLD
+    hi markdownBold       guifg=#f6c663    gui=BOLD
+    hi vimwikiItalicBold  guifg=#f6c663    gui=BOLD,ITALIC
+    hi htmlItalicBold     guifg=#f6c663    gui=BOLD,ITALIC
+    hi markdownBoldItalic guifg=#f6c663    gui=BOLD,ITALIC
+    hi CursorLine         guibg=NONE       guifg=NONE
     hi! link markdownListMarker GruvboxRedBold
     hi! link markdownOrderedListMarker GruvboxRedBold
     hi! link VimwikiList GruvboxRedBold
@@ -74,35 +77,40 @@ endfunction
 function! Light()
     set background=light
     colorscheme morning
-    hi vimwikiItalic   guifg=#af3a03    gui=ITALIC
-    hi htmlItalic      guifg=#af3a03    gui=ITALIC
-    hi markdownItalic  guifg=#af3a03    gui=ITALIC
-    hi vimwikiBold     guifg=#af3a03    gui=BOLD
-    hi htmlBold        guifg=#af3a03    gui=BOLD
-    hi markdownBold    guifg=#af3a03    gui=BOLD
-    hi CursorLine      guibg=NONE       guifg=NONE
-    hi Title           guifg=#9d0006
-    hi markdownListMarker               guifg=#9d0006    gui=BOLD
-    hi markdownOrderedListMarker        guifg=#9d0006    gui=BOLD
-    hi VimwikiList     guifg=#9d0006    gui=BOLD
+    hi vimwikiItalic      guifg=#af3a03    gui=ITALIC
+    hi htmlItalic         guifg=#af3a03    gui=ITALIC
+    hi markdownItalic     guifg=#af3a03    gui=ITALIC
+    hi vimwikiBold        guifg=#af3a03    gui=BOLD
+    hi htmlBold           guifg=#af3a03    gui=BOLD
+    hi markdownBold       guifg=#af3a03    gui=BOLD
+    hi vimwikiItalicBold  guifg=#af3a03    gui=BOLD,ITALIC
+    hi htmlItalicBold     guifg=#af3a03    gui=BOLD,ITALIC
+    hi markdownBoldItalic guifg=#af3a03    gui=BOLD,ITALIC
+    hi CursorLine         guibg=NONE       guifg=NONE
+    hi Title              guifg=#9d0006
+    hi markdownListMarker                  guifg=#9d0006    gui=BOLD
+    hi markdownOrderedListMarker           guifg=#9d0006    gui=BOLD
+    hi VimwikiList        guifg=#9d0006    gui=BOLD
     set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 endfunction
 
 function Ayu()
     colorscheme ayu
-    hi LineNr          guifg=#565B66
-    hi IncSearch       guibg=#FE7733    guifg=#0F1419
-    hi Directory       guifg=#FE7733
-    hi TabLine         gui=NONE
-    hi vimwikiItalic   guifg=#f6c663    gui=ITALIC
-    hi htmlItalic      guifg=#f6c663    gui=ITALIC
-    hi markdownItalic  guifg=#f6c663    gui=ITALIC
-    hi vimwikiBold     guifg=#f6c663    gui=BOLD
-    hi htmlBold        guifg=#f6c663    gui=BOLD
-    hi markdownBold    guifg=#f6c663    gui=BOLD
-    " hi CursorLine      guibg=NONE       guifg=NONE
-    hi Title           gui=BOLD
-    hi VimwikiList     guifg=#FE7733
+    hi LineNr             guifg=#565B66
+    hi IncSearch          guibg=#FE7733    guifg=#0F1419
+    hi Directory          guifg=#FE7733
+    hi TabLine            gui=NONE
+    hi vimwikiItalic      guifg=#f6c663    gui=ITALIC
+    hi htmlItalic         guifg=#f6c663    gui=ITALIC
+    hi markdownItalic     guifg=#f6c663    gui=ITALIC
+    hi vimwikiBold        guifg=#f6c663    gui=BOLD
+    hi htmlBold           guifg=#f6c663    gui=BOLD
+    hi markdownBold       guifg=#f6c663    gui=BOLD
+    hi vimwikiItalicBold  guifg=#f6c663    gui=BOLD,ITALIC
+    hi htmlItalicBold     guifg=#f6c663    gui=BOLD,ITALIC
+    hi markdownBoldItalic guifg=#f6c663    gui=BOLD,ITALIC
+    hi Title              gui=BOLD
+    hi VimwikiList        guifg=#FE7733
     set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 endfunction
 
@@ -110,13 +118,16 @@ function! Tty()
     colorscheme slate
     set background=light
     set cursorline
-    hi vimwikiItalic   ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
-    hi htmlItalic      ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
-    hi markdownItalic  ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
-    hi vimwikiBold     ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
-    hi htmlBold        ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
-    hi markdownBold    ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
-    hi Title           ctermfg=9
+    hi vimwikiItalic      ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
+    hi htmlItalic         ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
+    hi markdownItalic     ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
+    hi vimwikiBold        ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
+    hi htmlBold           ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
+    hi markdownBold       ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
+    hi vimwikiItalicBold  ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
+    hi htmlItalicBold     ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
+    hi markdownBoldItalic ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
+    hi Title              ctermfg=9
     set guicursor=n-v-c-sm-i-ci-ve-r-cr-o:block
 endfunction
 
