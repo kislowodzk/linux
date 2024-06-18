@@ -111,6 +111,7 @@ function Ayu()
     hi markdownBoldItalic guifg=#f6c663    gui=BOLD,ITALIC
     hi Title              gui=BOLD
     hi VimwikiList        guifg=#FE7733
+    hi Visual             guibg=#565b66    guifg=#ffffff
     set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 endfunction
 
