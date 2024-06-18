@@ -127,6 +127,11 @@ function! Tty()
     hi vimwikiItalicBold  ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
     hi htmlItalicBold     ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
     hi markdownBoldItalic ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
+    hi SpellBad           ctermbg=13
+    hi SpellCap           ctermbg=13
+    hi SpellLocal         ctermbg=13
+    hi SpellRare          ctermbg=13
+    hi Visual             ctermbg=12
     hi Title              ctermfg=9
     set guicursor=n-v-c-sm-i-ci-ve-r-cr-o:block
 endfunction
