@@ -119,6 +119,7 @@ function! Tty()
     colorscheme slate
     set background=light
     set cursorline
+    hi CursorLine         guibg=NONE       guifg=NONE
     hi vimwikiItalic      ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
     hi htmlItalic         ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
     hi markdownItalic     ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
