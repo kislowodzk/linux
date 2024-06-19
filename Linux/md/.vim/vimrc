@@ -99,9 +99,11 @@ hi TabLineSel       ctermfg=166          ctermbg=236
 hi TabLineFill      ctermbg=0            ctermfg=236
 hi VimwikiList      ctermfg=9
 
-set laststatus=1
+" set laststatus=1
 hi statusline       cterm=bold           ctermfg=252    ctermbg=NONE
 hi statuslineNC     cterm=none           ctermfg=248    ctermbg=NONE
+set laststatus=2
+set statusline=%<%t\ %h%M%r%=\ %p%%\ \ %l:%-3v
 
 " Normal mode
 nnoremap <C-f> gg0vG$
@@ -213,7 +215,7 @@ vnoremap <silent> <leader>ai c**<Esc>Pe
 vnoremap <silent> <leader>au c__<Esc>Pe
 
 nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
-nnoremap <silent> <leader>du ?\_<cr>x/\_<cr>x:noh<cr>
+nnoremap <silent> <leader>du ?_<cr>x/_<cr>x:noh<cr>
 nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 
 nnoremap <leader>vd :set background=dark<cr>

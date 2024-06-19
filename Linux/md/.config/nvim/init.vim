@@ -44,7 +44,7 @@ autocmd BufRead,BufNewFile   *.md set fo=taw nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.wiki set filetype=vimwiki fo=taw nosmartindent autoindent
 set shortmess+=I title mouse=
 set laststatus=2
-set statusline=%<%t\ %h%M%r%=\ %p%%\ \ %l:%-2v
+set statusline=%<%t\ %h%M%r%=\ %p%%\ \ %l:%-3v
 
 syntax on
 set omnifunc=syntaxcomplete#Complete
@@ -64,8 +64,8 @@ function! Gruv()
     hi vimwikiBold        guifg=#f6c663    gui=BOLD
     hi htmlBold           guifg=#f6c663    gui=BOLD
     hi markdownBold       guifg=#f6c663    gui=BOLD
-    hi vimwikiItalicBold  guifg=#f6c663    gui=BOLD,ITALIC
-    hi htmlItalicBold     guifg=#f6c663    gui=BOLD,ITALIC
+    hi vimwikiBoldItalic  guifg=#f6c663    gui=BOLD,ITALIC
+    hi htmlBoldItalic     guifg=#f6c663    gui=BOLD,ITALIC
     hi markdownBoldItalic guifg=#f6c663    gui=BOLD,ITALIC
     hi CursorLine         guibg=NONE       guifg=NONE
     hi! link markdownListMarker GruvboxRedBold
@@ -83,8 +83,8 @@ function! Light()
     hi vimwikiBold        guifg=#af3a03    gui=BOLD
     hi htmlBold           guifg=#af3a03    gui=BOLD
     hi markdownBold       guifg=#af3a03    gui=BOLD
-    hi vimwikiItalicBold  guifg=#af3a03    gui=BOLD,ITALIC
-    hi htmlItalicBold     guifg=#af3a03    gui=BOLD,ITALIC
+    hi vimwikiBoldItalic  guifg=#af3a03    gui=BOLD,ITALIC
+    hi htmlBoldItalic     guifg=#af3a03    gui=BOLD,ITALIC
     hi markdownBoldItalic guifg=#af3a03    gui=BOLD,ITALIC
     hi CursorLine         guibg=NONE       guifg=NONE
     hi Title              guifg=#9d0006
@@ -106,8 +106,8 @@ function Ayu()
     hi vimwikiBold        guifg=#f6c663    gui=BOLD
     hi htmlBold           guifg=#f6c663    gui=BOLD
     hi markdownBold       guifg=#f6c663    gui=BOLD
-    hi vimwikiItalicBold  guifg=#f6c663    gui=BOLD,ITALIC
-    hi htmlItalicBold     guifg=#f6c663    gui=BOLD,ITALIC
+    hi vimwikiBoldItalic  guifg=#f6c663    gui=BOLD,ITALIC
+    hi htmlBoldItalic     guifg=#f6c663    gui=BOLD,ITALIC
     hi markdownBoldItalic guifg=#f6c663    gui=BOLD,ITALIC
     hi Title              gui=BOLD
     hi VimwikiList        guifg=#FE7733
@@ -126,8 +126,8 @@ function! Tty()
     hi vimwikiBold        ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
     hi htmlBold           ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
     hi markdownBold       ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
-    hi vimwikiItalicBold  ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
-    hi htmlItalicBold     ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
+    hi vimwikiBoldItalic  ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
+    hi htmlBoldItalic     ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
     hi markdownBoldItalic ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
     hi SpellBad           ctermbg=13
     hi SpellCap           ctermbg=13
@@ -199,7 +199,8 @@ nnoremap <f10> :setlocal list!<enter>
 let mapleader = " "
 
 nnoremap <leader>sl :set tw=99999<cr>
-nnoremap <leader>ss :set tw=74<cr>
+nnoremap <leader>sn :set tw=74<cr>
+nnoremap <leader>ss :set tw=67<cr>
 nnoremap <leader>sf :set fo=taw nosmartindent autoindent<cr>
 nnoremap <leader>sc :set fo=jcroql smartindent autoindent<cr>
 nnoremap <leader>sF :set fo=ql nosmartindent autoindent<cr>
@@ -224,13 +225,21 @@ nnoremap <silent> <leader>8 8gt
 nnoremap <silent> <leader>9 9gt
 nnoremap <silent> <leader>0 10gt
 
-nnoremap <silent> <CR> :noh<CR>
-nnoremap <silent> <leader>h :noh<CR>
+nnoremap <CR> :noh<CR>
+nnoremap <leader>h :noh<CR>
 
 nnoremap <silent> <leader>ab viwc****<Esc>hPe
 nnoremap <silent> <leader>ai viwc**<Esc>Pe
 nnoremap <silent> <leader>au viwc__<Esc>Pe
 nnoremap <silent> <leader>as 28o<esc>28k$zz
+
+vnoremap <silent> <leader>ab c****<Esc>hPe
+vnoremap <silent> <leader>ai c**<Esc>Pe
+vnoremap <silent> <leader>au c__<Esc>Pe
+
+nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
+nnoremap <silent> <leader>du ?_<cr>x/_<cr>x:noh<cr>
+nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
