@@ -5,6 +5,7 @@ call plug#begin()
     Plug 'morhetz/gruvbox'
     Plug 'ayu-theme/ayu-vim'
     Plug 'mhinz/vim-startify'
+    " Plug 'itchyny/lightline.vim'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'vimwiki/vimwiki'
@@ -44,8 +45,9 @@ autocmd BufRead,BufNewFile   *.md set fo=taw nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.wiki set filetype=vimwiki fo=taw nosmartindent autoindent
 set shortmess+=I title mouse=
 set laststatus=2
-set statusline=%<%t\ %h%M%r%=\ %p%%\ \ %l:%-2v
-
+set statusline=%<%f\ %h%M%r%=\ %p%%\ \ %l:%-2v
+" -7.(%l,%v%)\ %P
+" \ %p%%\ \ %l:\ %2v
 syntax on
 set omnifunc=syntaxcomplete#Complete
 
@@ -245,6 +247,21 @@ nnoremap <leader>vt :call Tty()<cr>
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
 endif
+
+" " Lightline
+" let g:lightline = { 
+" \ 'colorscheme': 'srcery_drk',
+" \ 'active': {
+" \ 'left': [ [ 'mode', 'paste' ], [ 'readonly', 'filename' ] ],
+" \ 'right': [ [ 'lineinfo2' ], [ 'percent' ], [ 'filetype' ] ] },
+" \ 'component': { 'lineinfo2': '%3l:%-2v' },
+" \ 'component_function': { 'filename': 'LightlineFilename' }, }
+
+" function! LightlineFilename()
+"   let filename = expand('%:t') !=# '' ? expand('%:t') : '[No Name]'
+"   let modified = &modified ? ' +' : ''
+"   return filename . modified
+" endfunction
 
 " Fzf
 nnoremap <leader>vo :Colors<cr>
