@@ -103,7 +103,7 @@ hi VimwikiList      ctermfg=9
 hi statusline       cterm=bold           ctermfg=252    ctermbg=NONE
 hi statuslineNC     cterm=none           ctermfg=248    ctermbg=NONE
 set laststatus=2
-set statusline=%<%t\ %h%M%r%=\ %p%%\ \ %l:%-3v
+set statusline=\ %<%t\ %h%M%r%=\ %p%%\ \ %l:%-3v
 
 " Normal mode
 nnoremap <C-f> gg0vG$
