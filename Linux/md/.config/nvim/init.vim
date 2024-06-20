@@ -48,11 +48,10 @@ set statusline=\ %<%t\ %h%M%r%=\ %p%%\ \ %l:%-3v
 syntax on
 set omnifunc=syntaxcomplete#Complete
 
-set termguicolors
-
 " ========================================================================
 " COLORSCHE
 " ========================================================================
+set termguicolors
 colorscheme ayu
 hi LineNr             guifg=#565B66
 hi IncSearch          guibg=#FE7733    guifg=#0F1419    gui=none
