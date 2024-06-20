@@ -44,7 +44,7 @@ autocmd BufRead,BufNewFile   *.md set fo=taw nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.wiki set filetype=vimwiki fo=taw nosmartindent autoindent
 set shortmess+=I title mouse=
 set laststatus=2
-set statusline=%<%t\ %h%M%r%=\ %p%%\ \ %l:%-3v
+set statusline=\ %<%t\ %h%M%r%=\ %p%%\ \ %l:%-3v
 
 syntax on
 set omnifunc=syntaxcomplete#Complete
@@ -119,6 +119,9 @@ function! Tty()
     colorscheme slate
     set background=light
     set cursorline
+    hi LineNr             guifg=#767B86
+    hi MatchParen         guibg=#767B86 guifg=none gui=underline
+    hi Search             guibg=#5f87d7 guifg=#0F1419
     hi CursorLine         guibg=NONE       guifg=NONE
     hi vimwikiItalic      ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
     hi htmlItalic         ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
@@ -200,7 +203,7 @@ let mapleader = " "
 
 nnoremap <leader>sl :set tw=99999<cr>
 nnoremap <leader>sn :set tw=74<cr>
-nnoremap <leader>ss :set tw=67<cr>
+nnoremap <leader>ss :set tw=66<cr>
 nnoremap <leader>sf :set fo=taw nosmartindent autoindent<cr>
 nnoremap <leader>sc :set fo=jcroql smartindent autoindent<cr>
 nnoremap <leader>sF :set fo=ql nosmartindent autoindent<cr>
@@ -225,8 +228,8 @@ nnoremap <silent> <leader>8 8gt
 nnoremap <silent> <leader>9 9gt
 nnoremap <silent> <leader>0 10gt
 
-nnoremap <CR> :noh<CR>
-nnoremap <leader>h :noh<CR>
+nnoremap <silent> <CR> :noh<CR>
+nnoremap <silent> <leader>h :noh<CR>
 
 nnoremap <silent> <leader>ab viwc****<Esc>hPe
 nnoremap <silent> <leader>ai viwc**<Esc>Pe
