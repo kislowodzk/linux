@@ -2,10 +2,7 @@
 " PLUG CALL
 " ========================================================================
 call plug#begin()
-    Plug 'morhetz/gruvbox'
-    Plug 'ayu-theme/ayu-vim'
     Plug 'mhinz/vim-startify'
-    " Plug 'itchyny/lightline.vim'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'vimwiki/vimwiki'
@@ -33,9 +30,6 @@ set encoding=utf-8 fileencoding=utf-8
 set clipboard^=unnamed,unnamedplus
 set noswapfile nobackup
 
-set cursorline colorcolumn=76
-set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
-
 set rnu nu
 set showcmd
 set timeoutlen=1000 ttimeoutlen=1
@@ -45,101 +39,33 @@ autocmd BufRead,BufNewFile   *.md set fo=taw nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.wiki set filetype=vimwiki fo=taw nosmartindent autoindent
 set shortmess+=I title mouse=
 set laststatus=2
-set statusline=%<%f\ %h%M%r%=\ %p%%\ \ %l:%-2v
-" -7.(%l,%v%)\ %P
-" \ %p%%\ \ %l:\ %2v
+set statusline=\ %<%t\ %h%M%r%=\ %p%%\ \ %l:%-3v
+
 syntax on
 set omnifunc=syntaxcomplete#Complete
 
-" ========================================================================
-" COLORSCHEMES
-" ========================================================================
-function! Gruv()
-    set background=dark
-    let g:gruvbox_contrast_dark = 'hard'
-    let g:gruvbox_italic = 1
-    colorscheme gruvbox
-    hi Normal             guibg=#1c1c1c
-    hi vimwikiItalic      guifg=#f6c663    gui=ITALIC
-    hi htmlItalic         guifg=#f6c663    gui=ITALIC
-    hi markdownItalic     guifg=#f6c663    gui=ITALIC
-    hi vimwikiBold        guifg=#f6c663    gui=BOLD
-    hi htmlBold           guifg=#f6c663    gui=BOLD
-    hi markdownBold       guifg=#f6c663    gui=BOLD
-    hi vimwikiItalicBold  guifg=#f6c663    gui=BOLD,ITALIC
-    hi htmlItalicBold     guifg=#f6c663    gui=BOLD,ITALIC
-    hi markdownBoldItalic guifg=#f6c663    gui=BOLD,ITALIC
-    hi CursorLine         guibg=NONE       guifg=NONE
-    hi! link markdownListMarker GruvboxRedBold
-    hi! link markdownOrderedListMarker GruvboxRedBold
-    hi! link VimwikiList GruvboxRedBold
-    set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
-endfunction
+set nocursorline colorcolumn=76
+set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 
-function! Light()
-    set background=light
-    colorscheme morning
-    hi vimwikiItalic      guifg=#af3a03    gui=ITALIC
-    hi htmlItalic         guifg=#af3a03    gui=ITALIC
-    hi markdownItalic     guifg=#af3a03    gui=ITALIC
-    hi vimwikiBold        guifg=#af3a03    gui=BOLD
-    hi htmlBold           guifg=#af3a03    gui=BOLD
-    hi markdownBold       guifg=#af3a03    gui=BOLD
-    hi vimwikiItalicBold  guifg=#af3a03    gui=BOLD,ITALIC
-    hi htmlItalicBold     guifg=#af3a03    gui=BOLD,ITALIC
-    hi markdownBoldItalic guifg=#af3a03    gui=BOLD,ITALIC
-    hi CursorLine         guibg=NONE       guifg=NONE
-    hi Title              guifg=#9d0006
-    hi markdownListMarker                  guifg=#9d0006    gui=BOLD
-    hi markdownOrderedListMarker           guifg=#9d0006    gui=BOLD
-    hi VimwikiList        guifg=#9d0006    gui=BOLD
-    set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
-endfunction
+set notermguicolors
+set t_Co=16
 
-function Ayu()
-    colorscheme ayu
-    hi LineNr             guifg=#565B66
-    hi IncSearch          guibg=#FE7733    guifg=#0F1419
-    hi Directory          guifg=#FE7733
-    hi TabLine            gui=NONE
-    hi vimwikiItalic      guifg=#f6c663    gui=ITALIC
-    hi htmlItalic         guifg=#f6c663    gui=ITALIC
-    hi markdownItalic     guifg=#f6c663    gui=ITALIC
-    hi vimwikiBold        guifg=#f6c663    gui=BOLD
-    hi htmlBold           guifg=#f6c663    gui=BOLD
-    hi markdownBold       guifg=#f6c663    gui=BOLD
-    hi vimwikiItalicBold  guifg=#f6c663    gui=BOLD,ITALIC
-    hi htmlItalicBold     guifg=#f6c663    gui=BOLD,ITALIC
-    hi markdownBoldItalic guifg=#f6c663    gui=BOLD,ITALIC
-    hi Title              gui=BOLD
-    hi VimwikiList        guifg=#FE7733
-    hi Visual             guibg=#565b66    guifg=#ffffff
-    set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
-endfunction
-
-function! Tty()
-    colorscheme slate
-    set background=light
-    set cursorline
-    hi vimwikiItalic      ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
-    hi htmlItalic         ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
-    hi markdownItalic     ctermfg=6  term=ITALIC  guifg=#f6c663  gui=ITALIC
-    hi vimwikiBold        ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
-    hi htmlBold           ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
-    hi markdownBold       ctermfg=3  term=BOLD    guifg=#f6c663  gui=BOLD
-    hi vimwikiItalicBold  ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
-    hi htmlItalicBold     ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
-    hi markdownBoldItalic ctermfg=3 term=BOLD,ITALIC guifg=#f6c663 gui=BOLD,ITALIC
-    hi SpellBad           ctermbg=13
-    hi SpellCap           ctermbg=13
-    hi SpellLocal         ctermbg=13
-    hi SpellRare          ctermbg=13
-    hi Visual             ctermbg=12
-    hi Title              ctermfg=9
-    set guicursor=n-v-c-sm-i-ci-ve-r-cr-o:block
-endfunction
-
-call Ayu()
+hi Title              ctermfg=9
+hi vimwikiItalic      ctermfg=3  cterm=italic
+hi htmlItalic         ctermfg=3  cterm=italic
+hi markdownItalic     ctermfg=3  cterm=italic
+hi vimwikiBold        ctermfg=3  cterm=bold
+hi htmlBold           ctermfg=3  cterm=bold
+hi markdownBold       ctermfg=3  cterm=bold
+hi vimwikiBoldItalic  ctermfg=3  cterm=bold,italic
+hi htmlBoldItalic     ctermfg=3  cterm=bold,italic
+hi markdownBoldItalic ctermfg=3  cterm=bold,italic
+hi Incsearch          ctermbg=15 ctermfg=0 cterm=none
+hi ColorColumn        ctermbg=8
+hi SpellBad           ctermbg=none ctermfg=15 cterm=underline
+hi SpellCap           ctermbg=none ctermfg=15 cterm=underline
+hi SpellLocal         ctermbg=none ctermfg=15 cterm=underline
+hi SpellRare          ctermbg=none ctermfg=15 cterm=underline
 
 " ========================================================================
 " REMAPS
@@ -200,7 +126,8 @@ nnoremap <f10> :setlocal list!<enter>
 let mapleader = " "
 
 nnoremap <leader>sl :set tw=99999<cr>
-nnoremap <leader>ss :set tw=74<cr>
+nnoremap <leader>sn :set tw=74<cr>
+nnoremap <leader>ss :set tw=66<cr>
 nnoremap <leader>sf :set fo=taw nosmartindent autoindent<cr>
 nnoremap <leader>sc :set fo=jcroql smartindent autoindent<cr>
 nnoremap <leader>sF :set fo=ql nosmartindent autoindent<cr>
@@ -233,12 +160,16 @@ nnoremap <silent> <leader>ai viwc**<Esc>Pe
 nnoremap <silent> <leader>au viwc__<Esc>Pe
 nnoremap <silent> <leader>as 28o<esc>28k$zz
 
+vnoremap <silent> <leader>ab c****<Esc>hPe
+vnoremap <silent> <leader>ai c**<Esc>Pe
+vnoremap <silent> <leader>au c__<Esc>Pe
+
+nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
+nnoremap <silent> <leader>du ?_<cr>x/_<cr>x:noh<cr>
+nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
+
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
-nnoremap <leader>va :call Ayu()<cr>
-nnoremap <leader>vg :call Gruv()<cr>
-nnoremap <leader>vl :call Light()<cr>
-nnoremap <leader>vt :call Tty()<cr>
 
 " ========================================================================
 " PLUGIN SETUP
@@ -247,21 +178,6 @@ nnoremap <leader>vt :call Tty()<cr>
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
 endif
-
-" " Lightline
-" let g:lightline = { 
-" \ 'colorscheme': 'srcery_drk',
-" \ 'active': {
-" \ 'left': [ [ 'mode', 'paste' ], [ 'readonly', 'filename' ] ],
-" \ 'right': [ [ 'lineinfo2' ], [ 'percent' ], [ 'filetype' ] ] },
-" \ 'component': { 'lineinfo2': '%3l:%-2v' },
-" \ 'component_function': { 'filename': 'LightlineFilename' }, }
-
-" function! LightlineFilename()
-"   let filename = expand('%:t') !=# '' ? expand('%:t') : '[No Name]'
-"   let modified = &modified ? ' +' : ''
-"   return filename . modified
-" endfunction
 
 " Fzf
 nnoremap <leader>vo :Colors<cr>
