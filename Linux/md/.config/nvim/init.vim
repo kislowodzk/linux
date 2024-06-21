@@ -52,6 +52,7 @@ set omnifunc=syntaxcomplete#Complete
 " COLORSCHE
 " ========================================================================
 set termguicolors
+let ayucolor="mirage" " light/ dark/ mirage
 colorscheme ayu
 hi LineNr             guifg=#565B66
 hi IncSearch          guibg=#FE7733    guifg=#0F1419    gui=none
