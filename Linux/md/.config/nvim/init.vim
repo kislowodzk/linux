@@ -54,23 +54,26 @@ set omnifunc=syntaxcomplete#Complete
 set termguicolors
 let ayucolor="mirage" " light/ dark/ mirage
 colorscheme ayu
-hi LineNr             guifg=#565B66
-hi IncSearch          guibg=#FE7733    guifg=#0F1419    gui=none
-hi Directory          guifg=#FE7733
-hi TabLine            gui=NONE
-hi vimwikiItalic      guifg=#f6c663    gui=ITALIC
-hi htmlItalic         guifg=#f6c663    gui=ITALIC
-hi markdownItalic     guifg=#f6c663    gui=ITALIC
-hi vimwikiBold        guifg=#f6c663    gui=BOLD
-hi htmlBold           guifg=#f6c663    gui=BOLD
-hi markdownBold       guifg=#f6c663    gui=BOLD
-hi vimwikiBoldItalic  guifg=#f6c663    gui=BOLD,ITALIC
-hi htmlBoldItalic     guifg=#f6c663    gui=BOLD,ITALIC
-hi markdownBoldItalic guifg=#f6c663    gui=BOLD,ITALIC
-hi Title              gui=BOLD
-hi VimwikiList        guifg=#FE7733
-hi Visual             guibg=#565b66    guifg=#ffffff
+function! Colours()
+    hi LineNr             guifg=#666B76
+    hi IncSearch          guibg=#FE7733    guifg=#0F1419    gui=none
+    hi Directory          guifg=#FE7733
+    hi TabLine            gui=NONE
+    hi vimwikiItalic      guifg=#f6c663    gui=ITALIC
+    hi htmlItalic         guifg=#f6c663    gui=ITALIC
+    hi markdownItalic     guifg=#f6c663    gui=ITALIC
+    hi vimwikiBold        guifg=#f6c663    gui=BOLD
+    hi htmlBold           guifg=#f6c663    gui=BOLD
+    hi markdownBold       guifg=#f6c663    gui=BOLD
+    hi vimwikiBoldItalic  guifg=#f6c663    gui=BOLD,ITALIC
+    hi htmlBoldItalic     guifg=#f6c663    gui=BOLD,ITALIC
+    hi markdownBoldItalic guifg=#f6c663    gui=BOLD,ITALIC
+    hi Title              gui=BOLD
+    hi VimwikiList        guifg=#FE7733
+    hi Visual             guibg=#565b66    guifg=#ffffff
+endfunction
 
+call Colours()
 " ========================================================================
 " REMAPS
 " ========================================================================
@@ -174,6 +177,8 @@ nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
+nnoremap <leader>vd :let ayucolor="dark"<cr>:colo ayu<cr>:call Colours()<cr>
+nnoremap <leader>vm :let ayucolor="mirage"<cr>:colo ayu<cr>:call Colours()<cr>
 
 " ========================================================================
 " PLUGIN SETUP
