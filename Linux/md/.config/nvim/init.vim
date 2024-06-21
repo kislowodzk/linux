@@ -1,7 +1,7 @@
 " ========================================================================
 " PLUG CALL
 " ========================================================================
-call plug#begin()
+call plug#begin('~/.config/nvim/plugged')
     Plug 'ayu-theme/ayu-vim'
     Plug 'mhinz/vim-startify'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -129,8 +129,8 @@ nnoremap <f10> :setlocal list!<enter>
 let mapleader = " "
 
 nnoremap <leader>sl :set tw=99999<cr>
-nnoremap <leader>sn :set tw=74<cr>
-nnoremap <leader>ss :set tw=66<cr>
+nnoremap <leader>sn :set tw=74 colorcolumn=76<cr>
+nnoremap <leader>ss :set tw=66 colorcolumn=68<cr>
 nnoremap <leader>sf :set fo=taw nosmartindent autoindent<cr>
 nnoremap <leader>sc :set fo=jcroql smartindent autoindent<cr>
 nnoremap <leader>sF :set fo=ql nosmartindent autoindent<cr>
