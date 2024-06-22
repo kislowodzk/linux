@@ -59,8 +59,8 @@ colorscheme ayu
 
 function! Colours()
     hi LineNr             guifg=#666B76
-    hi IncSearch          guibg=#FE7733    guifg=#0F1419    gui=none
-    hi Directory          guifg=#FE7733
+    hi IncSearch          guibg=#FF8436    guifg=#0F1419    gui=none
+    hi Directory          guifg=#FF8436
     hi TabLine            gui=NONE
     hi vimwikiItalic      guifg=#f6c663    gui=ITALIC
     hi htmlItalic         guifg=#f6c663    gui=ITALIC
@@ -72,7 +72,7 @@ function! Colours()
     hi htmlBoldItalic     guifg=#f6c663    gui=BOLD,ITALIC
     hi markdownBoldItalic guifg=#f6c663    gui=BOLD,ITALIC
     hi Title              gui=BOLD
-    hi VimwikiList        guifg=#FE7733
+    hi VimwikiList        guifg=#FF8436
     hi Visual             guibg=#565b66    guifg=#ffffff
     hi ModeMsg            guifg=#FF8436
 endfunction
@@ -123,7 +123,7 @@ vmap > >gv
 
 nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
 nnoremap <f8> :setlocal rnu! nu!<enter>
-set spellcapcheck= spellsuggest=best,13
+set spellcapcheck= spellsuggest=best,12
 nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us,de<enter>
 nnoremap [s [szz
 nnoremap ]s ]szz
