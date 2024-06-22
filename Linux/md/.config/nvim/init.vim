@@ -74,6 +74,7 @@ function! Colours()
     hi Title              gui=BOLD
     hi VimwikiList        guifg=#FE7733
     hi Visual             guibg=#565b66    guifg=#ffffff
+    hi ModeMsg            guifg=#FF8436
 endfunction
 
 call Colours()
