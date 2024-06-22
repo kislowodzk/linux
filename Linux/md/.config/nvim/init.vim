@@ -54,6 +54,9 @@ set omnifunc=syntaxcomplete#Complete
 set termguicolors
 let ayucolor="mirage" " light/ dark/ mirage
 colorscheme ayu
+" Zmiana w ayu.vim
+" let s:palette.keyword   = {'dark': "#FF7733",  'light': "#FF7733",  'mirage': "#FF8E37"}
+
 function! Colours()
     hi LineNr             guifg=#666B76
     hi IncSearch          guibg=#FE7733    guifg=#0F1419    gui=none
