@@ -1,7 +1,7 @@
 " ========================================================================
 " PLUG CALL
 " ========================================================================
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin()
     Plug 'ayu-theme/ayu-vim'
     Plug 'mhinz/vim-startify'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
