@@ -3,6 +3,7 @@
 " ========================================================================
 call plug#begin('~/.config/nvim/plugged')
     Plug 'ayu-theme/ayu-vim'
+    Plug 'gruvbox-community/gruvbox'
     Plug 'mhinz/vim-startify'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
