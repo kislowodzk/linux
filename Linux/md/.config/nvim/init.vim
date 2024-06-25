@@ -57,6 +57,7 @@ let ayucolor="mirage"   " light/ dark/ mirage
 colorscheme ayu         " Zmiana w ayu.vim
                         " let s:palette.keyword   = {'dark': "#FF7733",  'light': "#FF7733",  'mirage': "#FF8E37"}
 function! Colours()
+    set background=dark
     hi LineNr             guifg=#666B76
     hi IncSearch          guibg=#FF8436    guifg=#0F1419    gui=none
     hi Directory          guifg=#FF8436
@@ -74,6 +75,21 @@ function! Colours()
     hi VimwikiList        guifg=#FF8436
     hi Visual             guibg=#565b66    guifg=#ffffff
     hi ModeMsg            guifg=#FF8436
+endfunction
+
+function! Light()
+    colo gruvbox
+    set background=light
+    hi vimwikiItalic      guifg=#427b58    gui=ITALIC
+    hi htmlItalic         guifg=#427b58    gui=ITALIC
+    hi markdownItalic     guifg=#427b58    gui=ITALIC
+    hi vimwikiBold        guifg=#427b58    gui=BOLD
+    hi htmlBold           guifg=#427b58    gui=BOLD
+    hi markdownBold       guifg=#427b58    gui=BOLD
+    hi vimwikiBoldItalic  guifg=#427b58    gui=BOLD,ITALIC
+    hi htmlBoldItalic     guifg=#427b58    gui=BOLD,ITALIC
+    hi markdownBoldItalic guifg=#427b58    gui=BOLD,ITALIC
+    hi VimwikiList        guifg=#9d0006
 endfunction
 
 call Colours()
@@ -183,6 +199,7 @@ nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vd :let ayucolor="dark"<cr>:colo ayu<cr>:call Colours()<cr>
 nnoremap <leader>vm :let ayucolor="mirage"<cr>:colo ayu<cr>:call Colours()<cr>
+nnoremap <leader>vl :call Light()<cr>
 
 " ========================================================================
 " PLUGIN SETUP
