@@ -59,7 +59,7 @@ colorscheme ayu         " Zmiana w ayu.vim
 function! Colours()
     set background=dark
     hi LineNr             guifg=#666B76
-    hi IncSearch          guibg=#FF8436    guifg=#0F1419    gui=none
+    hi IncSearch          guibg=#FF8436    guifg=#0F1419    gui=NONE
     hi Directory          guifg=#FF8436
     hi TabLine            gui=NONE
     hi vimwikiItalic      guifg=#f6c663    gui=ITALIC
@@ -75,6 +75,10 @@ function! Colours()
     hi VimwikiList        guifg=#FF8436
     hi Visual             guibg=#565b66
     hi ModeMsg            guifg=#FF8436
+    hi SpellBad           guifg=NONE       gui=UNDERCURL
+    hi SpellCap           guifg=NONE       gui=UNDERCURL
+    hi SpellLocal         guifg=NONE       gui=UNDERCURL
+    hi SpellRare          guifg=NONE       gui=UNDERCURL
 endfunction
 
 function! Light()
