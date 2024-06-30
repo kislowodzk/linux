@@ -73,7 +73,7 @@ function! Colours()
     hi markdownBoldItalic guifg=#f6c663    gui=BOLD,ITALIC
     hi Title              gui=BOLD
     hi VimwikiList        guifg=#FF8436
-    hi Visual             guibg=#565b66
+    hi Visual             guibg=#607080    guifg=#FFFFFF
     hi ModeMsg            guifg=#FF8436
     hi SpellBad           guifg=NONE       gui=UNDERCURL
     hi SpellCap           guifg=NONE       gui=UNDERCURL
