@@ -56,6 +56,8 @@ set termguicolors
 let ayucolor="mirage"   " light/ dark/ mirage
 colorscheme ayu         " Zmiana w ayu.vim
                         " let s:palette.keyword   = {'dark': "#FF7733",  'light': "#FF7733",  'mirage': "#FF8E37"}
+                        " let s:palette.constant  = {'dark': "#FFEE99",  'light': "#A37ACC",  'mirage': "#FFEE99"}
+
 function! Colours()
     set background=dark
     hi LineNr             guifg=#666B76
