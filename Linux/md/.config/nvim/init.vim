@@ -2,6 +2,7 @@
 " PLUG CALL
 " ========================================================================
 call plug#begin('~/.config/nvim/plugged')
+    Plug 'junegunn/goyo.vim'
     Plug 'ayu-theme/ayu-vim'
     Plug 'gruvbox-community/gruvbox'
     Plug 'mhinz/vim-startify'
@@ -214,6 +215,9 @@ nnoremap <leader>vl :call Light()<cr>
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
 endif
+
+" Goyo
+nnoremap <leader>g :Goyo<cr> :call Colours()<cr>
 
 " Fzf
 nnoremap <leader>vo :Colors<cr>
