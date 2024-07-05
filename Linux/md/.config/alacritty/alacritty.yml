@@ -112,29 +112,8 @@ scrolling:
 # Tylko jeśli Fira Code, to trzeba zmienić odstępy między wierszami, bo
 # się rzeczy sypią
 
-# font:
-#   size: 10.0
-#   normal:
-#     family: Fira Code
-#     style: Regular
-#   bold:
-#     family: Fira Code
-#   italic:
-#     family: Fira Code
-
-
-# font:
-#   size: 10.5
-#   normal:
-#     family: Monaco Nerd Font Mono
-#     style: Regular
-#   bold:
-#     family: Monaco Nerd Font Mono
-#   italic:
-#     family: Monaco Nerd Font Mono
-
 font:
-  size: 12.0
+  size: 15.0
   normal:
     family: Fantasque Sans Mono
     style: Regular
@@ -227,11 +206,6 @@ font:
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
 
-  # Monaco Nerd Font Mono
-  # offset:
-  #   x: 0
-  #   y: 5
-
   # Fantasque Sans Mono
   offset:
     x: 0
@@ -240,9 +214,9 @@ font:
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increasing `x` moves the glyph to the right,
   # increasing `y` moves the glyph upwards.
-  #glyph_offset:
-  #  x: 0
-  #  y: 0
+  # glyph_offset:
+  #   x: 0
+  #   y: 0
 
   # Thin stroke font rendering (macOS only)
   #
@@ -398,8 +372,9 @@ schemes:
       foreground: '#ebdbb2'
 
     cursor:
-      text: '#282828'
-      cursor: '#ebdbb2'
+      text: '#000000'
+      cursor: '#FF8E37'
+      # cursor: '#ebdbb2'
 
     # Normal colors
     normal:
