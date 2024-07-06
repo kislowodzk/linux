@@ -2,7 +2,6 @@
 " PLUG CALL
 " ========================================================================
 call plug#begin('~/.config/nvim/plugged')
-    Plug 'junegunn/goyo.vim'
     Plug 'ayu-theme/ayu-vim'
     Plug 'gruvbox-community/gruvbox'
     Plug 'mhinz/vim-startify'
@@ -213,11 +212,17 @@ nnoremap <leader>vl :call Light()<cr>
 " ========================================================================
 " Remember coursor position
 if has("autocmd")
-  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
+    au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif
 endif
 
-" Goyo
-nnoremap <leader>g :Goyo<cr> :call Colours()<cr>
+" Instead of Goyo
+function CenterPane()
+    lefta vnew
+    wincmd w
+    exec 'vertical resize '. string(&columns * 0.73)
+endfunction
+
+nnoremap <leader>g :call CenterPane()<cr>
 
 " Fzf
 nnoremap <leader>vo :Colors<cr>
