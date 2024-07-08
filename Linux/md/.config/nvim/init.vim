@@ -223,6 +223,7 @@ function CenterPane()
 endfunction
 
 nnoremap <leader>g :call CenterPane()<cr>
+nnoremap <leader>G <c-w>hZQ
 
 " Fzf
 nnoremap <leader>vo :Colors<cr>
