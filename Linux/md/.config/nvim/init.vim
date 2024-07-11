@@ -96,6 +96,13 @@ function! Light()
     hi htmlBoldItalic     guifg=#427b58    gui=BOLD,ITALIC
     hi markdownBoldItalic guifg=#427b58    gui=BOLD,ITALIC
     hi VimwikiList        guifg=#9d0006
+    hi Title              guifg=#9d0006
+    hi! link markdownH1 GruvboxRedBold
+    hi! link markdownH2 GruvboxRedBold
+    hi! link markdownH3 GruvboxRedBold
+    hi! link markdownH4 GruvboxRedBold
+    hi! link markdownH5 GruvboxRedBold
+    hi! link markdownH6 GruvboxRedBold
 endfunction
 
 call Colours()
