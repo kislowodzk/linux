@@ -25,12 +25,13 @@ set wrap linebreak smartindent tw=74
 set backspace=indent,eol,start
 set wildmenu
 
-set display+=lastline scrolloff=9 nojoinspaces
+set display+=lastline scrolloff=15 nojoinspaces
 set splitbelow splitright
 
 set encoding=utf-8 fileencoding=utf-8
 set clipboard^=unnamed,unnamedplus
 set noswapfile nobackup
+set nofoldenable
 
 set cursorline colorcolumn=76
 set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
@@ -52,14 +53,20 @@ set omnifunc=syntaxcomplete#Complete
 " ========================================================================
 " COLORSCHE
 " ========================================================================
+
+" Z jakiegoś powodu to musi być przed funkcją, albo nie działa
+set background=dark
 set termguicolors
 let ayucolor="mirage"   " light/ dark/ mirage
 colorscheme ayu         " Zmiana w ayu.vim
-                        " let s:palette.keyword   = {'dark': "#FF7733",  'light': "#FF7733",  'mirage': "#FF8E37"}
-                        " let s:palette.constant  = {'dark': "#FFEE99",  'light': "#A37ACC",  'mirage': "#FFEE99"}
 
-function! Colours()
+function! Ayu()
     set background=dark
+    set termguicolors
+    let ayucolor="light"   " light/ dark/ mirage
+    colorscheme ayu         " Zmiana w ayu.vim
+                            " let s:palette.keyword   = {'dark': "#FF7733",  'light': "#FF7733",  'mirage': "#FF8E37"}
+                            " let s:palette.constant  = {'dark': "#FFEE99",  'light': "#A37ACC",  'mirage': "#FFEE99"}
     hi LineNr             guifg=#666B76
     hi IncSearch          guibg=#FF8436    guifg=#0F1419    gui=NONE
     hi Directory          guifg=#FF8436
@@ -81,6 +88,8 @@ function! Colours()
     hi SpellCap           guifg=NONE       gui=UNDERCURL
     hi SpellLocal         guifg=NONE       gui=UNDERCURL
     hi SpellRare          guifg=NONE       gui=UNDERCURL
+    hi CursorLine         gui=NONE guibg=NONE guifg=NONE
+    hi CursorLine         cterm=NONE ctermbg=NONE ctermfg=NONE
 endfunction
 
 function! Light()
@@ -103,9 +112,61 @@ function! Light()
     hi! link markdownH4 GruvboxRedBold
     hi! link markdownH5 GruvboxRedBold
     hi! link markdownH6 GruvboxRedBold
+    hi CursorLine gui=NONE guibg=NONE guifg=NONE
+    hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 endfunction
 
-call Colours()
+call Ayu()
+
+function! Default()
+    colorscheme default
+    set background=dark
+    set termguicolors
+    hi LineNr             guifg=#888888
+    hi vimwikiItalic      guifg=#af87af  gui=ITALIC       cterm=italic
+    hi htmlItalic         guifg=#af87af  gui=ITALIC       cterm=italic
+    hi markdownItalic     guifg=#af87af  gui=ITALIC       cterm=italic
+    hi vimwikiBold        guifg=#87afd7  gui=BOLD         cterm=bold
+    hi htmlBold           guifg=#87afd7  gui=BOLD         cterm=bold
+    hi markdownBold       guifg=#87afd7  gui=BOLD         cterm=bold
+    hi vimwikiBoldItalic  guifg=#87afd7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi htmlBoldItalic     guifg=#87afd7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi markdownBoldItalic guifg=#87afd7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi CursorLineNr       gui=none       cterm=none
+    hi CursorLine gui=NONE guibg=NONE guifg=NONE
+    hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
+endfunction
+
+function! Darkblue()
+    colorscheme darkblue
+    set background=dark
+    set termguicolors
+    hi LineNr             guifg=#888888
+    " hi vimwikiItalic      guifg=#f140af  gui=ITALIC       cterm=italic
+    " hi htmlItalic         guifg=#f140af  gui=ITALIC       cterm=italic
+    " hi markdownItalic     guifg=#f140af  gui=ITALIC       cterm=italic
+    hi vimwikiItalic      guifg=#50bb50  gui=ITALIC       cterm=italic
+    hi htmlItalic         guifg=#50bb50  gui=ITALIC       cterm=italic
+    hi markdownItalic     guifg=#50bb50  gui=ITALIC       cterm=italic
+    hi vimwikiBold        guifg=#379fe7  gui=BOLD         cterm=bold
+    hi htmlBold           guifg=#379fe7  gui=BOLD         cterm=bold
+    hi markdownBold       guifg=#379fe7  gui=BOLD         cterm=bold
+    hi vimwikiBoldItalic  guifg=#379fe7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi htmlBoldItalic     guifg=#379fe7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi markdownBoldItalic guifg=#379fe7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi CursorLineNr       gui=none       cterm=none
+    hi ColorColumn        guibg=#001f57
+    hi CursorLine gui=NONE guibg=NONE guifg=NONE
+    hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
+endfunction
+
+let &t_SI = "\e[4 q"
+let &t_EI = "\e[2 q"
+set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor30
+
+hi CursorLine gui=NONE guibg=NONE guifg=NONE
+hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
+
 
 " ========================================================================
 " REMAPS
@@ -138,6 +199,7 @@ noremap <silent> <C-Up> :resize +1<CR>
 noremap <silent> <C-Down> :resize -1<CR>
 
 inoremap <C-j> <CR>- 
+inoremap <C-b> **
 
 inoremap . .<c-g>u
 inoremap - -<c-g>u
@@ -259,6 +321,7 @@ nnoremap <silent> <leader>q :Vex<CR>
 nnoremap <silent> <leader>c :Tagbar<CR>
 " Vimwiki
 let g:vimwiki_global_ext = 0
+let g:vimwiki_folding = ''
 " Startify
 let g:startify_custom_header = [
 \ '              |\__/,|   (`\        _.-|   |          |\__/,|   (`\ ' ,

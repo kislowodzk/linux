@@ -55,7 +55,7 @@ Tab Handling=2
 Tab Width=4
 Trailing Marker Size=1
 Word Wrap=false
-Word Wrap Column=75
+Word Wrap Column=86
 
 [KTextEditor Editor]
 Encoding Prober Type=1
@@ -65,7 +65,7 @@ Fallback Encoding=ISO 8859-15
 Animate Bracket Matching=true
 Auto Color Theme Selection=false
 Color Theme=gruvbox Light
-Font=EB Garamond,14,-1,5,50,0,0,0,0,0
+Font=EB Garamond,13,-1,5,50,0,0,0,0,0
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
 Word Wrap Marker=false
@@ -130,10 +130,15 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-State=AAAA/wAAAAD9AAAAAAAABVYAAAKmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+HDMI-2 Height 1920x1080=1046
+HDMI-2 Width 1920x1080=1244
+HDMI-2 eDP-1 Window-Maximized 1366x768=true
+State=AAAA/wAAAAD9AAAAAAAAAngAAALSAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 eDP-1 Height 1366x768=744
-eDP-1 Width 1366x768=677
+eDP-1 Width 1366x768=680
+eDP-1 XPosition 1366x768=734
+eDP-1 YPosition 1366x768=0
 
 [Printing][HeaderFooter]
 FooterBackground=211,211,211
@@ -178,6 +183,9 @@ kate_mdi_toolview_output=none
 
 [UiSettings]
 ColorScheme=Ciemna Bryza
+
+[filebrowser]
+toolbar actions=back,short view,tree view,forward,bookmarks,sync_dir,configure
 
 [filetree]
 editShade=183,220,246
