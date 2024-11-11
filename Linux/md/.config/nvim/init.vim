@@ -162,15 +162,21 @@ endfunction
 
 let &t_SI = "\e[4 q"
 let &t_EI = "\e[2 q"
-set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor30
+
+highlight Cursor guifg=black guibg=#FFFFFF
+highlight iCursor guifg=black guibg=#FF8436
+
+" set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor30
+set guicursor=n-v-c-sm:block-Cursor
+set guicursor+=i-ci-ve-r-cr-o:block-iCursor
 
 hi CursorLine gui=NONE guibg=NONE guifg=NONE
 hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 
-
 " ========================================================================
 " REMAPS
 " ========================================================================
+nnoremap <C-s> :w<cr>
 nnoremap <C-f> gg0vG$
 nnoremap j gj
 nnoremap k gk
@@ -259,12 +265,22 @@ nnoremap <silent> <leader>h :noh<CR>
 
 nnoremap <silent> <leader>ab viwc****<Esc>hPe
 nnoremap <silent> <leader>ai viwc**<Esc>Pe
+nnoremap <silent> <leader>a" viwc""<Esc>Pe
+nnoremap <silent> <leader>a' viwc''<Esc>Pe
 nnoremap <silent> <leader>au viwc__<Esc>Pe
+nnoremap <silent> <leader>a( viwc()<Esc>Pe
+nnoremap <silent> <leader>a« viwc«»<Esc>Pe
+nnoremap <silent> <leader>a$ viwc$$<Esc>Pe
 nnoremap <silent> <leader>as 28o<esc>28k$zz
 
 vnoremap <silent> <leader>ab c****<Esc>hPe
 vnoremap <silent> <leader>ai c**<Esc>Pe
+vnoremap <silent> <leader>a" c""<Esc>Pe
+vnoremap <silent> <leader>a' c''<Esc>Pe
 vnoremap <silent> <leader>au c__<Esc>Pe
+vnoremap <silent> <leader>a( c()<Esc>Pe
+vnoremap <silent> <leader>a« c«»<Esc>Pe
+vnoremap <silent> <leader>a$ c$$<Esc>Pe
 
 nnoremap <silent> <leader>db ?\*\*<cr>xx/\*\*<cr>xx:noh<cr>
 nnoremap <silent> <leader>du ?_<cr>x/_<cr>x:noh<cr>
