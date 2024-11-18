@@ -88,6 +88,7 @@ function! Ayu()
     hi SpellCap           guifg=NONE       gui=UNDERCURL
     hi SpellLocal         guifg=NONE       gui=UNDERCURL
     hi SpellRare          guifg=NONE       gui=UNDERCURL
+    hi ColorColumn        guibg=#0f0f0f
     hi CursorLine         gui=NONE guibg=NONE guifg=NONE
     hi CursorLine         cterm=NONE ctermbg=NONE ctermfg=NONE
 endfunction
@@ -176,7 +177,7 @@ hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 " ========================================================================
 " REMAPS
 " ========================================================================
-nnoremap <C-s> :w<cr>
+nnoremap <C-s> :wa<cr>
 nnoremap <C-f> gg0vG$
 nnoremap j gj
 nnoremap k gk
@@ -219,7 +220,7 @@ vmap < <gv
 vmap > >gv
 
 nnoremap <f7> :set fileencoding? fileformat? filetype?<enter>
-nnoremap <f8> :setlocal rnu! nu!<enter>
+nnoremap <f8> :set rnu! nu!<enter>
 set spellcapcheck= spellsuggest=best,12
 nnoremap <f9> :setlocal spell! spelllang=pl_pl,en_us,de<enter>
 nnoremap [s [szz
@@ -244,6 +245,7 @@ nnoremap <leader>sk :! xset r rate 330 43<CR>
 nnoremap <leader>se :term sudo loadkeys ~/.keystrings<CR>
 
 nnoremap <silent> <leader>me G{}k$zz
+nnoremap <silent> <leader>mE G{}k$zt
 nnoremap <silent> <leader>tt :tabnew<CR>
 nnoremap <silent> <leader>n :tabnext<cr>
 nnoremap <silent> <leader>p :tabprev<cr>
@@ -269,6 +271,7 @@ nnoremap <silent> <leader>a" viwc""<Esc>Pe
 nnoremap <silent> <leader>a' viwc''<Esc>Pe
 nnoremap <silent> <leader>au viwc__<Esc>Pe
 nnoremap <silent> <leader>a( viwc()<Esc>Pe
+nnoremap <silent> <leader>a[ viwc[]<Esc>Pe
 nnoremap <silent> <leader>a« viwc«»<Esc>Pe
 nnoremap <silent> <leader>a$ viwc$$<Esc>Pe
 nnoremap <silent> <leader>as 28o<esc>28k$zz
@@ -279,6 +282,7 @@ vnoremap <silent> <leader>a" c""<Esc>Pe
 vnoremap <silent> <leader>a' c''<Esc>Pe
 vnoremap <silent> <leader>au c__<Esc>Pe
 vnoremap <silent> <leader>a( c()<Esc>Pe
+vnoremap <silent> <leader>a[ c[]<Esc>Pe
 vnoremap <silent> <leader>a« c«»<Esc>Pe
 vnoremap <silent> <leader>a$ c$$<Esc>Pe
 
