@@ -74,12 +74,12 @@ function! Ayu()
     hi vimwikiItalic      guifg=#f6c663    gui=ITALIC
     hi htmlItalic         guifg=#f6c663    gui=ITALIC
     hi markdownItalic     guifg=#f6c653    gui=ITALIC
-    hi vimwikiBold        guifg=#ffa653    gui=BOLD
-    hi htmlBold           guifg=#ffa653    gui=BOLD
-    hi markdownBold       guifg=#ffa653    gui=BOLD
-    hi vimwikiBoldItalic  guifg=#ffa653    gui=BOLD,ITALIC
-    hi htmlBoldItalic     guifg=#ffa653    gui=BOLD,ITALIC
-    hi markdownBoldItalic guifg=#ffa653    gui=BOLD,ITALIC
+    hi vimwikiBold        guifg=#F07178    gui=BOLD
+    hi htmlBold           guifg=#F07178    gui=BOLD
+    hi markdownBold       guifg=#F07178    gui=BOLD
+    hi vimwikiBoldItalic  guifg=#F07178    gui=BOLD,ITALIC
+    hi htmlBoldItalic     guifg=#F07178    gui=BOLD,ITALIC
+    hi markdownBoldItalic guifg=#F07178    gui=BOLD,ITALIC
     hi Title              gui=BOLD
     hi VimwikiList        guifg=#FF8436
     hi Visual             guibg=#607080    guifg=#FFFFFF
@@ -272,6 +272,7 @@ nnoremap <silent> <leader>a' viwc''<Esc>Pe
 nnoremap <silent> <leader>au viwc__<Esc>Pe
 nnoremap <silent> <leader>a( viwc()<Esc>Pe
 nnoremap <silent> <leader>a[ viwc[]<Esc>Pe
+nnoremap <silent> <leader>a< viwc<><Esc>Pe
 nnoremap <silent> <leader>a« viwc«»<Esc>Pe
 nnoremap <silent> <leader>a$ viwc$$<Esc>Pe
 nnoremap <silent> <leader>as 28o<esc>28k$zz
@@ -283,6 +284,7 @@ vnoremap <silent> <leader>a' c''<Esc>Pe
 vnoremap <silent> <leader>au c__<Esc>Pe
 vnoremap <silent> <leader>a( c()<Esc>Pe
 vnoremap <silent> <leader>a[ c[]<Esc>Pe
+vnoremap <silent> <leader>a< c<><Esc>Pe
 vnoremap <silent> <leader>a« c«»<Esc>Pe
 vnoremap <silent> <leader>a$ c$$<Esc>Pe
 
