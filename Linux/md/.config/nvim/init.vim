@@ -69,6 +69,7 @@ function! Ayu()
                             " let s:palette.constant  = {'dark': "#FFEE99",  'light': "#A37ACC",  'mirage': "#FFEE99"}
     hi LineNr             guifg=#666B76
     hi IncSearch          guibg=#FF8436    guifg=#0F1419    gui=NONE
+    hi Search             guibg=#607080    guifg=#FFFFFF
     hi Directory          guifg=#FF8436
     hi TabLine            gui=NONE
     hi vimwikiItalic      guifg=#f6c663    gui=ITALIC

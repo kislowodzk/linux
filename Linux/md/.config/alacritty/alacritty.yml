@@ -113,98 +113,14 @@ scrolling:
 # się rzeczy sypią
 
 font:
-  size: 15.0
+  size: 12.0
   normal:
-    family: Fantasque Sans Mono
+    family: Monospace
     style: Regular
   bold:
     family: Fantasque Sans Mono
   italic:
     family: Fantasque Sans Mono
-
-
-#   # Normal (roman) font face
-#   normal:
-#     # Font family
-#     #
-#     # Default:
-#     #   - (macOS) Menlo
-#     #   - (Linux/BSD) monospace
-#     #   - (Windows) Consolas
-#     family: Source Code Pro
-#     # family: CodeNewRoman Nerd Font
-#     # family: RobotoMono Nerd Font
-#     # family: Hack
-#     # family: JetBrains Mono
-#     # family: UbuntuMono Nerd Font
-#     # family: Monofur Nerd Font
-#     # family: TerminessTTF Nerd Font
-#     # family: Mononoki Nerd Font
-# 
-#     # The `style` can be specified to pick a specific face.
-#     style: Regular
-# 
-#   # Bold font face
-#   bold:
-#     # Font family
-#     #
-#     # If the bold family is not specified, it will fall back to the
-#     # value specified for the normal font.
-#     family: Source Code Pro
-#     # family: CodeNewRoman Nerd Font
-#     # family: RobotoMono Nerd Font
-#     # family: Hack
-#     # family: JetBrains Mono
-#     # family: UbuntuMono Nerd Font
-#     # family: Monofur Nerd Font
-#     # family: TerminessTTF Nerd Font
-#     # family: Mononoki Nerd Font
-# 
-#     # The `style` can be specified to pick a specific face.
-#     style: Bold
-# 
-#   # Italic font face
-#   italic:
-#     # Font family
-#     #
-#     # If the italic family is not specified, it will fall back to the
-#     # value specified for the normal font.
-#     family: Source Code Pro
-#     # family: CodeNewRoman Nerd Font
-#     # family: RobotoMono Nerd Font
-#     # family: Hack
-#     # family: JetBrains Mono
-#     # family: UbuntuMono Nerd Font
-#     # family: Monofuritalic Nerd Font Mono
-#     # family: TerminessTTF Nerd Font
-#     # family: Mononoki Nerd Font
-# 
-#     # The `style` can be specified to pick a specific face.
-#     style: Italic
-# 
-#   # Bold italic font face
-#   bold_italic:
-#     # Font family
-#     #
-#     # If the bold italic family is not specified, it will fall back to the
-#     # value specified for the normal font.
-#     family: Source Code Pro
-#     # family: CodeNewRoman Nerd Font
-#     # family: RobotoMono Nerd Font
-#     # family: Hack
-#     # family: JetBrains Mono
-#     # family: UbuntuMono Nerd Font
-#     # family: Monofuritalic Nerd Font Mono
-#     # family: TerminessTTF Nerd Font
-#     # family: Mononoki Nerd Font
-# 
-#     # The `style` can be specified to pick a specific face.
-#     style: Bold Italic
-# 
-  # Point size
-
-  # Offset is the extra space around each character. `offset.y` can be thought of
-  # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
 
   # Fantasque Sans Mono
   offset:
