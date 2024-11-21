@@ -207,6 +207,7 @@ noremap <silent> <C-Up> :resize +1<CR>
 noremap <silent> <C-Down> :resize -1<CR>
 
 inoremap <C-j> <CR>- 
+inoremap <A-j> <CR>-
 inoremap <C-b> **
 
 inoremap . .<c-g>u
