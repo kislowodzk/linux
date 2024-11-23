@@ -118,7 +118,7 @@ function! Light()
     hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 endfunction
 
-call Ayu()
+call Light()
 
 function! Default()
     colorscheme default
@@ -165,8 +165,10 @@ endfunction
 let &t_SI = "\e[4 q"
 let &t_EI = "\e[2 q"
 
-highlight Cursor guifg=black guibg=#FFFFFF
-highlight iCursor guifg=black guibg=#FF8436
+" highlight Cursor guifg=black guibg=#FFFFFF
+" highlight iCursor guifg=black guibg=#FF8436
+highlight Cursor guifg=black guibg=#af87af
+highlight iCursor guifg=black guibg=#dd0006
 
 " set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor30
 set guicursor=n-v-c-sm:block-Cursor

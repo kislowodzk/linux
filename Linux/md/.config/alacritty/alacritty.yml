@@ -113,19 +113,19 @@ scrolling:
 # się rzeczy sypią
 
 font:
-  size: 12.0
+  size: 10.0
   normal:
     family: Monospace
     style: Regular
   bold:
-    family: Fantasque Sans Mono
+    family: Monospace
   italic:
-    family: Fantasque Sans Mono
+    family: Monospace
 
   # Fantasque Sans Mono
   offset:
     x: 0
-    y: 3
+    y: 2
 
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increasing `x` moves the glyph to the right,
@@ -480,7 +480,8 @@ schemes:
     # Cursor colors
     cursor:
       text:   '#fdf6e3' # base3
-      cursor: '#657b83' # base00
+      # cursor: '#657b83' # base00
+      cursor: '#000000' # base00
 
     # Normal colors
     normal:
@@ -554,7 +555,7 @@ schemes:
 # *SolarizedDark
 # *TomorrowNight
 
-colors: *GruvboxDarker
+colors: *SolarizedLight
 
 
 #######################################
