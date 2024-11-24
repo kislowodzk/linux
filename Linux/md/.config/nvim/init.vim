@@ -102,12 +102,12 @@ function! Light()
     hi vimwikiItalic      guifg=#427b58    gui=ITALIC
     hi htmlItalic         guifg=#427b58    gui=ITALIC
     hi markdownItalic     guifg=#427b58    gui=ITALIC
-    hi vimwikiBold        guifg=#427b58    gui=BOLD
-    hi htmlBold           guifg=#427b58    gui=BOLD
-    hi markdownBold       guifg=#427b58    gui=BOLD
-    hi vimwikiBoldItalic  guifg=#427b58    gui=BOLD,ITALIC
-    hi htmlBoldItalic     guifg=#427b58    gui=BOLD,ITALIC
-    hi markdownBoldItalic guifg=#427b58    gui=BOLD,ITALIC
+    hi vimwikiBold        guifg=#8f3f71    gui=BOLD
+    hi htmlBold           guifg=#8f3f71    gui=BOLD
+    hi markdownBold       guifg=#8f3f71    gui=BOLD
+    hi vimwikiBoldItalic  guifg=#8f3f71    gui=BOLD,ITALIC
+    hi htmlBoldItalic     guifg=#8f3f71    gui=BOLD,ITALIC
+    hi markdownBoldItalic guifg=#8f3f71    gui=BOLD,ITALIC
     hi VimwikiList        guifg=#9d0006
     hi Title              guifg=#9d0006
     hi! link markdownH1 GruvboxRedBold
