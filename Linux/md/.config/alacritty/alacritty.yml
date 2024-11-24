@@ -474,7 +474,8 @@ schemes:
   SolarizedLight: &SolarizedLight
     # Default colors
     primary:
-      background: '#fdf6e3' # base3
+      # background: '#fdf6e3' # base3
+      background: '#FBF1C7'
       foreground: '#657b83' # base00
 
     # Cursor colors

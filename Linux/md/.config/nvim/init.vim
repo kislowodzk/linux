@@ -92,6 +92,8 @@ function! Ayu()
     hi ColorColumn        guibg=#0f0f0f
     hi CursorLine         gui=NONE guibg=NONE guifg=NONE
     hi CursorLine         cterm=NONE ctermbg=NONE ctermfg=NONE
+    highlight vCursor guifg=black guibg=#FFFFFF
+    highlight iCursor guifg=black guibg=#FF8436
 endfunction
 
 function! Light()
@@ -116,6 +118,8 @@ function! Light()
     hi! link markdownH6 GruvboxRedBold
     hi CursorLine gui=NONE guibg=NONE guifg=NONE
     hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
+    highlight vCursor guibg=#526b58
+    highlight iCursor guifg=black guibg=#dd0006
 endfunction
 
 call Light()
@@ -165,13 +169,8 @@ endfunction
 let &t_SI = "\e[4 q"
 let &t_EI = "\e[2 q"
 
-" highlight Cursor guifg=black guibg=#FFFFFF
-" highlight iCursor guifg=black guibg=#FF8436
-highlight Cursor guifg=black guibg=#af87af
-highlight iCursor guifg=black guibg=#dd0006
-
 " set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor30
-set guicursor=n-v-c-sm:block-Cursor
+set guicursor=n-v-c-sm:block-vCursor
 set guicursor+=i-ci-ve-r-cr-o:block-iCursor
 
 hi CursorLine gui=NONE guibg=NONE guifg=NONE
