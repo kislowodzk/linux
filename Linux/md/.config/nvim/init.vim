@@ -118,8 +118,8 @@ function! Light()
     hi! link markdownH6 GruvboxRedBold
     hi CursorLine gui=NONE guibg=NONE guifg=NONE
     hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
-    highlight vCursor guibg=#526b58
-    highlight iCursor guifg=black guibg=#dd0006
+    highlight vCursor guibg=#526b58 guifg=#FFFFFF
+    highlight iCursor guifg=black guibg=#bd0006
 endfunction
 
 call Light()
