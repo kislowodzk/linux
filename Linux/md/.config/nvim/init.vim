@@ -25,7 +25,7 @@ set wrap linebreak smartindent tw=74
 set backspace=indent,eol,start
 set wildmenu
 
-set display+=lastline scrolloff=15 nojoinspaces
+set display+=lastline scrolloff=12 nojoinspaces
 set splitbelow splitright
 
 set encoding=utf-8 fileencoding=utf-8
