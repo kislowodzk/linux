@@ -179,6 +179,7 @@ hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 " ========================================================================
 " REMAPS
 " ========================================================================
+inoremap <C-s> <esc>:wa<cr>
 nnoremap <C-s> :wa<cr>
 nnoremap <C-f> gg0vG$
 nnoremap j gj
