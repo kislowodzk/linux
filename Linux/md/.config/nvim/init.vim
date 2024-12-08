@@ -4,6 +4,7 @@
 call plug#begin('~/.config/nvim/plugged')
     Plug 'ayu-theme/ayu-vim'
     Plug 'gruvbox-community/gruvbox'
+    Plug 'chriskempson/base16-vim'
     Plug 'mhinz/vim-startify'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -161,9 +162,12 @@ function! Darkblue()
     hi htmlBoldItalic     guifg=#379fe7  gui=BOLD,ITALIC  cterm=bold,italic
     hi markdownBoldItalic guifg=#379fe7  gui=BOLD,ITALIC  cterm=bold,italic
     hi CursorLineNr       gui=none       cterm=none
-    hi ColorColumn        guibg=#001f57
+    " hi ColorColumn        guibg=#001f57
+    hi ColorColumn        guibg=#808080
     hi CursorLine gui=NONE guibg=NONE guifg=NONE
     hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
+    highlight vCursor guifg=black guibg=#FFFFFF
+    highlight iCursor guifg=black guibg=#FF8436
 endfunction
 
 let &t_SI = "\e[4 q"
