@@ -193,8 +193,32 @@ function! Grayscale()
     highlight iCursor guifg=black guibg=#f7f7f7
 endfunction
 
+function! Nord()
+    colorscheme base16-nord
+    set termguicolors
+    hi LineNr             guifg=#888888
+    hi vimwikiItalic      guifg=#af87af  gui=ITALIC       cterm=italic
+    hi htmlItalic         guifg=#af87af  gui=ITALIC       cterm=italic
+    hi markdownItalic     guifg=#af87af  gui=ITALIC       cterm=italic
+    hi vimwikiBold        guifg=#87afd7  gui=BOLD         cterm=bold
+    hi htmlBold           guifg=#87afd7  gui=BOLD         cterm=bold
+    hi markdownBold       guifg=#87afd7  gui=BOLD         cterm=bold
+    hi vimwikiBoldItalic  guifg=#87afd7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi htmlBoldItalic     guifg=#87afd7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi markdownBoldItalic guifg=#87afd7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi CursorLineNr       gui=none       cterm=none
+    hi Title              gui=bold
+    " hi CursorLine gui=NONE guibg=NONE guifg=NONE
+    " hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
+    " hi IncSearch          guibg=#f7f7f7  gui=NONE
+    " hi Search             guibg=#686868
+    " hi VimwikiList        guifg=#f7f7f7
+    " hi Statement          guifg=#c0c0c0
+    highlight vCursor guifg=black guibg=#a0a0a0
+    highlight iCursor guifg=black guibg=#f7f7f7
+endfunction
 
-call Grayscale()
+call Nord()
 
 let &t_SI = "\e[4 q"
 let &t_EI = "\e[2 q"
