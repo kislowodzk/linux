@@ -123,7 +123,6 @@ function! Light()
     highlight iCursor guifg=black guibg=#bd0006
 endfunction
 
-call Light()
 
 function! Default()
     colorscheme default
@@ -170,6 +169,33 @@ function! Darkblue()
     highlight iCursor guifg=black guibg=#FF8436
 endfunction
 
+function! Grayscale()
+    colorscheme base16-grayscale-dark
+    set termguicolors
+    hi vimwikiItalic      guifg=#f7f7f7  gui=ITALIC       cterm=italic
+    hi htmlItalic         guifg=#f7f7f7  gui=ITALIC       cterm=italic
+    hi markdownItalic     guifg=#f7f7f7  gui=ITALIC       cterm=italic
+    hi vimwikiBold        guifg=#f7f7f7  gui=BOLD         cterm=bold
+    hi htmlBold           guifg=#f7f7f7  gui=BOLD         cterm=bold
+    hi markdownBold       guifg=#f7f7f7  gui=BOLD         cterm=bold
+    hi vimwikiBoldItalic  guifg=#f7f7f7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi htmlBoldItalic     guifg=#f7f7f7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi markdownBoldItalic guifg=#f7f7f7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi CursorLineNr       gui=none       cterm=none
+    hi Title              gui=underline,bold
+    " hi CursorLine gui=NONE guibg=NONE guifg=NONE
+    " hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi IncSearch          guibg=#f7f7f7  gui=NONE
+    hi Search             guibg=#686868
+    hi VimwikiList        guifg=#f7f7f7
+    hi Statement          guifg=#c0c0c0
+    highlight vCursor guifg=black guibg=#a0a0a0
+    highlight iCursor guifg=black guibg=#f7f7f7
+endfunction
+
+
+call Grayscale()
+
 let &t_SI = "\e[4 q"
 let &t_EI = "\e[2 q"
 
@@ -177,8 +203,8 @@ let &t_EI = "\e[2 q"
 set guicursor=n-v-c-sm:block-vCursor
 set guicursor+=i-ci-ve-r-cr-o:block-iCursor
 
-hi CursorLine gui=NONE guibg=NONE guifg=NONE
-hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
+" hi CursorLine gui=NONE guibg=NONE guifg=NONE
+" hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
 
 " ========================================================================
 " REMAPS
