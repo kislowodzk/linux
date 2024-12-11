@@ -44,7 +44,7 @@ set fo=jcroql
 autocmd BufRead,BufNewFile   *.txt set fo=taw nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=taw nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.wiki set filetype=vimwiki fo=taw nosmartindent autoindent
-set shortmess+=I title mouse=
+set shortmess+=I title mouse=a
 set laststatus=2
 set statusline=\ %<%t\ %h%M%r%=\ %p%%\ \ %l:%-3v
 
@@ -208,12 +208,8 @@ function! Nord()
     hi markdownBoldItalic guifg=#87afd7  gui=BOLD,ITALIC  cterm=bold,italic
     hi CursorLineNr       gui=none       cterm=none
     hi Title              gui=bold
-    " hi CursorLine gui=NONE guibg=NONE guifg=NONE
-    " hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
-    " hi IncSearch          guibg=#f7f7f7  gui=NONE
-    " hi Search             guibg=#686868
-    " hi VimwikiList        guifg=#f7f7f7
-    " hi Statement          guifg=#c0c0c0
+    hi Comment            guifg=#686868
+    hi IncSearch          guibg=#f7f7f7  gui=NONE
     highlight vCursor guifg=black guibg=#a0a0a0
     highlight iCursor guifg=black guibg=#f7f7f7
 endfunction
