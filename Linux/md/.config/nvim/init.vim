@@ -79,9 +79,6 @@ function! Darkblue()
     set background=dark
     set termguicolors
     hi LineNr             guifg=#888888
-    " hi vimwikiItalic      guifg=#f140af  gui=ITALIC       cterm=italic
-    " hi htmlItalic         guifg=#f140af  gui=ITALIC       cterm=italic
-    " hi markdownItalic     guifg=#f140af  gui=ITALIC       cterm=italic
     hi vimwikiItalic      guifg=#50bb50  gui=ITALIC       cterm=italic
     hi htmlItalic         guifg=#50bb50  gui=ITALIC       cterm=italic
     hi markdownItalic     guifg=#50bb50  gui=ITALIC       cterm=italic
@@ -92,7 +89,6 @@ function! Darkblue()
     hi htmlBoldItalic     guifg=#379fe7  gui=BOLD,ITALIC  cterm=bold,italic
     hi markdownBoldItalic guifg=#379fe7  gui=BOLD,ITALIC  cterm=bold,italic
     hi CursorLineNr       gui=none       cterm=none
-    " hi ColorColumn        guibg=#001f57
     hi ColorColumn        guibg=#808080
     hi CursorLine gui=NONE guibg=NONE guifg=NONE
     hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
@@ -104,9 +100,9 @@ function! Nord()
     colorscheme base16-nord
     set termguicolors
     hi LineNr             guifg=#888888
-    hi vimwikiItalic      guifg=#af87af  gui=ITALIC       cterm=italic
-    hi htmlItalic         guifg=#af87af  gui=ITALIC       cterm=italic
-    hi markdownItalic     guifg=#af87af  gui=ITALIC       cterm=italic
+    hi vimwikiItalic      guifg=#ef87af  gui=ITALIC       cterm=italic
+    hi htmlItalic         guifg=#ef87af  gui=ITALIC       cterm=italic
+    hi markdownItalic     guifg=#ef87af  gui=ITALIC       cterm=italic
     hi vimwikiBold        guifg=#87afd7  gui=BOLD         cterm=bold
     hi htmlBold           guifg=#87afd7  gui=BOLD         cterm=bold
     hi markdownBold       guifg=#87afd7  gui=BOLD         cterm=bold
@@ -117,16 +113,16 @@ function! Nord()
     hi Title              gui=bold
     hi Comment            guifg=#686868
     hi IncSearch          guibg=#f7f7f7  gui=NONE
-    highlight vCursor guifg=#000000 guibg=#a0a0a0
-    highlight iCursor guifg=#000000 guibg=#f7f7f7
+    highlight vCursor     guibg=#b0b0b0
+    highlight iCursor     guibg=#f7f7f7
 endfunction
 
 call Nord()
 
-let &t_SI = "\e[4 q"
-let &t_EI = "\e[2 q"
-
+" let &t_SI = "\e[4 q"
+" let &t_EI = "\e[2 q"
 " set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor30
+
 set guicursor=n-v-c-sm:block-vCursor
 set guicursor+=i-ci-ve-r-cr-o:block-iCursor
 
@@ -136,6 +132,7 @@ set guicursor+=i-ci-ve-r-cr-o:block-iCursor
 " ========================================================================
 " REMAPS
 " ========================================================================
+inoremap <esc> <esc><c-l>
 inoremap <C-s> <esc>:wa<cr>
 nnoremap <C-s> :wa<cr>
 nnoremap <C-f> gg0vG$
