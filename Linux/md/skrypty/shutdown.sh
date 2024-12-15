@@ -11,3 +11,5 @@ case $doit in
   *) echo "W klawisz nie umiesz trafic?" ;; 
 esac
 
+
+

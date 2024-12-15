@@ -22,7 +22,7 @@ alias ZQ=exit
 alias cls=clear
 alias c.='cd ..'
 alias v=nvim -p
-alias td='nvim ~/Dokumenty/Notatki/ToDo.md'
+alias td='nvim ~/vimwiki/index.wiki'
 
 alias s='ranger ~/1-STUDIA/2_Rok/Semestr_4/'
 alias ra=ranger
@@ -52,6 +52,11 @@ alias o=xdg-open
 alias kal='ncal -A1 -B1'
 alias clock='tty-clock -c -C 3'
 alias clocks='tty-clock -s -c -C 3'
+alias bat='cat /sys/class/power_supply/BAT0/capacity'
+alias bateria='cat /sys/class/power_supply/BAT0/capacity'
+alias bat1='system76-power profile battery'
+alias bat2='system76-power profile balanced'
+alias bat3='system76-power profile performance'
 
 alias re='clear; ~/skrypty/gif.sh'
 
@@ -59,7 +64,10 @@ alias pai='pandoc -V geometry:margin=1in'    # pandoc z dobrymi marginesami, po 
 alias pa='pandoc -V geometry:margin=1in -V linestretch=1.5'
 alias pa12='pandoc -V geometry:margin=1in -V linestretch=1.5 -V fontsize=12pt'
 alias pan='pandoc -V geometry:margin=1in -V linestretch=1.2 -V fontsize=11pt'
+alias paw='pandoc -f vimwiki'
+alias paw12='pandoc -V geometry:margin=1in -V linestretch=1.5 -V fontsize=12pt -f vimwiki'
 
+alias konwersja='echo ffmpeg -i input.wav -vn -ar 44100 -ac 2 -b:a 192k output.mp3'
 alias kompresja='echo gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -sOutputFile=output.pdf input.pdf'
 
 alias m='mpv'
@@ -70,6 +78,8 @@ alias stream=streamlink
 alias ckitty='nvim ~/.config/kitty/kitty.conf'
 alias calacritty='nvim ~/.config/alacritty/alacritty.yml'
 alias cnvim='nvim ~/.config/nvim/init.vim'
+alias cvim='nvim ~/.vim/vimrc'
+alias cim='nvim ~/.vim/vimrc'
 alias ci3='nvim ~/.config/i3/config'
 alias cpolybar='nvim ~/.config/i3/polybar/themes/modules/modules_gruv.ini'
 
@@ -78,6 +88,7 @@ alias wave=cava
 # FZF
 alias vimf='nvim $(fzf --exact --layout=reverse --height 40%)'
 alias vf='nvim $(fzf --exact --layout=reverse --height 40%)'
+alias of='xdg-open $(fzf --exact --layout=reverse --height 40%)'
 alias nvimf='nvim $(fzf --exact --layout=reverse --height 40%)'
 alias nvf='nvim $(fzf --exact --layout=reverse --height 40%)'
 alias fzf='fzf --exact --layout=reverse --height 40%'
@@ -104,7 +115,16 @@ alias br='sudo brightnessctl s'
 alias brightness='sudo brightnessctl s'
 
 alias b0='sudo brightnessctl s 1%'
+alias b02='sudo brightnessctl s 2%'
+alias b03='sudo brightnessctl s 3%'
+alias b04='sudo brightnessctl s 4%'
+alias b05='sudo brightnessctl s 5%'
+alias b06='sudo brightnessctl s 6%'
+alias b07='sudo brightnessctl s 7%'
+alias b08='sudo brightnessctl s 8%'
+alias b09='sudo brightnessctl s 9%'
 alias b1='sudo brightnessctl s 10%'
+alias b15='sudo brightnessctl s 15%'
 alias b2='sudo brightnessctl s 20%'
 alias b3='sudo brightnessctl s 30%'
 alias b4='sudo brightnessctl s 40%'
@@ -125,10 +145,21 @@ alias a=trans
 
 alias z=zathura
 
-alias word='cp /home/md/skrypty/Wzor.docx .; mv Wzor.docx'
+alias ttyesc='sudo loadkeys ~/.keystrings'
+alias ttyfont='sudo dpkg-reconfigure console-setup'
+alias ttysleep='systemctl suspend -i'
+
+alias sans='cp /home/md/skrypty/Wzor_Sans.docx .; mv Wzor_Sans.docx'
+alias serif='cp /home/md/skrypty/Wzor_Serif.docx .; mv Wzor_Serif.docx'
+alias word='cp /home/md/skrypty/Wzor_Serif.docx .; mv Wzor_Serif.docx'
+
+alias reset_gnome='sudo killall -1 gnome-shell'
+alias gnome_reset='sudo killall -1 gnome-shell'
 
 # Żeby działał neovide
 export PATH=$PATH:/home/md/.cargo/bin
 
 alias termdown='/home/md/.local/bin/termdown'
+
+alias glow='~/glow/glow'
 
