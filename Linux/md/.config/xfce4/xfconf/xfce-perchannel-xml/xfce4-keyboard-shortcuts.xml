@@ -68,6 +68,7 @@
       <property name="&lt;Super&gt;a" type="string" value="xfce4-appfinder">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
+      <property name="&lt;Super&gt;c" type="string" value="/home/md/skrypty/kalkulator.sh"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

@@ -1,10 +1,6 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/md/Pulpit/Hegel_faith_and_knowledge.pdf]
-row=2
-col=0
-
 [/home/md/Pulpit/Artykul_Gadi_konserwatyzm]
 row=6
 col=12
@@ -52,10 +48,6 @@ col=10
 [/home/md/Pulpit/Czytanie_FD]
 row=0
 col=12
-
-[/home/md/Pulpit/Hegel - Faith and Knowledge (English and German Edition) (1977).djvu]
-row=1
-col=0
 
 [/home/md/Pulpit/Ogólne_naukowe]
 row=3
@@ -108,4 +100,8 @@ col=6
 [/home/md/Pulpit/Oxana Timofeeva_ Slavoj Žižek - The History of Animals_ A Philosophy-Bloomsbury Academic (2018).pdf]
 row=5
 col=5
+
+[/home/md/Pulpit/fiszki1.txt]
+row=3
+col=0
 
