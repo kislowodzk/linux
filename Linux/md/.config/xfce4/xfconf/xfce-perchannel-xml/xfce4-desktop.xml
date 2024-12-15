@@ -5,9 +5,16 @@
     <property name="screen0" type="empty">
       <property name="monitoreDP-1" type="empty">
         <property name="workspace0" type="empty">
-          <property name="color-style" type="int" value="3"/>
-          <property name="image-style" type="int" value="3"/>
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="0"/>
           <property name="last-image" type="string" value="/home/md/tapeta95/Waves.png"/>
+          <property name="backdrop-cycle-enable" type="bool" value="false"/>
+          <property name="rgba1" type="array">
+            <value type="double" value="0.000000"/>
+            <value type="double" value="0.501961"/>
+            <value type="double" value="0.505882"/>
+            <value type="double" value="1.000000"/>
+          </property>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -55,6 +62,31 @@
           <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-verticals.png"/>
         </property>
         <property name="workspace10" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-verticals.png"/>
+        </property>
+        <property name="workspace11" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-verticals.png"/>
+        </property>
+        <property name="workspace12" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-verticals.png"/>
+        </property>
+        <property name="workspace13" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-verticals.png"/>
+        </property>
+        <property name="workspace14" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-verticals.png"/>
+        </property>
+        <property name="workspace15" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
           <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-verticals.png"/>
@@ -121,5 +153,6 @@
       <property name="show-removable" type="bool" value="false"/>
     </property>
     <property name="icon-size" type="uint" value="46"/>
+    <property name="show-thumbnails" type="bool" value="false"/>
   </property>
 </channel>

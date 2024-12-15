@@ -254,10 +254,6 @@ To make the newly saved template in the Writer location your default template, F
 - 1.5 lines
 - below paragraph -- 0.35 cm
 
-
-
-
-
 # Gnome desktop -- pop os
 
 sudo apt install gnome-tweaks

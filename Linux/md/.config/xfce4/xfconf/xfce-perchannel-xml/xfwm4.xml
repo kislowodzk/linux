@@ -93,6 +93,11 @@
       <value type="string" value="Obszar roboczy 9"/>
       <value type="string" value="Obszar roboczy 10"/>
       <value type="string" value="Obszar roboczy 11"/>
+      <value type="string" value="Obszar roboczy 12"/>
+      <value type="string" value="Obszar roboczy 13"/>
+      <value type="string" value="Obszar roboczy 14"/>
+      <value type="string" value="Obszar roboczy 15"/>
+      <value type="string" value="Obszar roboczy 16"/>
     </property>
   </property>
 </channel>
