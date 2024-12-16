@@ -69,6 +69,7 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Super&gt;c" type="string" value="/home/md/skrypty/kalkulator.sh"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;b" type="string" value="flatpak run com.brave.Browser"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
