@@ -92,7 +92,7 @@ function! Darkblue()
     hi ColorColumn        guibg=#808080
     hi CursorLine gui=NONE guibg=NONE guifg=NONE
     hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
-    highlight vCursor guifg=black guibg=#a0a0a0
+    highlight vCursor guifg=black guibg=#b0b0b0
     highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
@@ -113,8 +113,8 @@ function! Nord()
     hi Title              gui=bold
     hi Comment            guifg=#686868
     hi IncSearch          guibg=#f7f7f7  gui=NONE
-    highlight vCursor     guibg=#b0b0b0
-    highlight iCursor     guibg=#f7f7f7
+    highlight vCursor guifg=black guibg=#b0b0b0
+    highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
 call Nord()
