@@ -71,7 +71,8 @@ function! Default()
     hi markdownBoldItalic guifg=#87afd7  gui=BOLD,ITALIC  cterm=bold,italic
     hi CursorLineNr       gui=none       cterm=none
     hi CursorLine gui=NONE guibg=NONE guifg=NONE
-    hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
+    highlight vCursor guifg=black guibg=#b0b0b0
+    highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
 function! Darkblue()
@@ -89,11 +90,22 @@ function! Darkblue()
     hi htmlBoldItalic     guifg=#379fe7  gui=BOLD,ITALIC  cterm=bold,italic
     hi markdownBoldItalic guifg=#379fe7  gui=BOLD,ITALIC  cterm=bold,italic
     hi CursorLineNr       gui=none       cterm=none
-    hi ColorColumn        guibg=#808080
-    hi CursorLine gui=NONE guibg=NONE guifg=NONE
-    hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi ColorColumn        guibg=#02025b
+    hi CursorLine         gui=NONE guibg=#02025b
     highlight vCursor guifg=black guibg=#b0b0b0
     highlight iCursor guifg=black guibg=#FFFFFF
+endfunction
+
+function! Console()
+    call Darkblue()
+    set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor30
+endfunction
+
+function! Transparent()
+    call Nord()
+    hi ColorColumn        guibg=none
+    hi CursorLine         gui=NONE guibg=none
+    hi Normal             guibg=none
 endfunction
 
 function! Nord()
@@ -113,6 +125,8 @@ function! Nord()
     hi Title              gui=bold
     hi Comment            guifg=#686868
     hi IncSearch          guibg=#f7f7f7  gui=NONE
+    set guicursor=n-v-c-sm:block-vCursor
+    set guicursor+=i-ci-ve-r-cr-o:block-iCursor
     highlight vCursor guifg=black guibg=#b0b0b0
     highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
@@ -252,9 +266,10 @@ nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
-nnoremap <leader>vd :let ayucolor="dark"<cr>:colo ayu<cr>:call Colours()<cr>
-nnoremap <leader>vm :let ayucolor="mirage"<cr>:colo ayu<cr>:call Colours()<cr>
-nnoremap <leader>vl :call Light()<cr>
+nnoremap <leader>vc :call Console()<cr>
+nnoremap <leader>vn :call Nord()<cr>
+nnoremap <leader>vd :call Default()<cr>
+nnoremap <leader>vt :call Transparent()<cr>
 
 " ========================================================================
 " PLUGIN SETUP
