@@ -46,7 +46,6 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="string" value="thunar"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
-      <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="xfce4-taskmanager"/>
       <property name="&lt;Super&gt;e" type="string" value="thunar"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="string" value="xkill"/>
@@ -70,6 +69,13 @@
       </property>
       <property name="&lt;Super&gt;c" type="string" value="/home/md/skrypty/kalkulator.sh"/>
       <property name="&lt;Primary&gt;&lt;Super&gt;b" type="string" value="flatpak run com.brave.Browser"/>
+      <property name="&lt;Super&gt;bracketright" type="string" value="amixer -D pulse set Master 5%+"/>
+      <property name="&lt;Super&gt;bracketleft" type="string" value="amixer -D pulse set Master 5%-"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;p" type="string" value="dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;braceright" type="string" value="dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;braceleft" type="string" value="dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"/>
+      <property name="&lt;Super&gt;o" type="string" value="xfce4-display-settings --minimal"/>
+      <property name="&lt;Super&gt;p" type="string" value="amixer -D pulse set Master toggle"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

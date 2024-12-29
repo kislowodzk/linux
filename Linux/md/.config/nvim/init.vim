@@ -108,6 +108,24 @@ function! Transparent()
     hi Normal             guibg=none
 endfunction
 
+function! Light()
+    colorscheme morning
+    set guicursor=n-v-c-sm:block-vCursor
+    set guicursor+=i-ci-ve-r-cr-o:block-iCursor
+    highlight vCursor guifg=black guibg=#87aff7
+    highlight iCursor guifg=black guibg=#ef87af
+    hi LineNr             guifg=#888888
+    hi vimwikiItalic      guifg=#ef2505 gui=ITALIC       cterm=italic
+    hi htmlItalic         guifg=#ef2505  gui=ITALIC       cterm=italic
+    hi markdownItalic     guifg=#ef2505  gui=ITALIC       cterm=italic
+    hi vimwikiBold        guifg=#873fd7  gui=BOLD         cterm=bold
+    hi htmlBold           guifg=#873fd7  gui=BOLD         cterm=bold
+    hi markdownBold       guifg=#873fd7  gui=BOLD         cterm=bold
+    hi vimwikiBoldItalic  guifg=#873fd7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi htmlBoldItalic     guifg=#873fd7  gui=BOLD,ITALIC  cterm=bold,italic
+    hi markdownBoldItalic guifg=#873fd7  gui=BOLD,ITALIC  cterm=bold,italic
+endfunction
+
 function! Nord()
     colorscheme base16-nord
     set termguicolors
@@ -268,6 +286,7 @@ nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vc :call Console()<cr>
 nnoremap <leader>vn :call Nord()<cr>
+nnoremap <leader>vl :call Light()<cr>
 nnoremap <leader>vd :call Default()<cr>
 nnoremap <leader>vt :call Transparent()<cr>
 
