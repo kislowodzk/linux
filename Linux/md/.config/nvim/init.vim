@@ -149,6 +149,43 @@ function! Nord()
     highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
+function! Habamax()
+    colorscheme habamax
+    set termguicolors
+    hi vimwikiItalic      guifg=#af87af    gui=ITALIC
+    hi htmlItalic         guifg=#af87af    gui=ITALIC
+    hi markdownItalic     guifg=#af87af    gui=ITALIC
+    hi vimwikiBold        guifg=#87afd7    gui=BOLD
+    hi htmlBold           guifg=#87afd7    gui=BOLD
+    hi markdownBold       guifg=#87afd7    gui=BOLD
+    hi vimwikiBoldItalic  guifg=#87afd7    gui=BOLD,ITALIC
+    hi htmlBoldItalic     guifg=#87afd7    gui=BOLD,ITALIC
+    hi markdownBoldItalic guifg=#87afd7    gui=BOLD,ITALIC
+    hi Normal             guibg=#171717
+    set guicursor=n-v-c-sm:block-vCursor
+    set guicursor+=i-ci-ve-r-cr-o:block-iCursor
+    highlight vCursor guifg=black guibg=#b0b0b0
+    highlight iCursor guifg=black guibg=#FFFFFF
+endfunction
+
+function! Retrobox()
+    colorscheme retrobox
+    set termguicolors
+    hi vimwikiItalic      guifg=#f0c069    gui=ITALIC
+    hi htmlItalic         guifg=#f0c069    gui=ITALIC
+    hi markdownItalic     guifg=#f0c069    gui=ITALIC
+    hi vimwikiBold        guifg=#f0c069    gui=BOLD
+    hi htmlBold           guifg=#f0c069    gui=BOLD
+    hi markdownBold       guifg=#f0c069    gui=BOLD
+    hi vimwikiBoldItalic  guifg=#f0c069    gui=BOLD,ITALIC
+    hi htmlBoldItalic     guifg=#f0c069    gui=BOLD,ITALIC
+    hi markdownBoldItalic guifg=#f0c069    gui=BOLD,ITALIC
+    set guicursor=n-v-c-sm:block-vCursor
+    set guicursor+=i-ci-ve-r-cr-o:block-iCursor
+    highlight vCursor guifg=black guibg=#b0b0b0
+    highlight iCursor guifg=black guibg=#FFFFFF
+endfunction
+
 call Nord()
 
 " let &t_SI = "\e[4 q"
@@ -218,6 +255,7 @@ nnoremap ]s ]szz
 nnoremap z= zzz=
 set listchars=space:·,trail:•,eol:¶
 nnoremap <f10> :setlocal list!<enter>
+nnoremap <f6> :setlocal list!<enter>
 
 " ========================================================================
 " LEADER KEY
