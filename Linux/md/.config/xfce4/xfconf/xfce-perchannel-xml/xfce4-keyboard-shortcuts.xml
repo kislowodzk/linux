@@ -76,6 +76,7 @@
       <property name="&lt;Shift&gt;&lt;Super&gt;braceleft" type="string" value="dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"/>
       <property name="&lt;Super&gt;o" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Super&gt;p" type="string" value="amixer -D pulse set Master toggle"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;q" type="string" value="alacritty -e /home/md/skrypty/shutdown.sh"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

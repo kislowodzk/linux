@@ -19,9 +19,12 @@ window:
   #
   # Specified in number of columns/lines, not pixels.
   # If both are `0`, this setting is ignored.
+  # dimensions:
+  #   columns: 101
+  #   lines: 30
   dimensions:
-    columns: 101
-    lines: 30
+    columns: 70
+    lines: 15
 
   # Window position (changes require restart)
   #
