@@ -112,8 +112,8 @@ function! Light()
     colorscheme morning
     set guicursor=n-v-c-sm:block-vCursor
     set guicursor+=i-ci-ve-r-cr-o:block-iCursor
-    highlight vCursor guifg=black guibg=#87aff7
-    highlight iCursor guifg=black guibg=#ef87af
+    highlight vCursor guifg=black guibg=#379ffF
+    highlight iCursor guifg=black guibg=#ef37af
     hi LineNr             guifg=#888888
     hi vimwikiItalic      guifg=#ef2505 gui=ITALIC       cterm=italic
     hi htmlItalic         guifg=#ef2505  gui=ITALIC       cterm=italic
@@ -300,6 +300,7 @@ nnoremap <silent> <leader>a' viwc''<Esc>Pe
 nnoremap <silent> <leader>au viwc__<Esc>Pe
 nnoremap <silent> <leader>a( viwc()<Esc>Pe
 nnoremap <silent> <leader>a[ viwc[]<Esc>Pe
+nnoremap <silent> <leader>a{ viwc{}<Esc>Pe
 nnoremap <silent> <leader>a< viwc<><Esc>Pe
 nnoremap <silent> <leader>a« viwc«»<Esc>Pe
 nnoremap <silent> <leader>a$ viwc$$<Esc>Pe
@@ -312,6 +313,7 @@ vnoremap <silent> <leader>a' c''<Esc>Pe
 vnoremap <silent> <leader>au c__<Esc>Pe
 vnoremap <silent> <leader>a( c()<Esc>Pe
 vnoremap <silent> <leader>a[ c[]<Esc>Pe
+vnoremap <silent> <leader>a{ c{}<Esc>Pe
 vnoremap <silent> <leader>a< c<><Esc>Pe
 vnoremap <silent> <leader>a« c«»<Esc>Pe
 vnoremap <silent> <leader>a$ c$$<Esc>Pe
@@ -365,7 +367,7 @@ nnoremap <leader>fb :BLines<CR>
 
 " Netrw -- P opens in split
 let g:netrw_banner = 0
-let g:netrw_liststyle = 3
+"let g:netrw_liststyle = 3
 let g:netrw_winsize = 20
 nnoremap <silent> <leader>q :Vex<CR>
 

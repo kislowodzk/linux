@@ -6,33 +6,23 @@
 
 env:
   WINIT_X11_SCALE_FACTOR: "1.0"
-  # TERM variable
-  #
-  # This value is used to set the `$TERM` environment variable for
-  # each instance of Alacritty. If it is not present, alacritty will
-  # check the local terminfo database and use `alacritty` if it is
-  # available, otherwise `xterm-256color` is used.
   TERM: xterm-256color
 
 window:
-  # Window dimensions (changes require restart)
-  #
-  # Specified in number of columns/lines, not pixels.
-  # If both are `0`, this setting is ignored.
-  # dimensions:
-  #   columns: 101
-  #   lines: 30
   dimensions:
-    columns: 70
-    lines: 15
+    columns: 101
+    lines: 30
+  # dimensions:
+  #   columns: 70
+  #   lines: 15
 
   # Window position (changes require restart)
   #
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
   #position:
-  #  x: 0
-  #y: 0
+  # x: 0
+  # y: 0
 
   # Window padding (changes require restart)
   #
@@ -108,29 +98,6 @@ scrolling:
 
 
 # Font configuration
-
-
-
-
-# Tylko jeśli Fira Code, to trzeba zmienić odstępy między wierszami, bo
-# się rzeczy sypią
-
-# font:
-#   size: 11.5
-#   normal:
-#     family: Luxi Mono
-#     style: Regular
-#   bold:
-#     family: Luxi Mono
-#   italic:
-#     family: Luxi Mono
-
-# # Fantasque Sans Mono
-# offset:
-#   x: 0
-#   y: 0
-
-
 font:
   size: 10.0
   normal:
