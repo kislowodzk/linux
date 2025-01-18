@@ -5,7 +5,7 @@
 <item oor:path="/org.openoffice.Office.Common/FavoriteCharacters"><prop oor:name="FavoriteCharacterList" oor:op="fuse"><value><it>€</it><it>¥</it><it>£</it><it>©</it><it>Σ</it><it>Ω</it><it>≤</it><it>≥</it><it>∞</it><it>π</it><it>†</it><it>‡</it><it>—</it></value></prop></item>
 <item oor:path="/org.openoffice.Office.Common/Font/SourceViewFont"><prop oor:name="FontName" oor:op="fuse"><value>Automatic</value></prop></item>
 <item oor:path="/org.openoffice.Office.Common/Font/Substitution"><prop oor:name="Replacement" oor:op="fuse"><value>false</value></prop></item>
-<item oor:path="/org.openoffice.Office.Common/Misc/FilePickerLastDirectory"><node oor:name="WriterSaveAs" oor:op="replace"><prop oor:name="LastPath" oor:op="fuse"><value>file:///home/md/skrypty</value></prop></node></item>
+<item oor:path="/org.openoffice.Office.Common/Misc/FilePickerLastDirectory"><node oor:name="WriterSaveAs" oor:op="replace"><prop oor:name="LastPath" oor:op="fuse"><value>file:///home/md/Szablony</value></prop></node></item>
 <item oor:path="/org.openoffice.Office.Common/Misc"><prop oor:name="FirstRun" oor:op="fuse"><value>false</value></prop></item>
 <item oor:path="/org.openoffice.Office.Common/Misc"><prop oor:name="LastTipOfTheDayID" oor:op="fuse"><value>0</value></prop></item>
 <item oor:path="/org.openoffice.Office.Common/Misc"><prop oor:name="LastTipOfTheDayShown" oor:op="fuse"><value>19543</value></prop></item>
@@ -397,6 +397,10 @@
 <item oor:path="/org.openoffice.Office.Recovery/RecoveryList"><node oor:name="recovery_item_13" oor:op="remove"/></item>
 <item oor:path="/org.openoffice.Office.Recovery/RecoveryList"><node oor:name="recovery_item_14" oor:op="remove"/></item>
 <item oor:path="/org.openoffice.Office.Recovery/RecoveryList"><node oor:name="recovery_item_15" oor:op="remove"/></item>
+<item oor:path="/org.openoffice.Office.Recovery/RecoveryList"><node oor:name="recovery_item_16" oor:op="remove"/></item>
+<item oor:path="/org.openoffice.Office.Recovery/RecoveryList"><node oor:name="recovery_item_17" oor:op="remove"/></item>
+<item oor:path="/org.openoffice.Office.Recovery/RecoveryList"><node oor:name="recovery_item_18" oor:op="remove"/></item>
+<item oor:path="/org.openoffice.Office.Recovery/RecoveryList"><node oor:name="recovery_item_19" oor:op="remove"/></item>
 <item oor:path="/org.openoffice.Office.Recovery/RecoveryList"><node oor:name="recovery_item_2" oor:op="remove"/></item>
 <item oor:path="/org.openoffice.Office.Recovery/RecoveryList"><node oor:name="recovery_item_3" oor:op="remove"/></item>
 <item oor:path="/org.openoffice.Office.Recovery/RecoveryList"><node oor:name="recovery_item_4" oor:op="remove"/></item>
