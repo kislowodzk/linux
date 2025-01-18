@@ -25,10 +25,6 @@ col=5
 row=1
 col=3
 
-[/home/md/Pulpit/MQ78587_OCR.pdf]
-row=3
-col=1
-
 [/home/md/Pulpit/fiszki1.txt]
 row=3
 col=0
@@ -40,14 +36,6 @@ col=11
 [/home/md/Pulpit/Heidegger - Drogi lasu.pdf]
 row=6
 col=1
-
-[/home/md/Pulpit/Paul Ricoeur - Życie w poszukiwaniu opowieści.pdf]
-row=1
-col=2
-
-[/home/md/Pulpit/Lorem_ipsum.odt]
-row=2
-col=2
 
 [/home/md/Pulpit/Nicolas Bourbaki - Theory of sets -Hermann (1968).djvu]
 row=4
@@ -69,10 +57,6 @@ col=4
 row=4
 col=0
 
-[/home/md/Pulpit/233574024.pdf]
-row=2
-col=1
-
 [/home/md/Pulpit/konstrukcje z ...nach....pdf]
 row=0
 col=8
@@ -85,10 +69,6 @@ col=2
 row=6
 col=0
 
-[/home/md/Pulpit/Georg Wilhelm Friedrich Hegel - Prezentacja systemu Fichtego.pdf]
-row=5
-col=1
-
 [/home/md/Pulpit/Kurs_a2_b1]
 row=5
 col=0
@@ -96,6 +76,14 @@ col=0
 [/home/md/Pulpit/determinizm_a_przyczynowość.pdf]
 row=2
 col=0
+
+[/home/md/Pulpit/Ricoeur_i_ideologia_referat]
+row=2
+col=12
+
+[/home/md/Pulpit/Zizek_Hegel_vs_Heidegger.pdf]
+row=0
+col=1
 
 [/home/md/Pulpit/Max Horkheimer - Krytyka instrumentalnego rozumu -SCHOLAR (2007).djvu]
 row=3
@@ -108,18 +96,6 @@ col=12
 [/home/md/Pulpit/Artykul_Gadi_feminizm]
 row=5
 col=12
-
-[/home/md/Pulpit/Ricoeur_Paul_1913-2005_O_sobie_samym_jako_innym.pdf]
-row=1
-col=1
-
-[/home/md/Pulpit/Ricoeur]
-row=0
-col=1
-
-[/home/md/Pulpit/Pankow_hegel_i_pozor.pdf]
-row=4
-col=1
 
 [/home/md/Pulpit/Marek Kozłowski - Encyklopedia kapitału w zarysie.djvu]
 row=1
@@ -152,6 +128,10 @@ col=12
 [/home/md/Pulpit/Oxana Timofeeva_ Slavoj Žižek - The History of Animals_ A Philosophy-Bloomsbury Academic (2018).pdf]
 row=5
 col=5
+
+[/home/md/Pulpit/szczegolnie_trudne_slowa.txt]
+row=2
+col=2
 
 [/home/md/Pulpit/Lekcje]
 row=0

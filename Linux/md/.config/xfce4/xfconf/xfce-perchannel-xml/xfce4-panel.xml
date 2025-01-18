@@ -60,6 +60,8 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="bluetooth jest aktywny
+&lt;b&gt;1 aktywne połączenie&lt;/b&gt;"/>
         <value type="string" value="system-config-printer"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="thunar"/>

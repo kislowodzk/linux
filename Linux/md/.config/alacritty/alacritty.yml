@@ -9,12 +9,12 @@ env:
   TERM: xterm-256color
 
 window:
-  dimensions:
-    columns: 101
-    lines: 30
   # dimensions:
-  #   columns: 70
-  #   lines: 15
+  #   columns: 101
+  #   lines: 30
+  dimensions:
+    columns: 70
+    lines: 15
 
   # Window position (changes require restart)
   #

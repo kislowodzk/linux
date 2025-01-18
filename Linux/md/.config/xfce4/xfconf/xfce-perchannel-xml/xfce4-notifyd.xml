@@ -28,7 +28,7 @@
   <property name="log-level-apps" type="uint" value="0"/>
   <property name="theme" type="string" value="Chicago95"/>
   <property name="initial-opacity" type="double" value="0.900000"/>
-  <property name="expire-timeout" type="int" value="3"/>
+  <property name="expire-timeout" type="int" value="2"/>
   <property name="do-slideout" type="bool" value="false"/>
   <property name="do-fadeout" type="bool" value="true"/>
 </channel>
