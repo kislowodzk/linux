@@ -71,7 +71,7 @@ function! Default()
     hi markdownBoldItalic guifg=#87afd7  gui=BOLD,ITALIC  cterm=bold,italic
     hi CursorLineNr       gui=none       cterm=none
     hi CursorLine gui=NONE guibg=NONE guifg=NONE
-    highlight vCursor guifg=black guibg=#b0b0b0
+    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
     highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
@@ -92,13 +92,14 @@ function! Darkblue()
     hi CursorLineNr       gui=none       cterm=none
     hi ColorColumn        guibg=#02025b
     hi CursorLine         gui=NONE guibg=#02025b
-    highlight vCursor guifg=black guibg=#b0b0b0
+    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
     highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
 function! Console()
     call Darkblue()
-    set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor30
+    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
+    highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
 function! Transparent()
@@ -110,10 +111,10 @@ endfunction
 
 function! Light()
     colorscheme morning
-    set guicursor=n-v-c-sm:block-vCursor
-    set guicursor+=i-ci-ve-r-cr-o:block-iCursor
     highlight vCursor guifg=black guibg=#379ffF
     highlight iCursor guifg=black guibg=#ef37af
+    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
+    highlight iCursor guifg=black guibg=#FFFFFF
     hi LineNr             guifg=#888888
     hi vimwikiItalic      guifg=#ef2505 gui=ITALIC       cterm=italic
     hi htmlItalic         guifg=#ef2505  gui=ITALIC       cterm=italic
@@ -143,9 +144,7 @@ function! Nord()
     hi Title              gui=bold
     hi Comment            guifg=#686868
     hi IncSearch          guibg=#f7f7f7  gui=NONE
-    set guicursor=n-v-c-sm:block-vCursor
-    set guicursor+=i-ci-ve-r-cr-o:block-iCursor
-    highlight vCursor guifg=black guibg=#b0b0b0
+    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
     highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
@@ -162,9 +161,7 @@ function! Habamax()
     hi htmlBoldItalic     guifg=#87afd7    gui=BOLD,ITALIC
     hi markdownBoldItalic guifg=#87afd7    gui=BOLD,ITALIC
     hi Normal             guibg=#171717
-    set guicursor=n-v-c-sm:block-vCursor
-    set guicursor+=i-ci-ve-r-cr-o:block-iCursor
-    highlight vCursor guifg=black guibg=#b0b0b0
+    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
     highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
@@ -180,9 +177,7 @@ function! Retrobox()
     hi vimwikiBoldItalic  guifg=#f0c069    gui=BOLD,ITALIC
     hi htmlBoldItalic     guifg=#f0c069    gui=BOLD,ITALIC
     hi markdownBoldItalic guifg=#f0c069    gui=BOLD,ITALIC
-    set guicursor=n-v-c-sm:block-vCursor
-    set guicursor+=i-ci-ve-r-cr-o:block-iCursor
-    highlight vCursor guifg=black guibg=#b0b0b0
+    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
     highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
@@ -192,8 +187,11 @@ call Nord()
 " let &t_EI = "\e[2 q"
 " set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor30
 
-set guicursor=n-v-c-sm:block-vCursor
-set guicursor+=i-ci-ve-r-cr-o:block-iCursor
+highlight vCursor guifg=black guibg=#b0b0b0
+highlight iCursor guifg=black guibg=#FFFFFF
+
+" set guicursor=n-v-c-sm:block-vCursor
+" set guicursor+=i-ci-ve-r-cr-o:block-iCursor
 
 " hi CursorLine gui=NONE guibg=NONE guifg=NONE
 " hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE
