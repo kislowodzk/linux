@@ -324,6 +324,8 @@ nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vc :call Console()<cr>
 nnoremap <leader>vn :call Nord()<cr>
+nnoremap <leader>vh :call Habamax()<cr>
+nnoremap <leader>vr :call Retrobox()<cr>
 nnoremap <leader>vl :call Light()<cr>
 nnoremap <leader>vd :call Default()<cr>
 nnoremap <leader>vt :call Transparent()<cr>
