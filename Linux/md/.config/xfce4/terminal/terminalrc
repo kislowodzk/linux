@@ -38,4 +38,6 @@ ScrollingBar=TERMINAL_SCROLLBAR_NONE
 CellHeightScale=1,050000
 ColorCursorUseDefault=FALSE
 ColorCursorForeground=#12721fc32740
+DropdownWidth=75
+DropdownHeight=60
 

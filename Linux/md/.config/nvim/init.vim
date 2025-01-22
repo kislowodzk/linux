@@ -177,14 +177,14 @@ function! Retrobox()
     hi vimwikiBoldItalic  guifg=#f0c069    gui=BOLD,ITALIC
     hi htmlBoldItalic     guifg=#f0c069    gui=BOLD,ITALIC
     hi markdownBoldItalic guifg=#f0c069    gui=BOLD,ITALIC
-    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
+    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:ver35-iCursor
     highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
 call Nord()
 
-" let &t_SI = "\e[4 q"
-" let &t_EI = "\e[2 q"
+let &t_SI = "\e[4 q"
+let &t_EI = "\e[2 q"
 " set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor30
 
 " highlight vCursor guifg=black guibg=#b0b0b0
@@ -199,7 +199,7 @@ call Nord()
 " ========================================================================
 " REMAPS
 " ========================================================================
-inoremap <esc> <esc><c-l>
+" inoremap <esc> <esc><c-l> "to dla terminala xfce
 inoremap <C-s> <esc>:wa<cr>
 nnoremap <C-s> :wa<cr>
 nnoremap <C-f> gg0vG$
