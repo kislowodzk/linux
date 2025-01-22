@@ -1,2 +1,2 @@
 <?xml version="1.0"?>
-<conf:configuration-backend-db xmlns:conf="http://openoffice.org/extensionmanager/configuration-registry/2010"/>
+<conf:configuration-backend-db xmlns:conf="http://openoffice.org/extensionmanager/configuration-registry/2010"><conf:configuration url="vnd.sun.star.expand:$UNO_USER_PACKAGES_CACHE/uno_packages/lu36289dar0q.tmp_/pl-dict.oxt/Dictionaries.xcu"><conf:data-url>vnd.sun.star.expand:$UNO_USER_PACKAGES_CACHE/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu36289dar0r.tmp</conf:data-url><conf:ini-entry>$UNO_USER_PACKAGES_CACHE/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu36289dar0r.tmp/Dictionaries.xcu</conf:ini-entry></conf:configuration></conf:configuration-backend-db>
