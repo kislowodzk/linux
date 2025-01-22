@@ -145,7 +145,7 @@ function! Nord()
     hi Comment            guifg=#686868
     hi IncSearch          guibg=#f7f7f7  gui=NONE
     set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
-    highlight iCursor guifg=black guibg=#FFFFFF
+    highlight iCursor guifg=black guibg=#c0c0dF
 endfunction
 
 function! Habamax()
@@ -187,8 +187,8 @@ call Nord()
 " let &t_EI = "\e[2 q"
 " set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor30
 
-highlight vCursor guifg=black guibg=#b0b0b0
-highlight iCursor guifg=black guibg=#FFFFFF
+" highlight vCursor guifg=black guibg=#b0b0b0
+" highlight iCursor guifg=black guibg=#FFFFFF
 
 " set guicursor=n-v-c-sm:block-vCursor
 " set guicursor+=i-ci-ve-r-cr-o:block-iCursor

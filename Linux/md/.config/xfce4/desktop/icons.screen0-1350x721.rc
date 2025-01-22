@@ -5,17 +5,13 @@
 row=3
 col=5
 
-[/home/md/Pulpit/Lauxtermann-HegelSchopenhauerPartisans-1990.pdf]
-row=0
-col=2
-
 [/home/md/Pulpit/Oxana Timofeeva_ Slavoj Žižek - The History of Animals_ A Philosophy-Bloomsbury Academic (2018).epub]
 row=4
 col=5
 
-[/home/md/Pulpit/Czytanie_FD]
+[/home/md/Pulpit/Lauxtermann-HegelSchopenhauerPartisans-1990.pdf]
 row=0
-col=12
+col=2
 
 [/home/md/Pulpit/sda]
 row=0
@@ -24,6 +20,10 @@ col=5
 [/home/md/Pulpit/bourbaki-hudetz-paper-13.pdf]
 row=1
 col=3
+
+[/home/md/Pulpit/Czytanie_FD]
+row=0
+col=12
 
 [/home/md/Pulpit/fiszki1.txt]
 row=3
@@ -35,6 +35,10 @@ col=11
 
 [/home/md/Pulpit/Heidegger - Drogi lasu.pdf]
 row=6
+col=1
+
+[/home/md/Pulpit/Czlowiek_w_Kulturze-r2009_2010-t21-s253-276.pdf]
+row=1
 col=1
 
 [/home/md/Pulpit/Nicolas Bourbaki - Theory of sets -Hermann (1968).djvu]
@@ -49,10 +53,6 @@ col=10
 row=1
 col=6
 
-[/home/md/Pulpit/zadania_13_01.pdf]
-row=1
-col=4
-
 [/home/md/Pulpit/przedmioty-ects.md]
 row=4
 col=0
@@ -61,9 +61,9 @@ col=0
 row=0
 col=8
 
-[/home/md/Pulpit/Zizek -- Hegel versus Heidegger - Journal #32.pdf]
-row=4
-col=2
+[/home/md/Pulpit/Walka-z-hegemonią-tradycji-na-gruncie-filozofii-hermeneutycznej-Gadamera.pdf]
+row=0
+col=1
 
 [/home/md/Pulpit/Kraków-mieszkalnictwo.pdf]
 row=6
@@ -76,14 +76,6 @@ col=0
 [/home/md/Pulpit/determinizm_a_przyczynowość.pdf]
 row=2
 col=0
-
-[/home/md/Pulpit/Ricoeur_i_ideologia_referat]
-row=2
-col=12
-
-[/home/md/Pulpit/Zizek_Hegel_vs_Heidegger.pdf]
-row=0
-col=1
 
 [/home/md/Pulpit/Max Horkheimer - Krytyka instrumentalnego rozumu -SCHOLAR (2007).djvu]
 row=3
@@ -101,21 +93,21 @@ col=12
 row=1
 col=0
 
-[/home/md/Pulpit/Artykul_determinizm_a_przyczynowosc]
-row=4
-col=12
-
 [/home/md/Pulpit/20230718_Załącznik_do_Komunikatu_-__Projekt_wykazu_czasopism_naukowych_i_recenzowanych_materiałów_z_konferencji_międzynarodowych.xlsx]
 row=0
 col=0
 
-[/home/md/Pulpit/bourbaki-hudetz-paper-11.pdf]
-row=4
-col=11
+[/home/md/Pulpit/Artykul_Lessing_struktura_FD]
+row=2
+col=12
 
-[/home/md/Pulpit/Obrazek-niemiecki.jpg]
+[/home/md/Pulpit/Artykul_determinizm_a_przyczynowosc]
+row=4
+col=12
+
+[/home/md/Pulpit/Lekcje]
 row=0
-col=9
+col=6
 
 [/home/md/Pulpit/Braun u Cejrowskiego]
 row=6
@@ -125,15 +117,15 @@ col=8
 row=3
 col=12
 
-[/home/md/Pulpit/Oxana Timofeeva_ Slavoj Žižek - The History of Animals_ A Philosophy-Bloomsbury Academic (2018).pdf]
-row=5
-col=5
+[/home/md/Pulpit/Strawson G. against_narrativity.pdf]
+row=2
+col=1
 
 [/home/md/Pulpit/szczegolnie_trudne_slowa.txt]
 row=2
 col=2
 
-[/home/md/Pulpit/Lekcje]
-row=0
-col=6
+[/home/md/Pulpit/Oxana Timofeeva_ Slavoj Žižek - The History of Animals_ A Philosophy-Bloomsbury Academic (2018).pdf]
+row=5
+col=5
 
