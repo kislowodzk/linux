@@ -64,30 +64,28 @@ function! Ayu()
                             " let s:palette.keyword   = {'dark': "#FF7733",  'light': "#FF7733",  'mirage': "#FF8E37"}
                             " let s:palette.constant  = {'dark': "#FFEE99",  'light': "#A37ACC",  'mirage': "#FFEE99"}
     hi LineNr             guifg=#666B76
-    hi IncSearch          guibg=#FF8436    guifg=#0F1419    gui=none
-    hi Search             guibg=#607080    guifg=#FFFFFF
+    hi IncSearch          guibg=#FF8436   guifg=#0F1419    gui=none cterm=none
+    hi Search             guibg=#607080   guifg=#FFFFFF
     hi Directory          guifg=#FF8436
     hi TabLine            gui=NONE
-    hi vimwikiItalic      guifg=#f6c663    gui=ITALIC
-    hi htmlItalic         guifg=#f6c663    gui=ITALIC
-    hi markdownItalic     guifg=#f6c653    gui=ITALIC
-    hi vimwikiBold        guifg=#F07178    gui=BOLD
-    hi htmlBold           guifg=#F07178    gui=BOLD
-    hi markdownBold       guifg=#F07178    gui=BOLD
-    hi vimwikiBoldItalic  guifg=#F07178    gui=BOLD,ITALIC
-    hi htmlBoldItalic     guifg=#F07178    gui=BOLD,ITALIC
-    hi markdownBoldItalic guifg=#F07178    gui=BOLD,ITALIC
-    hi Title              gui=BOLD
+    hi vimwikiItalic      guifg=#f6c663   gui=ITALIC         cterm=italic
+    hi htmlItalic         guifg=#f6c663   gui=ITALIC         cterm=italic
+    hi markdownItalic     guifg=#f6c653   gui=ITALIC         cterm=italic
+    hi vimwikiBold        guifg=#F07178   gui=BOLD           cterm=bold
+    hi htmlBold           guifg=#F07178   gui=BOLD           cterm=bold
+    hi markdownBold       guifg=#F07178   gui=BOLD           cterm=bold
+    hi vimwikiBoldItalic  guifg=#F07178   gui=BOLD,ITALIC    cterm=bold,italic
+    hi htmlBoldItalic     guifg=#F07178   gui=BOLD,ITALIC    cterm=bold,italic
+    hi markdownBoldItalic guifg=#F07178   gui=BOLD,ITALIC    cterm=bold,italic
+    hi Title              gui=BOLD                           cterm=bold
     hi VimwikiList        guifg=#FF8436
-    hi Visual             guibg=#607080    guifg=#FFFFFF
+    hi Visual             guibg=#607080   guifg=#FFFFFF
     hi ModeMsg            guifg=#FF8436
-    hi SpellBad           guifg=NONE       gui=UNDERCURL
-    hi SpellCap           guifg=NONE       gui=UNDERCURL
-    hi SpellLocal         guifg=NONE       gui=UNDERCURL
-    hi SpellRare          guifg=NONE       gui=UNDERCURL
+    hi SpellBad           guifg=NONE      gui=UNDERCURL
+    hi SpellCap           guifg=NONE      gui=UNDERCURL
+    hi SpellLocal         guifg=NONE      gui=UNDERCURL
+    hi SpellRare          guifg=NONE      gui=UNDERCURL
     hi ColorColumn        guibg=#0f0f0f
-    hi CursorLine         gui=NONE guibg=NONE guifg=NONE
-    hi CursorLine         cterm=NONE ctermbg=NONE ctermfg=NONE
 endfunction
 
 function! Default()
