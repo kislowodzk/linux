@@ -9,7 +9,6 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'vimwiki/vimwiki'
-    Plug 'ap/vim-css-color'
     Plug 'tpope/vim-commentary'   " gcc or gc
     Plug 'preservim/tagbar'       " Tagbar, leader + c (table of contents); potrzebne: sudo apt install universal-ctags
 call plug#end()
@@ -65,7 +64,7 @@ function! Ayu()
                             " let s:palette.keyword   = {'dark': "#FF7733",  'light': "#FF7733",  'mirage': "#FF8E37"}
                             " let s:palette.constant  = {'dark': "#FFEE99",  'light': "#A37ACC",  'mirage': "#FFEE99"}
     hi LineNr             guifg=#666B76
-    hi IncSearch          guibg=#FF8436    guifg=#0F1419    gui=NONE
+    hi IncSearch          guibg=#FF8436    guifg=#0F1419    gui=none
     hi Search             guibg=#607080    guifg=#FFFFFF
     hi Directory          guifg=#FF8436
     hi TabLine            gui=NONE
@@ -89,8 +88,6 @@ function! Ayu()
     hi ColorColumn        guibg=#0f0f0f
     hi CursorLine         gui=NONE guibg=NONE guifg=NONE
     hi CursorLine         cterm=NONE ctermbg=NONE ctermfg=NONE
-    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
-    highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
 function! Default()
@@ -109,8 +106,6 @@ function! Default()
     hi markdownBoldItalic guifg=#87afd7  gui=BOLD,ITALIC  cterm=bold,italic
     hi CursorLineNr       gui=none       cterm=none
     hi CursorLine gui=NONE guibg=NONE guifg=NONE
-    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
-    highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
 function! Darkblue()
@@ -130,14 +125,10 @@ function! Darkblue()
     hi CursorLineNr       gui=none       cterm=none
     hi ColorColumn        guibg=#02025b
     hi CursorLine         gui=NONE guibg=#02025b
-    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
-    highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
 function! Console()
     call Darkblue()
-    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
-    highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
 function! Transparent()
