@@ -100,7 +100,7 @@ function! Onedark()
     call ColorAyuOnedark()
 endfunction
 
-function! ColorDefaultHabamaxNord()
+function! ColorDefaultNord()
     hi vimwikiItalic      guifg=#ef87af  gui=ITALIC       cterm=italic
     hi htmlItalic         guifg=#ef87af  gui=ITALIC       cterm=italic
     hi markdownItalic     guifg=#ef87af  gui=ITALIC       cterm=italic
@@ -119,13 +119,6 @@ function! Default()
     hi LineNr             guifg=#888888
     hi CursorLineNr       gui=none       cterm=none
     hi CursorLine gui=NONE guibg=NONE guifg=NONE
-    call ColorDefaultHabamaxNord()
-endfunction
-
-function! Habamax()
-    colorscheme habamax
-    set termguicolors
-    hi Normal             guibg=#171717
     call ColorDefaultHabamaxNord()
 endfunction
 
@@ -180,7 +173,10 @@ function! Light()
     hi markdownBoldItalic guifg=#873fd7  gui=BOLD,ITALIC  cterm=bold,italic
 endfunction
 
-function! ColorGruvboxRetrobox()
+function! Gruvbox()
+    " colorscheme base16-gruvbox-dark-medium
+    colo gruvbox
+    set termguicolors
     hi vimwikiItalic      guifg=#f0c069    gui=ITALIC       cterm=italic
     hi htmlItalic         guifg=#f0c069    gui=ITALIC       cterm=italic
     hi markdownItalic     guifg=#f0c069    gui=ITALIC       cterm=italic
@@ -190,28 +186,6 @@ function! ColorGruvboxRetrobox()
     hi vimwikiBoldItalic  guifg=#f0c069    gui=BOLD,ITALIC  cterm=bold,italic
     hi htmlBoldItalic     guifg=#f0c069    gui=BOLD,ITALIC  cterm=bold,italic
     hi markdownBoldItalic guifg=#f0c069    gui=BOLD,ITALIC  cterm=bold,italic
-endfunction
-
-function! Gruvbox()
-    " colorscheme base16-gruvbox-dark-medium
-    colo gruvbox
-    set termguicolors
-    call ColorGruvboxRetrobox()
-endfunction
-
-function! Retrobox()
-    colorscheme retrobox
-    set termguicolors
-    hi vimwikiItalic      guifg=#f0c069    gui=ITALIC
-    hi htmlItalic         guifg=#f0c069    gui=ITALIC
-    hi markdownItalic     guifg=#f0c069    gui=ITALIC
-    hi vimwikiBold        guifg=#f0c069    gui=BOLD
-    hi htmlBold           guifg=#f0c069    gui=BOLD
-    hi markdownBold       guifg=#f0c069    gui=BOLD
-    hi vimwikiBoldItalic  guifg=#f0c069    gui=BOLD,ITALIC
-    hi htmlBoldItalic     guifg=#f0c069    gui=BOLD,ITALIC
-    hi markdownBoldItalic guifg=#f0c069    gui=BOLD,ITALIC
-    call ColorGruvboxRetrobox()
 endfunction
 
 call Ayu()
@@ -352,8 +326,6 @@ nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vc :call Darkblue()<cr>
 nnoremap <leader>vb :call Darkblue()<cr>
 nnoremap <leader>vn :call Nord()<cr>
-nnoremap <leader>vh :call Habamax()<cr>
-nnoremap <leader>vr :call Retrobox()<cr>
 nnoremap <leader>vl :call Light()<cr>
 nnoremap <leader>vd :call Default()<cr>
 nnoremap <leader>vt :call Transparent()<cr>

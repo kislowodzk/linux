@@ -22,7 +22,7 @@ alias ZQ=exit
 alias cls=clear
 alias c.='cd ..'
 alias v=nvim -p
-alias vim='flatpak run org.vim.Vim -u ~/.config/nvim/init.vim'
+alias vim='vim -u ~/.config/nvim/init.vim'
 alias td='nvim ~/vimwiki/index.wiki'
 
 alias s='ranger ~/1-STUDIA/2_Rok/Semestr_4/'
@@ -88,7 +88,7 @@ alias wave=cava
 
 # FZF
 alias vf='nvim $(fzf --exact --layout=reverse --height 40%)'
-alias vimf='flatpak run org.vim.Vim -u ~/.config/nvim/init.vim $(fzf --exact --layout=reverse --height 40%)'
+alias vimf='vim -u ~/.config/nvim/init.vim $(fzf --exact --layout=reverse --height 40%)'
 alias of='xdg-open $(fzf --exact --layout=reverse --height 40%)'
 alias nvimf='nvim $(fzf --exact --layout=reverse --height 40%)'
 alias nvf='nvim $(fzf --exact --layout=reverse --height 40%)'
