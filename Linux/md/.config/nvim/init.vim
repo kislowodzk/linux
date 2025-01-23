@@ -2,8 +2,10 @@
 " PLUG CALL
 " ========================================================================
 call plug#begin('~/.config/nvim/plugged')
+    Plug 'ayu-theme/ayu-vim'
     Plug 'chriskempson/base16-vim'
     Plug 'mhinz/vim-startify'
+    Plug 'gruvbox-community/gruvbox'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'vimwiki/vimwiki'
@@ -54,6 +56,42 @@ set omnifunc=syntaxcomplete#Complete
 " ========================================================================
 set background=dark
 set termguicolors
+let ayucolor="mirage"   " light/ dark/ mirage
+
+function! Ayu()
+    set background=dark
+    set termguicolors
+    colorscheme ayu         " Zmiana w ayu.vim
+                            " let s:palette.keyword   = {'dark': "#FF7733",  'light': "#FF7733",  'mirage': "#FF8E37"}
+                            " let s:palette.constant  = {'dark': "#FFEE99",  'light': "#A37ACC",  'mirage': "#FFEE99"}
+    hi LineNr             guifg=#666B76
+    hi IncSearch          guibg=#FF8436    guifg=#0F1419    gui=NONE
+    hi Search             guibg=#607080    guifg=#FFFFFF
+    hi Directory          guifg=#FF8436
+    hi TabLine            gui=NONE
+    hi vimwikiItalic      guifg=#f6c663    gui=ITALIC
+    hi htmlItalic         guifg=#f6c663    gui=ITALIC
+    hi markdownItalic     guifg=#f6c653    gui=ITALIC
+    hi vimwikiBold        guifg=#F07178    gui=BOLD
+    hi htmlBold           guifg=#F07178    gui=BOLD
+    hi markdownBold       guifg=#F07178    gui=BOLD
+    hi vimwikiBoldItalic  guifg=#F07178    gui=BOLD,ITALIC
+    hi htmlBoldItalic     guifg=#F07178    gui=BOLD,ITALIC
+    hi markdownBoldItalic guifg=#F07178    gui=BOLD,ITALIC
+    hi Title              gui=BOLD
+    hi VimwikiList        guifg=#FF8436
+    hi Visual             guibg=#607080    guifg=#FFFFFF
+    hi ModeMsg            guifg=#FF8436
+    hi SpellBad           guifg=NONE       gui=UNDERCURL
+    hi SpellCap           guifg=NONE       gui=UNDERCURL
+    hi SpellLocal         guifg=NONE       gui=UNDERCURL
+    hi SpellRare          guifg=NONE       gui=UNDERCURL
+    hi ColorColumn        guibg=#0f0f0f
+    hi CursorLine         gui=NONE guibg=NONE guifg=NONE
+    hi CursorLine         cterm=NONE ctermbg=NONE ctermfg=NONE
+    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
+    highlight iCursor guifg=black guibg=#FFFFFF
+endfunction
 
 function! Default()
     colorscheme default
@@ -111,10 +149,6 @@ endfunction
 
 function! Light()
     colorscheme morning
-    highlight vCursor guifg=black guibg=#379ffF
-    highlight iCursor guifg=black guibg=#ef37af
-    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
-    highlight iCursor guifg=black guibg=#FFFFFF
     hi LineNr             guifg=#888888
     hi vimwikiItalic      guifg=#ef2505 gui=ITALIC       cterm=italic
     hi htmlItalic         guifg=#ef2505  gui=ITALIC       cterm=italic
@@ -144,8 +178,6 @@ function! Nord()
     hi Title              gui=bold
     hi Comment            guifg=#686868
     hi IncSearch          guibg=#f7f7f7  gui=NONE
-    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
-    highlight iCursor guifg=black guibg=#c0c0dF
 endfunction
 
 function! Habamax()
@@ -161,8 +193,21 @@ function! Habamax()
     hi htmlBoldItalic     guifg=#87afd7    gui=BOLD,ITALIC
     hi markdownBoldItalic guifg=#87afd7    gui=BOLD,ITALIC
     hi Normal             guibg=#171717
-    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:hor35-iCursor
-    highlight iCursor guifg=black guibg=#FFFFFF
+endfunction
+
+function! Gruvbox()
+    " colorscheme base16-gruvbox-dark-medium
+    colo gruvbox
+    set termguicolors
+    hi vimwikiItalic      guifg=#f0c069    gui=ITALIC
+    hi htmlItalic         guifg=#f0c069    gui=ITALIC
+    hi markdownItalic     guifg=#f0c069    gui=ITALIC
+    hi vimwikiBold        guifg=#f0c069    gui=BOLD
+    hi htmlBold           guifg=#f0c069    gui=BOLD
+    hi markdownBold       guifg=#f0c069    gui=BOLD
+    hi vimwikiBoldItalic  guifg=#f0c069    gui=BOLD,ITALIC
+    hi htmlBoldItalic     guifg=#f0c069    gui=BOLD,ITALIC
+    hi markdownBoldItalic guifg=#f0c069    gui=BOLD,ITALIC
 endfunction
 
 function! Retrobox()
@@ -177,11 +222,9 @@ function! Retrobox()
     hi vimwikiBoldItalic  guifg=#f0c069    gui=BOLD,ITALIC
     hi htmlBoldItalic     guifg=#f0c069    gui=BOLD,ITALIC
     hi markdownBoldItalic guifg=#f0c069    gui=BOLD,ITALIC
-    set guicursor=n-v-c-sm:block-iCursor,i-ci-ve-r-cr-o:ver35-iCursor
-    highlight iCursor guifg=black guibg=#FFFFFF
 endfunction
 
-call Nord()
+call Ayu()
 
 let &t_SI = "\e[4 q"
 let &t_EI = "\e[2 q"
@@ -189,6 +232,7 @@ let &t_EI = "\e[2 q"
 
 " highlight vCursor guifg=black guibg=#b0b0b0
 " highlight iCursor guifg=black guibg=#FFFFFF
+set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor35
 
 " set guicursor=n-v-c-sm:block-vCursor
 " set guicursor+=i-ci-ve-r-cr-o:block-iCursor
@@ -331,6 +375,8 @@ nnoremap <leader>vr :call Retrobox()<cr>
 nnoremap <leader>vl :call Light()<cr>
 nnoremap <leader>vd :call Default()<cr>
 nnoremap <leader>vt :call Transparent()<cr>
+nnoremap <leader>vg :call Gruvbox()<cr>
+nnoremap <leader>va :call Ayu()<cr>
 
 " ========================================================================
 " PLUGIN SETUP
