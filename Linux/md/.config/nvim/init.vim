@@ -4,7 +4,6 @@
 call plug#begin('~/.config/nvim/plugged')
     Plug 'joshdick/onedark.vim'
     Plug 'ayu-theme/ayu-vim'
-    Plug 'chriskempson/base16-vim'
     Plug 'nordtheme/vim'
     Plug 'mhinz/vim-startify'
     Plug 'gruvbox-community/gruvbox'
