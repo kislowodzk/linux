@@ -129,7 +129,7 @@ function! Nord()
     hi Title              gui=bold
     hi Comment            guifg=#686868
     hi IncSearch          guibg=#f7f7f7  gui=NONE
-    call ColorDefaultHabamaxNord()
+    call ColorDefaultNord()
 endfunction
 
 function! Transparent()
@@ -290,6 +290,7 @@ nnoremap <silent> <CR> :noh<CR>
 nnoremap <silent> <leader>h :noh<CR>
 
 nnoremap <silent> <leader>ad :r!date "+\%F"<CR>
+nnoremap <silent> <leader>at :VimwikiTable<CR>
 
 nnoremap <silent> <leader>ab viwc****<Esc>hPe
 nnoremap <silent> <leader>ai viwc**<Esc>Pe
