@@ -208,8 +208,10 @@ set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor35
 inoremap <C-s> <esc>:wa<cr>
 nnoremap <C-s> :wa<cr>
 nnoremap <C-f> gg0vG$
-nnoremap j gj
-nnoremap k gk
+nnoremap <expr> j (v:count == 0 ? 'gj' : 'j')
+nnoremap <expr> k (v:count == 0 ? 'gk' : 'k')
+" nnoremap j gj
+" nnoremap k gk
 nnoremap 0 g0
 nnoremap $ g$
 nnoremap <C-k> k
