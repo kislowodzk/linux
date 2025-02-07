@@ -260,7 +260,7 @@ nnoremap <f6> :setlocal list!<enter>
 " ========================================================================
 let mapleader = " "
 
-nnoremap <leader>sl :set tw=99999<cr>
+nnoremap <leader>sl :set tw=99999 colorcolumn=0<cr>
 nnoremap <leader>sn :set tw=74 colorcolumn=76<cr>
 nnoremap <leader>ss :set tw=66 colorcolumn=68<cr>
 nnoremap <leader>sf :set fo=taw nosmartindent autoindent<cr>
@@ -269,6 +269,7 @@ nnoremap <leader>sF :set fo=ql nosmartindent autoindent<cr>
 nnoremap <leader>st :set filetype=
 nnoremap <leader>sk :! xset r rate 330 43<CR>
 nnoremap <leader>se :term sudo loadkeys ~/.keystrings<CR>
+nnoremap <leader>so :set so=
 
 nnoremap <silent> <leader>me G{}k$zz
 nnoremap <silent> <leader>mE G{}k$zt
