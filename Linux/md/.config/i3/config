@@ -35,7 +35,7 @@ floating_modifier $mod
 bindsym $mod+Return split h; exec alacritty
 # bindsym $mod+Ctrl+Return split h; exec tilix
 bindsym $mod+Ctrl+Return split v; exec alacritty
-bindsym Mod1+Return exec alacritty
+bindsym Mod1+Return exec ghostty
 
 # kill focused window
 bindsym $mod+q kill
@@ -337,9 +337,9 @@ bindsym $mod+Shift+bracketleft exec "dbus-send --print-reply --dest=org.mpris.Me
 
 # Uruchamianie programów
 # rofi-theme-selector, żeby ustawić wygląd
-bindsym $mod+a exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.8em;}'"
-bindsym $mod+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.8em;}'"
-bindsym Mod1+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.8em;}'"
+bindsym $mod+a exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.5em;}'"
+bindsym $mod+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.5em;}'"
+bindsym Mod1+Shift+Return exec --no-startup-id "rofi -i -show drun -modi drun -show-icons -theme-str 'element-icon { size: 1.5em;}'"
 bindsym $mod+Tab exec --no-startup-id "rofi -show window -show-icons -theme-str 'element-icon { size: 1.8em;}'"
 
 # Emoji
@@ -372,6 +372,7 @@ focus_follows_mouse no
 bindsym $mod+i exec --no-startup-id "~/skrypty/arandr_i3.sh"
 bindsym $mod+o exec --no-startup-id "~/skrypty/drugi_monitor_i3.sh"
 
-
+# Najpierw $ xinput, potem sprawdzam gdzie jest touchpad (glidepoint).
+# Wtedy to poniższe z dobrą nazwą.
 exec xinput set-prop "AlpsPS/2 ALPS GlidePoint" "libinput Tapping Enabled" 1
 # END

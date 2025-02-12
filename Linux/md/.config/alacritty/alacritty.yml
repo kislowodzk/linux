@@ -31,6 +31,8 @@ font:
   offset:
     x: 0
     y: 3
+  glyph_offset:
+    y: -1
 
 draw_bold_text_with_bright_colors: true
 
