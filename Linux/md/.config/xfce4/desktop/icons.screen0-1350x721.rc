@@ -17,41 +17,29 @@ col=5
 row=0
 col=5
 
-[/home/md/Pulpit/bourbaki-hudetz-paper-13.pdf]
-row=1
-col=3
-
 [/home/md/Pulpit/Czytanie_FD]
 row=0
 col=12
 
-[/home/md/Pulpit/bilet_WH_16407339.pdf]
-row=0
-col=1
+[/home/md/Pulpit/bourbaki-hudetz-paper-13.pdf]
+row=1
+col=3
 
-[/home/md/Pulpit/aff]
-row=6
+[/home/md/Pulpit/Druk]
+row=1
 col=1
-
-[/home/md/Pulpit/fiszki1.txt]
-row=3
-col=0
 
 [/home/md/Pulpit/Hegel-artykuły]
 row=3
 col=11
 
 [/home/md/Pulpit/Czlowiek_w_Kulturze-r2009_2010-t21-s253-276.pdf]
-row=1
+row=0
 col=1
 
-[/home/md/Pulpit/Magda.md]
-row=2
-col=1
-
-[/home/md/Pulpit/Nicolas Bourbaki - Theory of sets -Hermann (1968).djvu]
-row=4
-col=8
+[/home/md/Pulpit/fiszki1.txt]
+row=3
+col=0
 
 [/home/md/Pulpit/hacking1983.pdf]
 row=4
@@ -61,13 +49,21 @@ col=10
 row=1
 col=6
 
+[/home/md/Pulpit/Hegel wczesny]
+row=6
+col=4
+
+[/home/md/Pulpit/Nicolas Bourbaki - Theory of sets -Hermann (1968).djvu]
+row=4
+col=8
+
 [/home/md/Pulpit/przedmioty-ects.md]
 row=4
 col=0
 
-[/home/md/Pulpit/Hegel wczesny]
-row=6
-col=4
+[/home/md/Pulpit/Hegel_hermeneutyka]
+row=3
+col=3
 
 [/home/md/Pulpit/konstrukcje z ...nach....pdf]
 row=0
@@ -93,29 +89,17 @@ col=8
 row=1
 col=0
 
-[/home/md/Pulpit/Olga Tokarczuk - Bieguni.epub]
-row=3
-col=1
-
 [/home/md/Pulpit/20230718_Załącznik_do_Komunikatu_-__Projekt_wykazu_czasopism_naukowych_i_recenzowanych_materiałów_z_konferencji_międzynarodowych.xlsx]
 row=0
 col=0
-
-[/home/md/Pulpit/Artykul_Lessing_struktura_FD]
-row=2
-col=12
 
 [/home/md/Pulpit/Artykul_determinizm_a_przyczynowosc]
 row=4
 col=12
 
 [/home/md/Pulpit/Hegel_i_historia_Siemek.pdf]
-row=5
-col=1
-
-[/home/md/Pulpit/Zotero_OpenOffice_Integration.oxt]
-row=4
-col=1
+row=6
+col=2
 
 [/home/md/Pulpit/Lekcje]
 row=0
@@ -124,6 +108,14 @@ col=6
 [/home/md/Pulpit/Braun u Cejrowskiego]
 row=6
 col=8
+
+[/home/md/Pulpit/Artykul_Lessing_struktura_FD]
+row=2
+col=12
+
+[/home/md/Pulpit/FiN-template.doc]
+row=1
+col=2
 
 [/home/md/Pulpit/Ogólne_naukowe]
 row=3
@@ -136,4 +128,8 @@ col=2
 [/home/md/Pulpit/Oxana Timofeeva_ Slavoj Žižek - The History of Animals_ A Philosophy-Bloomsbury Academic (2018).pdf]
 row=5
 col=5
+
+[/home/md/Pulpit/Preteksty-Gadamer-Etyka]
+row=5
+col=12
 

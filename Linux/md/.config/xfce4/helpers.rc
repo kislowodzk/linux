@@ -1,5 +1,5 @@
 WebBrowser=firefox
 FileManager=custom-FileManager
-TerminalEmulator=custom-TerminalEmulator
+TerminalEmulator=xfce4-terminal
 WebBrowserDismissed=true
 
