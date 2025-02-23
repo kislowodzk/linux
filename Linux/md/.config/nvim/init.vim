@@ -35,7 +35,6 @@ set noswapfile nobackup
 set nofoldenable
 
 set cursorline colorcolumn=76
-set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor20
 
 set rnu nu
 set showcmd
@@ -189,9 +188,9 @@ endfunction
 
 call Ayu()
 
+" set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor35
 let &t_SI = "\e[4 q"
 let &t_EI = "\e[2 q"
-set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor35
 
 " highlight vCursor guifg=black guibg=#b0b0b0
 " highlight iCursor guifg=black guibg=#FFFFFF
