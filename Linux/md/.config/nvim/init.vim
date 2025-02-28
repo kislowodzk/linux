@@ -78,7 +78,7 @@ function! Ayu()
     " let s:palette.keyword   = {'dark': "#FF7733",  'light': "#FF7733",  'mirage': "#FF8E37"}
     " let s:palette.constant  = {'dark': "#FFEE99",  'light': "#A37ACC",  'mirage': "#FFEE99"}
     hi LineNr             guifg=#666B76
-    hi IncSearch          guibg=#FF8436   guifg=#0F1419    gui=none cterm=none
+    hi IncSearch          guibg=#FF8436   guifg=#0F1419    gui=NONE cterm=NONE
     hi Search             guibg=#607080   guifg=#FFFFFF
     hi Directory          guifg=#FF8436
     hi TabLine            gui=NONE
@@ -90,6 +90,7 @@ function! Ayu()
     hi SpellLocal         guifg=NONE      gui=UNDERCURL
     hi SpellRare          guifg=NONE      gui=UNDERCURL
     hi ColorColumn        guibg=#0f0f0f
+    hi TabLineSel         guifg=#FF8436   gui=NONE
     call ColorAyuOnedark()
 endfunction
 
@@ -188,10 +189,11 @@ endfunction
 
 call Ayu()
 
-" set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor35
 let &t_SI = "\e[4 q"
 let &t_EI = "\e[2 q"
+set guifont=Fira\ Code:h12
 
+" set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor35
 " highlight vCursor guifg=black guibg=#b0b0b0
 " highlight iCursor guifg=black guibg=#FFFFFF
 " set guicursor=n-v-c-sm:block-vCursor
@@ -208,8 +210,8 @@ inoremap <C-s> <esc>:wa<cr>
 nnoremap <C-s> :wa<cr>
 nnoremap <C-f> gg0vG$
 nnoremap <expr> j (v:count == 0 ? 'gj' : 'j')
-nnoremap <expr> k (v:count == 0 ? 'gk' : 'k')
 " nnoremap j gj
+nnoremap <expr> k (v:count == 0 ? 'gk' : 'k')
 " nnoremap k gk
 nnoremap 0 g0
 nnoremap $ g$
@@ -258,6 +260,11 @@ nnoremap <f6> :setlocal list!<enter>
 " LEADER KEY
 " ========================================================================
 let mapleader = " "
+
+nnoremap <leader>- :set guifont=Fira\ Code:h10<cr>
+nnoremap <leader>= :set guifont=Fira\ Code:h11<cr>
+nnoremap <leader><BS> :set guifont=Fira\ Code:h12<cr>
+nnoremap <leader>+ :set guifont=Fira\ Code:h
 
 nnoremap <leader>sl :set tw=99999 colorcolumn=0<cr>
 nnoremap <leader>sn :set tw=74 colorcolumn=76<cr>
@@ -325,6 +332,7 @@ nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
+nnoremap <leader>va :call Ayu()<cr>
 nnoremap <leader>vc :call Darkblue()<cr>
 nnoremap <leader>vb :call Darkblue()<cr>
 nnoremap <leader>vn :call Nord()<cr>
@@ -332,7 +340,6 @@ nnoremap <leader>vl :call Light()<cr>
 nnoremap <leader>vd :call Default()<cr>
 nnoremap <leader>vt :call Transparent()<cr>
 nnoremap <leader>vg :call Gruvbox()<cr>
-nnoremap <leader>va :call Ayu()<cr>
 nnoremap <leader>vo :call Onedark()<cr>
 
 " ========================================================================
@@ -354,7 +361,7 @@ augroup END
 function CenterPane()
     lefta vnew
     wincmd w
-    exec 'vertical resize '. string(&columns * 0.73)
+    exec 'vertical resize '. string(&columns * 0.76)
 endfunction
 
 nnoremap <leader>g :call CenterPane()<cr>
