@@ -13,10 +13,6 @@ col=2
 row=4
 col=5
 
-[/home/md/Pulpit/sda]
-row=0
-col=5
-
 [/home/md/Pulpit/Czytanie_FD]
 row=0
 col=12
@@ -25,9 +21,17 @@ col=12
 row=1
 col=3
 
+[/home/md/Pulpit/sda]
+row=0
+col=5
+
 [/home/md/Pulpit/Druk]
 row=1
 col=1
+
+[/home/md/Pulpit/fiszki1.txt]
+row=3
+col=0
 
 [/home/md/Pulpit/Hegel-artykuły]
 row=3
@@ -37,37 +41,45 @@ col=11
 row=0
 col=1
 
-[/home/md/Pulpit/fiszki1.txt]
-row=3
-col=0
+[/home/md/Pulpit/6. PAUL RICOEUR - Pamięć - zapomnienie - historia.pdf]
+row=6
+col=1
+
+[/home/md/Pulpit/Nicolas Bourbaki - Theory of sets -Hermann (1968).djvu]
+row=4
+col=8
 
 [/home/md/Pulpit/hacking1983.pdf]
 row=4
 col=10
 
-[/home/md/Pulpit/Zadania-procenty-typy.pdf]
-row=1
-col=6
-
 [/home/md/Pulpit/Hegel wczesny]
 row=6
 col=4
-
-[/home/md/Pulpit/Nicolas Bourbaki - Theory of sets -Hermann (1968).djvu]
-row=4
-col=8
 
 [/home/md/Pulpit/przedmioty-ects.md]
 row=4
 col=0
 
 [/home/md/Pulpit/Hegel_hermeneutyka]
+row=2
+col=5
+
+[/home/md/Pulpit/sda.pdf]
 row=3
-col=3
+col=2
 
 [/home/md/Pulpit/konstrukcje z ...nach....pdf]
 row=0
 col=8
+
+[/home/md/Pulpit/pix.jpg]
+row=1
+col=9
+
+[/home/md/Pulpit/Tabelka_niemiecki_temporalsetze_bestimmung.odt]
+row=2
+col=1
 
 [/home/md/Pulpit/Kraków-mieszkalnictwo.pdf]
 row=6
@@ -85,51 +97,71 @@ col=0
 row=3
 col=8
 
+[/home/md/Pulpit/SellarsEmpPhilMind, FRAGMENT.pdf]
+row=5
+col=2
+
 [/home/md/Pulpit/Marek Kozłowski - Encyklopedia kapitału w zarysie.djvu]
 row=1
 col=0
+
+[/home/md/Pulpit/Teksty_innych]
+row=4
+col=2
+
+[/home/md/Pulpit/Artykul_determinizm_a_przyczynowosc]
+row=4
+col=12
 
 [/home/md/Pulpit/20230718_Załącznik_do_Komunikatu_-__Projekt_wykazu_czasopism_naukowych_i_recenzowanych_materiałów_z_konferencji_międzynarodowych.xlsx]
 row=0
 col=0
 
-[/home/md/Pulpit/Artykul_determinizm_a_przyczynowosc]
+[/home/md/Pulpit/SellarsEmpPhilMind.pdf]
 row=4
+col=1
+
+[/home/md/Pulpit/Artykul_Lessing_struktura_FD]
+row=2
 col=12
 
 [/home/md/Pulpit/Hegel_i_historia_Siemek.pdf]
 row=6
 col=2
 
-[/home/md/Pulpit/Lekcje]
-row=0
-col=6
+[/home/md/Pulpit/niemiecki_z_chatem.md]
+row=3
+col=1
 
 [/home/md/Pulpit/Braun u Cejrowskiego]
 row=6
 col=8
 
-[/home/md/Pulpit/Artykul_Lessing_struktura_FD]
-row=2
+[/home/md/Pulpit/Sellars_druk_EmpPhi_Min.pdf]
+row=5
+col=1
+
+[/home/md/Pulpit/Preteksty-Gadamer-Etyka]
+row=5
+col=12
+
+[/home/md/Pulpit/Lekcje]
+row=0
+col=6
+
+[/home/md/Pulpit/Ogólne_naukowe]
+row=3
 col=12
 
 [/home/md/Pulpit/FiN-template.doc]
 row=1
 col=2
 
-[/home/md/Pulpit/Ogólne_naukowe]
-row=3
-col=12
-
-[/home/md/Pulpit/szczegolnie_trudne_slowa.txt]
-row=2
-col=2
-
 [/home/md/Pulpit/Oxana Timofeeva_ Slavoj Žižek - The History of Animals_ A Philosophy-Bloomsbury Academic (2018).pdf]
 row=5
 col=5
 
-[/home/md/Pulpit/Preteksty-Gadamer-Etyka]
-row=5
-col=12
+[/home/md/Pulpit/szczegolnie_trudne_slowa.txt]
+row=2
+col=2
 

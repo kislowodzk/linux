@@ -3,11 +3,13 @@
 <channel name="xfce4-notifyd" version="1.0">
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
+      <value type="string" value="app.zen_browser.zen"/>
       <value type="string" value="blueman"/>
       <value type="string" value="com.discordapp.Discord"/>
       <value type="string" value="com.github.IsmaelMartinez.teams_for_linux"/>
       <value type="string" value="com.skype.Client"/>
       <value type="string" value="Firefox"/>
+      <value type="string" value="firmware-manager"/>
       <value type="string" value="flameshot"/>
       <value type="string" value="kitty"/>
       <value type="string" value="nm-applet"/>
