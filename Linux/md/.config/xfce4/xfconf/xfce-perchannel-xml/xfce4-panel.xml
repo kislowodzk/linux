@@ -52,6 +52,7 @@
       <property name="rows" type="uint" value="3"/>
       <property name="miniature-view" type="bool" value="true"/>
       <property name="numbering" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="true"/>
     </property>
     <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -78,7 +79,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="brave.instance2;chromium.instance1077081;chromium.instance1088621;chromium.instance2;chromium.instance38410;chromium.instance456810;firefox.instance_1_110;firefox.instance_1_1107;firefox.instance_1_1311;firefox.instance_1_132;firefox.instance_1_144;firefox.instance_1_152;firefox.instance_1_1540;firefox.instance_1_170;firefox.instance_1_179;firefox.instance_1_299;firefox.instance_1_309;firefox.instance_1_403;firefox.instance_1_42;firefox.instance_1_454;firefox.instance_1_473;firefox.instance_1_51;firefox.instance_1_524;firefox.instance_1_531;firefox.instance_1_581;firefox.instance_1_697;firefox.instance_1_717;firefox.instance_1_7461;firefox.instance_1_79;firefox.instance_1_80;firefox.instance_1_81;firefox.instance_1_82;firefox.instance_1_83;firefox.instance_1_85;firefox.instance_1_86;firefox.instance_1_87;firefox.instance_1_89;firefox.instance_1_90;firefox.instance_1_95;firefox.instance_1_9697;firefox.instance_1_98;firefox.instance_1_99;spotify"/>
+      <property name="mpris-players" type="string" value="brave.instance2;chromium.instance1077081;chromium.instance1088621;chromium.instance2;chromium.instance38410;chromium.instance456810;firefox.instance_1_110;firefox.instance_1_1107;firefox.instance_1_115;firefox.instance_1_1311;firefox.instance_1_132;firefox.instance_1_144;firefox.instance_1_152;firefox.instance_1_1540;firefox.instance_1_170;firefox.instance_1_179;firefox.instance_1_197;firefox.instance_1_299;firefox.instance_1_309;firefox.instance_1_403;firefox.instance_1_42;firefox.instance_1_454;firefox.instance_1_473;firefox.instance_1_51;firefox.instance_1_524;firefox.instance_1_531;firefox.instance_1_581;firefox.instance_1_697;firefox.instance_1_717;firefox.instance_1_7461;firefox.instance_1_79;firefox.instance_1_80;firefox.instance_1_81;firefox.instance_1_82;firefox.instance_1_83;firefox.instance_1_85;firefox.instance_1_86;firefox.instance_1_87;firefox.instance_1_88;firefox.instance_1_89;firefox.instance_1_90;firefox.instance_1_914;firefox.instance_1_95;firefox.instance_1_9697;firefox.instance_1_98;firefox.instance_1_99;spotify"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
