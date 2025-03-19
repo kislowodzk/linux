@@ -97,11 +97,24 @@ endfunction
 
 function! Onedark()
     colorscheme onedark
+    hi VimwikiHeader1     guifg=#ed8796   gui=bold
+    hi VimwikiHeader2     guifg=#f5a97f   gui=bold
+    hi VimwikiHeader3     guifg=#eed49f   gui=bold
+    hi VimwikiHeader4     guifg=#a6da95   gui=bold
+    hi VimwikiHeader5     guifg=#7dc4e4   gui=bold
+    hi VimwikiHeader6     guifg=#b7bdf8   gui=bold
     call ColorAyuOnedark()
 endfunction
 
 function! Catppuccin()
     colorscheme catppuccin-macchiato
+    hi LineNr guifg=#666B76
+    hi VimwikiHeader1     guifg=#ed8796   gui=bold
+    hi VimwikiHeader2     guifg=#f5a97f   gui=bold
+    hi VimwikiHeader3     guifg=#eed49f   gui=bold
+    hi VimwikiHeader4     guifg=#a6da95   gui=bold
+    hi VimwikiHeader5     guifg=#7dc4e4   gui=bold
+    hi VimwikiHeader6     guifg=#b7bdf8   gui=bold
     call ColorAyuOnedark()
 endfunction
 
