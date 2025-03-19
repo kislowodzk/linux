@@ -108,14 +108,30 @@ endfunction
 
 function! Catppuccin()
     colorscheme catppuccin-macchiato
-    hi LineNr guifg=#666B76
+    hi vimwikiItalic      guifg=#c678dd   gui=ITALIC         cterm=italic
+    hi htmlItalic         guifg=#c678dd   gui=ITALIC         cterm=italic
+    hi markdownItalic     guifg=#c678dd   gui=ITALIC         cterm=italic
+    hi vimwikiBold        guifg=#d19a66   gui=BOLD           cterm=bold
+    hi htmlBold           guifg=#d19a66   gui=BOLD           cterm=bold
+    hi markdownBold       guifg=#d19a66   gui=BOLD           cterm=bold
+    hi vimwikiBoldItalic  guifg=#98c379   gui=BOLD,ITALIC    cterm=bold,italic
+    hi htmlBoldItalic     guifg=#98c379   gui=BOLD,ITALIC    cterm=bold,italic
+    hi markdownBoldItalic guifg=#98c379   gui=BOLD,ITALIC    cterm=bold,italic
+    hi LineNr             guifg=#666B76
+    hi markdownListMarker guifg=#ed8796
+    hi markdownH1         guifg=#ed8796   gui=bold
+    hi markdownH2         guifg=#f5a97f   gui=bold
+    hi markdownH3         guifg=#eed49f   gui=bold
+    hi markdownH4         guifg=#a6da95   gui=bold
+    hi markdownH5         guifg=#7dc4e4   gui=bold
+    hi markdownH6         guifg=#b7bdf8   gui=bold
+    hi VimwikiList        guifg=#ed8796
     hi VimwikiHeader1     guifg=#ed8796   gui=bold
     hi VimwikiHeader2     guifg=#f5a97f   gui=bold
     hi VimwikiHeader3     guifg=#eed49f   gui=bold
     hi VimwikiHeader4     guifg=#a6da95   gui=bold
     hi VimwikiHeader5     guifg=#7dc4e4   gui=bold
     hi VimwikiHeader6     guifg=#b7bdf8   gui=bold
-    call ColorAyuOnedark()
 endfunction
 
 function! ColorDefaultNord()
