@@ -2,6 +2,7 @@
 " PLUG CALL
 " ========================================================================
 call plug#begin('~/.config/nvim/plugged')
+    Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
     Plug 'joshdick/onedark.vim'
     Plug 'ayu-theme/ayu-vim'
     Plug 'nordtheme/vim'
@@ -99,6 +100,11 @@ function! Onedark()
     call ColorAyuOnedark()
 endfunction
 
+function! Catppuccin()
+    colorscheme catppuccin-macchiato
+    call ColorAyuOnedark()
+endfunction
+
 function! ColorDefaultNord()
     hi vimwikiItalic      guifg=#ef87af  gui=ITALIC       cterm=italic
     hi htmlItalic         guifg=#ef87af  gui=ITALIC       cterm=italic
@@ -118,7 +124,7 @@ function! Default()
     hi LineNr             guifg=#888888
     hi CursorLineNr       gui=none       cterm=none
     hi CursorLine gui=NONE guibg=NONE guifg=NONE
-    call ColorDefaultHabamaxNord()
+    call ColorDefaultNord()
 endfunction
 
 function! Nord()
@@ -187,11 +193,11 @@ function! Gruvbox()
     hi markdownBoldItalic guifg=#f0c069    gui=BOLD,ITALIC  cterm=bold,italic
 endfunction
 
-call Ayu()
+call Catppuccin()
 
 let &t_SI = "\e[4 q"
 let &t_EI = "\e[2 q"
-set guifont=Fira\ Code:h12
+set guifont=Fira\ Code:h11
 
 " set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor35
 " highlight vCursor guifg=black guibg=#b0b0b0
@@ -333,7 +339,7 @@ nnoremap <silent> <leader>di ?\*<cr>x/\*<cr>x:noh<cr>
 nnoremap <leader>ve :e! ~/.config/nvim/init.vim<CR>
 nnoremap <leader>vs :so ~/.config/nvim/init.vim<CR>
 nnoremap <leader>va :call Ayu()<cr>
-nnoremap <leader>vc :call Darkblue()<cr>
+nnoremap <leader>vc :call Catppuccin()<cr>
 nnoremap <leader>vb :call Darkblue()<cr>
 nnoremap <leader>vn :call Nord()<cr>
 nnoremap <leader>vl :call Light()<cr>
