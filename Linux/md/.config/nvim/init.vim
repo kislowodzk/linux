@@ -108,12 +108,12 @@ endfunction
 
 function! Catppuccin()
     colorscheme catppuccin-macchiato
-    hi vimwikiItalic      guifg=#c678dd   gui=ITALIC         cterm=italic
-    hi htmlItalic         guifg=#c678dd   gui=ITALIC         cterm=italic
-    hi markdownItalic     guifg=#c678dd   gui=ITALIC         cterm=italic
-    hi vimwikiBold        guifg=#d19a66   gui=BOLD           cterm=bold
-    hi htmlBold           guifg=#d19a66   gui=BOLD           cterm=bold
-    hi markdownBold       guifg=#d19a66   gui=BOLD           cterm=bold
+    hi vimwikiItalic      guifg=#eed49f   gui=ITALIC         cterm=italic
+    hi htmlItalic         guifg=#eed49f   gui=ITALIC         cterm=italic
+    hi markdownItalic     guifg=#eed49f   gui=ITALIC         cterm=italic
+    hi vimwikiBold        guifg=#91d7e3   gui=BOLD           cterm=bold
+    hi htmlBold           guifg=#91d7e3   gui=BOLD           cterm=bold
+    hi markdownBold       guifg=#91d7e3   gui=BOLD           cterm=bold
     hi vimwikiBoldItalic  guifg=#98c379   gui=BOLD,ITALIC    cterm=bold,italic
     hi htmlBoldItalic     guifg=#98c379   gui=BOLD,ITALIC    cterm=bold,italic
     hi markdownBoldItalic guifg=#98c379   gui=BOLD,ITALIC    cterm=bold,italic
