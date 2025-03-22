@@ -162,6 +162,8 @@ export PATH=$PATH:/home/md/.cargo/bin
 
 alias termdown='/home/md/.local/bin/termdown'
 
+alias kopiuj_telefon='cp -r /run/user/1000/gvfs/mtp:host=Xiaomi_Redmi_9T_310b443f0421/Wewnętrzna\ pamięć\ współdzielona/Android/data/com.termux/files ~/Pulpit/z_telefonu'
+
 alias glow='~/glow/glow'
 
 alias zel='~/skrypty/zellij'
