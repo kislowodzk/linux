@@ -43,7 +43,7 @@ set timeoutlen=1000 ttimeoutlen=1
 set fo=jcroql
 autocmd BufRead,BufNewFile   *.txt set fo=taw nosmartindent autoindent
 autocmd BufRead,BufNewFile   *.md set fo=taw nosmartindent autoindent
-autocmd BufRead,BufNewFile   *.wiki set filetype=vimwiki fo=taw nosmartindent autoindent
+autocmd BufRead,BufNewFile   *.wiki set filetype=vimwiki fo=taw nosmartindent autoindent tw=74
 set shortmess+=I title mouse=a
 set laststatus=2
 set statusline=\ %<%t\ %h%M%r%=\ %p%%\ \ %l:%-3v
@@ -227,6 +227,10 @@ call Catppuccin()
 let &t_SI = "\e[4 q"
 let &t_EI = "\e[2 q"
 set guifont=Fira\ Code:h11
+let g:neovide_padding_top = 4
+let g:neovide_padding_bottom = 1
+let g:neovide_padding_right = 1
+let g:neovide_padding_left = 4
 
 " set guicursor=n-v-c-sm:block,i-ci-ve-r-cr-o:hor35
 " highlight vCursor guifg=black guibg=#b0b0b0
