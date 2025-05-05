@@ -28,11 +28,13 @@ starfetch
 #   
 #   # fortune | cowsay -f $(ls /usr/share/cowsay/cows/|shuf -n 1) # | lolcat -p 1 -t
 
-
-
 # # autostart
+
+#To włączone nie na waylandzie
+#xinput set-prop "$(xinput list --name-only | grep -i glide)" 183 2.5 0 0 0 1 0 0 0 1
+
+
 # xinput set-prop "$(xinput list --name-only | grep -i glide)" "libinput Tapping Enabled" 1
-xinput set-prop "$(xinput list --name-only | grep -i glide)" 183 2.5 0 0 0 1 0 0 0 1
 # # xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
 # # dzięki temu touchpad działa tak, jak tego oczekuję
 # setxkbmap -option caps:escape
